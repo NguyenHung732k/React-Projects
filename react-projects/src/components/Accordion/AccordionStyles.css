@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@600&display=swap');
+
+.accordion-container {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.main-title {
+    margin-bottom: 8px;
+    text-align: center;
+    font-size: 36px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:before,
+    &:after {
+        content: "";
+        display: block;
+        margin: 0 10px;
+        flex: 1;
+        border-bottom: 1px solid #000;
+    }
+}
+
+
+.accordion-wrapper {
+    width: 600px;
+    margin: auto;
+    padding: 32px;
+
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, .25);
+    background-color: rgba(255, 255, 255, 0.45);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+
+    backdrop-filter: blur(15px);
+
+    font-family: "Poppin", sans-serif;
+}
+
+
+.accordion {
+    margin: 10px auto;
+    padding: 2px 6px;
+    border-radius: 5px;
+    color: #000;
+    border: 1px solid;
+    font-family: "Poppin", sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &:after {
+        content: "\25bc";
+        display: inline-block;
+        font-size: 3px;
+    }
+}
+
+
+.answer {
+    height: auto;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    padding: 0 6px;
+    color: #000;
+    border: 1px solid;
+    border-width: 0 1px;
+    line-height: 1.6;
+    font-family: "Poppin", sans-serif;
+    font-weight: 300;
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.item {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.toggle {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px;
+}
+
+.toggle-switch {
+    display: inline-block;
+    background: #FBFBFB;
+    border-radius: 16px;
+    width: 58px;
+    height: 32px;
+    position: relative;
+    vertical-align: middle;
+    transition: background 0.25s;
+}
+
+
+.toggle-switch:before,
+.toggle-switch:after {
+    content: "";
+}
+
+.toggle-switch:before {
+    display: block;
+    background: linear-gradient(to bottom, #fff 0%, #eee 100%);
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.25);
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    transition: left 0.25s;
+}
+
+.toggle:hover .toggle-switch:before {
+    background: linear-gradient(to bottom, #fff 0%, #fff 100%);
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.5);
+}
+
+.toggle-checkbox:checked+.toggle-switch {
+    background: #0081CF;
+}
+
+.toggle-checkbox:checked+.toggle-switch:before {
+    left: 30px;
+}
+
+.toggle-checkbox {
+    position: absolute;
+    visibility: hidden;
+}
+
+.toggle-label {
+    color: #000;
+    margin-left: 10px;
+    position: relative;
+    top: 2px;
+}
+
+/* Responsive */
+@media only screen and (max-width: 768px) {
+
+    .accordion-container {
+        top: 40%;
+        left: 40%;
+        transform: translate(-55%, -35%);
+    }
+
+    .accordion-wrapper {
+        width: 145%;
+        padding: 32px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+
+    .accordion-container {
+        top: 40%;
+        left: 40%;
+        transform: translate(-55%, -35%);
+    }
+
+    .accordion-wrapper {
+        width: 140%;
+    }
+}
