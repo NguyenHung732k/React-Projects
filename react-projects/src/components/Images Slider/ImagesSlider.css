@@ -1,0 +1,151 @@
+.slider-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 100vh;
+    padding: 30px;
+    margin: 0;
+}
+
+
+.view-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-image-slider {
+    width: 700px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: space-between;
+
+    border: 1px solid rgba(255, 255, 255, .25);
+    border-radius: 20px;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+    background-color: rgba(255, 255, 255, 0.45);
+}
+
+.button-image-slider {
+    display: block;
+    position: relative;
+
+    margin: 20px;
+    width: 40px;
+    height: 40px;
+
+    border: 0;
+    border-radius: 6px;
+    box-shadow: rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, rgba(58, 65, 111, .5) 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+
+    cursor: pointer;
+    text-align: left;
+    transition: box-shadow .15s, transform .15s;
+    font-size: 18px;
+
+    &:active {
+        box-shadow: #606060 0 3px 7px inset;
+        transform: translateY(2px);
+    }
+
+    transition: all 150ms ease-out;
+
+    &::before,
+    &::after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        background-color: #606060;
+
+        transition: all 150ms ease-out;
+    }
+
+    &::before {
+        width: 75%;
+        height: 25%;
+    }
+
+    &::after {
+        width: 25%;
+        height: 75%;
+    }
+
+    &:hover,
+    &:focus {
+        background-color: white;
+
+        &::before,
+        &::after {
+            background-color: #404040;
+        }
+    }
+
+    &.button-left,
+    &.button-right {
+
+        &::before,
+        &::after {
+            top: 12.5%;
+            left: 12.5%;
+        }
+    }
+
+    &.button-left {
+        transform: rotate(-45deg);
+    }
+
+    &.button-right {
+        transform: rotate(135deg);
+    }
+}
+
+.current-image {
+    border: 0;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+}
+
+.hide-current-image {
+    display: none;
+}
+
+.indicator {
+    position: relative;
+    padding: 15px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+.circle-indicators {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.current-indicator {
+    background-color: #ffffff;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.inactive-indicator {
+    background-color: gray;
+}
