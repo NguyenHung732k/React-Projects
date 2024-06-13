@@ -3,6 +3,7 @@ import ImagesSlider from './components/Images Slider/ImagesSlider'
 import ChangeTheme from './components/Change Theme/ChangeTheme'
 import Modal from './components/Modal/Modal'
 import SearchAutocomplete from './components/Search Autocomplete/SearchAutocomplete'
+import Tabs from './components/Tabs/Tabs'
 
 import './App.css'
 
@@ -14,7 +15,8 @@ function App() {
       {/* <ImagesSlider /> */}
       {/* <ChangeTheme /> */}
       {/* <Modal /> */}
-      <SearchAutocomplete />
+      {/* <SearchAutocomplete /> */}
+      <Tabs />
     </>
   );
 }
