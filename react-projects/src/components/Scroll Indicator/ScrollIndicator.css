@@ -1,0 +1,34 @@
+.top-container {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+}
+
+.scroll-progress-tracking-container {
+    width: 100%;
+    height: 10px;
+
+}
+
+.current-progress-bar {
+    width: 0%;
+    height: 10px;
+    background: linear-gradient(90deg,
+            rgba(0, 239, 255, 1) 0%,
+            rgba(112, 23, 210, 1) 35%,
+            rgba(203, 3, 32, 1) 75%,
+            rgba(255, 126, 0, 1) 100%);
+    transition: all 0.2s linear;
+    border-radius: 5px;
+}
+
+.data-container {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
