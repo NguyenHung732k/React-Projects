@@ -5,6 +5,7 @@ import Modal from './components/Modal/Modal'
 import SearchAutocomplete from './components/Search Autocomplete/SearchAutocomplete'
 import Tabs from './components/Tabs/Tabs'
 import ScrollIndicator from './components/Scroll Indicator/ScrollIndicator'
+import OutsideClick from './components/Outside Click/OutsideClick'
 
 import './App.css'
 
@@ -18,7 +19,8 @@ function App() {
       {/* <Modal /> */}
       {/* <SearchAutocomplete /> */}
       {/* <Tabs /> */}
-      <ScrollIndicator />
+      {/* <ScrollIndicator /> */}
+      <OutsideClick />
     </>
   );
 }
