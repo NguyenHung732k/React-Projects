@@ -6,6 +6,7 @@ import SearchAutocomplete from './components/Search Autocomplete/SearchAutocompl
 import Tabs from './components/Tabs/Tabs'
 import ScrollIndicator from './components/Scroll Indicator/ScrollIndicator'
 import OutsideClick from './components/Outside Click/OutsideClick'
+import UseFetch from './components/Use Fetch/UseFetch'
 
 import './App.css'
 
@@ -20,7 +21,8 @@ function App() {
       {/* <SearchAutocomplete /> */}
       {/* <Tabs /> */}
       {/* <ScrollIndicator /> */}
-      <OutsideClick />
+      {/* <OutsideClick /> */}
+      <UseFetch />
     </>
   );
 }
