@@ -8,6 +8,7 @@ import ScrollIndicator from './components/Scroll Indicator/ScrollIndicator'
 import OutsideClick from './components/Outside Click/OutsideClick'
 import UseFetch from './components/Use Fetch/UseFetch'
 import QRCodeGenerator from './components/QR Code Generator/QRCodeGenerator'
+import ScrollToTop from './components/Scroll To Top/ScrollToTop'
 
 import './App.css'
 
@@ -24,7 +25,8 @@ function App() {
       {/* <ScrollIndicator /> */}
       {/* <OutsideClick /> */}
       {/* <UseFetch /> */}
-      <QRCodeGenerator />
+      {/* <QRCodeGenerator /> */}
+      <ScrollToTop />
     </>
   );
 }
