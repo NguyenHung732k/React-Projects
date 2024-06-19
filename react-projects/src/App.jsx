@@ -9,6 +9,7 @@ import OutsideClick from './components/Outside Click/OutsideClick'
 import UseFetch from './components/Use Fetch/UseFetch'
 import QRCodeGenerator from './components/QR Code Generator/QRCodeGenerator'
 import ScrollToTop from './components/Scroll To Top/ScrollToTop'
+import LoadMore from './components/Load More/LoadMore'
 
 import './App.css'
 
@@ -26,7 +27,8 @@ function App() {
       {/* <OutsideClick /> */}
       {/* <UseFetch /> */}
       {/* <QRCodeGenerator /> */}
-      <ScrollToTop />
+      {/* <ScrollToTop /> */}
+      <LoadMore />
     </>
   );
 }
