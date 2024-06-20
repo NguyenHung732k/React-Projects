@@ -10,6 +10,7 @@ import UseFetch from './components/Use Fetch/UseFetch'
 import QRCodeGenerator from './components/QR Code Generator/QRCodeGenerator'
 import ScrollToTop from './components/Scroll To Top/ScrollToTop'
 import LoadMore from './components/Load More/LoadMore'
+import RandomColor from './components/Random Color/RandomColor'
 
 import './App.css'
 
@@ -28,7 +29,8 @@ function App() {
       {/* <UseFetch /> */}
       {/* <QRCodeGenerator /> */}
       {/* <ScrollToTop /> */}
-      <LoadMore />
+      {/* <LoadMore /> */}
+      <RandomColor />
     </>
   );
 }
