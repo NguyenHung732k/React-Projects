@@ -11,6 +11,7 @@ import QRCodeGenerator from './components/QR Code Generator/QRCodeGenerator'
 import ScrollToTop from './components/Scroll To Top/ScrollToTop'
 import LoadMore from './components/Load More/LoadMore'
 import RandomColor from './components/Random Color/RandomColor'
+import ScrollToSection from './components/Scroll To Section/ScrollToSection'
 
 import './App.css'
 
@@ -30,7 +31,8 @@ function App() {
       {/* <QRCodeGenerator /> */}
       {/* <ScrollToTop /> */}
       {/* <LoadMore /> */}
-      <RandomColor />
+      {/* <RandomColor /> */}
+      <ScrollToSection />
     </>
   );
 }

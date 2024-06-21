@@ -1,0 +1,23 @@
+.scroll-section-container {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.scroll-section-button {
+    border: 1px solid #24b4fb;
+    background-color: #24b4fb;
+    border-radius: 0.9em;
+    padding: 0.8em 1.2em 0.8em 1em;
+    transition: all ease-in-out 0.2s;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.scroll-section-button:hover {
+    background-color: #0071e2;
+}
