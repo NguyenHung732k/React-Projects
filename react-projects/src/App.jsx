@@ -1,4 +1,4 @@
-import Accordion from "./components/Accordion/Accordion";
+import Accordion from "./components/Accordion/Accordion"
 import ImagesSlider from './components/Images Slider/ImagesSlider'
 import ChangeTheme from './components/Change Theme/ChangeTheme'
 import Modal from './components/Modal/Modal'
@@ -12,6 +12,8 @@ import ScrollToTop from './components/Scroll To Top/ScrollToTop'
 import LoadMore from './components/Load More/LoadMore'
 import RandomColor from './components/Random Color/RandomColor'
 import ScrollToSection from './components/Scroll To Section/ScrollToSection'
+import WindowResize from "./components/Resize Window/WindowResize"
+import StarRating from './components/Star Rating/StarRating'
 
 import './App.css'
 
@@ -32,7 +34,9 @@ function App() {
       {/* <ScrollToTop /> */}
       {/* <LoadMore /> */}
       {/* <RandomColor /> */}
-      <ScrollToSection />
+      {/* <ScrollToSection /> */}
+      {/* <WindowResize /> */}
+      <StarRating />
     </>
   );
 }
