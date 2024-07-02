@@ -14,6 +14,8 @@ import RandomColor from './components/Random Color/RandomColor'
 import ScrollToSection from './components/Scroll To Section/ScrollToSection'
 import WindowResize from "./components/Resize Window/WindowResize"
 import StarRating from './components/Star Rating/StarRating'
+import FeatureFlags from "./components/Feature Flag/FeatureFlags"
+import FeatureFlagGlobalState from "./components/Feature Flag/context/FeatureFlagGlobalState"
 
 import './App.css'
 
@@ -36,7 +38,10 @@ function App() {
       {/* <RandomColor /> */}
       {/* <ScrollToSection /> */}
       {/* <WindowResize /> */}
-      <StarRating />
+      {/* <StarRating /> */}
+      <FeatureFlagGlobalState>
+        <FeatureFlags />
+      </FeatureFlagGlobalState>
     </>
   );
 }
