@@ -14,6 +14,7 @@ import ScrollToTop from '../Scroll To Top/ScrollToTop'
 import SearchAutocomplete from '../Search Autocomplete/SearchAutocomplete'
 import StarRating from '../Star Rating/StarRating'
 import Tabs from '../Tabs/Tabs'
+import LoginForm from '../Login Form/LoginForm'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -96,6 +97,11 @@ const FeatureFlags = () => {
         {
             key: "showTabs",
             component: <Tabs />
+        },
+
+        {
+            key: "showLoginForm",
+            component: <LoginForm />
         },
     ]
 

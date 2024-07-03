@@ -1,5 +1,5 @@
 const componentAPI = {
-    showAccordion: true,
+    showAccordion: false,
     showChangeTheme: false,
     showImagesSlider: false,
     showLoadMore: false,
@@ -14,6 +14,7 @@ const componentAPI = {
     showSearchAutocomplete: false,
     showStarRating: false,
     showTabs: false,
+    showLoginForm: true,
 };
 
 const featureFlagsDataServiceCall = () => {
