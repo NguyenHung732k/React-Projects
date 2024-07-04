@@ -14,7 +14,8 @@ const componentAPI = {
     showSearchAutocomplete: false,
     showStarRating: false,
     showTabs: false,
-    showLoginForm: true,
+    showLoginForm: false,
+    showSignUp: true,
 };
 
 const featureFlagsDataServiceCall = () => {

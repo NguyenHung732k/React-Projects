@@ -1,0 +1,122 @@
+.form-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+    width: 1200px;
+    height: 800px;
+    border-radius: 20px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255);
+    padding: 20px;
+
+    background: linear-gradient(45deg, rgb(161, 196, 253, 0.75), rgba(194, 233, 251, 0.75)), url('https://images.unsplash.com/photo-1538947151057-dfe933d688d1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') center / cover no-repeat fixed;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    position: relative;
+    width: 45%;
+    height: 100%;
+    padding: 30px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, .25);
+    background-color: rgba(255, 255, 255, 0.45);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.form-title {
+    text-transform: uppercase;
+    display: block;
+    font-size: 56px;
+    color: #80C4E9;
+    text-shadow: 0 8px 9px rgba(255, 255, 255, 1), 0px -2px 1px rgba(255, 255, 255);
+    font-weight: bold;
+}
+
+.input-group {
+    width: 85%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 16px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 16px;
+    outline: none;
+    border-radius: 8px;
+    border: none;
+    background-color: transparent;
+    font-size: 14px;
+}
+
+.form-username {
+    background-color: rgba(255, 255, 255, 0.45);
+
+}
+
+.form-password {
+    width: 100%;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.45);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-link {
+    padding: 0 8px;
+    font-size: 14px;
+    color: #3572EF;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.form-link:hover {
+    color: #fff;
+}
+
+.button-group {
+    width: 90%;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.form-button {
+    position: relative;
+    width: 40%;
+    padding: 10px 20px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 14px;
+    border: 1px solid rgba(255, 255, 255, .25);
+    background-color: rgba(255, 255, 255, 0.45);
+    color: #3572EF;
+}
+
+.form-button:hover {
+    background: rgba(255, 255, 255, 0.45);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+}
+
+.form-button:active {
+    box-shadow: 0 0 0 0 transparent;
+}
