@@ -1,0 +1,137 @@
+.color-palette-container {
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.palette-search {
+  padding: 1px;
+  border-radius: 10px;
+  background: linear-gradient(
+    -67deg,
+    rgba(#c8d8e7, 0.7),
+    rgba(255, 255, 255, 0.8)
+  );
+  overflow: hidden;
+  box-shadow: -2px -2px 6px rgba(#fff, 0.6), 2px 2px 12px #c8d8e7;
+  width: 380px;
+}
+
+.palette-search-inner {
+  padding: 16px 16px;
+  background-color: #e2e9f4;
+  border-radius: 10px;
+}
+
+.palette-search-container {
+  display: flex;
+}
+
+.palette-search-icon {
+  min-width: 46px;
+  min-height: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin-left: 12px;
+  box-shadow: -2px -2px 12px #fff, 2px 2px 12px #c8d8e7;
+  background-color: transparent;
+  border: none;
+
+  svg {
+    transform: translate(-1px, -1px);
+  }
+}
+
+.palette-input-container {
+  width: 100%;
+}
+
+.palette-input-container input {
+  background-color: #e3edf7;
+  padding: 16px 32px;
+  border: none;
+  display: block;
+  font-weight: 600;
+  color: #a9b8c9;
+  transition: all 240ms ease-out;
+  width: 100%;
+
+  &::placeholder {
+    color: #6d7f8f;
+  }
+
+  &:focus {
+    outline: none;
+    color: #6d7f8f;
+    background-color: lighten(#e3edf7, 3%);
+  }
+}
+
+.palette-input-container {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+
+  &:before,
+  &:after {
+    left: 0;
+    top: 0;
+    display: block;
+    content: "";
+    pointer-events: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+
+  &:before {
+    box-shadow: inset 1px 1px 3px #c5d4e3, inset 2px 2px 6px #c5d4e3;
+  }
+
+  &:after {
+    box-shadow: inset -2px -2px 4px rgba(255, 255, 255, 0.7);
+  }
+}
+
+.palette-card-container {
+  width: 90%;
+  height: 100%;
+  padding: 35px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.palette-card {
+  width: 250px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 10px;
+
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  background-color: rgba(255, 255, 255, 0.45);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+
+  backdrop-filter: blur(15px);
+}
+
+.palette-card-color {
+  width: 100%;
+  height: 220px;
+}
+
+.palette-card-info {
+  padding-bottom: 15px;
+  font-size: 20px;
+}

@@ -15,7 +15,8 @@ const componentAPI = {
     showStarRating: false,
     showTabs: false,
     showLoginForm: false,
-    showSignUp: true,
+    showSignUp: false,
+    showColorPalette: true,
 };
 
 const featureFlagsDataServiceCall = () => {

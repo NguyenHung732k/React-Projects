@@ -16,6 +16,7 @@ import StarRating from '../Star Rating/StarRating'
 import Tabs from '../Tabs/Tabs'
 import LoginForm from '../Login Form/LoginForm'
 import SignUpForm from '../Sign Up/SignUpForm'
+import ColorPalette from '../Color Palette/ColorPalette'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -108,6 +109,11 @@ const FeatureFlags = () => {
         {
             key: "showSignUp",
             component: <SignUpForm />
+        },
+
+        {
+            key: "showColorPalette",
+            component: <ColorPalette />
         },
     ]
 
