@@ -17,6 +17,7 @@ import Tabs from '../Tabs/Tabs'
 import LoginForm from '../Login Form/LoginForm'
 import SignUpForm from '../Sign Up/SignUpForm'
 import ColorPalette from '../Color Palette/ColorPalette'
+import StopWatch from '../Stopwatch/StopWatch'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -114,6 +115,11 @@ const FeatureFlags = () => {
         {
             key: "showColorPalette",
             component: <ColorPalette />
+        },
+
+        {
+            key: "showStopWatch",
+            component: <StopWatch />
         },
     ]
 
