@@ -17,7 +17,7 @@ const Modal = () => {
 
 
   return (
-    <div className="container">
+    <div className="modal-container">
       <div onClick={() => handleToggleModal()}
         className={`${showModal === true ? 'close-modal' : 'modal-button'} `}>Open Modal</div>
 

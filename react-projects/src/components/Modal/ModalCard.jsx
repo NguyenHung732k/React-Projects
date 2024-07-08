@@ -4,7 +4,7 @@ import './Modal.css'
 const ModalCard = ({ id, onClose }) => {
   return (
     <div id={id}>
-      <div className="card">
+      <div className="modal-card">
         <div onClick={onClose} className="close">
           <i className="fa-solid fa-xmark"></i>
         </div>

@@ -1,4 +1,4 @@
-.container {
+.modal-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -67,7 +67,7 @@
     display: none;
 }
 
-.card {
+.modal-card {
     display: block;
     max-width: 300px;
     min-height: 200px;

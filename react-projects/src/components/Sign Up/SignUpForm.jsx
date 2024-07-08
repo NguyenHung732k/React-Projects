@@ -31,7 +31,7 @@ const SignUpForm = () => {
         <div className="form-container">
             <div className="form">
                 <h1 className="form-title">Sign Up</h1>
-                <div className="input-group">
+                <div className="form-input-group">
                     <input type="text" className="form-input form-username" value={username} placeholder="Email or Phone" onChange={(event) => setUsername(event.target.value)} />
 
                     <div className="form-password">
