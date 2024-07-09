@@ -1,4 +1,3 @@
-import React from 'react'
 import { useEffect, useState } from "react";
 
 const UseFetchHook = (url, options = {}) => {
@@ -22,7 +21,7 @@ const UseFetchHook = (url, options = {}) => {
       }
     }
     fetchData()
-  }, [])
+  }, [options, url])
 
   return { data, error }
 

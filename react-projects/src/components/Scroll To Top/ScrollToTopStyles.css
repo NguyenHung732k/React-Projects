@@ -1,4 +1,4 @@
-.scroll-container {
+.scroll-to-top-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -6,7 +6,7 @@
     gap: 20px;
 }
 
-.scroll-button {
+.scroll-to-top-button {
     left: 90%;
     width: 50px;
     height: 50px;
@@ -24,16 +24,16 @@
     position: fixed;
 }
 
-.scroll-icon {
+.scroll-to-top-icon {
     width: 12px;
     transition-duration: 0.3s;
 }
 
-.scroll-icon {
+.scroll-to-top-icon {
     fill: white;
 }
 
-.scroll-button:hover {
+.scroll-to-top-button:hover {
     width: 150px;
     border-radius: 50px;
     transition-duration: 0.3s;
@@ -41,19 +41,19 @@
     align-items: center;
 }
 
-.scroll-button:hover .scroll-icon {
+.scroll-to-top-button:hover .scroll-icon {
     transition-duration: 0.3s;
     transform: translateY(-200%);
 }
 
-.scroll-button::before {
+.scroll-to-top-button::before {
     position: absolute;
     content: "Back to Top";
     color: black;
     font-size: 0px;
 }
 
-.scroll-button:hover::before {
+.scroll-to-top-button:hover::before {
     font-size: 13px;
     opacity: 1;
     transition-duration: 0.3s;

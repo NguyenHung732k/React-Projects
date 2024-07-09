@@ -19,6 +19,7 @@ import SignUpForm from '../Sign Up/SignUpForm'
 import ColorPalette from '../Color Palette/ColorPalette'
 import StopWatch from '../Stopwatch/StopWatch'
 import ToDo from '../To Do/ToDo'
+import NewsApp from '../News/NewsApp'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -126,6 +127,11 @@ const FeatureFlags = () => {
         {
             key: "showToDo",
             component: <ToDo />
+        },
+
+        {
+            key: "showNewsApp",
+            component: <NewsApp />
         },
     ]
 

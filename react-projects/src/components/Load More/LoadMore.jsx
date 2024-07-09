@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import './LoadMoreStyles.css'
 
-import UseFetchHook from '../Use Fetch/UseFetchHook'
-
 const LoadMore = () => {
 
   const [products, setProducts] = useState([])
