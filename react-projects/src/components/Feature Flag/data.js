@@ -19,7 +19,8 @@ const componentAPI = {
     showColorPalette: false,
     showStopWatch: false,
     showToDo: false,
-    showNewsApp: true,
+    showNewsApp: false,
+    showQuizApp: true,
 };
 
 const featureFlagsDataServiceCall = () => {

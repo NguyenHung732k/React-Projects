@@ -20,6 +20,7 @@ import ColorPalette from '../Color Palette/ColorPalette'
 import StopWatch from '../Stopwatch/StopWatch'
 import ToDo from '../To Do/ToDo'
 import NewsApp from '../News/NewsApp'
+import QuizApp from '../Quiz/QuizApp'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -132,6 +133,11 @@ const FeatureFlags = () => {
         {
             key: "showNewsApp",
             component: <NewsApp />
+        },
+
+        {
+            key: "showQuizApp",
+            component: <QuizApp />
         },
     ]
 
