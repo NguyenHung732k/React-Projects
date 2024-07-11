@@ -1,0 +1,204 @@
+.word-game-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 1200px;
+  min-height: 500px;
+
+  padding: 30px;
+
+  color: white;
+
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.45);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+
+  backdrop-filter: blur(15px);
+
+  background-image: url(https://images.unsplash.com/photo-1549119246-cf57ef8a17b2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+
+.word-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+  color: white;
+}
+
+.word-game-letter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  margin: 0 5px;
+  border-radius: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  background-color: gray;
+  opacity: 1;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.word-game-letter.word-game-visible {
+  opacity: 1;
+}
+
+.word-game-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.word-game-guess {
+  margin-bottom: 30px;
+}
+
+.word-game-restart-button,
+.word-game-remove-button {
+  padding: 12px 20px;
+  margin-right: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #f44336;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.word-game-remove-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.word-game-restart-button:hover,
+.word-game-remove-button:hover {
+  background-color: #d32f2f;
+}
+
+.word-game-restart-button:focus,
+.word-game-remove-button:focus {
+  outline: none;
+}
+
+.word-game-letter-selection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.letter-button {
+  padding: 10px 15px;
+  margin: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #2196f3;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.letter-button.letter-button-selected {
+  background-color: #1976d2;
+}
+
+.letter-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.word-game-hint {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.word-game-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin: 30px 0;
+}
+
+.word-game-hint-button {
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.word-game-hint-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.word-game-hint-button:hover {
+  background-color: #388e3c;
+}
+
+.word-game-hint-button:focus {
+  outline: none;
+}
+
+.word-game-message {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.word-game-message p {
+  color: white;
+}
+
+.word-game-guess-button {
+  padding: 12px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #ff5722;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.word-game-guess-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.word-game-guess-button:hover {
+  background-color: #e64a19;
+}
+
+.word-game-guess-button:focus {
+  outline: none;
+}
+.word-description {
+  font-size: 22px;
+  font-style: bold;
+  color: white;
+  margin-bottom: 20px;
+}

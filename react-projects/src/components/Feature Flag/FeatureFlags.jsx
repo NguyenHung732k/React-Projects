@@ -21,6 +21,7 @@ import StopWatch from '../Stopwatch/StopWatch'
 import ToDo from '../To Do/ToDo'
 import NewsApp from '../News/NewsApp'
 import QuizApp from '../Quiz/QuizApp'
+import WordGame from '../Word Game/WordGame'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -138,6 +139,11 @@ const FeatureFlags = () => {
         {
             key: "showQuizApp",
             component: <QuizApp />
+        },
+
+        {
+            key: "showWordGame",
+            component: <WordGame />
         },
     ]
 

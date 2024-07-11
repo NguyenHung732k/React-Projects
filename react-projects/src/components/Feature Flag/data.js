@@ -20,7 +20,8 @@ const componentAPI = {
     showStopWatch: false,
     showToDo: false,
     showNewsApp: false,
-    showQuizApp: true,
+    showQuizApp: false,
+    showWordGame: true,
 };
 
 const featureFlagsDataServiceCall = () => {
