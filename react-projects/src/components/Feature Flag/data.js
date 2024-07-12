@@ -21,7 +21,8 @@ const componentAPI = {
     showToDo: false,
     showNewsApp: false,
     showQuizApp: false,
-    showWordGame: true,
+    showWordGame: false,
+    showCountryInfo: true,
 };
 
 const featureFlagsDataServiceCall = () => {

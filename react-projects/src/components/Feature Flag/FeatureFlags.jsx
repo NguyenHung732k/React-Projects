@@ -22,6 +22,7 @@ import ToDo from '../To Do/ToDo'
 import NewsApp from '../News/NewsApp'
 import QuizApp from '../Quiz/QuizApp'
 import WordGame from '../Word Game/WordGame'
+import Country from '../Country Information/Country'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -144,6 +145,11 @@ const FeatureFlags = () => {
         {
             key: "showWordGame",
             component: <WordGame />
+        },
+
+        {
+            key: "showCountryInfo",
+            component: <Country />
         },
     ]
 
