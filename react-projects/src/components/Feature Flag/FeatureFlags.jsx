@@ -23,6 +23,7 @@ import NewsApp from '../News/NewsApp'
 import QuizApp from '../Quiz/QuizApp'
 import WordGame from '../Word Game/WordGame'
 import Country from '../Country Information/Country'
+import ProgressTracker from '../Progress Tracker/ProgressTracker'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -150,6 +151,11 @@ const FeatureFlags = () => {
         {
             key: "showCountryInfo",
             component: <Country />
+        },
+
+        {
+            key: "showProgressTracker",
+            component: <ProgressTracker />
         },
     ]
 
