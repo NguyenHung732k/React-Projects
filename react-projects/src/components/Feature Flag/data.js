@@ -23,7 +23,8 @@ const componentAPI = {
     showQuizApp: false,
     showWordGame: false,
     showCountryInfo: false,
-    showProgressTracker: true,
+    showProgressTracker: false,
+    showEventCountdown: true,
 };
 
 const featureFlagsDataServiceCall = () => {
