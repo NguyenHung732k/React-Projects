@@ -24,7 +24,8 @@ const componentAPI = {
     showWordGame: false,
     showCountryInfo: false,
     showProgressTracker: false,
-    showEventCountdown: true,
+    showEventCountdown: false,
+    showQuotesGenerator: true,
 };
 
 const featureFlagsDataServiceCall = () => {

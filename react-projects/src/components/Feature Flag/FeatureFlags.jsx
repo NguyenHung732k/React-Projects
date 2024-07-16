@@ -25,6 +25,7 @@ import WordGame from '../Word Game/WordGame'
 import Country from '../Country Information/Country'
 import ProgressTracker from '../Progress Tracker/ProgressTracker'
 import EventCountdown from '../Event Countdown/EventCountdown'
+import QuoteGenerator from '../Quote Generator/QuoteGenerator'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -162,6 +163,11 @@ const FeatureFlags = () => {
         {
             key: "showEventCountdown",
             component: <EventCountdown />
+        },
+
+        {
+            key: "showQuotesGenerator",
+            component: <QuoteGenerator />
         },
     ]
 
