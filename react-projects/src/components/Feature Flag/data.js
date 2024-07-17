@@ -25,7 +25,8 @@ const componentAPI = {
     showCountryInfo: false,
     showProgressTracker: false,
     showEventCountdown: false,
-    showQuotesGenerator: true,
+    showQuotesGenerator: false,
+    showEventCalendar: true,
 };
 
 const featureFlagsDataServiceCall = () => {

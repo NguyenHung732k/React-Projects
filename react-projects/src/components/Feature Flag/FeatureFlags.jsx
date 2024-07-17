@@ -26,6 +26,7 @@ import Country from '../Country Information/Country'
 import ProgressTracker from '../Progress Tracker/ProgressTracker'
 import EventCountdown from '../Event Countdown/EventCountdown'
 import QuoteGenerator from '../Quote Generator/QuoteGenerator'
+import EventCalendar from '../Event Calendar/EventCalendar'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -168,6 +169,11 @@ const FeatureFlags = () => {
         {
             key: "showQuotesGenerator",
             component: <QuoteGenerator />
+        },
+
+        {
+            key: "showEventCalendar",
+            component: <EventCalendar />
         },
     ]
 
