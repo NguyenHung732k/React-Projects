@@ -27,6 +27,7 @@ import ProgressTracker from '../Progress Tracker/ProgressTracker'
 import EventCountdown from '../Event Countdown/EventCountdown'
 import QuoteGenerator from '../Quote Generator/QuoteGenerator'
 import EventCalendar from '../Event Calendar/EventCalendar'
+import SurveyForm from '../Survey Form/SurveyForm'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -174,6 +175,11 @@ const FeatureFlags = () => {
         {
             key: "showEventCalendar",
             component: <EventCalendar />
+        },
+
+        {
+            key: "showSurvey",
+            component: <SurveyForm />
         },
     ]
 
