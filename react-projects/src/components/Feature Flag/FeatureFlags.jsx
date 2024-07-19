@@ -28,6 +28,7 @@ import EventCountdown from '../Event Countdown/EventCountdown'
 import QuoteGenerator from '../Quote Generator/QuoteGenerator'
 import EventCalendar from '../Event Calendar/EventCalendar'
 import SurveyForm from '../Survey Form/SurveyForm'
+import LocationFinder from '../Location Finder/LocationFinder'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -180,6 +181,11 @@ const FeatureFlags = () => {
         {
             key: "showSurvey",
             component: <SurveyForm />
+        },
+
+        {
+            key: "showLocationFinder",
+            component: <LocationFinder />
         },
     ]
 
