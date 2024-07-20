@@ -28,7 +28,8 @@ const componentAPI = {
     showQuotesGenerator: false,
     showEventCalendar: false,
     showSurvey: false,
-    showLocationFinder: true,
+    showLocationFinder: false,
+    showAvatarGenerator: true,
 };
 
 const featureFlagsDataServiceCall = () => {

@@ -29,6 +29,7 @@ import QuoteGenerator from '../Quote Generator/QuoteGenerator'
 import EventCalendar from '../Event Calendar/EventCalendar'
 import SurveyForm from '../Survey Form/SurveyForm'
 import LocationFinder from '../Location Finder/LocationFinder'
+import AvatarGenerator from '../Avatar Generator/AvatarGenerator'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -186,6 +187,11 @@ const FeatureFlags = () => {
         {
             key: "showLocationFinder",
             component: <LocationFinder />
+        },
+
+        {
+            key: "showAvatarGenerator",
+            component: <AvatarGenerator />
         },
     ]
 
