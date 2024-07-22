@@ -30,6 +30,7 @@ import EventCalendar from '../Event Calendar/EventCalendar'
 import SurveyForm from '../Survey Form/SurveyForm'
 import LocationFinder from '../Location Finder/LocationFinder'
 import AvatarGenerator from '../Avatar Generator/AvatarGenerator'
+import IPFinder from '../IP Address Information/IPFinder'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -192,6 +193,11 @@ const FeatureFlags = () => {
         {
             key: "showAvatarGenerator",
             component: <AvatarGenerator />
+        },
+
+        {
+            key: "showIPFinder",
+            component: <IPFinder />
         },
     ]
 
