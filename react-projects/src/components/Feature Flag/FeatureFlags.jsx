@@ -31,6 +31,7 @@ import SurveyForm from '../Survey Form/SurveyForm'
 import LocationFinder from '../Location Finder/LocationFinder'
 import AvatarGenerator from '../Avatar Generator/AvatarGenerator'
 import IPFinder from '../IP Address Information/IPFinder'
+import Dictionary from '../Dictionary/Dictionary'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -198,6 +199,11 @@ const FeatureFlags = () => {
         {
             key: "showIPFinder",
             component: <IPFinder />
+        },
+
+        {
+            key: "showDictionary",
+            component: <Dictionary />
         },
     ]
 

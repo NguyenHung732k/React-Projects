@@ -30,7 +30,8 @@ const componentAPI = {
     showSurvey: false,
     showLocationFinder: false,
     showAvatarGenerator: false,
-    showIPFinder: true,
+    showIPFinder: false,
+    showDictionary: true,
 };
 
 const featureFlagsDataServiceCall = () => {
