@@ -32,6 +32,7 @@ import LocationFinder from '../Location Finder/LocationFinder'
 import AvatarGenerator from '../Avatar Generator/AvatarGenerator'
 import IPFinder from '../IP Address Information/IPFinder'
 import Dictionary from '../Dictionary/Dictionary'
+import RollDice from '../Roll Dice/RollDice'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -204,6 +205,11 @@ const FeatureFlags = () => {
         {
             key: "showDictionary",
             component: <Dictionary />
+        },
+
+        {
+            key: "showRollDice",
+            component: <RollDice />
         },
     ]
 
