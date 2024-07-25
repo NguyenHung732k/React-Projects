@@ -33,6 +33,7 @@ import AvatarGenerator from '../Avatar Generator/AvatarGenerator'
 import IPFinder from '../IP Address Information/IPFinder'
 import Dictionary from '../Dictionary/Dictionary'
 import RollDice from '../Roll Dice/RollDice'
+import NumberBaseConverter from '../Number Base Converter/NumberBaseConverter'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -210,6 +211,11 @@ const FeatureFlags = () => {
         {
             key: "showRollDice",
             component: <RollDice />
+        },
+
+        {
+            key: "showNumberBaseConverter",
+            component: <NumberBaseConverter />
         },
     ]
 
