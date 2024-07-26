@@ -33,7 +33,8 @@ const componentAPI = {
     showIPFinder: false,
     showDictionary: false,
     showRollDice: false,
-    showNumberBaseConverter: true,
+    showNumberBaseConverter: false,
+    showShoppingCart: true,
 };
 
 const featureFlagsDataServiceCall = () => {

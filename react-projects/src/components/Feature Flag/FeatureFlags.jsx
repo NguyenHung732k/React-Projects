@@ -34,6 +34,7 @@ import IPFinder from '../IP Address Information/IPFinder'
 import Dictionary from '../Dictionary/Dictionary'
 import RollDice from '../Roll Dice/RollDice'
 import NumberBaseConverter from '../Number Base Converter/NumberBaseConverter'
+import ShoppingCart from '../Shopping Cart/ShoppingCart'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -216,6 +217,11 @@ const FeatureFlags = () => {
         {
             key: "showNumberBaseConverter",
             component: <NumberBaseConverter />
+        },
+
+        {
+            key: "showShoppingCart",
+            component: <ShoppingCart />
         },
     ]
 
