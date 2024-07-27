@@ -35,6 +35,7 @@ import Dictionary from '../Dictionary/Dictionary'
 import RollDice from '../Roll Dice/RollDice'
 import NumberBaseConverter from '../Number Base Converter/NumberBaseConverter'
 import ShoppingCart from '../Shopping Cart/ShoppingCart'
+import Invoice from '../Invoice Generator/Invoice'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -222,6 +223,11 @@ const FeatureFlags = () => {
         {
             key: "showShoppingCart",
             component: <ShoppingCart />
+        },
+
+        {
+            key: "showInvoiceGenerator",
+            component: <Invoice />
         },
     ]
 

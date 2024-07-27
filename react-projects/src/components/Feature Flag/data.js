@@ -34,7 +34,8 @@ const componentAPI = {
     showDictionary: false,
     showRollDice: false,
     showNumberBaseConverter: false,
-    showShoppingCart: true,
+    showShoppingCart: false,
+    showInvoiceGenerator: true,
 };
 
 const featureFlagsDataServiceCall = () => {
