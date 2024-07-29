@@ -36,6 +36,7 @@ import RollDice from '../Roll Dice/RollDice'
 import NumberBaseConverter from '../Number Base Converter/NumberBaseConverter'
 import ShoppingCart from '../Shopping Cart/ShoppingCart'
 import Invoice from '../Invoice Generator/Invoice'
+import CardValidator from '../Card Validator/CardValidator'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -228,6 +229,11 @@ const FeatureFlags = () => {
         {
             key: "showInvoiceGenerator",
             component: <Invoice />
+        },
+
+        {
+            key: "showCardValidator",
+            component: <CardValidator />
         },
     ]
 
