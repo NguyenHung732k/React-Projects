@@ -37,6 +37,7 @@ import NumberBaseConverter from '../Number Base Converter/NumberBaseConverter'
 import ShoppingCart from '../Shopping Cart/ShoppingCart'
 import Invoice from '../Invoice Generator/Invoice'
 import CardValidator from '../Card Validator/CardValidator'
+import Dashboard from '../Dashboard/Dashboard'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -234,6 +235,11 @@ const FeatureFlags = () => {
         {
             key: "showCardValidator",
             component: <CardValidator />
+        },
+
+        {
+            key: "showDashboard",
+            component: <Dashboard />
         },
     ]
 
