@@ -38,6 +38,7 @@ import ShoppingCart from '../Shopping Cart/ShoppingCart'
 import Invoice from '../Invoice Generator/Invoice'
 import CardValidator from '../Card Validator/CardValidator'
 import Dashboard from '../Dashboard/Dashboard'
+import ECommerce from '../E-Commerce/pages/ECommerce'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -240,6 +241,11 @@ const FeatureFlags = () => {
         {
             key: "showDashboard",
             component: <Dashboard />
+        },
+
+        {
+            key: "showECommerce",
+            component: <ECommerce />
         },
     ]
 
