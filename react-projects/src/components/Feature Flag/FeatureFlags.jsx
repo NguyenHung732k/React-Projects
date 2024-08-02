@@ -39,6 +39,8 @@ import Invoice from '../Invoice Generator/Invoice'
 import CardValidator from '../Card Validator/CardValidator'
 import Dashboard from '../Dashboard/Dashboard'
 import ECommerce from '../E-Commerce/pages/ECommerce'
+import Game from '../Rock Paper Scissors/Game'
+import Movie from '../Movie App/Movie'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -246,6 +248,16 @@ const FeatureFlags = () => {
         {
             key: "showECommerce",
             component: <ECommerce />
+        },
+
+        {
+            key: "showRockPaperScissors",
+            component: <Game />
+        },
+
+        {
+            key: "showMovie",
+            component: <Movie />
         },
     ]
 

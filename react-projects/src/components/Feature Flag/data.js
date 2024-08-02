@@ -38,7 +38,9 @@ const componentAPI = {
     showInvoiceGenerator: false,
     showCardValidator: false,
     showDashboard: false,
-    showECommerce: true,
+    showECommerce: false,
+    showRockPaperScissors: false,
+    showMovie: true,
 };
 
 const featureFlagsDataServiceCall = () => {
