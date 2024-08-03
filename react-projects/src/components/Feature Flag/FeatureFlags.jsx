@@ -41,6 +41,7 @@ import Dashboard from '../Dashboard/Dashboard'
 import ECommerce from '../E-Commerce/pages/ECommerce'
 import Game from '../Rock Paper Scissors/Game'
 import Movie from '../Movie App/Movie'
+import Parallax from '../Parallax/Parallax'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -258,6 +259,11 @@ const FeatureFlags = () => {
         {
             key: "showMovie",
             component: <Movie />
+        },
+
+        {
+            key: "showParallax",
+            component: <Parallax />
         },
     ]
 

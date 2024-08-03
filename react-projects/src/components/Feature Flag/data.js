@@ -40,7 +40,8 @@ const componentAPI = {
     showDashboard: false,
     showECommerce: false,
     showRockPaperScissors: false,
-    showMovie: true,
+    showMovie: false,
+    showParallax: true,
 };
 
 const featureFlagsDataServiceCall = () => {
