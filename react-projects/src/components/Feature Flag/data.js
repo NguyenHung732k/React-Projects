@@ -41,7 +41,8 @@ const componentAPI = {
     showECommerce: false,
     showRockPaperScissors: false,
     showMovie: false,
-    showParallax: true,
+    showParallax: false,
+    showCoinFlipping: true,
 };
 
 const featureFlagsDataServiceCall = () => {

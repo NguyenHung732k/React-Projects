@@ -42,6 +42,7 @@ import ECommerce from '../E-Commerce/pages/ECommerce'
 import Game from '../Rock Paper Scissors/Game'
 import Movie from '../Movie App/Movie'
 import Parallax from '../Parallax/Parallax'
+import CoinFlipping from '../Coin Flipping/CoinFlipping'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -264,6 +265,11 @@ const FeatureFlags = () => {
         {
             key: "showParallax",
             component: <Parallax />
+        },
+
+        {
+            key: "showCoinFlipping",
+            component: <CoinFlipping />
         },
     ]
 
