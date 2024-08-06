@@ -42,7 +42,8 @@ const componentAPI = {
     showRockPaperScissors: false,
     showMovie: false,
     showParallax: false,
-    showCoinFlipping: true,
+    showCoinFlipping: false,
+    showBlogApp: true,
 };
 
 const featureFlagsDataServiceCall = () => {

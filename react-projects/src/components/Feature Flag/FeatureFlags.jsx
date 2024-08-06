@@ -43,6 +43,7 @@ import Game from '../Rock Paper Scissors/Game'
 import Movie from '../Movie App/Movie'
 import Parallax from '../Parallax/Parallax'
 import CoinFlipping from '../Coin Flipping/CoinFlipping'
+import BlogApp from '../Blog App/BlogApp'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -270,6 +271,11 @@ const FeatureFlags = () => {
         {
             key: "showCoinFlipping",
             component: <CoinFlipping />
+        },
+
+        {
+            key: "showBlogApp",
+            component: <BlogApp />
         },
     ]
 
