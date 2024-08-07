@@ -44,6 +44,7 @@ import Movie from '../Movie App/Movie'
 import Parallax from '../Parallax/Parallax'
 import CoinFlipping from '../Coin Flipping/CoinFlipping'
 import BlogApp from '../Blog App/BlogApp'
+import Recipe from '../Recipe App/Recipe'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -276,6 +277,11 @@ const FeatureFlags = () => {
         {
             key: "showBlogApp",
             component: <BlogApp />
+        },
+
+        {
+            key: "showRecipe",
+            component: <Recipe />
         },
     ]
 
