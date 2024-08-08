@@ -44,7 +44,8 @@ const componentAPI = {
     showParallax: false,
     showCoinFlipping: false,
     showBlogApp: false,
-    showRecipe: true,
+    showRecipe: false,
+    showCalculator: true,
 };
 
 const featureFlagsDataServiceCall = () => {

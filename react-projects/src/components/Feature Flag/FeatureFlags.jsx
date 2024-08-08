@@ -45,6 +45,7 @@ import Parallax from '../Parallax/Parallax'
 import CoinFlipping from '../Coin Flipping/CoinFlipping'
 import BlogApp from '../Blog App/BlogApp'
 import Recipe from '../Recipe App/Recipe'
+import Calculator from '../Calculator/Calculator'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -282,6 +283,11 @@ const FeatureFlags = () => {
         {
             key: "showRecipe",
             component: <Recipe />
+        },
+
+        {
+            key: "showCalculator",
+            component: <Calculator />
         },
     ]
 
