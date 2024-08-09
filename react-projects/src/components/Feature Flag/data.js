@@ -45,7 +45,8 @@ const componentAPI = {
     showCoinFlipping: false,
     showBlogApp: false,
     showRecipe: false,
-    showCalculator: true,
+    showCalculator: false,
+    showFlashCardApp: true,
 };
 
 const featureFlagsDataServiceCall = () => {

@@ -46,6 +46,7 @@ import CoinFlipping from '../Coin Flipping/CoinFlipping'
 import BlogApp from '../Blog App/BlogApp'
 import Recipe from '../Recipe App/Recipe'
 import Calculator from '../Calculator/Calculator'
+import FlashCard from '../Flash Card App/FlashCard'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -288,6 +289,11 @@ const FeatureFlags = () => {
         {
             key: "showCalculator",
             component: <Calculator />
+        },
+
+        {
+            key: "showFlashCardApp",
+            component: <FlashCard />
         },
     ]
 
