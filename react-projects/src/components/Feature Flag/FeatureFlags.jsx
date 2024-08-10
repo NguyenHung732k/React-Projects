@@ -47,6 +47,7 @@ import BlogApp from '../Blog App/BlogApp'
 import Recipe from '../Recipe App/Recipe'
 import Calculator from '../Calculator/Calculator'
 import FlashCard from '../Flash Card App/FlashCard'
+import Gallery from '../Gallery/Gallery'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -294,6 +295,11 @@ const FeatureFlags = () => {
         {
             key: "showFlashCardApp",
             component: <FlashCard />
+        },
+
+        {
+            key: "showGallery",
+            component: <Gallery />
         },
     ]
 
