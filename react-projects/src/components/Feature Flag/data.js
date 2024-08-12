@@ -47,7 +47,8 @@ const componentAPI = {
     showRecipe: false,
     showCalculator: false,
     showFlashCardApp: false,
-    showGallery: true,
+    showGallery: false,
+    showPomodoro: true,
 };
 
 const featureFlagsDataServiceCall = () => {

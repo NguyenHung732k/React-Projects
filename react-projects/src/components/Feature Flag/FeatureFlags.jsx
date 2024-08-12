@@ -48,6 +48,7 @@ import Recipe from '../Recipe App/Recipe'
 import Calculator from '../Calculator/Calculator'
 import FlashCard from '../Flash Card App/FlashCard'
 import Gallery from '../Gallery/Gallery'
+import Pomodoro from '../Pomodoro/Pomodoro'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -300,6 +301,11 @@ const FeatureFlags = () => {
         {
             key: "showGallery",
             component: <Gallery />
+        },
+
+        {
+            key: "showPomodoro",
+            component: <Pomodoro />
         },
     ]
 
