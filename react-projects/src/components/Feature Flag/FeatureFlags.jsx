@@ -49,6 +49,8 @@ import Calculator from '../Calculator/Calculator'
 import FlashCard from '../Flash Card App/FlashCard'
 import Gallery from '../Gallery/Gallery'
 import Pomodoro from '../Pomodoro/Pomodoro'
+import ContentCMS from '../CMS/ContentCMS'
+
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -306,6 +308,11 @@ const FeatureFlags = () => {
         {
             key: "showPomodoro",
             component: <Pomodoro />
+        },
+
+        {
+            key: "showCMS",
+            component: <ContentCMS />
         },
     ]
 
