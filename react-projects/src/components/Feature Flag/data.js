@@ -49,7 +49,8 @@ const componentAPI = {
     showFlashCardApp: false,
     showGallery: false,
     showPomodoro: false,
-    showCMS: true,
+    showCMS: false,
+    showStockMarketTracker: true,
 };
 
 const featureFlagsDataServiceCall = () => {

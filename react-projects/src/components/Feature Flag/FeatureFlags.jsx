@@ -50,7 +50,7 @@ import FlashCard from '../Flash Card App/FlashCard'
 import Gallery from '../Gallery/Gallery'
 import Pomodoro from '../Pomodoro/Pomodoro'
 import ContentCMS from '../CMS/ContentCMS'
-
+import StockMarketTracker from '../Stock Market Tracker/StockMarketTracker'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -313,6 +313,11 @@ const FeatureFlags = () => {
         {
             key: "showCMS",
             component: <ContentCMS />
+        },
+
+        {
+            key: "showStockMarketTracker",
+            component: <StockMarketTracker />
         },
     ]
 
