@@ -50,7 +50,8 @@ const componentAPI = {
     showGallery: false,
     showPomodoro: false,
     showCMS: false,
-    showStockMarketTracker: true,
+    showStockMarketTracker: false,
+    showCRM: true,
 };
 
 const featureFlagsDataServiceCall = () => {

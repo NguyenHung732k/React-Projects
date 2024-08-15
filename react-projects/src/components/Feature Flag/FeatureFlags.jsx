@@ -51,6 +51,7 @@ import Gallery from '../Gallery/Gallery'
 import Pomodoro from '../Pomodoro/Pomodoro'
 import ContentCMS from '../CMS/ContentCMS'
 import StockMarketTracker from '../Stock Market Tracker/StockMarketTracker'
+import CRM from '../CRM/CRM'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -318,6 +319,11 @@ const FeatureFlags = () => {
         {
             key: "showStockMarketTracker",
             component: <StockMarketTracker />
+        },
+
+        {
+            key: "showCRM",
+            component: <CRM />
         },
     ]
 
