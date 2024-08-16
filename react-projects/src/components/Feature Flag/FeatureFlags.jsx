@@ -52,6 +52,7 @@ import Pomodoro from '../Pomodoro/Pomodoro'
 import ContentCMS from '../CMS/ContentCMS'
 import StockMarketTracker from '../Stock Market Tracker/StockMarketTracker'
 import CRM from '../CRM/CRM'
+import EventManagement from '../Event Management/EventManagement'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -324,6 +325,11 @@ const FeatureFlags = () => {
         {
             key: "showCRM",
             component: <CRM />
+        },
+
+        {
+            key: "showEventManagement",
+            component: <EventManagement />
         },
     ]
 
