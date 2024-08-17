@@ -52,7 +52,8 @@ const componentAPI = {
     showCMS: false,
     showStockMarketTracker: false,
     showCRM: false,
-    showEventManagement: true,
+    showEventManagement: false,
+    showTimeline: true,
 };
 
 const featureFlagsDataServiceCall = () => {

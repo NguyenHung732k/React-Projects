@@ -53,6 +53,7 @@ import ContentCMS from '../CMS/ContentCMS'
 import StockMarketTracker from '../Stock Market Tracker/StockMarketTracker'
 import CRM from '../CRM/CRM'
 import EventManagement from '../Event Management/EventManagement'
+import Timeline from '../Timeline/Timeline'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -330,6 +331,11 @@ const FeatureFlags = () => {
         {
             key: "showEventManagement",
             component: <EventManagement />
+        },
+
+        {
+            key: "showTimeline",
+            component: <Timeline />
         },
     ]
 
