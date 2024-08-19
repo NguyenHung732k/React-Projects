@@ -54,6 +54,7 @@ import StockMarketTracker from '../Stock Market Tracker/StockMarketTracker'
 import CRM from '../CRM/CRM'
 import EventManagement from '../Event Management/EventManagement'
 import Timeline from '../Timeline/Timeline'
+import Home from '../Finance Tracker/pages/Home'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -336,6 +337,11 @@ const FeatureFlags = () => {
         {
             key: "showTimeline",
             component: <Timeline />
+        },
+
+        {
+            key: "showFinanceTracker",
+            component: <Home />
         },
     ]
 
