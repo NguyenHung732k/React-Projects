@@ -54,7 +54,8 @@ const componentAPI = {
     showCRM: false,
     showEventManagement: false,
     showTimeline: false,
-    showFinanceTracker: true,
+    showFinanceTracker: false,
+    showInventoryManagement: true,
 };
 
 const featureFlagsDataServiceCall = () => {

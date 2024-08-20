@@ -55,6 +55,7 @@ import CRM from '../CRM/CRM'
 import EventManagement from '../Event Management/EventManagement'
 import Timeline from '../Timeline/Timeline'
 import Home from '../Finance Tracker/pages/Home'
+import Inventory from '../Inventory Management/Inventory'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -294,7 +295,7 @@ const FeatureFlags = () => {
             component: <Recipe />
         },
 
-        {
+        {  
             key: "showCalculator",
             component: <Calculator />
         },
@@ -342,6 +343,11 @@ const FeatureFlags = () => {
         {
             key: "showFinanceTracker",
             component: <Home />
+        },
+
+        {
+            key: "showInventoryManagement",
+            component: <Inventory />
         },
     ]
 
