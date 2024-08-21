@@ -56,6 +56,7 @@ import EventManagement from '../Event Management/EventManagement'
 import Timeline from '../Timeline/Timeline'
 import Home from '../Finance Tracker/pages/Home'
 import Inventory from '../Inventory Management/Inventory'
+import MarketPlace from '../Online Marketplace/pages/MarketPlace'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -348,6 +349,11 @@ const FeatureFlags = () => {
         {
             key: "showInventoryManagement",
             component: <Inventory />
+        },
+
+        {
+            key: "showOnlineMarketplace",
+            component: <MarketPlace />
         },
     ]
 
