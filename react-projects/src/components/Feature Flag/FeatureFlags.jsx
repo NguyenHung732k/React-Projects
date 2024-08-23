@@ -58,6 +58,7 @@ import Home from '../Finance Tracker/pages/Home'
 import Inventory from '../Inventory Management/Inventory'
 import MarketPlace from '../Online Marketplace/pages/MarketPlace'
 import BookManagement from '../Books Management/pages/BookManagement'
+import AddressBook from '../Address Book/AddressBook'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -360,6 +361,11 @@ const FeatureFlags = () => {
         {
             key: "showBooksManagement",
             component: <BookManagement />
+        },
+
+        {
+            key: "showAddressBook",
+            component: <AddressBook />
         },
     ]
 

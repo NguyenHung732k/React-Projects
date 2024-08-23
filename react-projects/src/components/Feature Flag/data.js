@@ -57,7 +57,8 @@ const componentAPI = {
     showFinanceTracker: false,
     showInventoryManagement: false,
     showOnlineMarketplace: false,
-    showBooksManagement: true,
+    showBooksManagement: false,
+    showAddressBook: true,
 };
 
 const featureFlagsDataServiceCall = () => {
