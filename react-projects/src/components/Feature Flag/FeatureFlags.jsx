@@ -59,6 +59,7 @@ import Inventory from '../Inventory Management/Inventory'
 import MarketPlace from '../Online Marketplace/pages/MarketPlace'
 import BookManagement from '../Books Management/pages/BookManagement'
 import AddressBook from '../Address Book/AddressBook'
+import Checklist from '../Checklist/Checklist'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -366,6 +367,11 @@ const FeatureFlags = () => {
         {
             key: "showAddressBook",
             component: <AddressBook />
+        },
+
+        {
+            key: "showChecklist",
+            component: <Checklist />
         },
     ]
 
