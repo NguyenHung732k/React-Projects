@@ -59,7 +59,8 @@ const componentAPI = {
     showOnlineMarketplace: false,
     showBooksManagement: false,
     showAddressBook: false,
-    showChecklist: true,
+    showChecklist: false,
+    showBMICalculator: true,
 };
 
 const featureFlagsDataServiceCall = () => {

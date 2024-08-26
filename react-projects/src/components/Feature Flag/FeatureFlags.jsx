@@ -60,6 +60,7 @@ import MarketPlace from '../Online Marketplace/pages/MarketPlace'
 import BookManagement from '../Books Management/pages/BookManagement'
 import AddressBook from '../Address Book/AddressBook'
 import Checklist from '../Checklist/Checklist'
+import BMICalculator from '../BMI Calculator/BMICalculator'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -299,7 +300,7 @@ const FeatureFlags = () => {
             component: <Recipe />
         },
 
-        {  
+        {
             key: "showCalculator",
             component: <Calculator />
         },
@@ -367,6 +368,16 @@ const FeatureFlags = () => {
         {
             key: "showAddressBook",
             component: <AddressBook />
+        },
+
+        {
+            key: "showChecklist",
+            component: <Checklist />
+        },
+
+        {
+            key: "showBMICalculator",
+            component: <BMICalculator />
         },
 
         {
