@@ -60,7 +60,8 @@ const componentAPI = {
     showBooksManagement: false,
     showAddressBook: false,
     showChecklist: false,
-    showBMICalculator: true,
+    showBMICalculator: false,
+    showBooksTracker: true,
 };
 
 const featureFlagsDataServiceCall = () => {

@@ -61,6 +61,7 @@ import BookManagement from '../Books Management/pages/BookManagement'
 import AddressBook from '../Address Book/AddressBook'
 import Checklist from '../Checklist/Checklist'
 import BMICalculator from '../BMI Calculator/BMICalculator'
+import BookTracker from '../Books Tracker/BookTracker'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -383,6 +384,11 @@ const FeatureFlags = () => {
         {
             key: "showChecklist",
             component: <Checklist />
+        },
+
+        {
+            key: "showBooksTracker",
+            component: <BookTracker />
         },
     ]
 
