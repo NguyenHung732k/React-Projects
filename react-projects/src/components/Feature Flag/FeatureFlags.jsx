@@ -62,6 +62,7 @@ import AddressBook from '../Address Book/AddressBook'
 import Checklist from '../Checklist/Checklist'
 import BMICalculator from '../BMI Calculator/BMICalculator'
 import BookTracker from '../Books Tracker/BookTracker'
+import WatchList from '../Watch List/WatchList'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -389,6 +390,11 @@ const FeatureFlags = () => {
         {
             key: "showBooksTracker",
             component: <BookTracker />
+        },
+
+        {
+            key: "showWatchList",
+            component: <WatchList />
         },
     ]
 
