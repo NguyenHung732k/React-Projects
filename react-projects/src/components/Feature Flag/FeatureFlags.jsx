@@ -63,6 +63,7 @@ import Checklist from '../Checklist/Checklist'
 import BMICalculator from '../BMI Calculator/BMICalculator'
 import BookTracker from '../Books Tracker/BookTracker'
 import WatchList from '../Watch List/WatchList'
+import MusicAlbum from '../Music Album Catalog/MusicAlbum'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -395,6 +396,11 @@ const FeatureFlags = () => {
         {
             key: "showWatchList",
             component: <WatchList />
+        },
+
+        {
+            key: "showMusicAlbumCatalog",
+            component: <MusicAlbum />
         },
     ]
 
