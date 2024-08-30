@@ -63,7 +63,8 @@ const componentAPI = {
     showBMICalculator: false,
     showBooksTracker: false,
     showWatchList: false,
-    showMusicAlbumCatalog: true,
+    showMusicAlbumCatalog: false,
+    showPasswordManager: true,
 };
 
 const featureFlagsDataServiceCall = () => {

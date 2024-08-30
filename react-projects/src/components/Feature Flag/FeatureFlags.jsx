@@ -64,6 +64,7 @@ import BMICalculator from '../BMI Calculator/BMICalculator'
 import BookTracker from '../Books Tracker/BookTracker'
 import WatchList from '../Watch List/WatchList'
 import MusicAlbum from '../Music Album Catalog/MusicAlbum'
+import PasswordManager from '../Password Manager/PasswordManager'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -401,6 +402,11 @@ const FeatureFlags = () => {
         {
             key: "showMusicAlbumCatalog",
             component: <MusicAlbum />
+        },
+
+        {
+            key: "showPasswordManager",
+            component: <PasswordManager />
         },
     ]
 
