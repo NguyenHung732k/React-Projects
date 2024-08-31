@@ -65,6 +65,7 @@ import BookTracker from '../Books Tracker/BookTracker'
 import WatchList from '../Watch List/WatchList'
 import MusicAlbum from '../Music Album Catalog/MusicAlbum'
 import PasswordManager from '../Password Manager/PasswordManager'
+import DragAndDrop from '../Drag And Drop/DragAndDrop'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -407,6 +408,11 @@ const FeatureFlags = () => {
         {
             key: "showPasswordManager",
             component: <PasswordManager />
+        },
+
+        {
+            key: "showDragAndDrop",
+            component: <DragAndDrop />
         },
     ]
 
