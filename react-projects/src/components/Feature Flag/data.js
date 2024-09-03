@@ -66,7 +66,8 @@ const componentAPI = {
     showMusicAlbumCatalog: false,
     showPasswordManager: false,
     showDragAndDrop:false,
-    showTicTacToe:true,
+    showTicTacToe:false,
+    showToursApp:true,
 };
 
 const featureFlagsDataServiceCall = () => {
