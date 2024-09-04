@@ -68,6 +68,7 @@ import PasswordManager from '../Password Manager/PasswordManager'
 import DragAndDrop from '../Drag And Drop/DragAndDrop'
 import TicTacToe from '../Tic Tac Toe/TicTacToe'
 import ToursApp from '../Tours App/ToursApp'
+import ArtGallery from '../Art Gallery/ArtGallery'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -425,6 +426,11 @@ const FeatureFlags = () => {
         {
             key: "showToursApp",
             component: <ToursApp />
+        },
+
+        {
+            key: "showArtGallery",
+            component: <ArtGallery />
         },
     ]
 

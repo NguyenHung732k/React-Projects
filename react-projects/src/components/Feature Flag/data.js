@@ -67,7 +67,8 @@ const componentAPI = {
     showPasswordManager: false,
     showDragAndDrop:false,
     showTicTacToe:false,
-    showToursApp:true,
+    showToursApp:false,
+    showArtGallery:true,
 };
 
 const featureFlagsDataServiceCall = () => {
