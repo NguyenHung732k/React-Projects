@@ -69,6 +69,7 @@ import DragAndDrop from '../Drag And Drop/DragAndDrop'
 import TicTacToe from '../Tic Tac Toe/TicTacToe'
 import ToursApp from '../Tours App/ToursApp'
 import ArtGallery from '../Art Gallery/ArtGallery'
+import ItineraryPlanner from '../Travel Itinerary Planner/ItineraryPlanner'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -431,6 +432,11 @@ const FeatureFlags = () => {
         {
             key: "showArtGallery",
             component: <ArtGallery />
+        },
+
+        {
+            key: "showItineraryPlanner",
+            component: <ItineraryPlanner />
         },
     ]
 

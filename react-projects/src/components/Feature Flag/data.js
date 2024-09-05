@@ -68,7 +68,8 @@ const componentAPI = {
     showDragAndDrop:false,
     showTicTacToe:false,
     showToursApp:false,
-    showArtGallery:true,
+    showArtGallery:false,
+    showItineraryPlanner:true,
 };
 
 const featureFlagsDataServiceCall = () => {
