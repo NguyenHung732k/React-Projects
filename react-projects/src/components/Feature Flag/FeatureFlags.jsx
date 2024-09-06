@@ -70,6 +70,7 @@ import TicTacToe from '../Tic Tac Toe/TicTacToe'
 import ToursApp from '../Tours App/ToursApp'
 import ArtGallery from '../Art Gallery/ArtGallery'
 import ItineraryPlanner from '../Travel Itinerary Planner/ItineraryPlanner'
+import VirtualGarden from '../Virtual Garden Planner/VirtualGarden'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -437,6 +438,11 @@ const FeatureFlags = () => {
         {
             key: "showItineraryPlanner",
             component: <ItineraryPlanner />
+        },
+
+        {
+            key: "showVirtualGarden",
+            component: <VirtualGarden />
         },
     ]
 

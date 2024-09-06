@@ -69,7 +69,8 @@ const componentAPI = {
     showTicTacToe:false,
     showToursApp:false,
     showArtGallery:false,
-    showItineraryPlanner:true,
+    showItineraryPlanner:false,
+    showVirtualGarden:true,
 };
 
 const featureFlagsDataServiceCall = () => {
