@@ -72,6 +72,7 @@ import ArtGallery from '../Art Gallery/ArtGallery'
 import ItineraryPlanner from '../Travel Itinerary Planner/ItineraryPlanner'
 import VirtualGarden from '../Virtual Garden Planner/VirtualGarden'
 import ReactHookForm from '../React Hook Form/ReactHookForm'
+import MarkdownPreviewer from '../Markdown Previewer/MarkdownPreviewer'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -449,6 +450,11 @@ const FeatureFlags = () => {
         {
             key: "showReactHookForm",
             component: <ReactHookForm />
+        },
+
+        {
+            key: "showMarkdownPreviewer",
+            component: <MarkdownPreviewer />
         },
     ]
 
