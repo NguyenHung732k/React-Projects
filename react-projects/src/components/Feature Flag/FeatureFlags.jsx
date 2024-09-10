@@ -73,6 +73,7 @@ import ItineraryPlanner from '../Travel Itinerary Planner/ItineraryPlanner'
 import VirtualGarden from '../Virtual Garden Planner/VirtualGarden'
 import ReactHookForm from '../React Hook Form/ReactHookForm'
 import MarkdownPreviewer from '../Markdown Previewer/MarkdownPreviewer'
+import UnitConverter from '../Unit Converter/UnitConverter'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -455,6 +456,11 @@ const FeatureFlags = () => {
         {
             key: "showMarkdownPreviewer",
             component: <MarkdownPreviewer />
+        },
+
+        {
+            key: "showUnitConverter",
+            component: <UnitConverter />
         },
     ]
 
