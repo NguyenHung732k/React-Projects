@@ -73,7 +73,8 @@ const componentAPI = {
     showVirtualGarden:false,
     showReactHookForm:false,
     showMarkdownPreviewer:false,
-    showUnitConverter:true,
+    showUnitConverter:false,
+    showCurrencyConverter:true,
 };
 
 const featureFlagsDataServiceCall = () => {

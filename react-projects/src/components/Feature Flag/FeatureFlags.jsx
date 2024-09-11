@@ -74,6 +74,7 @@ import VirtualGarden from '../Virtual Garden Planner/VirtualGarden'
 import ReactHookForm from '../React Hook Form/ReactHookForm'
 import MarkdownPreviewer from '../Markdown Previewer/MarkdownPreviewer'
 import UnitConverter from '../Unit Converter/UnitConverter'
+import CurrencyConverter from '../Currency Converter/CurrencyConverter'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -461,6 +462,11 @@ const FeatureFlags = () => {
         {
             key: "showUnitConverter",
             component: <UnitConverter />
+        },
+
+        {
+            key: "showCurrencyConverter",
+            component: <CurrencyConverter />
         },
     ]
 
