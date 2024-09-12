@@ -75,6 +75,7 @@ import ReactHookForm from '../React Hook Form/ReactHookForm'
 import MarkdownPreviewer from '../Markdown Previewer/MarkdownPreviewer'
 import UnitConverter from '../Unit Converter/UnitConverter'
 import CurrencyConverter from '../Currency Converter/CurrencyConverter'
+import PasswordGenerator from '../Password Generator/PasswordGenerator'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -467,6 +468,11 @@ const FeatureFlags = () => {
         {
             key: "showCurrencyConverter",
             component: <CurrencyConverter />
+        },
+
+        {
+            key: "showPasswordGenerator",
+            component: <PasswordGenerator />
         },
     ]
 
