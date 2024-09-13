@@ -76,6 +76,7 @@ import MarkdownPreviewer from '../Markdown Previewer/MarkdownPreviewer'
 import UnitConverter from '../Unit Converter/UnitConverter'
 import CurrencyConverter from '../Currency Converter/CurrencyConverter'
 import PasswordGenerator from '../Password Generator/PasswordGenerator'
+import FeedbackForm from '../Feedback Form/FeedbackForm'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -473,6 +474,11 @@ const FeatureFlags = () => {
         {
             key: "showPasswordGenerator",
             component: <PasswordGenerator />
+        },
+
+        {
+            key: "showFeedbackForm",
+            component: <FeedbackForm />
         },
     ]
 

@@ -75,7 +75,8 @@ const componentAPI = {
     showMarkdownPreviewer:false,
     showUnitConverter:false,
     showCurrencyConverter:false,
-    showPasswordGenerator:true,
+    showPasswordGenerator:false,
+    showFeedbackForm:true,
 };
 
 const featureFlagsDataServiceCall = () => {
