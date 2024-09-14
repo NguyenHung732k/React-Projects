@@ -77,6 +77,7 @@ import UnitConverter from '../Unit Converter/UnitConverter'
 import CurrencyConverter from '../Currency Converter/CurrencyConverter'
 import PasswordGenerator from '../Password Generator/PasswordGenerator'
 import FeedbackForm from '../Feedback Form/FeedbackForm'
+import IngredientSubstituter from '../Ingredient Substituter/IngredientSubstituter'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -479,6 +480,11 @@ const FeatureFlags = () => {
         {
             key: "showFeedbackForm",
             component: <FeedbackForm />
+        },
+
+        {
+            key: "showIngredientSubstituter",
+            component: <IngredientSubstituter />
         },
     ]
 
