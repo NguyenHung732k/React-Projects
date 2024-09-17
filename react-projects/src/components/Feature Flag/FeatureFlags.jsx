@@ -79,6 +79,7 @@ import PasswordGenerator from '../Password Generator/PasswordGenerator'
 import FeedbackForm from '../Feedback Form/FeedbackForm'
 import IngredientSubstituter from '../Ingredient Substituter/IngredientSubstituter'
 import OnlinePoll from '../Online Poll/OnlinePoll'
+import NotificationCenter from '../Notification Center/NotificationCenter'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -491,6 +492,11 @@ const FeatureFlags = () => {
         {
             key: "showOnlinePoll",
             component: <OnlinePoll />
+        },
+
+        {
+            key: "showNotificationCenter",
+            component: <NotificationCenter />
         },
     ]
 
