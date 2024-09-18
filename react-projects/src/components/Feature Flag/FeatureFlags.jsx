@@ -80,6 +80,7 @@ import FeedbackForm from '../Feedback Form/FeedbackForm'
 import IngredientSubstituter from '../Ingredient Substituter/IngredientSubstituter'
 import OnlinePoll from '../Online Poll/OnlinePoll'
 import NotificationCenter from '../Notification Center/NotificationCenter'
+import PhotoCollageEditor from '../Photo Collage Editor/PhotoCollageEditor'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -497,6 +498,11 @@ const FeatureFlags = () => {
         {
             key: "showNotificationCenter",
             component: <NotificationCenter />
+        },
+
+        {
+            key: "showPhotoCollageEditor",
+            component: <PhotoCollageEditor />
         },
     ]
 

@@ -79,7 +79,8 @@ const componentAPI = {
     showFeedbackForm: false,
     showIngredientSubstituter: false,
     showOnlinePoll: false,
-    showNotificationCenter: true,
+    showNotificationCenter: false,
+    showPhotoCollageEditor: true,
 };
 
 const featureFlagsDataServiceCall = () => {
