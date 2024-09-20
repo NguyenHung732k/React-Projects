@@ -81,6 +81,7 @@ import IngredientSubstituter from '../Ingredient Substituter/IngredientSubstitut
 import OnlinePoll from '../Online Poll/OnlinePoll'
 import NotificationCenter from '../Notification Center/NotificationCenter'
 import PhotoCollageEditor from '../Photo Collage Editor/PhotoCollageEditor'
+import PersonalKnowledge from '../Personal Knowledge/PersonalKnowledge'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -503,6 +504,11 @@ const FeatureFlags = () => {
         {
             key: "showPhotoCollageEditor",
             component: <PhotoCollageEditor />
+        },
+
+        {
+            key: "showPersonalKnowledge",
+            component: <PersonalKnowledge />
         },
     ]
 
