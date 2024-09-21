@@ -82,6 +82,7 @@ import OnlinePoll from '../Online Poll/OnlinePoll'
 import NotificationCenter from '../Notification Center/NotificationCenter'
 import PhotoCollageEditor from '../Photo Collage Editor/PhotoCollageEditor'
 import PersonalKnowledge from '../Personal Knowledge/PersonalKnowledge'
+import VirtualStudyPlanner from '../Virtual Study Planner/VirtualStudyPlanner'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -509,6 +510,11 @@ const FeatureFlags = () => {
         {
             key: "showPersonalKnowledge",
             component: <PersonalKnowledge />
+        },
+
+        {
+            key: "showVirtualStudyPlanner",
+            component: <VirtualStudyPlanner />
         },
     ]
 

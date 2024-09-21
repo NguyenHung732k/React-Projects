@@ -81,7 +81,8 @@ const componentAPI = {
     showOnlinePoll: false,
     showNotificationCenter: false,
     showPhotoCollageEditor: false,
-    showPersonalKnowledge: true,
+    showPersonalKnowledge: false,
+    showVirtualStudyPlanner: true,
 };
 
 const featureFlagsDataServiceCall = () => {
