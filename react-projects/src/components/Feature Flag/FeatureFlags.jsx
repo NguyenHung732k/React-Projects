@@ -83,6 +83,7 @@ import NotificationCenter from '../Notification Center/NotificationCenter'
 import PhotoCollageEditor from '../Photo Collage Editor/PhotoCollageEditor'
 import PersonalKnowledge from '../Personal Knowledge/PersonalKnowledge'
 import VirtualStudyPlanner from '../Virtual Study Planner/VirtualStudyPlanner'
+import BudgetGame from '../Budget Game/BudgetGame'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -515,6 +516,11 @@ const FeatureFlags = () => {
         {
             key: "showVirtualStudyPlanner",
             component: <VirtualStudyPlanner />
+        },
+
+        {
+            key: "showBudgetGame",
+            component: <BudgetGame />
         },
     ]
 
