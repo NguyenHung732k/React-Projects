@@ -84,6 +84,7 @@ import PhotoCollageEditor from '../Photo Collage Editor/PhotoCollageEditor'
 import PersonalKnowledge from '../Personal Knowledge/PersonalKnowledge'
 import VirtualStudyPlanner from '../Virtual Study Planner/VirtualStudyPlanner'
 import BudgetGame from '../Budget Game/BudgetGame'
+import BookmarkManagement from '../Bookmark Management/BookmarkManagement'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -521,6 +522,11 @@ const FeatureFlags = () => {
         {
             key: "showBudgetGame",
             component: <BudgetGame />
+        },
+
+        {
+            key: "showBookmarkManagement",
+            component: <BookmarkManagement />
         },
     ]
 

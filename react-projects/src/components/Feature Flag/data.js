@@ -83,7 +83,8 @@ const componentAPI = {
     showPhotoCollageEditor: false,
     showPersonalKnowledge: false,
     showVirtualStudyPlanner: false,
-    showBudgetGame: true,
+    showBudgetGame: false,
+    showBookmarkManagement: true,
 };
 
 const featureFlagsDataServiceCall = () => {
