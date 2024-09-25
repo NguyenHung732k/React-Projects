@@ -85,6 +85,7 @@ import PersonalKnowledge from '../Personal Knowledge/PersonalKnowledge'
 import VirtualStudyPlanner from '../Virtual Study Planner/VirtualStudyPlanner'
 import BudgetGame from '../Budget Game/BudgetGame'
 import BookmarkManagement from '../Bookmark Management/BookmarkManagement'
+import TimezoneConverter from '../Timezone Converter/TimezoneConverter'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -527,6 +528,11 @@ const FeatureFlags = () => {
         {
             key: "showBookmarkManagement",
             component: <BookmarkManagement />
+        },
+
+        {
+            key: "showTimezoneConverter",
+            component: <TimezoneConverter />
         },
     ]
 
