@@ -86,6 +86,7 @@ import VirtualStudyPlanner from '../Virtual Study Planner/VirtualStudyPlanner'
 import BudgetGame from '../Budget Game/BudgetGame'
 import BookmarkManagement from '../Bookmark Management/BookmarkManagement'
 import TimezoneConverter from '../Timezone Converter/TimezoneConverter'
+import TextGame from '../Text Adventure Game/TextGame'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -533,6 +534,11 @@ const FeatureFlags = () => {
         {
             key: "showTimezoneConverter",
             component: <TimezoneConverter />
+        },
+
+        {
+            key: "showTextGame",
+            component: <TextGame />
         },
     ]
 

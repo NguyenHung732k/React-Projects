@@ -85,7 +85,8 @@ const componentAPI = {
     showVirtualStudyPlanner: false,
     showBudgetGame: false,
     showBookmarkManagement: false,
-    showTimezoneConverter: true,
+    showTimezoneConverter: false,
+    showTextGame: true,
 };
 
 const featureFlagsDataServiceCall = () => {
