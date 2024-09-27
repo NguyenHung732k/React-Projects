@@ -87,6 +87,7 @@ import BudgetGame from '../Budget Game/BudgetGame'
 import BookmarkManagement from '../Bookmark Management/BookmarkManagement'
 import TimezoneConverter from '../Timezone Converter/TimezoneConverter'
 import TextGame from '../Text Adventure Game/TextGame'
+import CharacterSheet from '../Game Character Sheet/CharacterSheet'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -539,6 +540,11 @@ const FeatureFlags = () => {
         {
             key: "showTextGame",
             component: <TextGame />
+        },
+
+        {
+            key: "showCharacterSheet",
+            component: <CharacterSheet />
         },
     ]
 

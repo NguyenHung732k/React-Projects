@@ -86,7 +86,8 @@ const componentAPI = {
     showBudgetGame: false,
     showBookmarkManagement: false,
     showTimezoneConverter: false,
-    showTextGame: true,
+    showTextGame: false,
+    showCharacterSheet: true,
 };
 
 const featureFlagsDataServiceCall = () => {
