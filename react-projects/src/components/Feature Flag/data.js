@@ -87,7 +87,8 @@ const componentAPI = {
     showBookmarkManagement: false,
     showTimezoneConverter: false,
     showTextGame: false,
-    showCharacterSheet: true,
+    showCharacterSheet: false,
+    showHabitTracker: true,
 };
 
 const featureFlagsDataServiceCall = () => {

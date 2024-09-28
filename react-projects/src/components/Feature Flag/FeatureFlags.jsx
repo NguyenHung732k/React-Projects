@@ -88,6 +88,7 @@ import BookmarkManagement from '../Bookmark Management/BookmarkManagement'
 import TimezoneConverter from '../Timezone Converter/TimezoneConverter'
 import TextGame from '../Text Adventure Game/TextGame'
 import CharacterSheet from '../Game Character Sheet/CharacterSheet'
+import HabitTracker from '../Habit Tracker/HabitTracker'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -545,6 +546,11 @@ const FeatureFlags = () => {
         {
             key: "showCharacterSheet",
             component: <CharacterSheet />
+        },
+
+        {
+            key: "showHabitTracker",
+            component: <HabitTracker />
         },
     ]
 
