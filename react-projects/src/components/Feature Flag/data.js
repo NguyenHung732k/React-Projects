@@ -88,7 +88,8 @@ const componentAPI = {
     showTimezoneConverter: false,
     showTextGame: false,
     showCharacterSheet: false,
-    showHabitTracker: true,
+    showHabitTracker: false,
+    showAnimatedFlashcard: true,
 };
 
 const featureFlagsDataServiceCall = () => {

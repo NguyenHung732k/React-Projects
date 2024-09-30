@@ -89,6 +89,7 @@ import TimezoneConverter from '../Timezone Converter/TimezoneConverter'
 import TextGame from '../Text Adventure Game/TextGame'
 import CharacterSheet from '../Game Character Sheet/CharacterSheet'
 import HabitTracker from '../Habit Tracker/HabitTracker'
+import FlashcardApp from '../Animated Flashcard/FlashcardApp'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -551,6 +552,11 @@ const FeatureFlags = () => {
         {
             key: "showHabitTracker",
             component: <HabitTracker />
+        },
+
+        {
+            key: "showAnimatedFlashcard",
+            component: <FlashcardApp />
         },
     ]
 
