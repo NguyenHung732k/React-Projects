@@ -89,7 +89,8 @@ const componentAPI = {
     showTextGame: false,
     showCharacterSheet: false,
     showHabitTracker: false,
-    showAnimatedFlashcard: true,
+    showAnimatedFlashcard: false,
+    showPagination: true,
 };
 
 const featureFlagsDataServiceCall = () => {

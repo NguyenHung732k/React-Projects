@@ -90,6 +90,7 @@ import TextGame from '../Text Adventure Game/TextGame'
 import CharacterSheet from '../Game Character Sheet/CharacterSheet'
 import HabitTracker from '../Habit Tracker/HabitTracker'
 import FlashcardApp from '../Animated Flashcard/FlashcardApp'
+import PaginationResult from '../Pagination/PaginationResult'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -557,6 +558,11 @@ const FeatureFlags = () => {
         {
             key: "showAnimatedFlashcard",
             component: <FlashcardApp />
+        },
+
+        {
+            key: "showPagination",
+            component: <PaginationResult />
         },
     ]
 
