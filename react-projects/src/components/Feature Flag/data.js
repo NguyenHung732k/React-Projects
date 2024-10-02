@@ -90,7 +90,8 @@ const componentAPI = {
     showCharacterSheet: false,
     showHabitTracker: false,
     showAnimatedFlashcard: false,
-    showPagination: true,
+    showPagination: false,
+    showDigitalDiary: true,
 };
 
 const featureFlagsDataServiceCall = () => {
