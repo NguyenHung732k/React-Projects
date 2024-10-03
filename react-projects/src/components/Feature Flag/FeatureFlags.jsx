@@ -92,6 +92,7 @@ import HabitTracker from '../Habit Tracker/HabitTracker'
 import FlashcardApp from '../Animated Flashcard/FlashcardApp'
 import PaginationResult from '../Pagination/PaginationResult'
 import DigitalDiary from '../Digital Diary/DigitalDiary'
+import LookbookPage from '../Lookbook/LookbookPage'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -569,6 +570,11 @@ const FeatureFlags = () => {
         {
             key: "showDigitalDiary",
             component: <DigitalDiary />
+        },
+
+        {
+            key: "showLookbook",
+            component: <LookbookPage />
         },
     ]
 

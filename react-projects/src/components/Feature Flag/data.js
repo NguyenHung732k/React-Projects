@@ -91,7 +91,8 @@ const componentAPI = {
     showHabitTracker: false,
     showAnimatedFlashcard: false,
     showPagination: false,
-    showDigitalDiary: true,
+    showDigitalDiary: false,
+    showLookbook: true,
 };
 
 const featureFlagsDataServiceCall = () => {
