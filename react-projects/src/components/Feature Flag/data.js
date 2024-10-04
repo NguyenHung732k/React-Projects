@@ -92,7 +92,8 @@ const componentAPI = {
     showAnimatedFlashcard: false,
     showPagination: false,
     showDigitalDiary: false,
-    showLookbook: true,
+    showLookbook: false,
+    showGameLeaderboard: true,
 };
 
 const featureFlagsDataServiceCall = () => {

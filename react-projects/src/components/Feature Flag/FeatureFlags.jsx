@@ -93,6 +93,7 @@ import FlashcardApp from '../Animated Flashcard/FlashcardApp'
 import PaginationResult from '../Pagination/PaginationResult'
 import DigitalDiary from '../Digital Diary/DigitalDiary'
 import LookbookPage from '../Lookbook/LookbookPage'
+import GameLeaderboard from '../Game Leaderboard/GameLeaderboard'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -575,6 +576,11 @@ const FeatureFlags = () => {
         {
             key: "showLookbook",
             component: <LookbookPage />
+        },
+
+        {
+            key: "showGameLeaderboard",
+            component: <GameLeaderboard />
         },
     ]
 
