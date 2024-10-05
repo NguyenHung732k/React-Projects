@@ -94,6 +94,7 @@ import PaginationResult from '../Pagination/PaginationResult'
 import DigitalDiary from '../Digital Diary/DigitalDiary'
 import LookbookPage from '../Lookbook/LookbookPage'
 import GameLeaderboard from '../Game Leaderboard/GameLeaderboard'
+import TravelMemory from '../Travel Memory/TravelMemory'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -581,6 +582,11 @@ const FeatureFlags = () => {
         {
             key: "showGameLeaderboard",
             component: <GameLeaderboard />
+        },
+
+        {
+            key: "showTravelMemory",
+            component: <TravelMemory />
         },
     ]
 
