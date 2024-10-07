@@ -95,6 +95,7 @@ import DigitalDiary from '../Digital Diary/DigitalDiary'
 import LookbookPage from '../Lookbook/LookbookPage'
 import GameLeaderboard from '../Game Leaderboard/GameLeaderboard'
 import TravelMemory from '../Travel Memory/TravelMemory'
+import DonationTracker from '../Donation Tracker/DonationTracker'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -587,6 +588,11 @@ const FeatureFlags = () => {
         {
             key: "showTravelMemory",
             component: <TravelMemory />
+        },
+
+        {
+            key: "showDonationTracker",
+            component: <DonationTracker />
         },
     ]
 

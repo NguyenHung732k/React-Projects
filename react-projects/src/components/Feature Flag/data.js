@@ -94,7 +94,8 @@ const componentAPI = {
     showDigitalDiary: false,
     showLookbook: false,
     showGameLeaderboard: false,
-    showTravelMemory: true,
+    showTravelMemory: false,
+    showDonationTracker: true,
 };
 
 const featureFlagsDataServiceCall = () => {
