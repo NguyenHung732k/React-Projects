@@ -97,6 +97,7 @@ import GameLeaderboard from '../Game Leaderboard/GameLeaderboard'
 import TravelMemory from '../Travel Memory/TravelMemory'
 import DonationTracker from '../Donation Tracker/DonationTracker'
 import EcoFriendlyTip from '../Eco Friendly Tip/EcoFriendlyTip'
+import VirtualMuseum from '../Virtual Museum/VirtualMuseum'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -599,6 +600,11 @@ const FeatureFlags = () => {
         {
             key: "showEcoFriendlyTip",
             component: <EcoFriendlyTip />
+        },
+
+        {
+            key: "showVirtualMuseum",
+            component: <VirtualMuseum />
         },
     ]
 

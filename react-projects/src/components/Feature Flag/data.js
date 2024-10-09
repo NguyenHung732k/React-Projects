@@ -96,7 +96,8 @@ const componentAPI = {
     showGameLeaderboard: false,
     showTravelMemory: false,
     showDonationTracker: false,
-    showEcoFriendlyTip: true,
+    showEcoFriendlyTip: false,
+    showVirtualMuseum: true,
 };
 
 const featureFlagsDataServiceCall = () => {
