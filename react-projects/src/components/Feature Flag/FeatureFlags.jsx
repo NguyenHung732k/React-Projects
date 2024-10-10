@@ -98,6 +98,7 @@ import TravelMemory from '../Travel Memory/TravelMemory'
 import DonationTracker from '../Donation Tracker/DonationTracker'
 import EcoFriendlyTip from '../Eco Friendly Tip/EcoFriendlyTip'
 import VirtualMuseum from '../Virtual Museum/VirtualMuseum'
+import VirtualWardrobe from '../Virtual Wardrobe/VirtualWardrobe'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -605,6 +606,11 @@ const FeatureFlags = () => {
         {
             key: "showVirtualMuseum",
             component: <VirtualMuseum />
+        },
+
+        {
+            key: "showVirtualWardrobe",
+            component: <VirtualWardrobe />
         },
     ]
 
