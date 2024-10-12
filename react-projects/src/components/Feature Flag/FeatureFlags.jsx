@@ -100,6 +100,7 @@ import EcoFriendlyTip from '../Eco Friendly Tip/EcoFriendlyTip'
 import VirtualMuseum from '../Virtual Museum/VirtualMuseum'
 import VirtualWardrobe from '../Virtual Wardrobe/VirtualWardrobe'
 import RoutePlanner from '../Travel Route Planner/RoutePlanner'
+import BookExchange from '../Online Book Exchange/BookExchange'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -617,6 +618,11 @@ const FeatureFlags = () => {
         {
             key: "showTravelRoutePlanner",
             component: <RoutePlanner />
+        },
+
+        {
+            key: "showBookExchange",
+            component: <BookExchange />
         },
     ]
 

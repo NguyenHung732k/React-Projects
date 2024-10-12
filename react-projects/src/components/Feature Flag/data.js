@@ -99,7 +99,8 @@ const componentAPI = {
     showEcoFriendlyTip: false,
     showVirtualMuseum: false,
     showVirtualWardrobe: false,
-    showTravelRoutePlanner: true,
+    showTravelRoutePlanner: false,
+    showBookExchange: true,
 };
 
 const featureFlagsDataServiceCall = () => {
