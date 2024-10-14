@@ -101,6 +101,7 @@ import VirtualMuseum from '../Virtual Museum/VirtualMuseum'
 import VirtualWardrobe from '../Virtual Wardrobe/VirtualWardrobe'
 import RoutePlanner from '../Travel Route Planner/RoutePlanner'
 import BookExchange from '../Online Book Exchange/BookExchange'
+import ModalResult from '../Animated Modal/ModalResult'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -623,6 +624,11 @@ const FeatureFlags = () => {
         {
             key: "showBookExchange",
             component: <BookExchange />
+        },
+
+        {
+            key: "showAnimatedModal",
+            component: <ModalResult />
         },
     ]
 
