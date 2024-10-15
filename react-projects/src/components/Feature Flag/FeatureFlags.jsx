@@ -102,6 +102,7 @@ import VirtualWardrobe from '../Virtual Wardrobe/VirtualWardrobe'
 import RoutePlanner from '../Travel Route Planner/RoutePlanner'
 import BookExchange from '../Online Book Exchange/BookExchange'
 import ModalResult from '../Animated Modal/ModalResult'
+import VirtualTourGuide from '../Virtual Tour Guide/VirtualTourGuide'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -629,6 +630,11 @@ const FeatureFlags = () => {
         {
             key: "showAnimatedModal",
             component: <ModalResult />
+        },
+
+        {
+            key: "showVirtualTourGuide",
+            component: <VirtualTourGuide />
         },
     ]
 

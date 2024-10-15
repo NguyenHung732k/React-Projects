@@ -1,0 +1,19 @@
+body {
+  transition: background-color 0.3s;
+}
+
+body.dark {
+  background-color: #1a1a1a;
+}
+
+.dark .bg-gray-100 {
+  background-color: #2d2d2d;
+}
+
+.dark .text-gray-700 {
+  color: #e5e5e5;
+}
+
+.dark .text-white {
+  color: #ffffff;
+}

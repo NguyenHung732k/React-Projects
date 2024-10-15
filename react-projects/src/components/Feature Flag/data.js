@@ -101,7 +101,8 @@ const componentAPI = {
     showVirtualWardrobe: false,
     showTravelRoutePlanner: false,
     showBookExchange: false,
-    showAnimatedModal: true,
+    showAnimatedModal: false,
+    showVirtualTourGuide: true,
 };
 
 const featureFlagsDataServiceCall = () => {
