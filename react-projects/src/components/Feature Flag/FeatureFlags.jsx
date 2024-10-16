@@ -103,6 +103,7 @@ import RoutePlanner from '../Travel Route Planner/RoutePlanner'
 import BookExchange from '../Online Book Exchange/BookExchange'
 import ModalResult from '../Animated Modal/ModalResult'
 import VirtualTourGuide from '../Virtual Tour Guide/VirtualTourGuide'
+import DigitalPhotoFrame from '../Digital Photo Frame/DigitalPhotoFrame'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -635,6 +636,11 @@ const FeatureFlags = () => {
         {
             key: "showVirtualTourGuide",
             component: <VirtualTourGuide />
+        },
+
+        {
+            key: "showDigitalPhotoFrame",
+            component: <DigitalPhotoFrame />
         },
     ]
 

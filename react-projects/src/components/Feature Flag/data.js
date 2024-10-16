@@ -102,7 +102,8 @@ const componentAPI = {
     showTravelRoutePlanner: false,
     showBookExchange: false,
     showAnimatedModal: false,
-    showVirtualTourGuide: true,
+    showVirtualTourGuide: false,
+    showDigitalPhotoFrame: true,
 };
 
 const featureFlagsDataServiceCall = () => {
