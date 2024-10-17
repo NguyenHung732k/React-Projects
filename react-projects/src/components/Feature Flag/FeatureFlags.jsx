@@ -104,6 +104,7 @@ import BookExchange from '../Online Book Exchange/BookExchange'
 import ModalResult from '../Animated Modal/ModalResult'
 import VirtualTourGuide from '../Virtual Tour Guide/VirtualTourGuide'
 import DigitalPhotoFrame from '../Digital Photo Frame/DigitalPhotoFrame'
+import LightboxGallery from '../Lightbox Gallery/LightboxGallery'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -641,6 +642,11 @@ const FeatureFlags = () => {
         {
             key: "showDigitalPhotoFrame",
             component: <DigitalPhotoFrame />
+        },
+
+        {
+            key: "showLightboxGallery",
+            component: <LightboxGallery />
         },
     ]
 

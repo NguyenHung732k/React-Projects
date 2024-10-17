@@ -103,7 +103,8 @@ const componentAPI = {
     showBookExchange: false,
     showAnimatedModal: false,
     showVirtualTourGuide: false,
-    showDigitalPhotoFrame: true,
+    showDigitalPhotoFrame: false,
+    showLightboxGallery: true,
 };
 
 const featureFlagsDataServiceCall = () => {
