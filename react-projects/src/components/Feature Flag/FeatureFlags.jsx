@@ -105,6 +105,7 @@ import ModalResult from '../Animated Modal/ModalResult'
 import VirtualTourGuide from '../Virtual Tour Guide/VirtualTourGuide'
 import DigitalPhotoFrame from '../Digital Photo Frame/DigitalPhotoFrame'
 import LightboxGallery from '../Lightbox Gallery/LightboxGallery'
+import BookFinder from '../Book Finder/BookFinder'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -647,6 +648,11 @@ const FeatureFlags = () => {
         {
             key: "showLightboxGallery",
             component: <LightboxGallery />
+        },
+
+        {
+            key: "showBookFinder",
+            component: <BookFinder />
         },
     ]
 
