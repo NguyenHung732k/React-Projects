@@ -106,6 +106,7 @@ import VirtualTourGuide from '../Virtual Tour Guide/VirtualTourGuide'
 import DigitalPhotoFrame from '../Digital Photo Frame/DigitalPhotoFrame'
 import LightboxGallery from '../Lightbox Gallery/LightboxGallery'
 import BookFinder from '../Book Finder/BookFinder'
+import BookQuiz from '../Book Quiz/BookQuiz'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -653,6 +654,11 @@ const FeatureFlags = () => {
         {
             key: "showBookFinder",
             component: <BookFinder />
+        },
+
+        {
+            key: "showBookQuiz",
+            component: <BookQuiz />
         },
     ]
 
