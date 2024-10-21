@@ -107,6 +107,7 @@ import DigitalPhotoFrame from '../Digital Photo Frame/DigitalPhotoFrame'
 import LightboxGallery from '../Lightbox Gallery/LightboxGallery'
 import BookFinder from '../Book Finder/BookFinder'
 import BookQuiz from '../Book Quiz/BookQuiz'
+import FoodDelivery from '../Food Delivery/FoodDelivery'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -659,6 +660,11 @@ const FeatureFlags = () => {
         {
             key: "showBookQuiz",
             component: <BookQuiz />
+        },
+
+        {
+            key: "showFoodDelivery",
+            component: <FoodDelivery />
         },
     ]
 
