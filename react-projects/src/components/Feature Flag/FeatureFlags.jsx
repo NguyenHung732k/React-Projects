@@ -108,6 +108,7 @@ import LightboxGallery from '../Lightbox Gallery/LightboxGallery'
 import BookFinder from '../Book Finder/BookFinder'
 import BookQuiz from '../Book Quiz/BookQuiz'
 import FoodDelivery from '../Food Delivery/FoodDelivery'
+import URLShortener from '../URL Shortener/frontend/URLShortener'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -665,6 +666,11 @@ const FeatureFlags = () => {
         {
             key: "showFoodDelivery",
             component: <FoodDelivery />
+        },
+
+        {
+            key: "showURLShortener",
+            component: <URLShortener />
         },
     ]
 

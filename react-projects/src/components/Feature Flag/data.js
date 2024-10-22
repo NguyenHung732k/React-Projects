@@ -107,7 +107,8 @@ const componentAPI = {
     showLightboxGallery: false,
     showBookFinder: false,
     showBookQuiz: false,
-    showFoodDelivery: true,
+    showFoodDelivery: false,
+    showURLShortener: true,
 };
 
 const featureFlagsDataServiceCall = () => {
