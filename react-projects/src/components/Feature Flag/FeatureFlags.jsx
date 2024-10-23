@@ -109,6 +109,7 @@ import BookFinder from '../Book Finder/BookFinder'
 import BookQuiz from '../Book Quiz/BookQuiz'
 import FoodDelivery from '../Food Delivery/FoodDelivery'
 import URLShortener from '../URL Shortener/frontend/URLShortener'
+import PostcardCreator from '../Postcard Creator/PostcardCreator'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -671,6 +672,11 @@ const FeatureFlags = () => {
         {
             key: "showURLShortener",
             component: <URLShortener />
+        },
+
+        {
+            key: "showPostcardCreator",
+            component: <PostcardCreator />
         },
     ]
 
