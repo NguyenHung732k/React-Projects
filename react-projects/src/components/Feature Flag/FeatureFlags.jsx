@@ -111,6 +111,7 @@ import FoodDelivery from '../Food Delivery/FoodDelivery'
 import URLShortener from '../URL Shortener/frontend/URLShortener'
 import PostcardCreator from '../Postcard Creator/PostcardCreator'
 import MeditationApp from '../Meditation App/MeditationApp'
+import Guestbook from '../Guestbook/Guestbook'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -683,6 +684,11 @@ const FeatureFlags = () => {
         {
             key: "showMeditationApp",
             component: <MeditationApp />
+        },
+
+        {
+            key: "showGuestbook",
+            component: <Guestbook />
         },
     ]
 

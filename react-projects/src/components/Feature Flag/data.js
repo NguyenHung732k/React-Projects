@@ -110,7 +110,8 @@ const componentAPI = {
     showFoodDelivery: false,
     showURLShortener: false,
     showPostcardCreator: false,
-    showMeditationApp: true,
+    showMeditationApp: false,
+    showGuestbook: true,
 };
 
 const featureFlagsDataServiceCall = () => {
