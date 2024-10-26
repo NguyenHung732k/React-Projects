@@ -111,7 +111,8 @@ const componentAPI = {
     showURLShortener: false,
     showPostcardCreator: false,
     showMeditationApp: false,
-    showGuestbook: true,
+    showGuestbook: false,
+    showArtPortfolio: true,
 };
 
 const featureFlagsDataServiceCall = () => {

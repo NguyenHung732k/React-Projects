@@ -112,6 +112,7 @@ import URLShortener from '../URL Shortener/frontend/URLShortener'
 import PostcardCreator from '../Postcard Creator/PostcardCreator'
 import MeditationApp from '../Meditation App/MeditationApp'
 import Guestbook from '../Guestbook/Guestbook'
+import ArtPortfolio from '../Art Portfolio/ArtPortfolio'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -689,6 +690,11 @@ const FeatureFlags = () => {
         {
             key: "showGuestbook",
             component: <Guestbook />
+        },
+
+        {
+            key: "showArtPortfolio",
+            component: <ArtPortfolio />
         },
     ]
 
