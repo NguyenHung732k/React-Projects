@@ -113,6 +113,7 @@ import PostcardCreator from '../Postcard Creator/PostcardCreator'
 import MeditationApp from '../Meditation App/MeditationApp'
 import Guestbook from '../Guestbook/Guestbook'
 import ArtPortfolio from '../Art Portfolio/ArtPortfolio'
+import NewsAggregator from '../News Aggregator/NewsAggregator'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -695,6 +696,11 @@ const FeatureFlags = () => {
         {
             key: "showArtPortfolio",
             component: <ArtPortfolio />
+        },
+
+        {
+            key: "showNewsAggregator",
+            component: <NewsAggregator />
         },
     ]
 
