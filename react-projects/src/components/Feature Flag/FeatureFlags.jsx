@@ -114,6 +114,7 @@ import MeditationApp from '../Meditation App/MeditationApp'
 import Guestbook from '../Guestbook/Guestbook'
 import ArtPortfolio from '../Art Portfolio/ArtPortfolio'
 import NewsAggregator from '../News Aggregator/NewsAggregator'
+import SocialDashboard from '../Social Dashboard/SocialDashboard'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -701,6 +702,11 @@ const FeatureFlags = () => {
         {
             key: "showNewsAggregator",
             component: <NewsAggregator />
+        },
+
+        {
+            key: "showSocialDashboard",
+            component: <SocialDashboard />
         },
     ]
 

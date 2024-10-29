@@ -113,7 +113,8 @@ const componentAPI = {
     showMeditationApp: false,
     showGuestbook: false,
     showArtPortfolio: false,
-    showNewsAggregator: true,
+    showNewsAggregator: false,
+    showSocialDashboard: true,
 };
 
 const featureFlagsDataServiceCall = () => {
