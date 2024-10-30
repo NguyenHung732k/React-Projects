@@ -115,6 +115,7 @@ import Guestbook from '../Guestbook/Guestbook'
 import ArtPortfolio from '../Art Portfolio/ArtPortfolio'
 import NewsAggregator from '../News Aggregator/NewsAggregator'
 import SocialDashboard from '../Social Dashboard/SocialDashboard'
+import Crowdfunding from '../Crowdfunding Platform/Crowdfunding'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -707,6 +708,11 @@ const FeatureFlags = () => {
         {
             key: "showSocialDashboard",
             component: <SocialDashboard />
+        },
+
+        {
+            key: "showCrowdfunding",
+            component: <Crowdfunding />
         },
     ]
 

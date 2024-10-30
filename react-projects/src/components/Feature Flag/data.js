@@ -114,7 +114,8 @@ const componentAPI = {
     showGuestbook: false,
     showArtPortfolio: false,
     showNewsAggregator: false,
-    showSocialDashboard: true,
+    showSocialDashboard: false,
+    showCrowdfunding: true,
 };
 
 const featureFlagsDataServiceCall = () => {
