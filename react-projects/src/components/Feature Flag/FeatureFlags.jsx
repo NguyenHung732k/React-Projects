@@ -116,6 +116,7 @@ import ArtPortfolio from '../Art Portfolio/ArtPortfolio'
 import NewsAggregator from '../News Aggregator/NewsAggregator'
 import SocialDashboard from '../Social Dashboard/SocialDashboard'
 import Crowdfunding from '../Crowdfunding Platform/Crowdfunding'
+import ArtCommission from '../Art Commission/ArtCommission'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -713,6 +714,11 @@ const FeatureFlags = () => {
         {
             key: "showCrowdfunding",
             component: <Crowdfunding />
+        },
+
+        {
+            key: "showArtCommission",
+            component: <ArtCommission />
         },
     ]
 
