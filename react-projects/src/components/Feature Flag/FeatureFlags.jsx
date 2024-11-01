@@ -117,6 +117,7 @@ import NewsAggregator from '../News Aggregator/NewsAggregator'
 import SocialDashboard from '../Social Dashboard/SocialDashboard'
 import Crowdfunding from '../Crowdfunding Platform/Crowdfunding'
 import ArtCommission from '../Art Commission/ArtCommission'
+import DigitalScrapbook from '../Digital Scrapbook/DigitalScrapbook'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -719,6 +720,11 @@ const FeatureFlags = () => {
         {
             key: "showArtCommission",
             component: <ArtCommission />
+        },
+
+        {
+            key: "showDigitalScrapbook",
+            component: <DigitalScrapbook />
         },
     ]
 

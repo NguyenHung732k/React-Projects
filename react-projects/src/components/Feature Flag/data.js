@@ -116,7 +116,8 @@ const componentAPI = {
     showNewsAggregator: false,
     showSocialDashboard: false,
     showCrowdfunding: false,
-    showArtCommission: true,
+    showArtCommission: false,
+    showDigitalScrapbook: true,
 };
 
 const featureFlagsDataServiceCall = () => {
