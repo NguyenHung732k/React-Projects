@@ -118,6 +118,7 @@ import SocialDashboard from '../Social Dashboard/SocialDashboard'
 import Crowdfunding from '../Crowdfunding Platform/Crowdfunding'
 import ArtCommission from '../Art Commission/ArtCommission'
 import DigitalScrapbook from '../Digital Scrapbook/DigitalScrapbook'
+import FetchData from '../Loading Indicator/FetchData'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -725,6 +726,11 @@ const FeatureFlags = () => {
         {
             key: "showDigitalScrapbook",
             component: <DigitalScrapbook />
+        },
+
+        {
+            key: "showLoadingIndicator",
+            component: <FetchData />
         },
     ]
 
