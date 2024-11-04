@@ -118,7 +118,8 @@ const componentAPI = {
     showCrowdfunding: false,
     showArtCommission: false,
     showDigitalScrapbook: false,
-    showLoadingIndicator: true,
+    showLoadingIndicator: false,
+    showLanguageTranslator: true,
 };
 
 const featureFlagsDataServiceCall = () => {

@@ -119,6 +119,7 @@ import Crowdfunding from '../Crowdfunding Platform/Crowdfunding'
 import ArtCommission from '../Art Commission/ArtCommission'
 import DigitalScrapbook from '../Digital Scrapbook/DigitalScrapbook'
 import FetchData from '../Loading Indicator/FetchData'
+import Translator from '../Language Translator/Translator'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -731,6 +732,11 @@ const FeatureFlags = () => {
         {
             key: "showLoadingIndicator",
             component: <FetchData />
+        },
+
+        {
+            key: "showLanguageTranslator",
+            component: <Translator />
         },
     ]
 
