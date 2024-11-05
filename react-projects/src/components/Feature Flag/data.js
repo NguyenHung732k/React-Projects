@@ -119,7 +119,8 @@ const componentAPI = {
     showArtCommission: false,
     showDigitalScrapbook: false,
     showLoadingIndicator: false,
-    showLanguageTranslator: true,
+    showLanguageTranslator: false,
+    showVirtualEscapeRoom: true,
 };
 
 const featureFlagsDataServiceCall = () => {
