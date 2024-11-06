@@ -121,6 +121,7 @@ import DigitalScrapbook from '../Digital Scrapbook/DigitalScrapbook'
 import FetchData from '../Loading Indicator/FetchData'
 import Translator from '../Language Translator/Translator'
 import EscapeRoom from '../Virtual Escape Room/EscapeRoom'
+import WordPuzzle from '../Word Puzzle/WordPuzzle'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -743,6 +744,11 @@ const FeatureFlags = () => {
         {
             key: "showVirtualEscapeRoom",
             component: <EscapeRoom />
+        },
+
+        {
+            key: "showWordPuzzle",
+            component: <WordPuzzle />
         },
     ]
 
