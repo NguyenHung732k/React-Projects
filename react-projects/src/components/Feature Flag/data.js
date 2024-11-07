@@ -121,7 +121,8 @@ const componentAPI = {
     showLoadingIndicator: false,
     showLanguageTranslator: false,
     showVirtualEscapeRoom: false,
-    showWordPuzzle: true,
+    showWordPuzzle: false,
+    showGameShowcase: true,
 };
 
 const featureFlagsDataServiceCall = () => {

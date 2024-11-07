@@ -122,6 +122,7 @@ import FetchData from '../Loading Indicator/FetchData'
 import Translator from '../Language Translator/Translator'
 import EscapeRoom from '../Virtual Escape Room/EscapeRoom'
 import WordPuzzle from '../Word Puzzle/WordPuzzle'
+import GameShowcase from '../Game Showcase/GameShowcase'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -749,6 +750,11 @@ const FeatureFlags = () => {
         {
             key: "showWordPuzzle",
             component: <WordPuzzle />
+        },
+
+        {
+            key: "showGameShowcase",
+            component: <GameShowcase />
         },
     ]
 
