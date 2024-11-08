@@ -123,6 +123,7 @@ import Translator from '../Language Translator/Translator'
 import EscapeRoom from '../Virtual Escape Room/EscapeRoom'
 import WordPuzzle from '../Word Puzzle/WordPuzzle'
 import GameShowcase from '../Game Showcase/GameShowcase'
+import FurniturePlanner from '../Furniture Planner/FurniturePlanner'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -755,6 +756,11 @@ const FeatureFlags = () => {
         {
             key: "showGameShowcase",
             component: <GameShowcase />
+        },
+
+        {
+            key: "showFurniturePlanner",
+            component: <FurniturePlanner />
         },
     ]
 
