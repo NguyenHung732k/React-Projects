@@ -124,6 +124,7 @@ import EscapeRoom from '../Virtual Escape Room/EscapeRoom'
 import WordPuzzle from '../Word Puzzle/WordPuzzle'
 import GameShowcase from '../Game Showcase/GameShowcase'
 import FurniturePlanner from '../Furniture Planner/FurniturePlanner'
+import Sidebar from '../Dropdown Sidebar/Sidebar'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -761,6 +762,11 @@ const FeatureFlags = () => {
         {
             key: "showFurniturePlanner",
             component: <FurniturePlanner />
+        },
+
+        {
+            key: "showDropdownSidebar",
+            component: <Sidebar />
         },
     ]
 

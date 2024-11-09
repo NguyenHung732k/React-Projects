@@ -123,7 +123,8 @@ const componentAPI = {
     showVirtualEscapeRoom: false,
     showWordPuzzle: false,
     showGameShowcase: false,
-    showFurniturePlanner: true,
+    showFurniturePlanner: false,
+    showDropdownSidebar: true,
 };
 
 const featureFlagsDataServiceCall = () => {

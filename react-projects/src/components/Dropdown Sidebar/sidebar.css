@@ -1,0 +1,124 @@
+/* Google Fonts Import Link */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+/* Sidebar styles */
+.sidebar {
+  width: 250px;
+  background-color: #333;
+  height: 100vh;
+  padding-top: 20px;
+  position: fixed;
+  transition: transform 0.3s ease-in-out;
+}
+
+.menu-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.menu-item {
+  list-style-type: none;
+}
+
+.menu-link {
+  display: flex;
+  align-items: center;
+  padding: 12px 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  border-bottom: 1px solid #444;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.menu-link:hover {
+  background-color: #555;
+}
+
+.menu-link:active {
+  background-color: #444;
+}
+
+.link-text {
+  text-decoration: none;
+  flex-grow: 1;
+}
+
+.menu-icon {
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+/* Active state styling */
+.menu-item.active .menu-link {
+  background-color: #007bff;
+  color: white;
+}
+
+.menu-item.active .menu-link:hover {
+  background-color: #0056b3;
+}
+
+/* Submenu styles (nested items) */
+.submenu {
+  padding-left: 20px;
+  display: none;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.3s ease-out;
+}
+
+.menu-item:hover .submenu {
+  display: block;
+  max-height: 500px;
+  transition: max-height 0.3s ease-in;
+}
+
+.submenu .menu-link {
+  background-color: #444;
+  padding: 10px 20px;
+}
+
+.submenu .menu-link:hover {
+  background-color: #666;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .sidebar {
+    transform: translateX(-100%);
+  }
+
+  .sidebar.active {
+    transform: translateX(0);
+  }
+
+  .menu-list {
+    padding: 0;
+  }
+
+  .menu-item .menu-link {
+    padding: 10px 15px;
+  }
+
+  .menu-item.active .menu-link {
+    background-color: #007bff;
+    color: white;
+  }
+
+  /* Make the sidebar toggle button appear in mobile view */
+  .menu-toggle {
+    display: block;
+    cursor: pointer;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    font-size: 20px;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+  }
+}
