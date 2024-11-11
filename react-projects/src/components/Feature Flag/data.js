@@ -124,7 +124,8 @@ const componentAPI = {
     showWordPuzzle: false,
     showGameShowcase: false,
     showFurniturePlanner: false,
-    showDropdownSidebar: true,
+    showDropdownSidebar: false,
+    showMoodDiary: true,
 };
 
 const featureFlagsDataServiceCall = () => {

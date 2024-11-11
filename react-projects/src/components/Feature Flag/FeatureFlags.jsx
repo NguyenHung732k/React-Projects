@@ -125,6 +125,7 @@ import WordPuzzle from '../Word Puzzle/WordPuzzle'
 import GameShowcase from '../Game Showcase/GameShowcase'
 import FurniturePlanner from '../Furniture Planner/FurniturePlanner'
 import Sidebar from '../Dropdown Sidebar/Sidebar'
+import MoodDiary from '../Mood Diary/MoodDiary'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -767,6 +768,11 @@ const FeatureFlags = () => {
         {
             key: "showDropdownSidebar",
             component: <Sidebar />
+        },
+
+        {
+            key: "showMoodDiary",
+            component: <MoodDiary />
         },
     ]
 
