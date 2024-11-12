@@ -126,6 +126,7 @@ import GameShowcase from '../Game Showcase/GameShowcase'
 import FurniturePlanner from '../Furniture Planner/FurniturePlanner'
 import Sidebar from '../Dropdown Sidebar/Sidebar'
 import MoodDiary from '../Mood Diary/MoodDiary'
+import VirtualTimeCapsule from '../Virtual Time Capsule/VirtualTimeCapsule'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -773,6 +774,11 @@ const FeatureFlags = () => {
         {
             key: "showMoodDiary",
             component: <MoodDiary />
+        },
+
+        {
+            key: "showVirtualTimeCapsule",
+            component: <VirtualTimeCapsule />
         },
     ]
 
