@@ -127,6 +127,7 @@ import FurniturePlanner from '../Furniture Planner/FurniturePlanner'
 import Sidebar from '../Dropdown Sidebar/Sidebar'
 import MoodDiary from '../Mood Diary/MoodDiary'
 import VirtualTimeCapsule from '../Virtual Time Capsule/VirtualTimeCapsule'
+import PriceComparison from '../Price Comparator/pages/PriceComparison'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -779,6 +780,11 @@ const FeatureFlags = () => {
         {
             key: "showVirtualTimeCapsule",
             component: <VirtualTimeCapsule />
+        },
+
+        {
+            key: "showPriceComparison",
+            component: <PriceComparison />
         },
     ]
 
