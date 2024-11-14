@@ -127,7 +127,8 @@ const componentAPI = {
     showDropdownSidebar: false,
     showMoodDiary: false,
     showVirtualTimeCapsule: false,
-    showPriceComparison: true,
+    showPriceComparison: false,
+    showVirtualCalendar: true,
 };
 
 const featureFlagsDataServiceCall = () => {
