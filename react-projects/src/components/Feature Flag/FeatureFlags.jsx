@@ -129,6 +129,7 @@ import MoodDiary from '../Mood Diary/MoodDiary'
 import VirtualTimeCapsule from '../Virtual Time Capsule/VirtualTimeCapsule'
 import PriceComparison from '../Price Comparator/pages/PriceComparison'
 import VirtualCalendar from '../Virtual Calendar/VirtualCalendar'
+import Gradebook from '../Gradebook/Gradebook'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -791,6 +792,11 @@ const FeatureFlags = () => {
         {
             key: "showVirtualCalendar",
             component: <VirtualCalendar />
+        },
+
+        {
+            key: "showGradebook",
+            component: <Gradebook />
         },
     ]
 
