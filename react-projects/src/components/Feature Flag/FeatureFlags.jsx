@@ -130,6 +130,7 @@ import VirtualTimeCapsule from '../Virtual Time Capsule/VirtualTimeCapsule'
 import PriceComparison from '../Price Comparator/pages/PriceComparison'
 import VirtualCalendar from '../Virtual Calendar/VirtualCalendar'
 import Gradebook from '../Gradebook/Gradebook'
+import InteractiveMap from '../Interactive Map/InteractiveMap'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -797,6 +798,11 @@ const FeatureFlags = () => {
         {
             key: "showGradebook",
             component: <Gradebook />
+        },
+
+        {
+            key: "showInteractiveMap",
+            component: <InteractiveMap />
         },
     ]
 

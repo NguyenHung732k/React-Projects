@@ -129,7 +129,8 @@ const componentAPI = {
     showVirtualTimeCapsule: false,
     showPriceComparison: false,
     showVirtualCalendar: false,
-    showGradebook: true,
+    showGradebook: false,
+    showInteractiveMap: true,
 };
 
 const featureFlagsDataServiceCall = () => {

@@ -1,7 +1,7 @@
 import React, { useState, useCallback } from 'react'
 import { GoogleMap, LoadScript, Marker, InfoWindow } from '@react-google-maps/api'
 
-const GOOGLE_MAPS_API_KEY = 'AIzaSyCJcoUaaWVsFhN2LhtmEOVAxqW-_h37xS8'
+const GOOGLE_MAPS_API_KEY = 'GOOGLE_MAPS_API_KEY'
 
 const defaultCenter = { lat: 37.7749, lng: -122.4194 }
 
