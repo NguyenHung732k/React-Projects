@@ -131,6 +131,7 @@ import PriceComparison from '../Price Comparator/pages/PriceComparison'
 import VirtualCalendar from '../Virtual Calendar/VirtualCalendar'
 import Gradebook from '../Gradebook/Gradebook'
 import InteractiveMap from '../Interactive Map/InteractiveMap'
+import Viewer from '../3D Viewer/Viewer'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -803,6 +804,11 @@ const FeatureFlags = () => {
         {
             key: "showInteractiveMap",
             component: <InteractiveMap />
+        },
+
+        {
+            key: "show3DViewer",
+            component: <Viewer />
         },
     ]
 
