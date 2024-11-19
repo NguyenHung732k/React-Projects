@@ -131,7 +131,8 @@ const componentAPI = {
     showVirtualCalendar: false,
     showGradebook: false,
     showInteractiveMap: false,
-    show3DViewer: true,
+    show3DViewer: false,
+    showMemoryGame: true,
 };
 
 const featureFlagsDataServiceCall = () => {

@@ -132,6 +132,7 @@ import VirtualCalendar from '../Virtual Calendar/VirtualCalendar'
 import Gradebook from '../Gradebook/Gradebook'
 import InteractiveMap from '../Interactive Map/InteractiveMap'
 import Viewer from '../3D Viewer/Viewer'
+import MemoryGame from '../Memory Game/MemoryGame'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -809,6 +810,11 @@ const FeatureFlags = () => {
         {
             key: "show3DViewer",
             component: <Viewer />
+        },
+
+        {
+            key: "showMemoryGame",
+            component: <MemoryGame />
         },
     ]
 
