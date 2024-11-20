@@ -133,6 +133,7 @@ import Gradebook from '../Gradebook/Gradebook'
 import InteractiveMap from '../Interactive Map/InteractiveMap'
 import Viewer from '../3D Viewer/Viewer'
 import MemoryGame from '../Memory Game/MemoryGame'
+import PollingApp from '../Polling App/PollingApp'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -815,6 +816,11 @@ const FeatureFlags = () => {
         {
             key: "showMemoryGame",
             component: <MemoryGame />
+        },
+
+        {
+            key: "showPollingApp",
+            component: <PollingApp />
         },
     ]
 

@@ -132,7 +132,8 @@ const componentAPI = {
     showGradebook: false,
     showInteractiveMap: false,
     show3DViewer: false,
-    showMemoryGame: true,
+    showMemoryGame: false,
+    showPollingApp: true,
 };
 
 const featureFlagsDataServiceCall = () => {
