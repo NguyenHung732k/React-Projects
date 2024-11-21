@@ -134,6 +134,7 @@ import InteractiveMap from '../Interactive Map/InteractiveMap'
 import Viewer from '../3D Viewer/Viewer'
 import MemoryGame from '../Memory Game/MemoryGame'
 import PollingApp from '../Polling App/PollingApp'
+import BillSplitter from '../Bill Splitter/BillSplitter'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -821,6 +822,11 @@ const FeatureFlags = () => {
         {
             key: "showPollingApp",
             component: <PollingApp />
+        },
+
+        {
+            key: "showBillSplitter",
+            component: <BillSplitter />
         },
     ]
 
