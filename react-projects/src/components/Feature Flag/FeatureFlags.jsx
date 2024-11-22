@@ -135,6 +135,7 @@ import Viewer from '../3D Viewer/Viewer'
 import MemoryGame from '../Memory Game/MemoryGame'
 import PollingApp from '../Polling App/PollingApp'
 import BillSplitter from '../Bill Splitter/BillSplitter'
+import PersonalDashboard from '../Personal Dashboard/PersonalDashboard'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -827,6 +828,11 @@ const FeatureFlags = () => {
         {
             key: "showBillSplitter",
             component: <BillSplitter />
+        },
+
+        {
+            key: "showPersonalDashboard",
+            component: <PersonalDashboard />
         },
     ]
 

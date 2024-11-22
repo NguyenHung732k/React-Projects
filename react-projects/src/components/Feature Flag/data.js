@@ -134,7 +134,8 @@ const componentAPI = {
     show3DViewer: false,
     showMemoryGame: false,
     showPollingApp: false,
-    showBillSplitter: true,
+    showBillSplitter: false,
+    showPersonalDashboard: true,
 };
 
 const featureFlagsDataServiceCall = () => {
