@@ -137,6 +137,7 @@ import PollingApp from '../Polling App/PollingApp'
 import BillSplitter from '../Bill Splitter/BillSplitter'
 import PersonalDashboard from '../Personal Dashboard/PersonalDashboard'
 import SimpleBlockchain from '../Simple Blockchain Explorer/SimpleBlockchain'
+import GreetingCard from '../Greeting Card/GreetingCard'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -839,6 +840,11 @@ const FeatureFlags = () => {
         {
             key: "showSimpleBlockchain",
             component: <SimpleBlockchain />
+        },
+
+        {
+            key: "showGreetingCard",
+            component: <GreetingCard />
         },
     ]
 

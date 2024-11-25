@@ -136,7 +136,8 @@ const componentAPI = {
     showPollingApp: false,
     showBillSplitter: false,
     showPersonalDashboard: false,
-    showSimpleBlockchain: true,
+    showSimpleBlockchain: false,
+    showGreetingCard: true,
 };
 
 const featureFlagsDataServiceCall = () => {
