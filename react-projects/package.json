@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@ffmpeg/ffmpeg": "^0.12.10",
+    "@ffmpeg/util": "^0.12.1",
     "@hookform/devtools": "^4.3.1",
     "@hookform/resolvers": "^3.9.0",
     "@mui/icons-material": "^6.0.2",

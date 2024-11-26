@@ -138,6 +138,7 @@ import BillSplitter from '../Bill Splitter/BillSplitter'
 import PersonalDashboard from '../Personal Dashboard/PersonalDashboard'
 import SimpleBlockchain from '../Simple Blockchain Explorer/SimpleBlockchain'
 import GreetingCard from '../Greeting Card/GreetingCard'
+import TimelapseMaker from '../Timelapse Maker/TimelapseMaker'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -845,6 +846,11 @@ const FeatureFlags = () => {
         {
             key: "showGreetingCard",
             component: <GreetingCard />
+        },
+
+        {
+            key: "showTimelapseMaker",
+            component: <TimelapseMaker />
         },
     ]
 
