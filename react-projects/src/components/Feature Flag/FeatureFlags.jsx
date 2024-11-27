@@ -139,6 +139,7 @@ import PersonalDashboard from '../Personal Dashboard/PersonalDashboard'
 import SimpleBlockchain from '../Simple Blockchain Explorer/SimpleBlockchain'
 import GreetingCard from '../Greeting Card/GreetingCard'
 import TimelapseMaker from '../Timelapse Maker/TimelapseMaker'
+import MemoryPalaceGame from '../Memory Palace Game/MemoryPalaceGame'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -851,6 +852,11 @@ const FeatureFlags = () => {
         {
             key: "showTimelapseMaker",
             component: <TimelapseMaker />
+        },
+
+        {
+            key: "showMemoryPalaceGame",
+            component: <MemoryPalaceGame />
         },
     ]
 
