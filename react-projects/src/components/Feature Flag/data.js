@@ -139,7 +139,8 @@ const componentAPI = {
     showSimpleBlockchain: false,
     showGreetingCard: false,
     showTimelapseMaker: false,
-    showMemoryPalaceGame: true,
+    showMemoryPalaceGame: false,
+    showGIFSearch: true,
 };
 
 const featureFlagsDataServiceCall = () => {

@@ -140,6 +140,7 @@ import SimpleBlockchain from '../Simple Blockchain Explorer/SimpleBlockchain'
 import GreetingCard from '../Greeting Card/GreetingCard'
 import TimelapseMaker from '../Timelapse Maker/TimelapseMaker'
 import MemoryPalaceGame from '../Memory Palace Game/MemoryPalaceGame'
+import GIFSearch from '../GIF Search/GIFSearch'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -857,6 +858,11 @@ const FeatureFlags = () => {
         {
             key: "showMemoryPalaceGame",
             component: <MemoryPalaceGame />
+        },
+
+        {
+            key: "showGIFSearch",
+            component: <GIFSearch />
         },
     ]
 
