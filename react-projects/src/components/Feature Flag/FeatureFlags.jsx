@@ -141,6 +141,7 @@ import GreetingCard from '../Greeting Card/GreetingCard'
 import TimelapseMaker from '../Timelapse Maker/TimelapseMaker'
 import MemoryPalaceGame from '../Memory Palace Game/MemoryPalaceGame'
 import GIFSearch from '../GIF Search/GIFSearch'
+import Flashlight from '../Flashlight/FlashLight'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -863,6 +864,11 @@ const FeatureFlags = () => {
         {
             key: "showGIFSearch",
             component: <GIFSearch />
+        },
+
+        {
+            key: "showFlashlight",
+            component: <Flashlight />
         },
     ]
 

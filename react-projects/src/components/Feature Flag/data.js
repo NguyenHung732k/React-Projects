@@ -140,7 +140,8 @@ const componentAPI = {
     showGreetingCard: false,
     showTimelapseMaker: false,
     showMemoryPalaceGame: false,
-    showGIFSearch: true,
+    showGIFSearch: false,
+    showFlashlight: true,
 };
 
 const featureFlagsDataServiceCall = () => {
