@@ -141,7 +141,8 @@ const componentAPI = {
     showTimelapseMaker: false,
     showMemoryPalaceGame: false,
     showGIFSearch: false,
-    showFlashlight: true,
+    showFlashlight: false,
+    showFlashSaleTimer: true,
 };
 
 const featureFlagsDataServiceCall = () => {

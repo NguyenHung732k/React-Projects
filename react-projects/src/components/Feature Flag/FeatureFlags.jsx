@@ -142,6 +142,7 @@ import TimelapseMaker from '../Timelapse Maker/TimelapseMaker'
 import MemoryPalaceGame from '../Memory Palace Game/MemoryPalaceGame'
 import GIFSearch from '../GIF Search/GIFSearch'
 import Flashlight from '../Flashlight/FlashLight'
+import FlashSaleTimer from '../Flash Sale Timer/FlashSaleTimer'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -869,6 +870,11 @@ const FeatureFlags = () => {
         {
             key: "showFlashlight",
             component: <Flashlight />
+        },
+
+        {
+            key: "showFlashSaleTimer",
+            component: <FlashSaleTimer />
         },
     ]
 
