@@ -142,7 +142,8 @@ const componentAPI = {
     showMemoryPalaceGame: false,
     showGIFSearch: false,
     showFlashlight: false,
-    showFlashSaleTimer: true,
+    showFlashSaleTimer: false,
+    showPeriodicTable: true,
 };
 
 const featureFlagsDataServiceCall = () => {

@@ -143,6 +143,7 @@ import MemoryPalaceGame from '../Memory Palace Game/MemoryPalaceGame'
 import GIFSearch from '../GIF Search/GIFSearch'
 import Flashlight from '../Flashlight/FlashLight'
 import FlashSaleTimer from '../Flash Sale Timer/FlashSaleTimer'
+import PeriodicTable from '../Periodic Table/PeriodicTable'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -875,6 +876,11 @@ const FeatureFlags = () => {
         {
             key: "showFlashSaleTimer",
             component: <FlashSaleTimer />
+        },
+
+        {
+            key: "showPeriodicTable",
+            component: <PeriodicTable />
         },
     ]
 
