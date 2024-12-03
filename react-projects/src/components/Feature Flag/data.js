@@ -143,7 +143,8 @@ const componentAPI = {
     showGIFSearch: false,
     showFlashlight: false,
     showFlashSaleTimer: false,
-    showPeriodicTable: true,
+    showPeriodicTable: false,
+    showVirtualTCG: true,
 };
 
 const featureFlagsDataServiceCall = () => {

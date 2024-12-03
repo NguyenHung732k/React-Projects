@@ -144,6 +144,7 @@ import GIFSearch from '../GIF Search/GIFSearch'
 import Flashlight from '../Flashlight/FlashLight'
 import FlashSaleTimer from '../Flash Sale Timer/FlashSaleTimer'
 import PeriodicTable from '../Periodic Table/PeriodicTable'
+import VirtualTCG from '../Virtual TCG/VirtualTCG'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -881,6 +882,11 @@ const FeatureFlags = () => {
         {
             key: "showPeriodicTable",
             component: <PeriodicTable />
+        },
+
+        {
+            key: "showVirtualTCG",
+            component: <VirtualTCG />
         },
     ]
 

@@ -1,0 +1,58 @@
+export const sampleCards = [
+    {
+        id: 1,
+        name: "Fire Dragon",
+        attack: 8,
+        defense: 6,
+        image: "https://via.placeholder.com/150?text=Fire+Dragon",
+    },
+    {
+        id: 2,
+        name: "Water Leviathan",
+        attack: 6,
+        defense: 9,
+        image: "https://via.placeholder.com/150?text=Water+Leviathan",
+    },
+    {
+        id: 3,
+        name: "Earth Golem",
+        attack: 7,
+        defense: 7,
+        image: "https://via.placeholder.com/150?text=Earth+Golem",
+    },
+    {
+        id: 4,
+        name: "Wind Sprite",
+        attack: 4,
+        defense: 5,
+        image: "https://via.placeholder.com/150?text=Wind+Sprite",
+    },
+    {
+        id: 5,
+        name: "Thunder Phoenix",
+        attack: 9,
+        defense: 4,
+        image: "https://via.placeholder.com/150?text=Thunder+Phoenix",
+    },
+    {
+        id: 6,
+        name: "Light Guardian",
+        attack: 5,
+        defense: 8,
+        image: "https://via.placeholder.com/150?text=Light+Guardian",
+    },
+    {
+        id: 7,
+        name: "Dark Assassin",
+        attack: 6,
+        defense: 7,
+        image: "https://via.placeholder.com/150?text=Dark+Assassin",
+    },
+    {
+        id: 8,
+        name: "Nature Spirit",
+        attack: 4,
+        defense: 8,
+        image: "https://via.placeholder.com/150?text=Nature+Spirit",
+    },
+];
