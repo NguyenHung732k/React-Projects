@@ -145,6 +145,7 @@ import Flashlight from '../Flashlight/FlashLight'
 import FlashSaleTimer from '../Flash Sale Timer/FlashSaleTimer'
 import PeriodicTable from '../Periodic Table/PeriodicTable'
 import VirtualTCG from '../Virtual TCG/VirtualTCG'
+import BusinessCard from '../Business Card/BusinessCard'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -887,6 +888,11 @@ const FeatureFlags = () => {
         {
             key: "showVirtualTCG",
             component: <VirtualTCG />
+        },
+
+        {
+            key: "showBusinessCard",
+            component: <BusinessCard />
         },
     ]
 
