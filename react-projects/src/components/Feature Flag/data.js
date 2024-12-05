@@ -145,7 +145,8 @@ const componentAPI = {
     showFlashSaleTimer: false,
     showPeriodicTable: false,
     showVirtualTCG: false,
-    showBusinessCard: true,
+    showBusinessCard: false,
+    showRandomName: true,
 };
 
 const featureFlagsDataServiceCall = () => {

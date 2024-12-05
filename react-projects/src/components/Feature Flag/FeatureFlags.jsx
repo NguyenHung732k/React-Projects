@@ -146,6 +146,7 @@ import FlashSaleTimer from '../Flash Sale Timer/FlashSaleTimer'
 import PeriodicTable from '../Periodic Table/PeriodicTable'
 import VirtualTCG from '../Virtual TCG/VirtualTCG'
 import BusinessCard from '../Business Card/BusinessCard'
+import RandomName from '../Random Name/RandomName'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -893,6 +894,11 @@ const FeatureFlags = () => {
         {
             key: "showBusinessCard",
             component: <BusinessCard />
+        },
+
+        {
+            key: "showRandomName",
+            component: <RandomName />
         },
     ]
 
