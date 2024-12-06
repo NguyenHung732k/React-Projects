@@ -147,6 +147,7 @@ import PeriodicTable from '../Periodic Table/PeriodicTable'
 import VirtualTCG from '../Virtual TCG/VirtualTCG'
 import BusinessCard from '../Business Card/BusinessCard'
 import RandomName from '../Random Name/RandomName'
+import CarRental from '../Car Rental/CarRental'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -899,6 +900,11 @@ const FeatureFlags = () => {
         {
             key: "showRandomName",
             component: <RandomName />
+        },
+
+        {
+            key: "showCarRental",
+            component: <CarRental />
         },
     ]
 
