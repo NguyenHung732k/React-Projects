@@ -148,6 +148,7 @@ import VirtualTCG from '../Virtual TCG/VirtualTCG'
 import BusinessCard from '../Business Card/BusinessCard'
 import RandomName from '../Random Name/RandomName'
 import CarRental from '../Car Rental/CarRental'
+import LiveSportScoreboard from '../Live Sport Scoreboard/LiveSportScoreboard'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -905,6 +906,11 @@ const FeatureFlags = () => {
         {
             key: "showCarRental",
             component: <CarRental />
+        },
+
+        {
+            key: "showLiveSportScoreboard",
+            component: <LiveSportScoreboard />
         },
     ]
 

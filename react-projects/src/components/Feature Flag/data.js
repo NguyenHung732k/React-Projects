@@ -147,7 +147,8 @@ const componentAPI = {
     showVirtualTCG: false,
     showBusinessCard: false,
     showRandomName: false,
-    showCarRental: true,
+    showCarRental: false,
+    showLiveSportScoreboard: true,
 };
 
 const featureFlagsDataServiceCall = () => {
