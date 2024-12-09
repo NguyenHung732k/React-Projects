@@ -148,7 +148,8 @@ const componentAPI = {
     showBusinessCard: false,
     showRandomName: false,
     showCarRental: false,
-    showLiveSportScoreboard: true,
+    showLiveSportScoreboard: false,
+    showMovieTicketBooking: true,
 };
 
 const featureFlagsDataServiceCall = () => {
