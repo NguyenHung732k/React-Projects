@@ -150,6 +150,7 @@ import RandomName from '../Random Name/RandomName'
 import CarRental from '../Car Rental/CarRental'
 import LiveSportScoreboard from '../Live Sport Scoreboard/LiveSportScoreboard'
 import MovieTicketBooking from '../Movie Ticket Booking/MovieTicketBooking'
+import CurrencyNotifier from '../Currency Notifier/CurrencyNotifier'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -917,6 +918,11 @@ const FeatureFlags = () => {
         {
             key: "showMovieTicketBooking",
             component: <MovieTicketBooking />
+        },
+
+        {
+            key: "showCurrencyNotifier",
+            component: <CurrencyNotifier />
         },
     ]
 

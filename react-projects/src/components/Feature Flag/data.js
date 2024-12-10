@@ -149,7 +149,8 @@ const componentAPI = {
     showRandomName: false,
     showCarRental: false,
     showLiveSportScoreboard: false,
-    showMovieTicketBooking: true,
+    showMovieTicketBooking: false,
+    showCurrencyNotifier: true,
 };
 
 const featureFlagsDataServiceCall = () => {
