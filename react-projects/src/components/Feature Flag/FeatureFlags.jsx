@@ -151,6 +151,7 @@ import CarRental from '../Car Rental/CarRental'
 import LiveSportScoreboard from '../Live Sport Scoreboard/LiveSportScoreboard'
 import MovieTicketBooking from '../Movie Ticket Booking/MovieTicketBooking'
 import CurrencyNotifier from '../Currency Notifier/CurrencyNotifier'
+import VirtualEvent from '../Virtual Event Platform/VirtualEvent'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -923,6 +924,11 @@ const FeatureFlags = () => {
         {
             key: "showCurrencyNotifier",
             component: <CurrencyNotifier />
+        },
+
+        {
+            key: "showVirtualEvent",
+            component: <VirtualEvent />
         },
     ]
 

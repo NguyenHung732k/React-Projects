@@ -150,7 +150,8 @@ const componentAPI = {
     showCarRental: false,
     showLiveSportScoreboard: false,
     showMovieTicketBooking: false,
-    showCurrencyNotifier: true,
+    showCurrencyNotifier: false,
+    showVirtualEvent: true,
 };
 
 const featureFlagsDataServiceCall = () => {
