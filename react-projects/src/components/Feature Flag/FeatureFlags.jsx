@@ -152,6 +152,7 @@ import LiveSportScoreboard from '../Live Sport Scoreboard/LiveSportScoreboard'
 import MovieTicketBooking from '../Movie Ticket Booking/MovieTicketBooking'
 import CurrencyNotifier from '../Currency Notifier/CurrencyNotifier'
 import VirtualEvent from '../Virtual Event Platform/VirtualEvent'
+import StockTrading from '../Stock Trading Game/StockTrading'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -929,6 +930,11 @@ const FeatureFlags = () => {
         {
             key: "showVirtualEvent",
             component: <VirtualEvent />
+        },
+
+        {
+            key: "showStockTrading",
+            component: <StockTrading />
         },
     ]
 
