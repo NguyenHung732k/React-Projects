@@ -153,7 +153,8 @@ const componentAPI = {
     showCurrencyNotifier: false,
     showVirtualEvent: false,
     showStockTrading: false,
-    showVideoStreaming: true,
+    showVideoStreaming: false,
+    showDocumentScanner: true,
 };
 
 const featureFlagsDataServiceCall = () => {

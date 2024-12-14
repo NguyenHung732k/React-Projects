@@ -154,6 +154,7 @@ import CurrencyNotifier from '../Currency Notifier/CurrencyNotifier'
 import VirtualEvent from '../Virtual Event Platform/VirtualEvent'
 import StockTrading from '../Stock Trading Game/StockTrading'
 import VideoStreaming from '../Video Streaming Platform/VideoStreaming'
+import DocumentScanner from '../Document Scanner/DocumentScanner'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -941,6 +942,11 @@ const FeatureFlags = () => {
         {
             key: "showVideoStreaming",
             component: <VideoStreaming />
+        },
+
+        {
+            key: "showDocumentScanner",
+            component: <DocumentScanner />
         },
     ]
 
