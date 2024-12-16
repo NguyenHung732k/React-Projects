@@ -154,7 +154,8 @@ const componentAPI = {
     showVirtualEvent: false,
     showStockTrading: false,
     showVideoStreaming: false,
-    showDocumentScanner: true,
+    showDocumentScanner: false,
+    showSudokuSolver: true,
 };
 
 const featureFlagsDataServiceCall = () => {
