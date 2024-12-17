@@ -156,6 +156,7 @@ import StockTrading from '../Stock Trading Game/StockTrading'
 import VideoStreaming from '../Video Streaming Platform/VideoStreaming'
 import DocumentScanner from '../Document Scanner/DocumentScanner'
 import SudokuSolver from '../Sudoku Solver/SudokuSolver'
+import PublicTransit from '../Public Transit App/PublicTransit'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -953,6 +954,11 @@ const FeatureFlags = () => {
         {
             key: "showSudokuSolver",
             component: <SudokuSolver />
+        },
+
+        {
+            key: "showPublicTransit",
+            component: <PublicTransit /> 
         },
     ]
 
