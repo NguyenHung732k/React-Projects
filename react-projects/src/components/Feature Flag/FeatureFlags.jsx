@@ -157,6 +157,7 @@ import VideoStreaming from '../Video Streaming Platform/VideoStreaming'
 import DocumentScanner from '../Document Scanner/DocumentScanner'
 import SudokuSolver from '../Sudoku Solver/SudokuSolver'
 import PublicTransit from '../Public Transit App/PublicTransit'
+import InteractiveScienceLab from '../Interactive Science Lab/InteractiveScienceLab'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -959,6 +960,11 @@ const FeatureFlags = () => {
         {
             key: "showPublicTransit",
             component: <PublicTransit /> 
+        },
+
+        {
+            key: "showInteractiveScienceLab",
+            component: <InteractiveScienceLab /> 
         },
     ]
 

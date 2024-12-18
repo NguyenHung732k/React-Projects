@@ -156,7 +156,8 @@ const componentAPI = {
     showVideoStreaming: false,
     showDocumentScanner: false,
     showSudokuSolver: false,
-    showPublicTransit: true,
+    showPublicTransit: false,
+    showInteractiveScienceLab: true,
 };
 
 const featureFlagsDataServiceCall = () => {
