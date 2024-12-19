@@ -158,6 +158,7 @@ import DocumentScanner from '../Document Scanner/DocumentScanner'
 import SudokuSolver from '../Sudoku Solver/SudokuSolver'
 import PublicTransit from '../Public Transit App/PublicTransit'
 import InteractiveScienceLab from '../Interactive Science Lab/InteractiveScienceLab'
+import WildlifeIdentifier from '../Wildlife Identifier/WildlifeIdentifier'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -965,6 +966,11 @@ const FeatureFlags = () => {
         {
             key: "showInteractiveScienceLab",
             component: <InteractiveScienceLab /> 
+        },
+
+        {
+            key: "showWildlifeIdentifier",
+            component: <WildlifeIdentifier /> 
         },
     ]
 
