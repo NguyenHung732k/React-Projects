@@ -159,6 +159,7 @@ import SudokuSolver from '../Sudoku Solver/SudokuSolver'
 import PublicTransit from '../Public Transit App/PublicTransit'
 import InteractiveScienceLab from '../Interactive Science Lab/InteractiveScienceLab'
 import WildlifeIdentifier from '../Wildlife Identifier/WildlifeIdentifier'
+import GeographyQuiz from '../Geography Quiz/GeographyQuiz'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -971,6 +972,11 @@ const FeatureFlags = () => {
         {
             key: "showWildlifeIdentifier",
             component: <WildlifeIdentifier /> 
+        },
+
+        {
+            key: "showGeographyQuiz",
+            component: <GeographyQuiz /> 
         },
     ]
 

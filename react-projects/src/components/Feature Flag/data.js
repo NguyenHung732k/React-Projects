@@ -158,7 +158,8 @@ const componentAPI = {
     showSudokuSolver: false,
     showPublicTransit: false,
     showInteractiveScienceLab: false,
-    showWildlifeIdentifier: true,
+    showWildlifeIdentifier: false,
+    showGeographyQuiz: true,
 };
 
 const featureFlagsDataServiceCall = () => {
