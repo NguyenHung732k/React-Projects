@@ -160,6 +160,7 @@ import PublicTransit from '../Public Transit App/PublicTransit'
 import InteractiveScienceLab from '../Interactive Science Lab/InteractiveScienceLab'
 import WildlifeIdentifier from '../Wildlife Identifier/WildlifeIdentifier'
 import GeographyQuiz from '../Geography Quiz/GeographyQuiz'
+import PlaylistGenerator from '../Mood Playlist Generator/PlaylistGenerator'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -977,6 +978,11 @@ const FeatureFlags = () => {
         {
             key: "showGeographyQuiz",
             component: <GeographyQuiz /> 
+        },
+
+        {
+            key: "showPlaylistGenerator",
+            component: <PlaylistGenerator /> 
         },
     ]
 
