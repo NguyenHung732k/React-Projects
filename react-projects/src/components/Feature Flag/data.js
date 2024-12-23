@@ -160,7 +160,8 @@ const componentAPI = {
     showInteractiveScienceLab: false,
     showWildlifeIdentifier: false,
     showGeographyQuiz: false,
-    showPlaylistGenerator: true,
+    showPlaylistGenerator: false,
+    showInventoryTracker: true,
 };
 
 const featureFlagsDataServiceCall = () => {

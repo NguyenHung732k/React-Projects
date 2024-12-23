@@ -161,6 +161,7 @@ import InteractiveScienceLab from '../Interactive Science Lab/InteractiveScience
 import WildlifeIdentifier from '../Wildlife Identifier/WildlifeIdentifier'
 import GeographyQuiz from '../Geography Quiz/GeographyQuiz'
 import PlaylistGenerator from '../Mood Playlist Generator/PlaylistGenerator'
+import InventoryTracker from '../Home Inventory Tracker/InventoryTracker'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -983,6 +984,11 @@ const FeatureFlags = () => {
         {
             key: "showPlaylistGenerator",
             component: <PlaylistGenerator /> 
+        },
+
+        {
+            key: "showInventoryTracker",
+            component: <InventoryTracker /> 
         },
     ]
 
