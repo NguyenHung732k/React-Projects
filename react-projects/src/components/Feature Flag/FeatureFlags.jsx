@@ -162,6 +162,7 @@ import WildlifeIdentifier from '../Wildlife Identifier/WildlifeIdentifier'
 import GeographyQuiz from '../Geography Quiz/GeographyQuiz'
 import PlaylistGenerator from '../Mood Playlist Generator/PlaylistGenerator'
 import InventoryTracker from '../Home Inventory Tracker/InventoryTracker'
+import HabitTrackerGame from '../Habit Tracker Game/HabitTrackerGame'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -989,6 +990,11 @@ const FeatureFlags = () => {
         {
             key: "showInventoryTracker",
             component: <InventoryTracker /> 
+        },
+
+        {
+            key: "showHabitTrackerGame",
+            component: <HabitTrackerGame /> 
         },
     ]
 

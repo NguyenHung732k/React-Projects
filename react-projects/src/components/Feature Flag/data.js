@@ -161,7 +161,8 @@ const componentAPI = {
     showWildlifeIdentifier: false,
     showGeographyQuiz: false,
     showPlaylistGenerator: false,
-    showInventoryTracker: true,
+    showInventoryTracker: false,
+    showHabitTrackerGame: true,
 };
 
 const featureFlagsDataServiceCall = () => {
