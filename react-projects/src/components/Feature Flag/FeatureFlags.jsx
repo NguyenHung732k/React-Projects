@@ -163,6 +163,7 @@ import GeographyQuiz from '../Geography Quiz/GeographyQuiz'
 import PlaylistGenerator from '../Mood Playlist Generator/PlaylistGenerator'
 import InventoryTracker from '../Home Inventory Tracker/InventoryTracker'
 import HabitTrackerGame from '../Habit Tracker Game/HabitTrackerGame'
+import SmartHomeController from '../Smart Home Controller/SmartHomeController'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -995,6 +996,11 @@ const FeatureFlags = () => {
         {
             key: "showHabitTrackerGame",
             component: <HabitTrackerGame /> 
+        },
+
+        {
+            key: "showSmartHomeController",
+            component: <SmartHomeController /> 
         },
     ]
 

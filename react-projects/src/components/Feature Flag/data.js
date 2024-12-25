@@ -162,7 +162,8 @@ const componentAPI = {
     showGeographyQuiz: false,
     showPlaylistGenerator: false,
     showInventoryTracker: false,
-    showHabitTrackerGame: true,
+    showHabitTrackerGame: false,
+    showSmartHomeController: true,
 };
 
 const featureFlagsDataServiceCall = () => {
