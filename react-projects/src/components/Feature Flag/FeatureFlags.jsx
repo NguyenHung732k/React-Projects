@@ -164,6 +164,7 @@ import PlaylistGenerator from '../Mood Playlist Generator/PlaylistGenerator'
 import InventoryTracker from '../Home Inventory Tracker/InventoryTracker'
 import HabitTrackerGame from '../Habit Tracker Game/HabitTrackerGame'
 import SmartHomeController from '../Smart Home Controller/SmartHomeController'
+import WeddingPlanner from '../Wedding Planner/WeddingPlanner'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -1001,6 +1002,11 @@ const FeatureFlags = () => {
         {
             key: "showSmartHomeController",
             component: <SmartHomeController /> 
+        },
+
+        {
+            key: "showWeddingPlanner",
+            component: <WeddingPlanner /> 
         },
     ]
 
