@@ -164,7 +164,8 @@ const componentAPI = {
     showInventoryTracker: false,
     showHabitTrackerGame: false,
     showSmartHomeController: false,
-    showWeddingPlanner: true,
+    showWeddingPlanner: false,
+    showMindMapCreator: true,
 };
 
 const featureFlagsDataServiceCall = () => {
