@@ -166,6 +166,7 @@ import HabitTrackerGame from '../Habit Tracker Game/HabitTrackerGame'
 import SmartHomeController from '../Smart Home Controller/SmartHomeController'
 import WeddingPlanner from '../Wedding Planner/WeddingPlanner'
 import MindMapCreator from '../Mind Map Creator/MindMapCreator'
+import DigitalMuseum from '../Digital Museum/DigitalMuseum'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -1013,6 +1014,11 @@ const FeatureFlags = () => {
         {
             key: "showMindMapCreator",
             component: <MindMapCreator /> 
+        },
+
+        {
+            key: "showDigitalMuseum",
+            component: <DigitalMuseum /> 
         },
     ]
 
