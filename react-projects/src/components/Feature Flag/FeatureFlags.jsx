@@ -167,6 +167,7 @@ import SmartHomeController from '../Smart Home Controller/SmartHomeController'
 import WeddingPlanner from '../Wedding Planner/WeddingPlanner'
 import MindMapCreator from '../Mind Map Creator/MindMapCreator'
 import DigitalMuseum from '../Digital Museum/DigitalMuseum'
+import LyricsFinder from '../Lyrics Finder/LyricsFinder'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -1019,6 +1020,11 @@ const FeatureFlags = () => {
         {
             key: "showDigitalMuseum",
             component: <DigitalMuseum /> 
+        },
+
+        {
+            key: "showLyricsFinder",
+            component: <LyricsFinder /> 
         },
     ]
 
