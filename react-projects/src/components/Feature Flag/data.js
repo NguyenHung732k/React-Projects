@@ -167,7 +167,8 @@ const componentAPI = {
     showWeddingPlanner: false,
     showMindMapCreator: false,
     showDigitalMuseum: false,
-    showLyricsFinder: true,
+    showLyricsFinder: false,
+    showVirtualKeyboard: true,
 };
 
 const featureFlagsDataServiceCall = () => {

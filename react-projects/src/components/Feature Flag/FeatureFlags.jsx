@@ -168,6 +168,7 @@ import WeddingPlanner from '../Wedding Planner/WeddingPlanner'
 import MindMapCreator from '../Mind Map Creator/MindMapCreator'
 import DigitalMuseum from '../Digital Museum/DigitalMuseum'
 import LyricsFinder from '../Lyrics Finder/LyricsFinder'
+import VirtualKeyboard from '../Virtual Keyboard/VirtualKeyboard'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -1025,6 +1026,11 @@ const FeatureFlags = () => {
         {
             key: "showLyricsFinder",
             component: <LyricsFinder /> 
+        },
+
+        {
+            key: "showVirtualKeyboard",
+            component: <VirtualKeyboard /> 
         },
     ]
 
