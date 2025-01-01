@@ -168,7 +168,8 @@ const componentAPI = {
     showMindMapCreator: false,
     showDigitalMuseum: false,
     showLyricsFinder: false,
-    showVirtualKeyboard: true,
+    showVirtualKeyboard: false,
+    showStudyTimer: true,
 };
 
 const featureFlagsDataServiceCall = () => {

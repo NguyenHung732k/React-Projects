@@ -169,6 +169,7 @@ import MindMapCreator from '../Mind Map Creator/MindMapCreator'
 import DigitalMuseum from '../Digital Museum/DigitalMuseum'
 import LyricsFinder from '../Lyrics Finder/LyricsFinder'
 import VirtualKeyboard from '../Virtual Keyboard/VirtualKeyboard'
+import StudyTimer from '../Study Timer/StudyTimer'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -1031,6 +1032,11 @@ const FeatureFlags = () => {
         {
             key: "showVirtualKeyboard",
             component: <VirtualKeyboard /> 
+        },
+
+        {
+            key: "showStudyTimer",
+            component: <StudyTimer /> 
         },
     ]
 
