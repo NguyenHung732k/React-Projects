@@ -170,6 +170,7 @@ import DigitalMuseum from '../Digital Museum/DigitalMuseum'
 import LyricsFinder from '../Lyrics Finder/LyricsFinder'
 import VirtualKeyboard from '../Virtual Keyboard/VirtualKeyboard'
 import StudyTimer from '../Study Timer/StudyTimer'
+import FamilyTreeBuilder from '../Family Tree Builder/FamilyTreeBuilder'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -1037,6 +1038,11 @@ const FeatureFlags = () => {
         {
             key: "showStudyTimer",
             component: <StudyTimer /> 
+        },
+
+        {
+            key: "showFamilyTreeBuilder",
+            component: <FamilyTreeBuilder /> 
         },
     ]
 
