@@ -171,6 +171,7 @@ import LyricsFinder from '../Lyrics Finder/LyricsFinder'
 import VirtualKeyboard from '../Virtual Keyboard/VirtualKeyboard'
 import StudyTimer from '../Study Timer/StudyTimer'
 import FamilyTreeBuilder from '../Family Tree Builder/FamilyTreeBuilder'
+import CardGameBuilder from '../Custom Card Game Builder/CardGameBuilder'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -1043,6 +1044,11 @@ const FeatureFlags = () => {
         {
             key: "showFamilyTreeBuilder",
             component: <FamilyTreeBuilder /> 
+        },
+
+        {
+            key: "showCardGameBuilder",
+            component: <CardGameBuilder /> 
         },
     ]
 
