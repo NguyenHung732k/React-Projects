@@ -172,6 +172,7 @@ import VirtualKeyboard from '../Virtual Keyboard/VirtualKeyboard'
 import StudyTimer from '../Study Timer/StudyTimer'
 import FamilyTreeBuilder from '../Family Tree Builder/FamilyTreeBuilder'
 import CardGameBuilder from '../Custom Card Game Builder/CardGameBuilder'
+import MusicVisualizer from '../Music Visualizer/MusicVisualizer'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -1049,6 +1050,11 @@ const FeatureFlags = () => {
         {
             key: "showCardGameBuilder",
             component: <CardGameBuilder /> 
+        },
+
+        {
+            key: "showMusicVisualizer",
+            component: <MusicVisualizer /> 
         },
     ]
 
