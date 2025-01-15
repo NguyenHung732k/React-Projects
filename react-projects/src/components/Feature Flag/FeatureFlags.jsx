@@ -173,6 +173,7 @@ import StudyTimer from '../Study Timer/StudyTimer'
 import FamilyTreeBuilder from '../Family Tree Builder/FamilyTreeBuilder'
 import CardGameBuilder from '../Custom Card Game Builder/CardGameBuilder'
 import MusicVisualizer from '../Music Visualizer/MusicVisualizer'
+import WorkoutGame from '../Workout Game/WorkoutGame'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -974,87 +975,92 @@ const FeatureFlags = () => {
 
         {
             key: "showPublicTransit",
-            component: <PublicTransit /> 
+            component: <PublicTransit />
         },
 
         {
             key: "showInteractiveScienceLab",
-            component: <InteractiveScienceLab /> 
+            component: <InteractiveScienceLab />
         },
 
         {
             key: "showWildlifeIdentifier",
-            component: <WildlifeIdentifier /> 
+            component: <WildlifeIdentifier />
         },
 
         {
             key: "showGeographyQuiz",
-            component: <GeographyQuiz /> 
+            component: <GeographyQuiz />
         },
 
         {
             key: "showPlaylistGenerator",
-            component: <PlaylistGenerator /> 
+            component: <PlaylistGenerator />
         },
 
         {
             key: "showInventoryTracker",
-            component: <InventoryTracker /> 
+            component: <InventoryTracker />
         },
 
         {
             key: "showHabitTrackerGame",
-            component: <HabitTrackerGame /> 
+            component: <HabitTrackerGame />
         },
 
         {
             key: "showSmartHomeController",
-            component: <SmartHomeController /> 
+            component: <SmartHomeController />
         },
 
         {
             key: "showWeddingPlanner",
-            component: <WeddingPlanner /> 
+            component: <WeddingPlanner />
         },
 
         {
             key: "showMindMapCreator",
-            component: <MindMapCreator /> 
+            component: <MindMapCreator />
         },
 
         {
             key: "showDigitalMuseum",
-            component: <DigitalMuseum /> 
+            component: <DigitalMuseum />
         },
 
         {
             key: "showLyricsFinder",
-            component: <LyricsFinder /> 
+            component: <LyricsFinder />
         },
 
         {
             key: "showVirtualKeyboard",
-            component: <VirtualKeyboard /> 
+            component: <VirtualKeyboard />
         },
 
         {
             key: "showStudyTimer",
-            component: <StudyTimer /> 
+            component: <StudyTimer />
         },
 
         {
             key: "showFamilyTreeBuilder",
-            component: <FamilyTreeBuilder /> 
+            component: <FamilyTreeBuilder />
         },
 
         {
             key: "showCardGameBuilder",
-            component: <CardGameBuilder /> 
+            component: <CardGameBuilder />
         },
 
         {
             key: "showMusicVisualizer",
-            component: <MusicVisualizer /> 
+            component: <MusicVisualizer />
+        },
+
+        {
+            key: "showWorkoutGame",
+            component: <WorkoutGame />
         },
     ]
 
