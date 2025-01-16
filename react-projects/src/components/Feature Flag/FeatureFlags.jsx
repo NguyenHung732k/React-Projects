@@ -174,6 +174,7 @@ import FamilyTreeBuilder from '../Family Tree Builder/FamilyTreeBuilder'
 import CardGameBuilder from '../Custom Card Game Builder/CardGameBuilder'
 import MusicVisualizer from '../Music Visualizer/MusicVisualizer'
 import WorkoutGame from '../Workout Game/WorkoutGame'
+import VisionBoard from '../Vision Board/VisionBoard'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -1061,6 +1062,11 @@ const FeatureFlags = () => {
         {
             key: "showWorkoutGame",
             component: <WorkoutGame />
+        },
+
+        {
+            key: "showVisionBoard",
+            component: <VisionBoard />
         },
     ]
 

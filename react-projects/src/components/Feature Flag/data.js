@@ -173,7 +173,8 @@ const componentAPI = {
     showFamilyTreeBuilder: false,
     showCardGameBuilder: false,
     showMusicVisualizer: false,
-    showWorkoutGame: true,
+    showWorkoutGame: false,
+    showVisionBoard: true,
 };
 
 const featureFlagsDataServiceCall = () => {
