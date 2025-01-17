@@ -175,6 +175,7 @@ import CardGameBuilder from '../Custom Card Game Builder/CardGameBuilder'
 import MusicVisualizer from '../Music Visualizer/MusicVisualizer'
 import WorkoutGame from '../Workout Game/WorkoutGame'
 import VisionBoard from '../Vision Board/VisionBoard'
+import CharacterCreator from '../Character Creator/CharacterCreator'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -1067,6 +1068,11 @@ const FeatureFlags = () => {
         {
             key: "showVisionBoard",
             component: <VisionBoard />
+        },
+
+        {
+            key: "showCharacterCreator",
+            component: <CharacterCreator />
         },
     ]
 
