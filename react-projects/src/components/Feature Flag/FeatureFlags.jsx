@@ -176,6 +176,7 @@ import MusicVisualizer from '../Music Visualizer/MusicVisualizer'
 import WorkoutGame from '../Workout Game/WorkoutGame'
 import VisionBoard from '../Vision Board/VisionBoard'
 import CharacterCreator from '../Character Creator/CharacterCreator'
+import MovieTimeline from '../Movie Timeline/MovieTimeline'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -1073,6 +1074,11 @@ const FeatureFlags = () => {
         {
             key: "showCharacterCreator",
             component: <CharacterCreator />
+        },
+
+        {
+            key: "showMovieTimeline",
+            component: <MovieTimeline />
         },
     ]
 
