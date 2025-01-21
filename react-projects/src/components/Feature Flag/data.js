@@ -177,7 +177,8 @@ const componentAPI = {
     showVisionBoard: false,
     showCharacterCreator: false,
     showMovieTimeline: false,
-    showDIYCraftGuide: true,
+    showDIYCraftGuide: false,
+    showGratitudeJournal: true,
 };
 
 const featureFlagsDataServiceCall = () => {

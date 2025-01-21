@@ -178,6 +178,7 @@ import VisionBoard from '../Vision Board/VisionBoard'
 import CharacterCreator from '../Character Creator/CharacterCreator'
 import MovieTimeline from '../Movie Timeline/MovieTimeline'
 import DIYCraftGuide from '../DIY Craft Guide/DIYCraftGuide'
+import GratitudeJournal from '../Gratitude Journal/GratitudeJournal'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -1085,6 +1086,11 @@ const FeatureFlags = () => {
         {
             key: "showDIYCraftGuide",
             component: <DIYCraftGuide />
+        },
+
+        {
+            key: "showGratitudeJournal",
+            component: <GratitudeJournal />
         },
     ]
 
