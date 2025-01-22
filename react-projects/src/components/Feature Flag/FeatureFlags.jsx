@@ -179,6 +179,7 @@ import CharacterCreator from '../Character Creator/CharacterCreator'
 import MovieTimeline from '../Movie Timeline/MovieTimeline'
 import DIYCraftGuide from '../DIY Craft Guide/DIYCraftGuide'
 import GratitudeJournal from '../Gratitude Journal/GratitudeJournal'
+import SpaceExplorer from '../Space Explorer/SpaceExplorer'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -1091,6 +1092,11 @@ const FeatureFlags = () => {
         {
             key: "showGratitudeJournal",
             component: <GratitudeJournal />
+        },
+
+        {
+            key: "showSpaceExplorer",
+            component: <SpaceExplorer />
         },
     ]
 
