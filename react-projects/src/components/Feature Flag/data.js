@@ -179,7 +179,8 @@ const componentAPI = {
     showMovieTimeline: false,
     showDIYCraftGuide: false,
     showGratitudeJournal: false,
-    showSpaceExplorer: true,
+    showSpaceExplorer: false,
+    showWardrobePlanner: true,
 };
 
 const featureFlagsDataServiceCall = () => {

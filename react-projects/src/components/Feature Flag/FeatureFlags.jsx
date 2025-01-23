@@ -180,6 +180,7 @@ import MovieTimeline from '../Movie Timeline/MovieTimeline'
 import DIYCraftGuide from '../DIY Craft Guide/DIYCraftGuide'
 import GratitudeJournal from '../Gratitude Journal/GratitudeJournal'
 import SpaceExplorer from '../Space Explorer/SpaceExplorer'
+import WardrobePlanner from '../Seasonal Wardrobe Planner/WardrobePlanner'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -1097,6 +1098,11 @@ const FeatureFlags = () => {
         {
             key: "showSpaceExplorer",
             component: <SpaceExplorer />
+        },
+
+        {
+            key: "showWardrobePlanner",
+            component: <WardrobePlanner />
         },
     ]
 
