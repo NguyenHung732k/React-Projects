@@ -180,7 +180,8 @@ const componentAPI = {
     showDIYCraftGuide: false,
     showGratitudeJournal: false,
     showSpaceExplorer: false,
-    showWardrobePlanner: true,
+    showWardrobePlanner: false,
+    showFashionStylist: true,
 };
 
 const featureFlagsDataServiceCall = () => {

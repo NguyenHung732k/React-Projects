@@ -181,6 +181,7 @@ import DIYCraftGuide from '../DIY Craft Guide/DIYCraftGuide'
 import GratitudeJournal from '../Gratitude Journal/GratitudeJournal'
 import SpaceExplorer from '../Space Explorer/SpaceExplorer'
 import WardrobePlanner from '../Seasonal Wardrobe Planner/WardrobePlanner'
+import FashionStylist from '../Fashion Stylist/FashionStylist'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -1103,6 +1104,11 @@ const FeatureFlags = () => {
         {
             key: "showWardrobePlanner",
             component: <WardrobePlanner />
+        },
+
+        {
+            key: "showFashionStylist",
+            component: <FashionStylist />
         },
     ]
 
