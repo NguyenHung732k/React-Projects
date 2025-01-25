@@ -182,6 +182,7 @@ import GratitudeJournal from '../Gratitude Journal/GratitudeJournal'
 import SpaceExplorer from '../Space Explorer/SpaceExplorer'
 import WardrobePlanner from '../Seasonal Wardrobe Planner/WardrobePlanner'
 import FashionStylist from '../Fashion Stylist/FashionStylist'
+import MusicMashupMaker from '../Music Mashup Maker/MusicMashupMaker'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -1109,6 +1110,11 @@ const FeatureFlags = () => {
         {
             key: "showFashionStylist",
             component: <FashionStylist />
+        },
+
+        {
+            key: "showMusicMashupMaker",
+            component: <MusicMashupMaker />
         },
     ]
 
