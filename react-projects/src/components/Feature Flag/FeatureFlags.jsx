@@ -183,6 +183,7 @@ import SpaceExplorer from '../Space Explorer/SpaceExplorer'
 import WardrobePlanner from '../Seasonal Wardrobe Planner/WardrobePlanner'
 import FashionStylist from '../Fashion Stylist/FashionStylist'
 import MusicMashupMaker from '../Music Mashup Maker/MusicMashupMaker'
+import Campfire from '../Virtual Campfire/Campfire'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -1115,6 +1116,11 @@ const FeatureFlags = () => {
         {
             key: "showMusicMashupMaker",
             component: <MusicMashupMaker />
+        },
+
+        {
+            key: "showCampfire",
+            component: <Campfire />
         },
     ]
 
