@@ -184,6 +184,7 @@ import WardrobePlanner from '../Seasonal Wardrobe Planner/WardrobePlanner'
 import FashionStylist from '../Fashion Stylist/FashionStylist'
 import MusicMashupMaker from '../Music Mashup Maker/MusicMashupMaker'
 import Campfire from '../Virtual Campfire/Campfire'
+import DreamJournal from '../Dream Journal/DreamJournal'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -1121,6 +1122,11 @@ const FeatureFlags = () => {
         {
             key: "showCampfire",
             component: <Campfire />
+        },
+
+        {
+            key: "showDreamJournal",
+            component: <DreamJournal />
         },
     ]
 
