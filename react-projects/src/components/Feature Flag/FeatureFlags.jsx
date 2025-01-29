@@ -185,6 +185,7 @@ import FashionStylist from '../Fashion Stylist/FashionStylist'
 import MusicMashupMaker from '../Music Mashup Maker/MusicMashupMaker'
 import Campfire from '../Virtual Campfire/Campfire'
 import DreamJournal from '../Dream Journal/DreamJournal'
+import GoalRoadmap from '../Goal Roadmap/GoalRoadmap'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -1127,6 +1128,11 @@ const FeatureFlags = () => {
         {
             key: "showDreamJournal",
             component: <DreamJournal />
+        },
+
+        {
+            key: "showGoalRoadmap",
+            component: <GoalRoadmap />
         },
     ]
 

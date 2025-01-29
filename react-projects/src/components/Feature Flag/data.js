@@ -184,7 +184,8 @@ const componentAPI = {
     showFashionStylist: false,
     showMusicMashupMaker: false,
     showCampfire: false,
-    showDreamJournal: true,
+    showDreamJournal: false,
+    showGoalRoadmap: true,
 };
 
 const featureFlagsDataServiceCall = () => {
