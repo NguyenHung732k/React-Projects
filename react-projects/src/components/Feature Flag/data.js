@@ -186,7 +186,8 @@ const componentAPI = {
     showCampfire: false,
     showDreamJournal: false,
     showGoalRoadmap: false,
-    showMemoryBook: true,
+    showMemoryBook: false,
+    showNatureExperience: true,
 };
 
 const featureFlagsDataServiceCall = () => {

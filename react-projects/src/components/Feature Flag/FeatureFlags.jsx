@@ -187,6 +187,7 @@ import Campfire from '../Virtual Campfire/Campfire'
 import DreamJournal from '../Dream Journal/DreamJournal'
 import GoalRoadmap from '../Goal Roadmap/GoalRoadmap'
 import MemoryBook from '../Memory Book/MemoryBook'
+import NatureExperience from '../Nature Experience/NatureExperience'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -1139,6 +1140,11 @@ const FeatureFlags = () => {
         {
             key: "showMemoryBook",
             component: <MemoryBook />
+        },
+
+        {
+            key: "showNatureExperience",
+            component: <NatureExperience />
         },
     ]
 
