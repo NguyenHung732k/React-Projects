@@ -188,6 +188,7 @@ import DreamJournal from '../Dream Journal/DreamJournal'
 import GoalRoadmap from '../Goal Roadmap/GoalRoadmap'
 import MemoryBook from '../Memory Book/MemoryBook'
 import NatureExperience from '../Nature Experience/NatureExperience'
+import MapCreator from '../Map Creator/MapCreator'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -1145,6 +1146,11 @@ const FeatureFlags = () => {
         {
             key: "showNatureExperience",
             component: <NatureExperience />
+        },
+
+        {
+            key: "showMapCreator",
+            component: <MapCreator />
         },
     ]
 
