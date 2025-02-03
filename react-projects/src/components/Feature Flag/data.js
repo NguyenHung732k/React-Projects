@@ -188,7 +188,8 @@ const componentAPI = {
     showGoalRoadmap: false,
     showMemoryBook: false,
     showNatureExperience: false,
-    showMapCreator: true,
+    showMapCreator: false,
+    showWorkoutMusic: true,
 };
 
 const featureFlagsDataServiceCall = () => {

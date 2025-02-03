@@ -189,6 +189,7 @@ import GoalRoadmap from '../Goal Roadmap/GoalRoadmap'
 import MemoryBook from '../Memory Book/MemoryBook'
 import NatureExperience from '../Nature Experience/NatureExperience'
 import MapCreator from '../Map Creator/MapCreator'
+import WorkoutMusic from '../Workout Music/WorkoutMusic'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -1151,6 +1152,11 @@ const FeatureFlags = () => {
         {
             key: "showMapCreator",
             component: <MapCreator />
+        },
+
+        {
+            key: "showWorkoutMusic",
+            component: <WorkoutMusic />
         },
     ]
 
