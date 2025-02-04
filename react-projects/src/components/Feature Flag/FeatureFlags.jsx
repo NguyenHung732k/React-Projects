@@ -190,6 +190,7 @@ import MemoryBook from '../Memory Book/MemoryBook'
 import NatureExperience from '../Nature Experience/NatureExperience'
 import MapCreator from '../Map Creator/MapCreator'
 import WorkoutMusic from '../Workout Music/WorkoutMusic'
+import EcoFootprintTracker from '../Eco Footprint Tracker/EcoFootprintTracker'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -1157,6 +1158,11 @@ const FeatureFlags = () => {
         {
             key: "showWorkoutMusic",
             component: <WorkoutMusic />
+        },
+
+        {
+            key: "showEcoFootprintTracker",
+            component: <EcoFootprintTracker />
         },
     ]
 
