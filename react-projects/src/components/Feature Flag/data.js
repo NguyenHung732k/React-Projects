@@ -190,7 +190,8 @@ const componentAPI = {
     showNatureExperience: false,
     showMapCreator: false,
     showWorkoutMusic: false,
-    showEcoFootprintTracker: true,
+    showEcoFootprintTracker: false,
+    showGreenhouse: true,
 };
 
 const featureFlagsDataServiceCall = () => {

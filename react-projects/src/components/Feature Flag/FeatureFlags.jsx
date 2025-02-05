@@ -191,6 +191,7 @@ import NatureExperience from '../Nature Experience/NatureExperience'
 import MapCreator from '../Map Creator/MapCreator'
 import WorkoutMusic from '../Workout Music/WorkoutMusic'
 import EcoFootprintTracker from '../Eco Footprint Tracker/EcoFootprintTracker'
+import Greenhouse from '../Virtual Greenhouse/Greenhouse'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -1163,6 +1164,11 @@ const FeatureFlags = () => {
         {
             key: "showEcoFootprintTracker",
             component: <EcoFootprintTracker />
+        },
+
+        {
+            key: "showGreenhouse",
+            component: <Greenhouse />
         },
     ]
 
