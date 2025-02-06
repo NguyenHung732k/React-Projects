@@ -192,6 +192,7 @@ import MapCreator from '../Map Creator/MapCreator'
 import WorkoutMusic from '../Workout Music/WorkoutMusic'
 import EcoFootprintTracker from '../Eco Footprint Tracker/EcoFootprintTracker'
 import Greenhouse from '../Virtual Greenhouse/Greenhouse'
+import CityBuilder from '../City Builder/CityBuilder'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -1169,6 +1170,11 @@ const FeatureFlags = () => {
         {
             key: "showGreenhouse",
             component: <Greenhouse />
+        },
+
+        {
+            key: "showCityBuilder",
+            component: <CityBuilder />
         },
     ]
 
