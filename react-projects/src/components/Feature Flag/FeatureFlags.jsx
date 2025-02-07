@@ -193,6 +193,7 @@ import WorkoutMusic from '../Workout Music/WorkoutMusic'
 import EcoFootprintTracker from '../Eco Footprint Tracker/EcoFootprintTracker'
 import Greenhouse from '../Virtual Greenhouse/Greenhouse'
 import CityBuilder from '../City Builder/CityBuilder'
+import TreasureHunt from '../Treasure Hunt/TreasureHunt'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -1175,6 +1176,11 @@ const FeatureFlags = () => {
         {
             key: "showCityBuilder",
             component: <CityBuilder />
+        },
+
+        {
+            key: "showTreasureHunt",
+            component: <TreasureHunt />
         },
     ]
 

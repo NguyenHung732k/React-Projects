@@ -192,7 +192,8 @@ const componentAPI = {
     showWorkoutMusic: false,
     showEcoFootprintTracker: false,
     showGreenhouse: false,
-    showCityBuilder: true,
+    showCityBuilder: false,
+    showTreasureHunt: true,
 };
 
 const featureFlagsDataServiceCall = () => {
