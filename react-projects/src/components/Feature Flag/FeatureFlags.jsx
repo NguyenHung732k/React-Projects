@@ -194,6 +194,7 @@ import EcoFootprintTracker from '../Eco Footprint Tracker/EcoFootprintTracker'
 import Greenhouse from '../Virtual Greenhouse/Greenhouse'
 import CityBuilder from '../City Builder/CityBuilder'
 import TreasureHunt from '../Treasure Hunt/TreasureHunt'
+import DebatePlatform from '../Debate Platform/DebatePlatform'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -1181,6 +1182,11 @@ const FeatureFlags = () => {
         {
             key: "showTreasureHunt",
             component: <TreasureHunt />
+        },
+
+        {
+            key: "showDebatePlatform",
+            component: <DebatePlatform />
         },
     ]
 

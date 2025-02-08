@@ -193,7 +193,8 @@ const componentAPI = {
     showEcoFootprintTracker: false,
     showGreenhouse: false,
     showCityBuilder: false,
-    showTreasureHunt: true,
+    showTreasureHunt: false,
+    showDebatePlatform: true,
 };
 
 const featureFlagsDataServiceCall = () => {
