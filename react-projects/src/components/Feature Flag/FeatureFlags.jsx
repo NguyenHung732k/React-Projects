@@ -195,6 +195,7 @@ import Greenhouse from '../Virtual Greenhouse/Greenhouse'
 import CityBuilder from '../City Builder/CityBuilder'
 import TreasureHunt from '../Treasure Hunt/TreasureHunt'
 import DebatePlatform from '../Debate Platform/DebatePlatform'
+import ScienceExperiment from '../Science Experiment/ScienceExperiment'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -1187,6 +1188,11 @@ const FeatureFlags = () => {
         {
             key: "showDebatePlatform",
             component: <DebatePlatform />
+        },
+
+        {
+            key: "showScienceExperiment",
+            component: <ScienceExperiment />
         },
     ]
 
