@@ -196,6 +196,7 @@ import CityBuilder from '../City Builder/CityBuilder'
 import TreasureHunt from '../Treasure Hunt/TreasureHunt'
 import DebatePlatform from '../Debate Platform/DebatePlatform'
 import ScienceExperiment from '../Science Experiment/ScienceExperiment'
+import Selfcare from '../Selfcare Reminder/SelfCare'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -1193,6 +1194,11 @@ const FeatureFlags = () => {
         {
             key: "showScienceExperiment",
             component: <ScienceExperiment />
+        },
+
+        {
+            key: "showSelfcare",
+            component: <Selfcare />
         },
     ]
 

@@ -195,7 +195,8 @@ const componentAPI = {
     showCityBuilder: false,
     showTreasureHunt: false,
     showDebatePlatform: false,
-    showScienceExperiment: true,
+    showScienceExperiment: false,
+    showSelfcare: true,
 };
 
 const featureFlagsDataServiceCall = () => {
