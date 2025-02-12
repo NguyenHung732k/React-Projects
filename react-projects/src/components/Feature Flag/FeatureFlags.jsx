@@ -197,6 +197,7 @@ import TreasureHunt from '../Treasure Hunt/TreasureHunt'
 import DebatePlatform from '../Debate Platform/DebatePlatform'
 import ScienceExperiment from '../Science Experiment/ScienceExperiment'
 import Selfcare from '../Selfcare Reminder/SelfCare'
+import ArtStyleRecommender from '../Art Style Recommender/ArtStyleRecommender'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -1199,6 +1200,11 @@ const FeatureFlags = () => {
         {
             key: "showSelfcare",
             component: <Selfcare />
+        },
+
+        {
+            key: "showArtStyleRecommender",
+            component: <ArtStyleRecommender />
         },
     ]
 
