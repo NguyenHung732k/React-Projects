@@ -199,6 +199,7 @@ import ScienceExperiment from '../Science Experiment/ScienceExperiment'
 import Selfcare from '../Selfcare Reminder/SelfCare'
 import ArtStyleRecommender from '../Art Style Recommender/ArtStyleRecommender'
 import FinanceVisualizer from '../Finance Visualizer/FinanceVisualizer'
+import BlockchainVoting from '../Blockchain Voting/BlockchainVoting'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -1211,6 +1212,11 @@ const FeatureFlags = () => {
         {
             key: "showFinanceVisualizer",
             component: <FinanceVisualizer />
+        },
+
+        {
+            key: "showBlockchainVoting",
+            component: <BlockchainVoting />
         },
     ]
 
