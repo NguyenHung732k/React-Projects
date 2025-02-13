@@ -197,7 +197,8 @@ const componentAPI = {
     showDebatePlatform: false,
     showScienceExperiment: false,
     showSelfcare: false,
-    showArtStyleRecommender: true,
+    showArtStyleRecommender: false,
+    showFinanceVisualizer: true,
 };
 
 const featureFlagsDataServiceCall = () => {

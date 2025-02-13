@@ -198,6 +198,7 @@ import DebatePlatform from '../Debate Platform/DebatePlatform'
 import ScienceExperiment from '../Science Experiment/ScienceExperiment'
 import Selfcare from '../Selfcare Reminder/SelfCare'
 import ArtStyleRecommender from '../Art Style Recommender/ArtStyleRecommender'
+import FinanceVisualizer from '../Finance Visualizer/FinanceVisualizer'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -1205,6 +1206,11 @@ const FeatureFlags = () => {
         {
             key: "showArtStyleRecommender",
             component: <ArtStyleRecommender />
+        },
+
+        {
+            key: "showFinanceVisualizer",
+            component: <FinanceVisualizer />
         },
     ]
 
