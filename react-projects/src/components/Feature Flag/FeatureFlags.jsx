@@ -200,6 +200,7 @@ import Selfcare from '../Selfcare Reminder/SelfCare'
 import ArtStyleRecommender from '../Art Style Recommender/ArtStyleRecommender'
 import FinanceVisualizer from '../Finance Visualizer/FinanceVisualizer'
 import BlockchainVoting from '../Blockchain Voting/BlockchainVoting'
+import InfographicMaker from '../Infographic Maker/InfographicMaker'
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -1217,6 +1218,11 @@ const FeatureFlags = () => {
         {
             key: "showBlockchainVoting",
             component: <BlockchainVoting />
+        },
+
+        {
+            key: "showInfographicMaker",
+            component: <InfographicMaker />
         },
     ]
 
