@@ -200,7 +200,8 @@ const componentAPI = {
     showArtStyleRecommender: false,
     showFinanceVisualizer: false,
     showBlockchainVoting: false,
-    showInfographicMaker: true,
+    showInfographicMaker: false,
+    showLearningDashboard: true,
 };
 
 const featureFlagsDataServiceCall = () => {

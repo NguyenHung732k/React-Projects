@@ -201,6 +201,9 @@ import ArtStyleRecommender from '../Art Style Recommender/ArtStyleRecommender'
 import FinanceVisualizer from '../Finance Visualizer/FinanceVisualizer'
 import BlockchainVoting from '../Blockchain Voting/BlockchainVoting'
 import InfographicMaker from '../Infographic Maker/InfographicMaker'
+import LearningDashboard from '../Learning Dashboard/LearningDashboard'
+
+
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
 
@@ -1223,6 +1226,11 @@ const FeatureFlags = () => {
         {
             key: "showInfographicMaker",
             component: <InfographicMaker />
+        },
+
+        {
+            key: "showLearningDashboard",
+            component: <LearningDashboard />
         },
     ]
 
