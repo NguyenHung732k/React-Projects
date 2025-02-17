@@ -202,6 +202,7 @@ import FinanceVisualizer from '../Finance Visualizer/FinanceVisualizer'
 import BlockchainVoting from '../Blockchain Voting/BlockchainVoting'
 import InfographicMaker from '../Infographic Maker/InfographicMaker'
 import LearningDashboard from '../Learning Dashboard/LearningDashboard'
+import CryptoPortfolioTracker from '../Crypto Portfolio Tracker/CryptoPortfolioTracker'
 
 
 
@@ -1231,6 +1232,11 @@ const FeatureFlags = () => {
         {
             key: "showLearningDashboard",
             component: <LearningDashboard />
+        },
+
+        {
+            key: "showCryptoPortfolioTracker",
+            component: <CryptoPortfolioTracker />
         },
     ]
 

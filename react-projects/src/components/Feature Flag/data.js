@@ -201,7 +201,8 @@ const componentAPI = {
     showFinanceVisualizer: false,
     showBlockchainVoting: false,
     showInfographicMaker: false,
-    showLearningDashboard: true,
+    showLearningDashboard: false,
+    showCryptoPortfolioTracker: true,
 };
 
 const featureFlagsDataServiceCall = () => {
