@@ -205,6 +205,7 @@ import LearningDashboard from '../Learning Dashboard/LearningDashboard'
 import CryptoPortfolioTracker from '../Crypto Portfolio Tracker/CryptoPortfolioTracker'
 import ProductivityDashboard from '../Productivity Dashboard/ProductivityDashboard'
 import WeatherWidget from '../Weather Widget/WeatherWidget'
+import OnboardingScreens from '../Onboarding Screens/OnboardingScreens'
 
 
 
@@ -1249,6 +1250,11 @@ const FeatureFlags = () => {
         {
             key: "showWeatherWidget",
             component: <WeatherWidget />
+        },
+
+        {
+            key: "showOnboardingScreens",
+            component: <OnboardingScreens />
         },
     ]
 
