@@ -203,7 +203,8 @@ const componentAPI = {
     showInfographicMaker: false,
     showLearningDashboard: false,
     showCryptoPortfolioTracker: false,
-    showProductivityDashboard: true,
+    showProductivityDashboard: false,
+    showWeatherWidget: true,
 };
 
 const featureFlagsDataServiceCall = () => {

@@ -204,6 +204,7 @@ import InfographicMaker from '../Infographic Maker/InfographicMaker'
 import LearningDashboard from '../Learning Dashboard/LearningDashboard'
 import CryptoPortfolioTracker from '../Crypto Portfolio Tracker/CryptoPortfolioTracker'
 import ProductivityDashboard from '../Productivity Dashboard/ProductivityDashboard'
+import WeatherWidget from '../Weather Widget/WeatherWidget'
 
 
 
@@ -1243,6 +1244,11 @@ const FeatureFlags = () => {
         {
             key: "showProductivityDashboard",
             component: <ProductivityDashboard />
+        },
+
+        {
+            key: "showWeatherWidget",
+            component: <WeatherWidget />
         },
     ]
 
