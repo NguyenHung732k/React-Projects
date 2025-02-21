@@ -205,7 +205,8 @@ const componentAPI = {
     showCryptoPortfolioTracker: false,
     showProductivityDashboard: false,
     showWeatherWidget: false,
-    showOnboardingScreens: true,
+    showOnboardingScreens: false,
+    showInfiniteScroll: true,
 };
 
 const featureFlagsDataServiceCall = () => {

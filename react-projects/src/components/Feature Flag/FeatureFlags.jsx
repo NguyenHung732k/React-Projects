@@ -206,7 +206,7 @@ import CryptoPortfolioTracker from '../Crypto Portfolio Tracker/CryptoPortfolioT
 import ProductivityDashboard from '../Productivity Dashboard/ProductivityDashboard'
 import WeatherWidget from '../Weather Widget/WeatherWidget'
 import OnboardingScreens from '../Onboarding Screens/OnboardingScreens'
-
+import InfiniteScrollUI from '../Infinite Scroll/InfiniteScrollUI'
 
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
@@ -1255,6 +1255,11 @@ const FeatureFlags = () => {
         {
             key: "showOnboardingScreens",
             component: <OnboardingScreens />
+        },
+
+        {
+            key: "showInfiniteScroll",
+            component: <InfiniteScrollUI />
         },
     ]
 
