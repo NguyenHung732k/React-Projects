@@ -207,6 +207,7 @@ import ProductivityDashboard from '../Productivity Dashboard/ProductivityDashboa
 import WeatherWidget from '../Weather Widget/WeatherWidget'
 import OnboardingScreens from '../Onboarding Screens/OnboardingScreens'
 import InfiniteScrollUI from '../Infinite Scroll/InfiniteScrollUI'
+import PieChartTool from '../Pie Chart Tool/PieChartTool'
 
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
@@ -1260,6 +1261,11 @@ const FeatureFlags = () => {
         {
             key: "showInfiniteScroll",
             component: <InfiniteScrollUI />
+        },
+
+        {
+            key: "showPieChartTool",
+            component: <PieChartTool />
         },
     ]
 

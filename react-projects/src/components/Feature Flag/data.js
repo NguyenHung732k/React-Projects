@@ -206,7 +206,8 @@ const componentAPI = {
     showProductivityDashboard: false,
     showWeatherWidget: false,
     showOnboardingScreens: false,
-    showInfiniteScroll: true,
+    showInfiniteScroll: false,
+    showPieChartTool: true,
 };
 
 const featureFlagsDataServiceCall = () => {
