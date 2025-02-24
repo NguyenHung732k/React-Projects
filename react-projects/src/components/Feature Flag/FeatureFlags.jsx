@@ -208,6 +208,7 @@ import WeatherWidget from '../Weather Widget/WeatherWidget'
 import OnboardingScreens from '../Onboarding Screens/OnboardingScreens'
 import InfiniteScrollUI from '../Infinite Scroll/InfiniteScrollUI'
 import PieChartTool from '../Pie Chart Tool/PieChartTool'
+import DynamicPricingUI from '../Dynamic Pricing UI/DynamicPricingUI'
 
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
@@ -1266,6 +1267,11 @@ const FeatureFlags = () => {
         {
             key: "showPieChartTool",
             component: <PieChartTool />
+        },
+
+        {
+            key: "showDynamicPricingUI",
+            component: <DynamicPricingUI />
         },
     ]
 
