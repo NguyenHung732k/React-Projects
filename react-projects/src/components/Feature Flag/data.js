@@ -208,7 +208,8 @@ const componentAPI = {
     showOnboardingScreens: false,
     showInfiniteScroll: false,
     showPieChartTool: false,
-    showDynamicPricingUI: true,
+    showDynamicPricingUI: false,
+    showUIComponent: true,
 };
 
 const featureFlagsDataServiceCall = () => {

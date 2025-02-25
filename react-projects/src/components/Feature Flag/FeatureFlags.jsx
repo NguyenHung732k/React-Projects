@@ -209,6 +209,7 @@ import OnboardingScreens from '../Onboarding Screens/OnboardingScreens'
 import InfiniteScrollUI from '../Infinite Scroll/InfiniteScrollUI'
 import PieChartTool from '../Pie Chart Tool/PieChartTool'
 import DynamicPricingUI from '../Dynamic Pricing UI/DynamicPricingUI'
+import UIComponent from '../UI Component Library/UIComponent'
 
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
@@ -1272,6 +1273,11 @@ const FeatureFlags = () => {
         {
             key: "showDynamicPricingUI",
             component: <DynamicPricingUI />
+        },
+
+        {
+            key: "showUIComponent",
+            component: <UIComponent />
         },
     ]
 
