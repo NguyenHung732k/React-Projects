@@ -210,6 +210,7 @@ import InfiniteScrollUI from '../Infinite Scroll/InfiniteScrollUI'
 import PieChartTool from '../Pie Chart Tool/PieChartTool'
 import DynamicPricingUI from '../Dynamic Pricing UI/DynamicPricingUI'
 import UIComponent from '../UI Component Library/UIComponent'
+import TypingEffect from '../Typing Effect/TypingEffect'
 
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
@@ -1278,6 +1279,11 @@ const FeatureFlags = () => {
         {
             key: "showUIComponent",
             component: <UIComponent />
+        },
+
+        {
+            key: "showTypingEffect",
+            component: <TypingEffect />
         },
     ]
 
