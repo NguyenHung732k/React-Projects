@@ -1,0 +1,15 @@
+img {
+    /* Remove transition for instant updates */
+    transition: none;
+  }
+  
+  /* Hover effect for slider */
+  .slider-handle:hover {
+    background-color: #4f82f0; /* Change slider color on hover */
+    transform: scale(1.1);
+  }
+  
+  /* Transition for smoother image sliding */
+  .slider-handle {
+    transition: all 0.2s ease-in-out;
+  }

@@ -210,7 +210,8 @@ const componentAPI = {
     showPieChartTool: false,
     showDynamicPricingUI: false,
     showUIComponent: false,
-    showTypingEffect: true,
+    showTypingEffect: false,
+    showImageComparison: true,
 };
 
 const featureFlagsDataServiceCall = () => {

@@ -211,6 +211,7 @@ import PieChartTool from '../Pie Chart Tool/PieChartTool'
 import DynamicPricingUI from '../Dynamic Pricing UI/DynamicPricingUI'
 import UIComponent from '../UI Component Library/UIComponent'
 import TypingEffect from '../Typing Effect/TypingEffect'
+import ImageComparison from '../Image Comparison/ImageComparison'
 
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
@@ -1284,6 +1285,11 @@ const FeatureFlags = () => {
         {
             key: "showTypingEffect",
             component: <TypingEffect />
+        },
+
+        {
+            key: "showImageComparison",
+            component: <ImageComparison />
         },
     ]
 
