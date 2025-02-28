@@ -212,6 +212,7 @@ import DynamicPricingUI from '../Dynamic Pricing UI/DynamicPricingUI'
 import UIComponent from '../UI Component Library/UIComponent'
 import TypingEffect from '../Typing Effect/TypingEffect'
 import ImageComparison from '../Image Comparison/ImageComparison'
+import MathTutor from '../Math Tutor/MathTutor'
 
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
@@ -1290,6 +1291,11 @@ const FeatureFlags = () => {
         {
             key: "showImageComparison",
             component: <ImageComparison />
+        },
+
+        {
+            key: "showMathTutor",
+            component: <MathTutor />
         },
     ]
 

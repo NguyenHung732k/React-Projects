@@ -211,7 +211,8 @@ const componentAPI = {
     showDynamicPricingUI: false,
     showUIComponent: false,
     showTypingEffect: false,
-    showImageComparison: true,
+    showImageComparison: false,
+    showMathTutor: true,
 };
 
 const featureFlagsDataServiceCall = () => {
