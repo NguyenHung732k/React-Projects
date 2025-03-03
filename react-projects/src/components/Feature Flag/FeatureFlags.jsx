@@ -213,6 +213,7 @@ import UIComponent from '../UI Component Library/UIComponent'
 import TypingEffect from '../Typing Effect/TypingEffect'
 import ImageComparison from '../Image Comparison/ImageComparison'
 import MathTutor from '../Math Tutor/MathTutor'
+import ChatApp from '../Chat App/ChatApp'
 
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
@@ -1296,6 +1297,11 @@ const FeatureFlags = () => {
         {
             key: "showMathTutor",
             component: <MathTutor />
+        },
+
+        {
+            key: "showChatApp",
+            component: <ChatApp />
         },
     ]
 
