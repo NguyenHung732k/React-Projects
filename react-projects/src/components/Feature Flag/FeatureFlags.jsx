@@ -214,6 +214,7 @@ import TypingEffect from '../Typing Effect/TypingEffect'
 import ImageComparison from '../Image Comparison/ImageComparison'
 import MathTutor from '../Math Tutor/MathTutor'
 import ChatApp from '../Chat App/ChatApp'
+import OrderApp from '../Order App/OrderApp'
 
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
@@ -1302,6 +1303,11 @@ const FeatureFlags = () => {
         {
             key: "showChatApp",
             component: <ChatApp />
+        },
+
+        {
+            key: "showOrderApp",
+            component: <OrderApp />
         },
     ]
 
