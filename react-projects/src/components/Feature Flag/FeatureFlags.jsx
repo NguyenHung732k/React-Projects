@@ -215,6 +215,7 @@ import ImageComparison from '../Image Comparison/ImageComparison'
 import MathTutor from '../Math Tutor/MathTutor'
 import ChatApp from '../Chat App/ChatApp'
 import OrderApp from '../Order App/OrderApp'
+import EmojiTranslator from '../Emoji Translator/EmojiTranslator'
 
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
@@ -1308,6 +1309,11 @@ const FeatureFlags = () => {
         {
             key: "showOrderApp",
             component: <OrderApp />
+        },
+
+        {
+            key: "showEmojiTranslator",
+            component: <EmojiTranslator />
         },
     ]
 

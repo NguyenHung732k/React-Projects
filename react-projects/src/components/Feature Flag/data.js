@@ -214,7 +214,8 @@ const componentAPI = {
     showImageComparison: false,
     showMathTutor: false,
     showChatApp: false,
-    showOrderApp: true,
+    showOrderApp: false,
+    showEmojiTranslator: true,
 };
 
 const featureFlagsDataServiceCall = () => {
