@@ -216,6 +216,7 @@ import MathTutor from '../Math Tutor/MathTutor'
 import ChatApp from '../Chat App/ChatApp'
 import OrderApp from '../Order App/OrderApp'
 import EmojiTranslator from '../Emoji Translator/EmojiTranslator'
+import DiscoBall from '../Disco Ball/DiscoBall'
 
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
@@ -1314,6 +1315,11 @@ const FeatureFlags = () => {
         {
             key: "showEmojiTranslator",
             component: <EmojiTranslator />
+        },
+
+        {
+            key: "showDiscoBall",
+            component: <DiscoBall />
         },
     ]
 
