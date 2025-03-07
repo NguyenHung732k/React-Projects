@@ -217,6 +217,7 @@ import ChatApp from '../Chat App/ChatApp'
 import OrderApp from '../Order App/OrderApp'
 import EmojiTranslator from '../Emoji Translator/EmojiTranslator'
 import DiscoBall from '../Disco Ball/DiscoBall'
+import TextAnimation from '../Text Animation/TextAnimation'
 
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
@@ -1320,6 +1321,11 @@ const FeatureFlags = () => {
         {
             key: "showDiscoBall",
             component: <DiscoBall />
+        },
+
+        {
+            key: "showTextAnimation",
+            component: <TextAnimation />
         },
     ]
 
