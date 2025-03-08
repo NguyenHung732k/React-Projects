@@ -218,6 +218,7 @@ import OrderApp from '../Order App/OrderApp'
 import EmojiTranslator from '../Emoji Translator/EmojiTranslator'
 import DiscoBall from '../Disco Ball/DiscoBall'
 import TextAnimation from '../Text Animation/TextAnimation'
+import LazyButton from '../Lazy Button/LazyButton'
 
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
@@ -1326,6 +1327,11 @@ const FeatureFlags = () => {
         {
             key: "showTextAnimation",
             component: <TextAnimation />
+        },
+
+        {
+            key: "showLazyButton",
+            component: <LazyButton />
         },
     ]
 
