@@ -1,0 +1,63 @@
+@keyframes clap {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes laugh {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes facepalm {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes rollingLaugh {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(20px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.animate-clap {
+  animation: clap 1s infinite;
+}
+
+.animate-laugh {
+  animation: laugh 1s infinite;
+}
+
+.animate-facepalm {
+  animation: facepalm 1s infinite;
+}
+
+.animate-rolling-laugh {
+  animation: rollingLaugh 1s infinite;
+}

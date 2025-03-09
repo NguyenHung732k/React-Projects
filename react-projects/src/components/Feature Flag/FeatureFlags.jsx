@@ -219,6 +219,7 @@ import EmojiTranslator from '../Emoji Translator/EmojiTranslator'
 import DiscoBall from '../Disco Ball/DiscoBall'
 import TextAnimation from '../Text Animation/TextAnimation'
 import LazyButton from '../Lazy Button/LazyButton'
+import JokeBox from '../Joke Box/JokeBox'
 
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
@@ -1332,6 +1333,11 @@ const FeatureFlags = () => {
         {
             key: "showLazyButton",
             component: <LazyButton />
+        },
+
+        {
+            key: "showJokeBox",
+            component: <JokeBox />
         },
     ]
 
