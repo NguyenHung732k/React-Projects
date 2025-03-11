@@ -1,0 +1,51 @@
+@keyframes rubber-band {
+  0% {
+    transform: scale(1);
+  }
+  30% {
+    transform: scale(1.25) skewX(-20deg);
+  }
+  40% {
+    transform: scale(0.75) skewX(20deg);
+  }
+  50% {
+    transform: scale(1.15) skewX(-10deg);
+  }
+  65% {
+    transform: scale(0.95) skewX(5deg);
+  }
+  75% {
+    transform: scale(1.05) skewX(-2deg);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Bounce Effect */
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@layer utilities {
+  .animate-rubber-band {
+    animation: rubber-band 1s ease-in-out;
+  }
+  .animate-bounce {
+    animation: bounce 1s ease-in-out;
+  }
+}

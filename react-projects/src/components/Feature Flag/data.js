@@ -219,7 +219,8 @@ const componentAPI = {
     showDiscoBall: false,
     showTextAnimation: false,
     showLazyButton: false,
-    showJokeBox: true,
+    showJokeBox: false,
+    showHoverAnimation: true,
 };
 
 const featureFlagsDataServiceCall = () => {

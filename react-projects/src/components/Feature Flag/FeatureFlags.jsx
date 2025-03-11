@@ -220,6 +220,7 @@ import DiscoBall from '../Disco Ball/DiscoBall'
 import TextAnimation from '../Text Animation/TextAnimation'
 import LazyButton from '../Lazy Button/LazyButton'
 import JokeBox from '../Joke Box/JokeBox'
+import HoverAnimation from '../Hover Animation/HoverAnimation'
 
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
@@ -1338,6 +1339,11 @@ const FeatureFlags = () => {
         {
             key: "showJokeBox",
             component: <JokeBox />
+        },
+
+        {
+            key: "showHoverAnimation",
+            component: <HoverAnimation />
         },
     ]
 
