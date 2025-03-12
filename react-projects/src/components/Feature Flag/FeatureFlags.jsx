@@ -221,6 +221,7 @@ import TextAnimation from '../Text Animation/TextAnimation'
 import LazyButton from '../Lazy Button/LazyButton'
 import JokeBox from '../Joke Box/JokeBox'
 import HoverAnimation from '../Hover Animation/HoverAnimation'
+import FallingObject from '../Falling Object/FallingObject'
 
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
@@ -1344,6 +1345,11 @@ const FeatureFlags = () => {
         {
             key: "showHoverAnimation",
             component: <HoverAnimation />
+        },
+
+        {
+            key: "showFallingObject",
+            component: <FallingObject />
         },
     ]
 
