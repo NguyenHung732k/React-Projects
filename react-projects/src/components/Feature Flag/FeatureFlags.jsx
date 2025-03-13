@@ -222,6 +222,7 @@ import LazyButton from '../Lazy Button/LazyButton'
 import JokeBox from '../Joke Box/JokeBox'
 import HoverAnimation from '../Hover Animation/HoverAnimation'
 import FallingObject from '../Falling Object/FallingObject'
+import PotatoGame from '../Potato Game/PotatoGame'
 
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
@@ -1350,6 +1351,11 @@ const FeatureFlags = () => {
         {
             key: "showFallingObject",
             component: <FallingObject />
+        },
+
+        {
+            key: "showPotatoGame",
+            component: <PotatoGame />
         },
     ]
 

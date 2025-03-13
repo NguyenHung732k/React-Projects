@@ -221,7 +221,8 @@ const componentAPI = {
     showLazyButton: false,
     showJokeBox: false,
     showHoverAnimation: false,
-    showFallingObject: true,
+    showFallingObject: false,
+    showPotatoGame: true,
 };
 
 const featureFlagsDataServiceCall = () => {
