@@ -223,6 +223,7 @@ import JokeBox from '../Joke Box/JokeBox'
 import HoverAnimation from '../Hover Animation/HoverAnimation'
 import FallingObject from '../Falling Object/FallingObject'
 import PotatoGame from '../Potato Game/PotatoGame'
+import TypingTest from '../Typing Test/TypingTest'
 
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
@@ -1356,6 +1357,11 @@ const FeatureFlags = () => {
         {
             key: "showPotatoGame",
             component: <PotatoGame />
+        },
+
+        {
+            key: "showTypingTest",
+            component: <TypingTest />
         },
     ]
 
