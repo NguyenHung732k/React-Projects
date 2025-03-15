@@ -224,6 +224,7 @@ import HoverAnimation from '../Hover Animation/HoverAnimation'
 import FallingObject from '../Falling Object/FallingObject'
 import PotatoGame from '../Potato Game/PotatoGame'
 import TypingTest from '../Typing Test/TypingTest'
+import BoredomSimulator from '../Boredom Simulator/BoredomSimulator'
 
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
@@ -1362,6 +1363,11 @@ const FeatureFlags = () => {
         {
             key: "showTypingTest",
             component: <TypingTest />
+        },
+
+        {
+            key: "showBoredomSimulator",
+            component: <BoredomSimulator />
         },
     ]
 

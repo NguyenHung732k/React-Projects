@@ -223,7 +223,8 @@ const componentAPI = {
     showHoverAnimation: false,
     showFallingObject: false,
     showPotatoGame: false,
-    showTypingTest: true,
+    showTypingTest: false,
+    showBoredomSimulator: true,
 };
 
 const featureFlagsDataServiceCall = () => {

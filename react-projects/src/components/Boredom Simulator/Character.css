@@ -1,0 +1,99 @@
+.character {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  transition: all 0.5s ease-in-out;
+  text-align: center;
+}
+
+.tapping-feet {
+  animation: tapFeet 1s infinite;
+}
+
+@keyframes tapFeet {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.sliding {
+  animation: slide 1s ease-in-out infinite;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100px);
+  }
+}
+
+.juggling {
+  animation: juggle 2s infinite;
+}
+
+@keyframes juggle {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.dancing {
+  animation: dance 1.5s infinite;
+}
+
+@keyframes dance {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(15deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.explode {
+  animation: explode 1s forwards;
+}
+
+@keyframes explode {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(10);
+    opacity: 0;
+  }
+}
+
+.confetti {
+  font-size: 4rem;
+}
+
+.action {
+  font-size: 1.5rem;
+  color: #4b5563;
+  font-weight: 600;
+}
+
+@media (max-width: 640px) {
+  .character {
+    font-size: 1.5rem;
+  }
+}
