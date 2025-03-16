@@ -225,6 +225,8 @@ import FallingObject from '../Falling Object/FallingObject'
 import PotatoGame from '../Potato Game/PotatoGame'
 import TypingTest from '../Typing Test/TypingTest'
 import BoredomSimulator from '../Boredom Simulator/BoredomSimulator'
+import JigglyText from '../Jiggly Text/JigglyText'
+
 
 
 import { FeatureFlagsContext } from './context/FeatureFlagGlobalState'
@@ -1368,6 +1370,11 @@ const FeatureFlags = () => {
         {
             key: "showBoredomSimulator",
             component: <BoredomSimulator />
+        },
+
+        {
+            key: "showJigglyText",
+            component: <JigglyText />
         },
     ]
 

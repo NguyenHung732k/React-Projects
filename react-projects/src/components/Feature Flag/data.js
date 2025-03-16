@@ -224,7 +224,8 @@ const componentAPI = {
     showFallingObject: false,
     showPotatoGame: false,
     showTypingTest: false,
-    showBoredomSimulator: true,
+    showBoredomSimulator: false,
+    showJigglyText: true,
 };
 
 const featureFlagsDataServiceCall = () => {
