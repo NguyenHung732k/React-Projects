@@ -226,6 +226,7 @@ import PotatoGame from '../Potato Game/PotatoGame'
 import TypingTest from '../Typing Test/TypingTest'
 import BoredomSimulator from '../Boredom Simulator/BoredomSimulator'
 import JigglyText from '../Jiggly Text/JigglyText'
+import ExplodingMessage from '../Exploding Message/ExplodingMessage'
 
 
 
@@ -1375,6 +1376,11 @@ const FeatureFlags = () => {
         {
             key: "showJigglyText",
             component: <JigglyText />
+        },
+
+        {
+            key: "showExplodingMessage",
+            component: <ExplodingMessage />
         },
     ]
 
