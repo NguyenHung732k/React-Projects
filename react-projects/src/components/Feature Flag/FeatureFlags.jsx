@@ -227,6 +227,7 @@ import TypingTest from '../Typing Test/TypingTest'
 import BoredomSimulator from '../Boredom Simulator/BoredomSimulator'
 import JigglyText from '../Jiggly Text/JigglyText'
 import ExplodingMessage from '../Exploding Message/ExplodingMessage'
+import SpinningPizza from '../Spinning Pizza/SpinningPizza'
 
 
 
@@ -1381,6 +1382,11 @@ const FeatureFlags = () => {
         {
             key: "showExplodingMessage",
             component: <ExplodingMessage />
+        },
+
+        {
+            key: "showSpinningPizza",
+            component: <SpinningPizza />
         },
     ]
 
