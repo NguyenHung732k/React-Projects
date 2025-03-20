@@ -228,6 +228,7 @@ import BoredomSimulator from '../Boredom Simulator/BoredomSimulator'
 import JigglyText from '../Jiggly Text/JigglyText'
 import ExplodingMessage from '../Exploding Message/ExplodingMessage'
 import SpinningPizza from '../Spinning Pizza/SpinningPizza'
+import ChaosButton from '../Chaos Button/ChaosButton'
 
 
 
@@ -1387,6 +1388,11 @@ const FeatureFlags = () => {
         {
             key: "showSpinningPizza",
             component: <SpinningPizza />
+        },
+
+        {
+            key: "showChaosButton",
+            component: <ChaosButton />
         },
     ]
 

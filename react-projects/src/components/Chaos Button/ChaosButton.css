@@ -1,0 +1,65 @@
+@keyframes escapeAnimation {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  25% {
+    transform: translate(150px, -50px);
+  }
+  50% {
+    transform: translate(-100px, 100px);
+  }
+  75% {
+    transform: translate(200px, 100px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes jump {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-15px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: translateY(-8px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.chaotic {
+  animation: escapeAnimation 1s infinite, rotate 2s linear infinite,
+    jump 1s ease-in-out infinite;
+}
+
+.bg-chaotic {
+  background-color: #ff5858;
+}
+
+.bg-safe {
+  background-color: #5e89f3;
+}
+
+.transition-safe {
+  transition: all 0.5s ease-out;
+}
+
+.text-safe {
+  color: white;
+}

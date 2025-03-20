@@ -227,7 +227,8 @@ const componentAPI = {
     showBoredomSimulator: false,
     showJigglyText: false,
     showExplodingMessage: false,
-    showSpinningPizza: true,
+    showSpinningPizza: false,
+    showChaosButton: true,
 };
 
 const featureFlagsDataServiceCall = () => {
