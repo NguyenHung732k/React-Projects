@@ -1,0 +1,57 @@
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(15deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes tongue {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(15px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* Glow effect on the mirror */
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  }
+  50% {
+    box-shadow: 0 0 30px rgba(255, 255, 255, 1);
+  }
+  100% {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  }
+}
+
+.glow-mirror {
+  animation: glow 3s ease-in-out infinite;
+}
+
+.animate-wave {
+  animation: wave 1s ease-in-out infinite;
+}
+
+.animate-tongue {
+  animation: tongue 1s ease-in-out infinite;
+}
+
+.bg-gradient-to-br {
+  background-image: linear-gradient(to bottom right, #111, #444);
+}
+
+/* Mirror Transition Effects */
+.mirror-reflection {
+  transition: background-color 0.5s ease, box-shadow 0.5s ease;
+}

@@ -230,6 +230,7 @@ import ExplodingMessage from '../Exploding Message/ExplodingMessage'
 import SpinningPizza from '../Spinning Pizza/SpinningPizza'
 import ChaosButton from '../Chaos Button/ChaosButton'
 import MemeWar from '../Meme War/MemeWar'
+import HauntedMirror from '../Haunted Mirror/HauntedMirror'
 
 
 
@@ -1399,6 +1400,11 @@ const FeatureFlags = () => {
         {
             key: "showMemeWar",
             component: <MemeWar />
+        },
+
+        {
+            key: "showHauntedMirror",
+            component: <HauntedMirror />
         },
     ]
 

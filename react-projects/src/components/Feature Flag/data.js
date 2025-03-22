@@ -229,7 +229,8 @@ const componentAPI = {
     showExplodingMessage: false,
     showSpinningPizza: false,
     showChaosButton: false,
-    showMemeWar: true,
+    showMemeWar: false,
+    showHauntedMirror: true,
 };
 
 const featureFlagsDataServiceCall = () => {
