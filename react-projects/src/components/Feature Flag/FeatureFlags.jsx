@@ -231,6 +231,7 @@ import SpinningPizza from '../Spinning Pizza/SpinningPizza'
 import ChaosButton from '../Chaos Button/ChaosButton'
 import MemeWar from '../Meme War/MemeWar'
 import HauntedMirror from '../Haunted Mirror/HauntedMirror'
+import Maze from '../Find The Cheese/Maze'
 
 
 
@@ -1405,6 +1406,11 @@ const FeatureFlags = () => {
         {
             key: "showHauntedMirror",
             component: <HauntedMirror />
+        },
+
+        {
+            key: "showMaze",
+            component: <Maze />
         },
     ]
 
