@@ -231,7 +231,8 @@ const componentAPI = {
     showChaosButton: false,
     showMemeWar: false,
     showHauntedMirror: false,
-    showMaze: true,
+    showMaze: false,
+    showOverTopNewsfeed: true,
 };
 
 const featureFlagsDataServiceCall = () => {

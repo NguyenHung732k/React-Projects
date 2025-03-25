@@ -232,6 +232,7 @@ import ChaosButton from '../Chaos Button/ChaosButton'
 import MemeWar from '../Meme War/MemeWar'
 import HauntedMirror from '../Haunted Mirror/HauntedMirror'
 import Maze from '../Find The Cheese/Maze'
+import OverTopNewsfeed from '../Over Top Newsfeed/OverTopNewsfeed'
 
 
 
@@ -1411,6 +1412,11 @@ const FeatureFlags = () => {
         {
             key: "showMaze",
             component: <Maze />
+        },
+
+        {
+            key: "showOverTopNewsfeed",
+            component: <OverTopNewsfeed />
         },
     ]
 
