@@ -1,0 +1,106 @@
+.item-container {
+  position: relative;
+}
+
+.reaction {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 0.3s ease-in-out;
+}
+
+.reaction.peel {
+  animation: peelBanana 2s infinite;
+}
+
+@keyframes peelBanana {
+  0% {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(1.2);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+
+.reaction.explode {
+  animation: explodeChips 1.5s infinite;
+}
+
+@keyframes explodeChips {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.reaction.dance {
+  animation: danceCucumber 1.5s infinite;
+}
+
+@keyframes danceCucumber {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(15deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.reaction.wiggle {
+  animation: wiggleSquid 2s infinite;
+}
+
+@keyframes wiggleSquid {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.reaction.scatter {
+  animation: scatterPencil 2s infinite;
+}
+
+@keyframes scatterPencil {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(10px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.reaction.meow {
+  animation: meowKitten 1.5s infinite;
+}
+
+@keyframes meowKitten {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

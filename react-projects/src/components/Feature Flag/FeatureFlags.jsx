@@ -233,6 +233,7 @@ import MemeWar from '../Meme War/MemeWar'
 import HauntedMirror from '../Haunted Mirror/HauntedMirror'
 import Maze from '../Find The Cheese/Maze'
 import OverTopNewsfeed from '../Over Top Newsfeed/OverTopNewsfeed'
+import SupermarketCheckout from '../Supermarket Checkout/SupermarketCheckout'
 
 
 
@@ -1417,6 +1418,11 @@ const FeatureFlags = () => {
         {
             key: "showOverTopNewsfeed",
             component: <OverTopNewsfeed />
+        },
+
+        {
+            key: "showSupermarketCheckout",
+            component: <SupermarketCheckout />
         },
     ]
 
