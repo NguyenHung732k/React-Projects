@@ -234,6 +234,7 @@ import HauntedMirror from '../Haunted Mirror/HauntedMirror'
 import Maze from '../Find The Cheese/Maze'
 import OverTopNewsfeed from '../Over Top Newsfeed/OverTopNewsfeed'
 import SupermarketCheckout from '../Supermarket Checkout/SupermarketCheckout'
+import BubbleWrapPopper from '../Bubble Wrap Popper/BubbleWrapPopper'
 
 
 
@@ -1423,6 +1424,11 @@ const FeatureFlags = () => {
         {
             key: "showSupermarketCheckout",
             component: <SupermarketCheckout />
+        },
+
+        {
+            key: "showBubbleWrapPopper",
+            component: <BubbleWrapPopper />
         },
     ]
 

@@ -233,7 +233,8 @@ const componentAPI = {
     showHauntedMirror: false,
     showMaze: false,
     showOverTopNewsfeed: false,
-    showSupermarketCheckout: true,
+    showSupermarketCheckout: false,
+    showBubbleWrapPopper: true,
 };
 
 const featureFlagsDataServiceCall = () => {
