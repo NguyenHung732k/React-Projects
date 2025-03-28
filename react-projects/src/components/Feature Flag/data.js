@@ -234,7 +234,8 @@ const componentAPI = {
     showMaze: false,
     showOverTopNewsfeed: false,
     showSupermarketCheckout: false,
-    showBubbleWrapPopper: true,
+    showBubbleWrapPopper: false,
+    showAngryPrinter: true,
 };
 
 const featureFlagsDataServiceCall = () => {

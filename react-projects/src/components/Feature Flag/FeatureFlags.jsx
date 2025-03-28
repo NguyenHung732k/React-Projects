@@ -235,6 +235,7 @@ import Maze from '../Find The Cheese/Maze'
 import OverTopNewsfeed from '../Over Top Newsfeed/OverTopNewsfeed'
 import SupermarketCheckout from '../Supermarket Checkout/SupermarketCheckout'
 import BubbleWrapPopper from '../Bubble Wrap Popper/BubbleWrapPopper'
+import AngryPrinter from '../Angry Printer/AngryPrinter'
 
 
 
@@ -1429,6 +1430,11 @@ const FeatureFlags = () => {
         {
             key: "showBubbleWrapPopper",
             component: <BubbleWrapPopper />
+        },
+
+        {
+            key: "showAngryPrinter",
+            component: <AngryPrinter />
         },
     ]
 
