@@ -236,6 +236,7 @@ import OverTopNewsfeed from '../Over Top Newsfeed/OverTopNewsfeed'
 import SupermarketCheckout from '../Supermarket Checkout/SupermarketCheckout'
 import BubbleWrapPopper from '../Bubble Wrap Popper/BubbleWrapPopper'
 import AngryPrinter from '../Angry Printer/AngryPrinter'
+import TimeTravelPhone from '../Time Travel Phone/TimeTravelPhone'
 
 
 
@@ -1435,6 +1436,11 @@ const FeatureFlags = () => {
         {
             key: "showAngryPrinter",
             component: <AngryPrinter />
+        },
+
+        {
+            key: "showTimeTravelPhone",
+            component: <TimeTravelPhone />
         },
     ]
 

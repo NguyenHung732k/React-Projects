@@ -1,0 +1,115 @@
+@keyframes scroll-animation {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes rotary-animation {
+  0% {
+    transform: rotate(0deg);
+    opacity: 0;
+  }
+  100% {
+    transform: rotate(360deg);
+    opacity: 1;
+  }
+}
+
+@keyframes hologram-animation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes glitch-animation {
+  0% {
+    opacity: 0.5;
+    transform: translateX(-10px);
+  }
+  50% {
+    opacity: 1;
+    transform: translateX(10px);
+  }
+  100% {
+    opacity: 0.5;
+    transform: translateX(-10px);
+  }
+}
+
+.phone-container {
+  animation: scroll-animation 1s ease-in-out;
+  width: 250px;
+  height: 650px;
+}
+
+/* .phone.scroll {
+    background: url('/images/scroll.png') no-repeat center center;
+    background-size: contain;
+    width: 250px;
+    height: 450px;
+  }
+  
+  .phone.rotary {
+    background: url('/images/rotary-phone.png') no-repeat center center;
+    background-size: contain;
+    width: 250px;
+    height: 450px;
+  } */
+
+.phone.hologram {
+  background: linear-gradient(
+    45deg,
+    rgba(0, 0, 255, 0.5),
+    rgba(255, 0, 255, 0.5)
+  );
+  width: 250px;
+  height: 450px;
+  border-radius: 12px;
+  box-shadow: 0 0 30px rgba(0, 0, 255, 0.6);
+}
+
+.phone.glitch {
+  background: linear-gradient(45deg, #ff0000, #00ff00, #0000ff);
+  width: 250px;
+  height: 450px;
+  animation: glitch-animation 1s infinite;
+  border-radius: 12px;
+}
+
+.screen {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  border-radius: 12px;
+}
+
+.call-button {
+  background-color: #4c6ef5;
+  padding: 12px 30px;
+  margin-top: 30px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.call-button:hover {
+  background-color: #3b5bdb;
+  transform: scale(1.05);
+}
+
+.call-button:active {
+  transform: scale(1);
+}
