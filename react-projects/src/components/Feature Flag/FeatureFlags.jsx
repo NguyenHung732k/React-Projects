@@ -238,6 +238,7 @@ import BubbleWrapPopper from '../Bubble Wrap Popper/BubbleWrapPopper'
 import AngryPrinter from '../Angry Printer/AngryPrinter'
 import TimeTravelPhone from '../Time Travel Phone/TimeTravelPhone'
 import ParticleBackground from '../Particle Background/ParticleBackground'
+import HoverCursor from '../Hover Cursor/HoverCursor'
 
 
 
@@ -1447,6 +1448,11 @@ const FeatureFlags = () => {
         {
             key: "showParticleBackground",
             component: <ParticleBackground />
+        },
+
+        {
+            key: "showHoverCursor",
+            component: <HoverCursor />
         },
     ]
 
