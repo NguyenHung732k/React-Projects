@@ -237,6 +237,7 @@ import SupermarketCheckout from '../Supermarket Checkout/SupermarketCheckout'
 import BubbleWrapPopper from '../Bubble Wrap Popper/BubbleWrapPopper'
 import AngryPrinter from '../Angry Printer/AngryPrinter'
 import TimeTravelPhone from '../Time Travel Phone/TimeTravelPhone'
+import ParticleBackground from '../Particle Background/ParticleBackground'
 
 
 
@@ -1441,6 +1442,11 @@ const FeatureFlags = () => {
         {
             key: "showTimeTravelPhone",
             component: <TimeTravelPhone />
+        },
+
+        {
+            key: "showParticleBackground",
+            component: <ParticleBackground />
         },
     ]
 
