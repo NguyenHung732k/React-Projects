@@ -240,6 +240,7 @@ import TimeTravelPhone from '../Time Travel Phone/TimeTravelPhone'
 import ParticleBackground from '../Particle Background/ParticleBackground'
 import HoverCursor from '../Hover Cursor/HoverCursor'
 import LottieLoader from '../Lottie Animation Loader/LottieLoader'
+import ScrollGallery from '../Scroll Gallery/ScrollGallery'
 
 
 
@@ -1459,6 +1460,11 @@ const FeatureFlags = () => {
         {
             key: "showLottieLoader",
             component: <LottieLoader />
+        },
+
+        {
+            key: "showScrollGallery",
+            component: <ScrollGallery />
         },
     ]
 

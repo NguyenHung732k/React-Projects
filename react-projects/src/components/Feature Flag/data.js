@@ -239,7 +239,8 @@ const componentAPI = {
     showTimeTravelPhone: false,
     showParticleBackground: false,
     showHoverCursor: false,
-    showLottieLoader: true,
+    showLottieLoader: false,
+    showScrollGallery: true,
 };
 
 const featureFlagsDataServiceCall = () => {
