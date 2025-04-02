@@ -238,7 +238,8 @@ const componentAPI = {
     showAngryPrinter: false,
     showTimeTravelPhone: false,
     showParticleBackground: false,
-    showHoverCursor: true,
+    showHoverCursor: false,
+    showLottieLoader: true,
 };
 
 const featureFlagsDataServiceCall = () => {

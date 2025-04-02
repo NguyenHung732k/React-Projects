@@ -28,6 +28,7 @@
     "dotenv": "^16.4.7",
     "express": "^4.21.1",
     "fabric": "^6.4.2",
+    "file-saver": "^2.0.5",
     "framer-motion": "^11.3.28",
     "howler": "^2.2.4",
     "html2canvas": "^1.4.1",
