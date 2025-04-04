@@ -241,6 +241,7 @@ import ParticleBackground from '../Particle Background/ParticleBackground'
 import HoverCursor from '../Hover Cursor/HoverCursor'
 import LottieLoader from '../Lottie Animation Loader/LottieLoader'
 import ScrollGallery from '../Scroll Gallery/ScrollGallery'
+import ParallaxCardStack from '../Parallax Card Stack/ParallaxCardStack'
 
 
 
@@ -1465,6 +1466,11 @@ const FeatureFlags = () => {
         {
             key: "showScrollGallery",
             component: <ScrollGallery />
+        },
+
+        {
+            key: "showParallaxCardStack",
+            component: <ParallaxCardStack />
         },
     ]
 

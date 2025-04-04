@@ -240,7 +240,8 @@ const componentAPI = {
     showParticleBackground: false,
     showHoverCursor: false,
     showLottieLoader: false,
-    showScrollGallery: true,
+    showScrollGallery: false,
+    showParallaxCardStack: true,
 };
 
 const featureFlagsDataServiceCall = () => {
