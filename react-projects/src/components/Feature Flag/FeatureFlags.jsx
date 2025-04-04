@@ -242,6 +242,7 @@ import HoverCursor from '../Hover Cursor/HoverCursor'
 import LottieLoader from '../Lottie Animation Loader/LottieLoader'
 import ScrollGallery from '../Scroll Gallery/ScrollGallery'
 import ParallaxCardStack from '../Parallax Card Stack/ParallaxCardStack'
+import CircularProgressBar from '../Circular Progress Bar/CircularProgressBar'
 
 
 
@@ -1471,6 +1472,11 @@ const FeatureFlags = () => {
         {
             key: "showParallaxCardStack",
             component: <ParallaxCardStack />
+        },
+
+        {
+            key: "showCircularProgressBar",
+            component: <CircularProgressBar />
         },
     ]
 

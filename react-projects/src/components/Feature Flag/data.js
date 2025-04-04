@@ -241,7 +241,8 @@ const componentAPI = {
     showHoverCursor: false,
     showLottieLoader: false,
     showScrollGallery: false,
-    showParallaxCardStack: true,
+    showParallaxCardStack: false,
+    showCircularProgressBar: true,
 };
 
 const featureFlagsDataServiceCall = () => {
