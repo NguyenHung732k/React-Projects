@@ -243,6 +243,7 @@ import LottieLoader from '../Lottie Animation Loader/LottieLoader'
 import ScrollGallery from '../Scroll Gallery/ScrollGallery'
 import ParallaxCardStack from '../Parallax Card Stack/ParallaxCardStack'
 import CircularProgressBar from '../Circular Progress Bar/CircularProgressBar'
+import ProductShowcase from '../Product Showcase/ProductShowcase'
 
 
 
@@ -1477,6 +1478,11 @@ const FeatureFlags = () => {
         {
             key: "showCircularProgressBar",
             component: <CircularProgressBar />
+        },
+
+        {
+            key: "showProductShowcase",
+            component: <ProductShowcase />
         },
     ]
 
