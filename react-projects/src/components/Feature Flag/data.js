@@ -243,7 +243,8 @@ const componentAPI = {
     showScrollGallery: false,
     showParallaxCardStack: false,
     showCircularProgressBar: false,
-    showProductShowcase: true,
+    showProductShowcase: false,
+    showNeumorphismDashboard: true,
 };
 
 const featureFlagsDataServiceCall = () => {

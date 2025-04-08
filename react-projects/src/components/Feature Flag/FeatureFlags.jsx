@@ -244,6 +244,7 @@ import ScrollGallery from '../Scroll Gallery/ScrollGallery'
 import ParallaxCardStack from '../Parallax Card Stack/ParallaxCardStack'
 import CircularProgressBar from '../Circular Progress Bar/CircularProgressBar'
 import ProductShowcase from '../Product Showcase/ProductShowcase'
+import NeumorphismDashboard from '../Neumorphism Dashboard/NeumorphismDashboard'
 
 
 
@@ -1483,6 +1484,11 @@ const FeatureFlags = () => {
         {
             key: "showProductShowcase",
             component: <ProductShowcase />
+        },
+
+        {
+            key: "showNeumorphismDashboard",
+            component: <NeumorphismDashboard />
         },
     ]
 
