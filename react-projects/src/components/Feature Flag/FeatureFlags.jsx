@@ -245,6 +245,7 @@ import ParallaxCardStack from '../Parallax Card Stack/ParallaxCardStack'
 import CircularProgressBar from '../Circular Progress Bar/CircularProgressBar'
 import ProductShowcase from '../Product Showcase/ProductShowcase'
 import NeumorphismDashboard from '../Neumorphism Dashboard/NeumorphismDashboard'
+import AnimatedSidebar from '../Animated Sidebar/AnimatedSidebar'
 
 
 
@@ -1489,6 +1490,11 @@ const FeatureFlags = () => {
         {
             key: "showNeumorphismDashboard",
             component: <NeumorphismDashboard />
+        },
+
+        {
+            key: "showAnimatedSidebar",
+            component: <AnimatedSidebar />
         },
     ]
 
