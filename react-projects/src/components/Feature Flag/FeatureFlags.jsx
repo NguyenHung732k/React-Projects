@@ -246,6 +246,7 @@ import CircularProgressBar from '../Circular Progress Bar/CircularProgressBar'
 import ProductShowcase from '../Product Showcase/ProductShowcase'
 import NeumorphismDashboard from '../Neumorphism Dashboard/NeumorphismDashboard'
 import AnimatedSidebar from '../Animated Sidebar/AnimatedSidebar'
+import DynamicBreadcrumb from '../Dynamic Breadcrumb/DynamicBreadcrumb'
 
 
 
@@ -1495,6 +1496,11 @@ const FeatureFlags = () => {
         {
             key: "showAnimatedSidebar",
             component: <AnimatedSidebar />
+        },
+
+        {
+            key: "showDynamicBreadcrumb",
+            component: <DynamicBreadcrumb />
         },
     ]
 

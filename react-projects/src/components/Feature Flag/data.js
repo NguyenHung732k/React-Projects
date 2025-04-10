@@ -245,7 +245,8 @@ const componentAPI = {
     showCircularProgressBar: false,
     showProductShowcase: false,
     showNeumorphismDashboard: false,
-    showAnimatedSidebar: true,
+    showAnimatedSidebar: false,
+    showDynamicBreadcrumb: true,
 };
 
 const featureFlagsDataServiceCall = () => {
