@@ -247,6 +247,7 @@ import ProductShowcase from '../Product Showcase/ProductShowcase'
 import NeumorphismDashboard from '../Neumorphism Dashboard/NeumorphismDashboard'
 import AnimatedSidebar from '../Animated Sidebar/AnimatedSidebar'
 import DynamicBreadcrumb from '../Dynamic Breadcrumb/DynamicBreadcrumb'
+import PostGenerator from '../Post Generator/PostGenerator'
 
 
 
@@ -1501,6 +1502,11 @@ const FeatureFlags = () => {
         {
             key: "showDynamicBreadcrumb",
             component: <DynamicBreadcrumb />
+        },
+
+        {
+            key: "showPostGenerator",
+            component: <PostGenerator />
         },
     ]
 
