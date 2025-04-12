@@ -248,6 +248,7 @@ import NeumorphismDashboard from '../Neumorphism Dashboard/NeumorphismDashboard'
 import AnimatedSidebar from '../Animated Sidebar/AnimatedSidebar'
 import DynamicBreadcrumb from '../Dynamic Breadcrumb/DynamicBreadcrumb'
 import PostGenerator from '../Post Generator/PostGenerator'
+import DataTable from '../Data Table/DataTable'
 
 
 
@@ -1507,6 +1508,11 @@ const FeatureFlags = () => {
         {
             key: "showPostGenerator",
             component: <PostGenerator />
+        },
+
+        {
+            key: "showDataTable",
+            component: <DataTable />
         },
     ]
 

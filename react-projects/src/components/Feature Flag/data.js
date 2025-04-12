@@ -247,7 +247,8 @@ const componentAPI = {
     showNeumorphismDashboard: false,
     showAnimatedSidebar: false,
     showDynamicBreadcrumb: false,
-    showPostGenerator: true,
+    showPostGenerator: false,
+    showDataTable: true,
 };
 
 const featureFlagsDataServiceCall = () => {
