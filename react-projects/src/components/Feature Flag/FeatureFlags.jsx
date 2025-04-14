@@ -249,6 +249,7 @@ import AnimatedSidebar from '../Animated Sidebar/AnimatedSidebar'
 import DynamicBreadcrumb from '../Dynamic Breadcrumb/DynamicBreadcrumb'
 import PostGenerator from '../Post Generator/PostGenerator'
 import DataTable from '../Data Table/DataTable'
+import AvatarCustomizer from '../Avatar Customizer/AvatarCustomizer'
 
 
 
@@ -1513,6 +1514,11 @@ const FeatureFlags = () => {
         {
             key: "showDataTable",
             component: <DataTable />
+        },
+
+        {
+            key: "showAvatarCustomizer",
+            component: <AvatarCustomizer />
         },
     ]
 
