@@ -250,6 +250,7 @@ import DynamicBreadcrumb from '../Dynamic Breadcrumb/DynamicBreadcrumb'
 import PostGenerator from '../Post Generator/PostGenerator'
 import DataTable from '../Data Table/DataTable'
 import AvatarCustomizer from '../Avatar Customizer/AvatarCustomizer'
+import GlitchTextAnimation from '../Glitch Text Animation/GlitchTextAnimation'
 
 
 
@@ -1519,6 +1520,11 @@ const FeatureFlags = () => {
         {
             key: "showAvatarCustomizer",
             component: <AvatarCustomizer />
+        },
+
+        {
+            key: "showGlitchTextAnimation",
+            component: <GlitchTextAnimation />
         },
     ]
 

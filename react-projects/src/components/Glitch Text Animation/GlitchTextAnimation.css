@@ -1,0 +1,91 @@
+/* Glitch Effect Styles */
+@keyframes glitch {
+  0% {
+    transform: translate(2px, 2px);
+    opacity: 0.9;
+  }
+  20% {
+    transform: translate(-3px, -2px);
+    opacity: 1;
+  }
+  40% {
+    transform: translate(2px, 0px);
+    opacity: 0.8;
+  }
+  60% {
+    transform: translate(-2px, 3px);
+    opacity: 1;
+  }
+  80% {
+    transform: translate(1px, -3px);
+    opacity: 0.9;
+  }
+  100% {
+    transform: translate(0px, 0px);
+    opacity: 1;
+  }
+}
+
+/* Styling for the Glitch Text */
+.glitch {
+  position: relative;
+  display: inline-block;
+  font-size: 3rem; /* Adjust size as needed */
+  font-weight: bold;
+  color: white;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  user-select: none; /* Prevent text selection */
+  padding: 10px;
+  border-radius: 5px;
+  background: linear-gradient(45deg, #ff00ff, #00ffcc);
+  background-clip: text;
+  -webkit-background-clip: text;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.7);
+  transition: transform 0.3s ease;
+}
+
+.glitch::before,
+.glitch::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #00ff00; /* Glitch color */
+  clip-path: inset(0 0 0 0);
+  opacity: 0.6;
+  animation: glitch 1s infinite linear alternate-reverse;
+}
+
+.glitch::after {
+  animation-delay: 0.2s;
+  opacity: 0.8;
+}
+
+/* Hover interaction */
+.glitch:hover {
+  transform: scale(1.1) rotate(1deg);
+  box-shadow: 0 0 25px rgba(0, 255, 255, 1);
+}
+
+.glitch:hover::before,
+.glitch:hover::after {
+  animation-duration: 0.8s; /* Speed up glitch on hover */
+  opacity: 0.9;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .glitch {
+    font-size: 2rem;
+    padding: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .glitch {
+    font-size: 1.5rem;
+    padding: 6px;
+  }
+}

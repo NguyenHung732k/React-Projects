@@ -249,7 +249,8 @@ const componentAPI = {
     showDynamicBreadcrumb: false,
     showPostGenerator: false,
     showDataTable: false,
-    showAvatarCustomizer: true,
+    showAvatarCustomizer: false,
+    showGlitchTextAnimation: true,
 };
 
 const featureFlagsDataServiceCall = () => {
