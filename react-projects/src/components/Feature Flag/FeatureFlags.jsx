@@ -251,6 +251,7 @@ import PostGenerator from '../Post Generator/PostGenerator'
 import DataTable from '../Data Table/DataTable'
 import AvatarCustomizer from '../Avatar Customizer/AvatarCustomizer'
 import GlitchTextAnimation from '../Glitch Text Animation/GlitchTextAnimation'
+import CustomCursor from '../Custom Cursor/CustomCursor'
 
 
 
@@ -1525,6 +1526,11 @@ const FeatureFlags = () => {
         {
             key: "showGlitchTextAnimation",
             component: <GlitchTextAnimation />
+        },
+
+        {
+            key: "showCustomCursor",
+            component: <CustomCursor />
         },
     ]
 

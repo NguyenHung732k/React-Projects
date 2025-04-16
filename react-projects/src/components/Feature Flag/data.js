@@ -250,7 +250,8 @@ const componentAPI = {
     showPostGenerator: false,
     showDataTable: false,
     showAvatarCustomizer: false,
-    showGlitchTextAnimation: true,
+    showGlitchTextAnimation: false,
+    showCustomCursor: true,
 };
 
 const featureFlagsDataServiceCall = () => {
