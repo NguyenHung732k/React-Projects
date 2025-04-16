@@ -251,7 +251,8 @@ const componentAPI = {
     showDataTable: false,
     showAvatarCustomizer: false,
     showGlitchTextAnimation: false,
-    showCustomCursor: true,
+    showCustomCursor: false,
+    showFoldableCard: true,
 };
 
 const featureFlagsDataServiceCall = () => {

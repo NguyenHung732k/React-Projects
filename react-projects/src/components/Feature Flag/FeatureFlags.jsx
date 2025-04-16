@@ -252,6 +252,7 @@ import DataTable from '../Data Table/DataTable'
 import AvatarCustomizer from '../Avatar Customizer/AvatarCustomizer'
 import GlitchTextAnimation from '../Glitch Text Animation/GlitchTextAnimation'
 import CustomCursor from '../Custom Cursor/CustomCursor'
+import FoldableCardApp from '../Foldable Card/FoldableCardApp'
 
 
 
@@ -1531,6 +1532,11 @@ const FeatureFlags = () => {
         {
             key: "showCustomCursor",
             component: <CustomCursor />
+        },
+
+        {
+            key: "showFoldableCard",
+            component: <FoldableCardApp />
         },
     ]
 
