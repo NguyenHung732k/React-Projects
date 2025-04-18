@@ -253,6 +253,7 @@ import AvatarCustomizer from '../Avatar Customizer/AvatarCustomizer'
 import GlitchTextAnimation from '../Glitch Text Animation/GlitchTextAnimation'
 import CustomCursor from '../Custom Cursor/CustomCursor'
 import FoldableCardApp from '../Foldable Card/FoldableCardApp'
+import ReadingHighlighter from '../Reading Highlighter/ReadingHighlighter'
 
 
 
@@ -1537,6 +1538,11 @@ const FeatureFlags = () => {
         {
             key: "showFoldableCard",
             component: <FoldableCardApp />
+        },
+
+        {
+            key: "showReadingHighlighter",
+            component: <ReadingHighlighter />
         },
     ]
 

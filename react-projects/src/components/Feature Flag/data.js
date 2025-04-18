@@ -252,7 +252,8 @@ const componentAPI = {
     showAvatarCustomizer: false,
     showGlitchTextAnimation: false,
     showCustomCursor: false,
-    showFoldableCard: true,
+    showFoldableCard: false,
+    showReadingHighlighter: true,
 };
 
 const featureFlagsDataServiceCall = () => {
