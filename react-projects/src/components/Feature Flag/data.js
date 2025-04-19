@@ -253,7 +253,8 @@ const componentAPI = {
     showGlitchTextAnimation: false,
     showCustomCursor: false,
     showFoldableCard: false,
-    showReadingHighlighter: true,
+    showReadingHighlighter: false,
+    showTestimonialCarousel: true,
 };
 
 const featureFlagsDataServiceCall = () => {

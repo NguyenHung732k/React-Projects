@@ -1,0 +1,31 @@
+.carousel-container {
+  @apply bg-gradient-to-r from-purple-500 to-indigo-600 rounded-xl shadow-lg p-6;
+}
+
+.testimonial-text {
+  @apply text-white font-semibold text-xl mb-4;
+}
+
+.testimonial-name {
+  @apply text-lg font-bold text-white;
+}
+
+.testimonial-position {
+  @apply text-md text-gray-100;
+}
+
+.pagination-dots {
+  @apply flex space-x-4 mt-6;
+}
+
+.pagination-dot-active {
+  @apply bg-white scale-125;
+}
+
+.pagination-dot-inactive {
+  @apply bg-gray-200 hover:bg-white;
+}
+
+.navigation-button {
+  @apply text-white bg-black bg-opacity-30 rounded-full p-3 shadow-lg hover:bg-opacity-70 transition duration-200;
+}

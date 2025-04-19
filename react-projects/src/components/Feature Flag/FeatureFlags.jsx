@@ -254,6 +254,7 @@ import GlitchTextAnimation from '../Glitch Text Animation/GlitchTextAnimation'
 import CustomCursor from '../Custom Cursor/CustomCursor'
 import FoldableCardApp from '../Foldable Card/FoldableCardApp'
 import ReadingHighlighter from '../Reading Highlighter/ReadingHighlighter'
+import TestimonialCarousel from '../Testimonial Carousel/TestimonialCarousel'
 
 
 
@@ -1543,6 +1544,11 @@ const FeatureFlags = () => {
         {
             key: "showReadingHighlighter",
             component: <ReadingHighlighter />
+        },
+
+        {
+            key: "showTestimonialCarousel",
+            component: <TestimonialCarousel />
         },
     ]
 
