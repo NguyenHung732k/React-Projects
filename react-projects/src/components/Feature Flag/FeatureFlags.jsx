@@ -255,6 +255,7 @@ import CustomCursor from '../Custom Cursor/CustomCursor'
 import FoldableCardApp from '../Foldable Card/FoldableCardApp'
 import ReadingHighlighter from '../Reading Highlighter/ReadingHighlighter'
 import TestimonialCarousel from '../Testimonial Carousel/TestimonialCarousel'
+import StarfieldBackground from '../Starfield Background/StarfieldBackground'
 
 
 
@@ -1549,6 +1550,11 @@ const FeatureFlags = () => {
         {
             key: "showTestimonialCarousel",
             component: <TestimonialCarousel />
+        },
+
+        {
+            key: "showStarfieldBackground",
+            component: <StarfieldBackground />
         },
     ]
 
