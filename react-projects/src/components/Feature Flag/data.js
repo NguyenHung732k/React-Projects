@@ -255,7 +255,9 @@ const componentAPI = {
     showFoldableCard: false,
     showReadingHighlighter: false,
     showTestimonialCarousel: false,
-    showStarfieldBackground: true,
+    showStarfieldBackground: false,
+    showGooeyButton: false,
+    showGridOverlayTool: true,
 };
 
 const featureFlagsDataServiceCall = () => {

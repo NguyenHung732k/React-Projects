@@ -1,0 +1,42 @@
+.gooey-container {
+    filter: url('#gooey-effect');
+    transition: all 0.3s ease;
+  }
+  
+  .css-gooey {
+    filter: blur(10px) contrast(15);
+    transition: all 0.3s ease;
+  }
+  
+  .gooey-btn {
+    background-color: #3b82f6;
+    color: white;
+    font-weight: bold;
+    padding: 1rem 2.5rem;
+    border: none;
+    font-size: 1.25rem;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 30px rgba(59, 130, 246, 0.5);
+  }
+  
+  .gooey-btn:hover::before {
+    content: '';
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    background: rgba(255, 255, 255, 0.1);
+    top: -50%;
+    left: -50%;
+    border-radius: 50%;
+    animation: gooey-move 1.2s ease-in-out infinite;
+  }
+  
+  @keyframes gooey-move {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+  }

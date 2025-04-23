@@ -256,6 +256,8 @@ import FoldableCardApp from '../Foldable Card/FoldableCardApp'
 import ReadingHighlighter from '../Reading Highlighter/ReadingHighlighter'
 import TestimonialCarousel from '../Testimonial Carousel/TestimonialCarousel'
 import StarfieldBackground from '../Starfield Background/StarfieldBackground'
+import GooeyButton from '../Gooey Button/GooeyButton'
+import GridOverlayTool from '../Grid Overlay Tool/GridOverlayTool'
 
 
 
@@ -1555,6 +1557,16 @@ const FeatureFlags = () => {
         {
             key: "showStarfieldBackground",
             component: <StarfieldBackground />
+        },
+
+        {
+            key: "showGooeyButton",
+            component: <GooeyButton />
+        },
+
+        {
+            key: "showGridOverlayTool",
+            component: <GridOverlayTool />
         },
     ]
 
