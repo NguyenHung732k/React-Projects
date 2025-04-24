@@ -258,6 +258,7 @@ import TestimonialCarousel from '../Testimonial Carousel/TestimonialCarousel'
 import StarfieldBackground from '../Starfield Background/StarfieldBackground'
 import GooeyButton from '../Gooey Button/GooeyButton'
 import GridOverlayTool from '../Grid Overlay Tool/GridOverlayTool'
+import PageCurl from '../Page Curl/PageCurl'
 
 
 
@@ -1567,6 +1568,11 @@ const FeatureFlags = () => {
         {
             key: "showGridOverlayTool",
             component: <GridOverlayTool />
+        },
+
+        {
+            key: "showPageCurl",
+            component: <PageCurl />
         },
     ]
 

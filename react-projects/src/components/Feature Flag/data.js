@@ -257,7 +257,8 @@ const componentAPI = {
     showTestimonialCarousel: false,
     showStarfieldBackground: false,
     showGooeyButton: false,
-    showGridOverlayTool: true,
+    showGridOverlayTool: false,
+    showPageCurl: true,
 };
 
 const featureFlagsDataServiceCall = () => {
