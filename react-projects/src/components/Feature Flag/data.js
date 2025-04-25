@@ -258,7 +258,8 @@ const componentAPI = {
     showStarfieldBackground: false,
     showGooeyButton: false,
     showGridOverlayTool: false,
-    showPageCurl: true,
+    showPageCurl: false,
+    showFloatingLabel: true,
 };
 
 const featureFlagsDataServiceCall = () => {

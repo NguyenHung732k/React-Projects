@@ -259,6 +259,7 @@ import StarfieldBackground from '../Starfield Background/StarfieldBackground'
 import GooeyButton from '../Gooey Button/GooeyButton'
 import GridOverlayTool from '../Grid Overlay Tool/GridOverlayTool'
 import PageCurl from '../Page Curl/PageCurl'
+import FloatingLabel from '../Floating Label Form/FloatingLabel'
 
 
 
@@ -1573,6 +1574,11 @@ const FeatureFlags = () => {
         {
             key: "showPageCurl",
             component: <PageCurl />
+        },
+
+        {
+            key: "showFloatingLabel",
+            component: <FloatingLabel />
         },
     ]
 
