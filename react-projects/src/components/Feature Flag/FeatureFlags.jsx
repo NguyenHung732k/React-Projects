@@ -260,6 +260,7 @@ import GooeyButton from '../Gooey Button/GooeyButton'
 import GridOverlayTool from '../Grid Overlay Tool/GridOverlayTool'
 import PageCurl from '../Page Curl/PageCurl'
 import FloatingLabel from '../Floating Label Form/FloatingLabel'
+import PageTransitionAnimator from '../Page Transition Animator/PageTransitionAnimator'
 
 
 
@@ -1579,6 +1580,11 @@ const FeatureFlags = () => {
         {
             key: "showFloatingLabel",
             component: <FloatingLabel />
+        },
+
+        {
+            key: "showPageTransitionAnimator",
+            component: <PageTransitionAnimator />
         },
     ]
 

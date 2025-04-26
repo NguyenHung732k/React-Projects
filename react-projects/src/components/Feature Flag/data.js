@@ -259,7 +259,8 @@ const componentAPI = {
     showGooeyButton: false,
     showGridOverlayTool: false,
     showPageCurl: false,
-    showFloatingLabel: true,
+    showFloatingLabel: false,
+    showPageTransitionAnimator: true,
 };
 
 const featureFlagsDataServiceCall = () => {
