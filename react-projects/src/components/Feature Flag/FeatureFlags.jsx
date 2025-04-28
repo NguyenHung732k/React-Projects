@@ -261,6 +261,7 @@ import GridOverlayTool from '../Grid Overlay Tool/GridOverlayTool'
 import PageCurl from '../Page Curl/PageCurl'
 import FloatingLabel from '../Floating Label Form/FloatingLabel'
 import PageTransitionAnimator from '../Page Transition Animator/PageTransitionAnimator'
+import ScrollSnapPage from '../Scroll Snap Page/ScrollSnapPage'
 
 
 
@@ -1585,6 +1586,11 @@ const FeatureFlags = () => {
         {
             key: "showPageTransitionAnimator",
             component: <PageTransitionAnimator />
+        },
+
+        {
+            key: "showScrollSnapPage",
+            component: <ScrollSnapPage />
         },
     ]
 
