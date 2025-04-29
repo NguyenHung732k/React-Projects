@@ -1,0 +1,19 @@
+@keyframes twinkle {
+  0%,
+  100% {
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.bg-stars {
+  background-image: url("/images/stars-background.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.animate-twinkle {
+  animation: twinkle 4s infinite ease-in-out;
+}

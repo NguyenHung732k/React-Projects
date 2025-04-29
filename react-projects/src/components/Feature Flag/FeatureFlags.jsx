@@ -262,6 +262,7 @@ import PageCurl from '../Page Curl/PageCurl'
 import FloatingLabel from '../Floating Label Form/FloatingLabel'
 import PageTransitionAnimator from '../Page Transition Animator/PageTransitionAnimator'
 import ScrollSnapPage from '../Scroll Snap Page/ScrollSnapPage'
+import NotFoundPage from '../Not Found Page/NotFoundPage'
 
 
 
@@ -1591,6 +1592,11 @@ const FeatureFlags = () => {
         {
             key: "showScrollSnapPage",
             component: <ScrollSnapPage />
+        },
+
+        {
+            key: "showNotFoundPage",
+            component: <NotFoundPage />
         },
     ]
 

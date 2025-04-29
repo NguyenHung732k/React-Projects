@@ -261,7 +261,8 @@ const componentAPI = {
     showPageCurl: false,
     showFloatingLabel: false,
     showPageTransitionAnimator: false,
-    showScrollSnapPage: true,
+    showScrollSnapPage: false,
+    showNotFoundPage: true,
 };
 
 const featureFlagsDataServiceCall = () => {
