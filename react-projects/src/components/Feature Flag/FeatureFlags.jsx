@@ -263,6 +263,7 @@ import FloatingLabel from '../Floating Label Form/FloatingLabel'
 import PageTransitionAnimator from '../Page Transition Animator/PageTransitionAnimator'
 import ScrollSnapPage from '../Scroll Snap Page/ScrollSnapPage'
 import NotFoundPage from '../Not Found Page/NotFoundPage'
+import CustomizableStepper from '../Customizable Stepper/CustomizableStepper'
 
 
 
@@ -1597,6 +1598,11 @@ const FeatureFlags = () => {
         {
             key: "showNotFoundPage",
             component: <NotFoundPage />
+        },
+
+        {
+            key: "showCustomizableStepper",
+            component: <CustomizableStepper />
         },
     ]
 

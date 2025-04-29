@@ -262,7 +262,8 @@ const componentAPI = {
     showFloatingLabel: false,
     showPageTransitionAnimator: false,
     showScrollSnapPage: false,
-    showNotFoundPage: true,
+    showNotFoundPage: false,
+    showCustomizableStepper: true,
 };
 
 const featureFlagsDataServiceCall = () => {
