@@ -264,6 +264,7 @@ import PageTransitionAnimator from '../Page Transition Animator/PageTransitionAn
 import ScrollSnapPage from '../Scroll Snap Page/ScrollSnapPage'
 import NotFoundPage from '../Not Found Page/NotFoundPage'
 import CustomizableStepper from '../Customizable Stepper/CustomizableStepper'
+import MasonryGrid from '../Masonry Grid/MasonryGrid'
 
 
 
@@ -1603,6 +1604,11 @@ const FeatureFlags = () => {
         {
             key: "showCustomizableStepper",
             component: <CustomizableStepper />
+        },
+
+        {
+            key: "showMasonryGrid",
+            component: <MasonryGrid />
         },
     ]
 

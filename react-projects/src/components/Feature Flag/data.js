@@ -263,7 +263,8 @@ const componentAPI = {
     showPageTransitionAnimator: false,
     showScrollSnapPage: false,
     showNotFoundPage: false,
-    showCustomizableStepper: true,
+    showCustomizableStepper: false,
+    showMasonryGrid: true,
 };
 
 const featureFlagsDataServiceCall = () => {
