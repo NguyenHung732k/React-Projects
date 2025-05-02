@@ -265,6 +265,7 @@ import ScrollSnapPage from '../Scroll Snap Page/ScrollSnapPage'
 import NotFoundPage from '../Not Found Page/NotFoundPage'
 import CustomizableStepper from '../Customizable Stepper/CustomizableStepper'
 import MasonryGrid from '../Masonry Grid/MasonryGrid'
+import PricingCardComparison from '../Pricing Card Comparison/PricingCardComparison'
 
 
 
@@ -1609,6 +1610,11 @@ const FeatureFlags = () => {
         {
             key: "showMasonryGrid",
             component: <MasonryGrid />
+        },
+
+        {
+            key: "showPricingCardComparison",
+            component: <PricingCardComparison />
         },
     ]
 

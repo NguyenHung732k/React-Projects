@@ -264,7 +264,8 @@ const componentAPI = {
     showScrollSnapPage: false,
     showNotFoundPage: false,
     showCustomizableStepper: false,
-    showMasonryGrid: true,
+    showMasonryGrid: false,
+    showPricingCardComparison: true,
 };
 
 const featureFlagsDataServiceCall = () => {
