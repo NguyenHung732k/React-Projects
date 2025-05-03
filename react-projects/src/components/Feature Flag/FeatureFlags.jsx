@@ -266,6 +266,7 @@ import NotFoundPage from '../Not Found Page/NotFoundPage'
 import CustomizableStepper from '../Customizable Stepper/CustomizableStepper'
 import MasonryGrid from '../Masonry Grid/MasonryGrid'
 import PricingCardComparison from '../Pricing Card Comparison/PricingCardComparison'
+import AutoExpandingTextarea from '../Auto Expanding Textarea/AutoExpandingTextarea'
 
 
 
@@ -1615,6 +1616,11 @@ const FeatureFlags = () => {
         {
             key: "showPricingCardComparison",
             component: <PricingCardComparison />
+        },
+
+        {
+            key: "showAutoExpandingTextarea",
+            component: <AutoExpandingTextarea />
         },
     ]
 
