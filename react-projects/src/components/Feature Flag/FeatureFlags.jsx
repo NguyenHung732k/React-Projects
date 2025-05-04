@@ -267,6 +267,7 @@ import CustomizableStepper from '../Customizable Stepper/CustomizableStepper'
 import MasonryGrid from '../Masonry Grid/MasonryGrid'
 import PricingCardComparison from '../Pricing Card Comparison/PricingCardComparison'
 import AutoExpandingTextarea from '../Auto Expanding Textarea/AutoExpandingTextarea'
+import WavyTextAnimation from '../Wavy Text Animation/WavyTextAnimation'
 
 
 
@@ -1621,6 +1622,11 @@ const FeatureFlags = () => {
         {
             key: "showAutoExpandingTextarea",
             component: <AutoExpandingTextarea />
+        },
+
+        {
+            key: "showWavyTextAnimation",
+            component: <WavyTextAnimation />
         },
     ]
 

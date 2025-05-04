@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes wave {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(var(--wave-height));
+  }
+}
+
+.wavy-letter {
+  display: inline-block;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  transition: transform 0.3s ease;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to right, #06b6d4, #6366f1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 1.2;
+}

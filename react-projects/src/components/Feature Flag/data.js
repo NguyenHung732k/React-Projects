@@ -266,7 +266,8 @@ const componentAPI = {
     showCustomizableStepper: false,
     showMasonryGrid: false,
     showPricingCardComparison: false,
-    showAutoExpandingTextarea: true,
+    showAutoExpandingTextarea: false,
+    showWavyTextAnimation: true,
 };
 
 const featureFlagsDataServiceCall = () => {
