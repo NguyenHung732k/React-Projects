@@ -268,6 +268,7 @@ import MasonryGrid from '../Masonry Grid/MasonryGrid'
 import PricingCardComparison from '../Pricing Card Comparison/PricingCardComparison'
 import AutoExpandingTextarea from '../Auto Expanding Textarea/AutoExpandingTextarea'
 import WavyTextAnimation from '../Wavy Text Animation/WavyTextAnimation'
+import RippleButtonEffect from '../Ripple Button Effect/RippleButtonEffect'
 
 
 
@@ -1627,6 +1628,11 @@ const FeatureFlags = () => {
         {
             key: "showWavyTextAnimation",
             component: <WavyTextAnimation />
+        },
+
+        {
+            key: "showRippleButtonEffect",
+            component: <RippleButtonEffect />
         },
     ]
 

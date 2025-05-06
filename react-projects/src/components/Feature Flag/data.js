@@ -267,7 +267,8 @@ const componentAPI = {
     showMasonryGrid: false,
     showPricingCardComparison: false,
     showAutoExpandingTextarea: false,
-    showWavyTextAnimation: true,
+    showWavyTextAnimation: false,
+    showRippleButtonEffect: true,
 };
 
 const featureFlagsDataServiceCall = () => {
