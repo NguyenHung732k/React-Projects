@@ -268,7 +268,8 @@ const componentAPI = {
     showPricingCardComparison: false,
     showAutoExpandingTextarea: false,
     showWavyTextAnimation: false,
-    showRippleButtonEffect: true,
+    showRippleButtonEffect: false,
+    showFormAnimation: true,
 };
 
 const featureFlagsDataServiceCall = () => {

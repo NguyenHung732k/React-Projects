@@ -269,6 +269,7 @@ import PricingCardComparison from '../Pricing Card Comparison/PricingCardCompari
 import AutoExpandingTextarea from '../Auto Expanding Textarea/AutoExpandingTextarea'
 import WavyTextAnimation from '../Wavy Text Animation/WavyTextAnimation'
 import RippleButtonEffect from '../Ripple Button Effect/RippleButtonEffect'
+import FormAnimation from '../Form Animation/FormAnimation'
 
 
 
@@ -1633,6 +1634,11 @@ const FeatureFlags = () => {
         {
             key: "showRippleButtonEffect",
             component: <RippleButtonEffect />
+        },
+
+        {
+            key: "showFormAnimation",
+            component: <FormAnimation />
         },
     ]
 
