@@ -269,7 +269,8 @@ const componentAPI = {
     showAutoExpandingTextarea: false,
     showWavyTextAnimation: false,
     showRippleButtonEffect: false,
-    showFormAnimation: true,
+    showFormAnimation: false,
+    showCartButton: true,
 };
 
 const featureFlagsDataServiceCall = () => {
