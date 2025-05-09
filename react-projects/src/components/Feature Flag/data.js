@@ -270,7 +270,8 @@ const componentAPI = {
     showWavyTextAnimation: false,
     showRippleButtonEffect: false,
     showFormAnimation: false,
-    showCartButton: true,
+    showCartButton: false,
+    showReadtimeEstimator: true,
 };
 
 const featureFlagsDataServiceCall = () => {

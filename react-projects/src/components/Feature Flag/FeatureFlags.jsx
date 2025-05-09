@@ -271,6 +271,7 @@ import WavyTextAnimation from '../Wavy Text Animation/WavyTextAnimation'
 import RippleButtonEffect from '../Ripple Button Effect/RippleButtonEffect'
 import FormAnimation from '../Form Animation/FormAnimation'
 import CartButton from '../Cart Button/CartButton'
+import ReadtimeEstimator from '../Readtime Estimator/ReadtimeEstimator'
 
 
 
@@ -1645,6 +1646,11 @@ const FeatureFlags = () => {
         {
             key: "showCartButton",
             component: <CartButton />
+        },
+
+        {
+            key: "showReadtimeEstimator",
+            component: <ReadtimeEstimator />
         },
     ]
 
