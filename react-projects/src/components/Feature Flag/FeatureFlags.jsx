@@ -272,6 +272,7 @@ import RippleButtonEffect from '../Ripple Button Effect/RippleButtonEffect'
 import FormAnimation from '../Form Animation/FormAnimation'
 import CartButton from '../Cart Button/CartButton'
 import ReadtimeEstimator from '../Readtime Estimator/ReadtimeEstimator'
+import ScrollCounter from '../Scroll Triggered Counter/ScrollCounter'
 
 
 
@@ -1651,6 +1652,11 @@ const FeatureFlags = () => {
         {
             key: "showReadtimeEstimator",
             component: <ReadtimeEstimator />
+        },
+
+        {
+            key: "showScrollCounter",
+            component: <ScrollCounter />
         },
     ]
 

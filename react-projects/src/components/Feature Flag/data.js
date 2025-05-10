@@ -271,7 +271,8 @@ const componentAPI = {
     showRippleButtonEffect: false,
     showFormAnimation: false,
     showCartButton: false,
-    showReadtimeEstimator: true,
+    showReadtimeEstimator: false,
+    showScrollCounter: true,
 };
 
 const featureFlagsDataServiceCall = () => {
