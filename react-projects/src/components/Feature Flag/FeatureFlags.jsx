@@ -273,6 +273,7 @@ import FormAnimation from '../Form Animation/FormAnimation'
 import CartButton from '../Cart Button/CartButton'
 import ReadtimeEstimator from '../Readtime Estimator/ReadtimeEstimator'
 import ScrollCounter from '../Scroll Triggered Counter/ScrollCounter'
+import ScrollHintNudge from '../Scroll Hint Nudge/ScrollHintNudge'
 
 
 
@@ -1657,6 +1658,11 @@ const FeatureFlags = () => {
         {
             key: "showScrollCounter",
             component: <ScrollCounter />
+        },
+
+        {
+            key: "showScrollHintNudge",
+            component: <ScrollHintNudge />
         },
     ]
 
