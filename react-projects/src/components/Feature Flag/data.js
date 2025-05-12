@@ -273,7 +273,8 @@ const componentAPI = {
     showCartButton: false,
     showReadtimeEstimator: false,
     showScrollCounter: false,
-    showScrollHintNudge: true,
+    showScrollHintNudge: false,
+    showCheckboxGallery: true,
 };
 
 const featureFlagsDataServiceCall = () => {
