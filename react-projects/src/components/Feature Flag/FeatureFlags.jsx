@@ -275,6 +275,7 @@ import ReadtimeEstimator from '../Readtime Estimator/ReadtimeEstimator'
 import ScrollCounter from '../Scroll Triggered Counter/ScrollCounter'
 import ScrollHintNudge from '../Scroll Hint Nudge/ScrollHintNudge'
 import CheckboxGallery from '../Checkbox Gallery/CheckboxGallery'
+import SkeletonCard from '../Skeleton/SkeletonCard'
 
 
 
@@ -1669,6 +1670,11 @@ const FeatureFlags = () => {
         {
             key: "showCheckboxGallery",
             component: <CheckboxGallery />
+        },
+
+        {
+            key: "showSkeletonCard",
+            component: <SkeletonCard />
         },
     ]
 

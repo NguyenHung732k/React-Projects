@@ -274,7 +274,8 @@ const componentAPI = {
     showReadtimeEstimator: false,
     showScrollCounter: false,
     showScrollHintNudge: false,
-    showCheckboxGallery: true,
+    showCheckboxGallery: false,
+    showSkeletonCard: true,
 };
 
 const featureFlagsDataServiceCall = () => {
