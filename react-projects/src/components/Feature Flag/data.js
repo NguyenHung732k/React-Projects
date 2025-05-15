@@ -275,7 +275,8 @@ const componentAPI = {
     showScrollCounter: false,
     showScrollHintNudge: false,
     showCheckboxGallery: false,
-    showSkeletonCard: true,
+    showSkeletonCard: false,
+    showNotificationBell: true,
 };
 
 const featureFlagsDataServiceCall = () => {

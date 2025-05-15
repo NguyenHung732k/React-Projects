@@ -276,6 +276,7 @@ import ScrollCounter from '../Scroll Triggered Counter/ScrollCounter'
 import ScrollHintNudge from '../Scroll Hint Nudge/ScrollHintNudge'
 import CheckboxGallery from '../Checkbox Gallery/CheckboxGallery'
 import SkeletonCard from '../Skeleton/SkeletonCard'
+import NotificationBell from '../Notification Bell/NotificationBell'
 
 
 
@@ -1675,6 +1676,11 @@ const FeatureFlags = () => {
         {
             key: "showSkeletonCard",
             component: <SkeletonCard />
+        },
+
+        {
+            key: "showNotificationBell",
+            component: <NotificationBell />
         },
     ]
 
