@@ -277,6 +277,7 @@ import ScrollHintNudge from '../Scroll Hint Nudge/ScrollHintNudge'
 import CheckboxGallery from '../Checkbox Gallery/CheckboxGallery'
 import SkeletonCard from '../Skeleton/SkeletonCard'
 import NotificationBell from '../Notification Bell/NotificationBell'
+import BookmarkButton from '../Bookmark Button/BookmarkButton'
 
 
 
@@ -1681,6 +1682,11 @@ const FeatureFlags = () => {
         {
             key: "showNotificationBell",
             component: <NotificationBell />
+        },
+
+        {
+            key: "showBookmarkButton",
+            component: <BookmarkButton />
         },
     ]
 

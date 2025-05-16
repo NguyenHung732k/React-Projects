@@ -276,7 +276,8 @@ const componentAPI = {
     showScrollHintNudge: false,
     showCheckboxGallery: false,
     showSkeletonCard: false,
-    showNotificationBell: true,
+    showNotificationBell: false,
+    showBookmarkButton: true,
 };
 
 const featureFlagsDataServiceCall = () => {
