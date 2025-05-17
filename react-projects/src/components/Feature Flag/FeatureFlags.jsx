@@ -278,6 +278,7 @@ import CheckboxGallery from '../Checkbox Gallery/CheckboxGallery'
 import SkeletonCard from '../Skeleton/SkeletonCard'
 import NotificationBell from '../Notification Bell/NotificationBell'
 import BookmarkButton from '../Bookmark Button/BookmarkButton'
+import PullToRefresh from '../Pull To Refresh/PullToRefresh'
 
 
 
@@ -1687,6 +1688,11 @@ const FeatureFlags = () => {
         {
             key: "showBookmarkButton",
             component: <BookmarkButton />
+        },
+
+        {
+            key: "showPullToRefresh",
+            component: <PullToRefresh />
         },
     ]
 

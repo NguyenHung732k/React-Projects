@@ -277,7 +277,8 @@ const componentAPI = {
     showCheckboxGallery: false,
     showSkeletonCard: false,
     showNotificationBell: false,
-    showBookmarkButton: true,
+    showBookmarkButton: false,
+    showPullToRefresh: true,
 };
 
 const featureFlagsDataServiceCall = () => {
