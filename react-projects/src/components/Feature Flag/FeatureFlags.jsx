@@ -279,6 +279,7 @@ import SkeletonCard from '../Skeleton/SkeletonCard'
 import NotificationBell from '../Notification Bell/NotificationBell'
 import BookmarkButton from '../Bookmark Button/BookmarkButton'
 import PullToRefresh from '../Pull To Refresh/PullToRefresh'
+import ScratchToReveal from '../Scratch To Reveal/ScratchToReveal'
 
 
 
@@ -1693,6 +1694,11 @@ const FeatureFlags = () => {
         {
             key: "showPullToRefresh",
             component: <PullToRefresh />
+        },
+
+        {
+            key: "showScratchToReveal",
+            component: <ScratchToReveal />
         },
     ]
 

@@ -278,7 +278,8 @@ const componentAPI = {
     showSkeletonCard: false,
     showNotificationBell: false,
     showBookmarkButton: false,
-    showPullToRefresh: true,
+    showPullToRefresh: false,
+    showScratchToReveal: true,
 };
 
 const featureFlagsDataServiceCall = () => {
