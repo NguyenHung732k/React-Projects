@@ -279,7 +279,8 @@ const componentAPI = {
     showNotificationBell: false,
     showBookmarkButton: false,
     showPullToRefresh: false,
-    showScratchToReveal: true,
+    showScratchToReveal: false,
+    showQuickReactionBar: true,
 };
 
 const featureFlagsDataServiceCall = () => {
