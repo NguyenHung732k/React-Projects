@@ -281,6 +281,7 @@ import BookmarkButton from '../Bookmark Button/BookmarkButton'
 import PullToRefresh from '../Pull To Refresh/PullToRefresh'
 import ScratchToReveal from '../Scratch To Reveal/ScratchToReveal'
 import QuickReactionBar from '../Quick Reaction Bar/QuickReactionBar'
+import FolderViewer from '../Folder Viewer/FolderViewer'
 
 
 
@@ -1705,6 +1706,11 @@ const FeatureFlags = () => {
         {
             key: "showQuickReactionBar",
             component: <QuickReactionBar />
+        },
+
+        {
+            key: "showFolderViewer",
+            component: <FolderViewer />
         },
     ]
 
