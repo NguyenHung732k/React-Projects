@@ -282,6 +282,7 @@ import PullToRefresh from '../Pull To Refresh/PullToRefresh'
 import ScratchToReveal from '../Scratch To Reveal/ScratchToReveal'
 import QuickReactionBar from '../Quick Reaction Bar/QuickReactionBar'
 import FolderViewer from '../Folder Viewer/FolderViewer'
+import CompassDialControl from '../Compass Dial Control/CompassDialControl'
 
 
 
@@ -1711,6 +1712,11 @@ const FeatureFlags = () => {
         {
             key: "showFolderViewer",
             component: <FolderViewer />
+        },
+
+        {
+            key: "showCompassDialControl",
+            component: <CompassDialControl />
         },
     ]
 
