@@ -282,7 +282,8 @@ const componentAPI = {
     showScratchToReveal: false,
     showQuickReactionBar: false,
     showFolderViewer: false,
-    showCompassDialControl: true,
+    showCompassDialControl: false,
+    showImageMagnifier: true,
 };
 
 const featureFlagsDataServiceCall = () => {
