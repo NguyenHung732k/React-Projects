@@ -284,6 +284,7 @@ import QuickReactionBar from '../Quick Reaction Bar/QuickReactionBar'
 import FolderViewer from '../Folder Viewer/FolderViewer'
 import CompassDialControl from '../Compass Dial Control/CompassDialControl'
 import ImageMagnifier from '../Image Magnifier/ImageMagnifier'
+import ExpandableTable from '../Expandable Table/ExpandableTable'
 
 
 
@@ -1723,6 +1724,11 @@ const FeatureFlags = () => {
         {
             key: "showImageMagnifier",
             component: <ImageMagnifier />
+        },
+
+        {
+            key: "showExpandableTable",
+            component: <ExpandableTable />
         },
     ]
 
