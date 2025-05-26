@@ -285,6 +285,7 @@ import FolderViewer from '../Folder Viewer/FolderViewer'
 import CompassDialControl from '../Compass Dial Control/CompassDialControl'
 import ImageMagnifier from '../Image Magnifier/ImageMagnifier'
 import ExpandableTable from '../Expandable Table/ExpandableTable'
+import HoldToActivateButton from '../Hold To Active Button/HoldToActivateButton'
 
 
 
@@ -1729,6 +1730,11 @@ const FeatureFlags = () => {
         {
             key: "showExpandableTable",
             component: <ExpandableTable />
+        },
+
+        {
+            key: "showHoldToActivateButton",
+            component: <HoldToActivateButton />
         },
     ]
 
