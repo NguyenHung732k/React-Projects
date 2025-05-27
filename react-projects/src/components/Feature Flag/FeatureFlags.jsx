@@ -286,6 +286,7 @@ import CompassDialControl from '../Compass Dial Control/CompassDialControl'
 import ImageMagnifier from '../Image Magnifier/ImageMagnifier'
 import ExpandableTable from '../Expandable Table/ExpandableTable'
 import HoldToActivateButton from '../Hold To Active Button/HoldToActivateButton'
+import FABMenu from '../FAB Menu/FABMenu'
 
 
 
@@ -1735,6 +1736,11 @@ const FeatureFlags = () => {
         {
             key: "showHoldToActivateButton",
             component: <HoldToActivateButton />
+        },
+
+        {
+            key: "showFABMenu",
+            component: <FABMenu />
         },
     ]
 
