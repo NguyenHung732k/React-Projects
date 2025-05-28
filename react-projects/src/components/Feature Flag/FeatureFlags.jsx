@@ -287,6 +287,7 @@ import ImageMagnifier from '../Image Magnifier/ImageMagnifier'
 import ExpandableTable from '../Expandable Table/ExpandableTable'
 import HoldToActivateButton from '../Hold To Active Button/HoldToActivateButton'
 import FABMenu from '../FAB Menu/FABMenu'
+import SlideToUnlock from '../Slide To Unlock/SlideToUnlock'
 
 
 
@@ -1741,6 +1742,11 @@ const FeatureFlags = () => {
         {
             key: "showFABMenu",
             component: <FABMenu />
+        },
+
+        {
+            key: "showSlideToUnlock",
+            component: <SlideToUnlock />
         },
     ]
 

@@ -286,7 +286,8 @@ const componentAPI = {
     showImageMagnifier: false,
     showExpandableTable: false,
     showHoldToActivateButton: false,
-    showFABMenu: true,
+    showFABMenu: false,
+    showSlideToUnlock: true,
 };
 
 const featureFlagsDataServiceCall = () => {
