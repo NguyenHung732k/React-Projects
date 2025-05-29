@@ -1,0 +1,9 @@
+.drag-box {
+  border: 2px solid rgba(59, 130, 246, 0.5); /* blue-500 */
+  background-color: rgba(147, 197, 253, 0.2); /* blue-300 + transparency */
+  backdrop-filter: blur(2px);
+  position: absolute;
+  pointer-events: none;
+  z-index: 10;
+  border-radius: 4px;
+}

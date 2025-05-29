@@ -288,6 +288,7 @@ import ExpandableTable from '../Expandable Table/ExpandableTable'
 import HoldToActivateButton from '../Hold To Active Button/HoldToActivateButton'
 import FABMenu from '../FAB Menu/FABMenu'
 import SlideToUnlock from '../Slide To Unlock/SlideToUnlock'
+import SelectableGrid from '../Selectable Grid/SelectableGrid'
 
 
 
@@ -1747,6 +1748,11 @@ const FeatureFlags = () => {
         {
             key: "showSlideToUnlock",
             component: <SlideToUnlock />
+        },
+
+        {
+            key: "showSelectableGrid",
+            component: <SelectableGrid />
         },
     ]
 
