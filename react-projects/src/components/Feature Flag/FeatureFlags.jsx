@@ -289,6 +289,7 @@ import HoldToActivateButton from '../Hold To Active Button/HoldToActivateButton'
 import FABMenu from '../FAB Menu/FABMenu'
 import SlideToUnlock from '../Slide To Unlock/SlideToUnlock'
 import SelectableGrid from '../Selectable Grid/SelectableGrid'
+import TabSlider from '../Tab Slider/TabSlider'
 
 
 
@@ -1753,6 +1754,11 @@ const FeatureFlags = () => {
         {
             key: "showSelectableGrid",
             component: <SelectableGrid />
+        },
+
+        {
+            key: "showTabSlider",
+            component: <TabSlider />
         },
     ]
 

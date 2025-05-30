@@ -288,7 +288,8 @@ const componentAPI = {
     showHoldToActivateButton: false,
     showFABMenu: false,
     showSlideToUnlock: false,
-    showSelectableGrid: true,
+    showSelectableGrid: false,
+    showTabSlider: true,
 };
 
 const featureFlagsDataServiceCall = () => {
