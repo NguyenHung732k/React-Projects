@@ -1,0 +1,78 @@
+.auto-save-indicator {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.auto-save-indicator.visible {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.auto-save-indicator.hidden {
+  opacity: 0;
+  transform: scale(0.95);
+}
+
+/* Saving state styles */
+.auto-save-indicator.saving {
+  background: linear-gradient(
+    to right,
+    #3b82f6,
+    #6366f1
+  ); /* Blue to Indigo gradient */
+}
+
+.auto-save-indicator.saved {
+  background: linear-gradient(
+    to right,
+    #34d399,
+    #14b8a6
+  ); /* Green to Teal gradient */
+}
+
+.auto-save-indicator .spinner {
+  width: 1.25rem;
+  height: 1.25rem;
+  border: 2px solid white;
+  border-top: 2px solid transparent;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+.auto-save-indicator .shimmer {
+  width: 1.25rem;
+  height: 1.25rem;
+  border: 2px solid white;
+  border-radius: 50%;
+  animation: shimmer 1.5s ease-in-out infinite;
+}
+
+/* Spin animation for the spinner */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Shimmer animation for glowing effect */
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
