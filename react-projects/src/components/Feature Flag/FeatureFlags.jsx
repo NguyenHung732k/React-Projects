@@ -291,6 +291,7 @@ import SlideToUnlock from '../Slide To Unlock/SlideToUnlock'
 import SelectableGrid from '../Selectable Grid/SelectableGrid'
 import TabSlider from '../Tab Slider/TabSlider'
 import AutoSaveIndicator from '../Auto Save Indicator/AutoSaveIndicator'
+import NeonText from '../Neon Text/NeonText'
 
 
 
@@ -1765,6 +1766,11 @@ const FeatureFlags = () => {
         {
             key: "showAutoSaveIndicator",
             component: <AutoSaveIndicator />
+        },
+
+        {
+            key: "showNeonText",
+            component: <NeonText />
         },
     ]
 

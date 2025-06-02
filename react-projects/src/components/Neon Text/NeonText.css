@@ -1,0 +1,67 @@
+@keyframes flicker {
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+    opacity: 1;
+    filter: drop-shadow(0 0 6px currentColor);
+  }
+  20%,
+  22%,
+  24%,
+  55% {
+    opacity: 0.4;
+    filter: drop-shadow(0 0 2px currentColor);
+  }
+}
+
+/* Pulse animation for active glow */
+@keyframes pulseNeon {
+  0%,
+  100% {
+    text-shadow: 0 0 6px currentColor, 0 0 12px currentColor;
+  }
+  50% {
+    text-shadow: 0 0 12px currentColor, 0 0 24px currentColor;
+  }
+}
+
+/* Utility classes */
+.flicker {
+  animation: flicker 2.5s infinite;
+}
+
+.pulse-active {
+  animation: pulseNeon 1.5s infinite;
+}
+
+.neon {
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Color themes */
+.neon-red {
+  color: #ff1a1a;
+}
+
+.neon-blue {
+  color: #1abfff;
+}
+
+.neon-green {
+  color: #00ff99;
+}
+
+.neon-purple {
+  color: #c833ff;
+}
+
+.neon-yellow {
+  color: #ffff66;
+}

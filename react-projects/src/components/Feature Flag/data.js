@@ -290,7 +290,8 @@ const componentAPI = {
     showSlideToUnlock: false,
     showSelectableGrid: false,
     showTabSlider: false,
-    showAutoSaveIndicator: true,
+    showAutoSaveIndicator: false,
+    showNeonText: true,
 };
 
 const featureFlagsDataServiceCall = () => {
