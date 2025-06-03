@@ -291,7 +291,8 @@ const componentAPI = {
     showSelectableGrid: false,
     showTabSlider: false,
     showAutoSaveIndicator: false,
-    showNeonText: true,
+    showNeonText: false,
+    showShortcutHint: true,
 };
 
 const featureFlagsDataServiceCall = () => {
