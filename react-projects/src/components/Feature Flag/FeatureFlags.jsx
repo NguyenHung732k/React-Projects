@@ -293,6 +293,7 @@ import TabSlider from '../Tab Slider/TabSlider'
 import AutoSaveIndicator from '../Auto Save Indicator/AutoSaveIndicator'
 import NeonText from '../Neon Text/NeonText'
 import ShortcutHint from '../Keyboard Shortcut Hint/ShortcutHint'
+import StickyCTA from '../Sticky CTA/StickyCTA'
 
 
 
@@ -1777,6 +1778,11 @@ const FeatureFlags = () => {
         {
             key: "showShortcutHint",
             component: <ShortcutHint />
+        },
+
+        {
+            key: "showStickyCTA",
+            component: <StickyCTA />
         },
     ]
 

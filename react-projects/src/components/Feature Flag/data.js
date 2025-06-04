@@ -292,7 +292,8 @@ const componentAPI = {
     showTabSlider: false,
     showAutoSaveIndicator: false,
     showNeonText: false,
-    showShortcutHint: true,
+    showShortcutHint: false,
+    showStickyCTA: true,
 };
 
 const featureFlagsDataServiceCall = () => {
