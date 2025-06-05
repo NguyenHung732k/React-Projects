@@ -293,7 +293,8 @@ const componentAPI = {
     showAutoSaveIndicator: false,
     showNeonText: false,
     showShortcutHint: false,
-    showStickyCTA: true,
+    showStickyCTA: false,
+    showTimebaseThemeSwitcher: true,
 };
 
 const featureFlagsDataServiceCall = () => {

@@ -294,6 +294,7 @@ import AutoSaveIndicator from '../Auto Save Indicator/AutoSaveIndicator'
 import NeonText from '../Neon Text/NeonText'
 import ShortcutHint from '../Keyboard Shortcut Hint/ShortcutHint'
 import StickyCTA from '../Sticky CTA/StickyCTA'
+import TimebaseThemeSwitcher from '../Timebase Theme Switcher/TimebaseThemeSwitcher'
 
 
 
@@ -1783,6 +1784,11 @@ const FeatureFlags = () => {
         {
             key: "showStickyCTA",
             component: <StickyCTA />
+        },
+
+        {
+            key: "showTimebaseThemeSwitcher",
+            component: <TimebaseThemeSwitcher />
         },
     ]
 

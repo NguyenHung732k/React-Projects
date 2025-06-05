@@ -1,0 +1,21 @@
+@layer utilities {
+  .bg-light {
+    background-color: #fef9ef;
+  }
+  .bg-sunset {
+    background-color: #fcd34d;
+  }
+  .bg-midnight {
+    background-color: #1e293b;
+  }
+
+  .text-light {
+    color: #1f2937;
+  }
+  .text-sunset {
+    color: #4b5563;
+  }
+  .text-midnight {
+    color: #ffffff;
+  }
+}
