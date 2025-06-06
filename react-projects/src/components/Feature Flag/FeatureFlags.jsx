@@ -295,6 +295,7 @@ import NeonText from '../Neon Text/NeonText'
 import ShortcutHint from '../Keyboard Shortcut Hint/ShortcutHint'
 import StickyCTA from '../Sticky CTA/StickyCTA'
 import TimebaseThemeSwitcher from '../Timebase Theme Switcher/TimebaseThemeSwitcher'
+import DelayedTooltip from '../Delayed Tooltip/DelayedTooltip'
 
 
 
@@ -1789,6 +1790,11 @@ const FeatureFlags = () => {
         {
             key: "showTimebaseThemeSwitcher",
             component: <TimebaseThemeSwitcher />
+        },
+
+        {
+            key: "showDelayedTooltip",
+            component: <DelayedTooltip />
         },
     ]
 
