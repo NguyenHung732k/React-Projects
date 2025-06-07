@@ -1,0 +1,59 @@
+/* Fade animation for history swatches */
+.fade-enter {
+  opacity: 0;
+}
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 300ms;
+}
+.fade-exit {
+  opacity: 1;
+}
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 300ms;
+}
+
+/* Hover effect for color picker input */
+.color-picker-input {
+  width: 4rem;
+  height: 4rem;
+  border: 2px solid #d1d5db;
+  border-radius: 9999px; /* Circle shape */
+  transition: transform 0.3s ease-in-out;
+}
+
+.color-picker-input:hover {
+  transform: scale(1.1);
+}
+
+/* History Swatch Styles */
+.history-swatch {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 9999px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out, box-shadow 0.3s ease;
+}
+
+.history-swatch:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Active (selected) history swatch */
+.history-swatch.selected {
+  border: 4px solid #6366f1; /* Indigo ring */
+}
+
+/* Button to clear history */
+.clear-history-button {
+  font-size: 0.875rem;
+  color: #e11d48; /* Red */
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.clear-history-button:hover {
+  color: #9b1c2f;
+}

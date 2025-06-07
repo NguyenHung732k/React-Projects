@@ -296,6 +296,7 @@ import ShortcutHint from '../Keyboard Shortcut Hint/ShortcutHint'
 import StickyCTA from '../Sticky CTA/StickyCTA'
 import TimebaseThemeSwitcher from '../Timebase Theme Switcher/TimebaseThemeSwitcher'
 import DelayedTooltip from '../Delayed Tooltip/DelayedTooltip'
+import ColorPicker from '../Color Picker/ColorPicker'
 
 
 
@@ -1795,6 +1796,11 @@ const FeatureFlags = () => {
         {
             key: "showDelayedTooltip",
             component: <DelayedTooltip />
+        },
+
+        {
+            key: "showColorPicker",
+            component: <ColorPicker />
         },
     ]
 

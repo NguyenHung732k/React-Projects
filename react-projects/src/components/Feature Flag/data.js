@@ -295,7 +295,8 @@ const componentAPI = {
     showShortcutHint: false,
     showStickyCTA: false,
     showTimebaseThemeSwitcher: false,
-    showDelayedTooltip: true,
+    showDelayedTooltip: false,
+    showColorPicker: true,
 };
 
 const featureFlagsDataServiceCall = () => {
