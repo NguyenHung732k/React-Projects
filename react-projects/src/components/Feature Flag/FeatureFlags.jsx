@@ -297,6 +297,7 @@ import StickyCTA from '../Sticky CTA/StickyCTA'
 import TimebaseThemeSwitcher from '../Timebase Theme Switcher/TimebaseThemeSwitcher'
 import DelayedTooltip from '../Delayed Tooltip/DelayedTooltip'
 import ColorPicker from '../Color Picker/ColorPicker'
+import DynamicAvatarBorder from '../Dynamic Avatar Border/DynamicAvatarBorder'
 
 
 
@@ -1801,6 +1802,11 @@ const FeatureFlags = () => {
         {
             key: "showColorPicker",
             component: <ColorPicker />
+        },
+
+        {
+            key: "showDynamicAvatarBorder",
+            component: <DynamicAvatarBorder />
         },
     ]
 
