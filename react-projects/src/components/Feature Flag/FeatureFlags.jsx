@@ -298,6 +298,7 @@ import TimebaseThemeSwitcher from '../Timebase Theme Switcher/TimebaseThemeSwitc
 import DelayedTooltip from '../Delayed Tooltip/DelayedTooltip'
 import ColorPicker from '../Color Picker/ColorPicker'
 import DynamicAvatarBorder from '../Dynamic Avatar Border/DynamicAvatarBorder'
+import TabSwitcher from '../Tab Switcher/TabSwticher'
 
 
 
@@ -1807,6 +1808,11 @@ const FeatureFlags = () => {
         {
             key: "showDynamicAvatarBorder",
             component: <DynamicAvatarBorder />
+        },
+
+        {
+            key: "showTabSwitcher",
+            component: <TabSwitcher />
         },
     ]
 
