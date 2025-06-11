@@ -298,7 +298,8 @@ const componentAPI = {
     showDelayedTooltip: false,
     showColorPicker: false,
     showDynamicAvatarBorder: false,
-    showTabSwitcher: true,
+    showTabSwitcher: false,
+    showTimelineScroll: true,
 };
 
 const featureFlagsDataServiceCall = () => {

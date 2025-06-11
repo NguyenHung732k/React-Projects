@@ -299,6 +299,7 @@ import DelayedTooltip from '../Delayed Tooltip/DelayedTooltip'
 import ColorPicker from '../Color Picker/ColorPicker'
 import DynamicAvatarBorder from '../Dynamic Avatar Border/DynamicAvatarBorder'
 import TabSwitcher from '../Tab Switcher/TabSwticher'
+import TimelineScroll from '../Timeline Scroll/TimelineScroll'
 
 
 
@@ -1813,6 +1814,11 @@ const FeatureFlags = () => {
         {
             key: "showTabSwitcher",
             component: <TabSwitcher />
+        },
+
+        {
+            key: "showTimelineScroll",
+            component: <TimelineScroll />
         },
     ]
 
