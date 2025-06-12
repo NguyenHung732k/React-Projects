@@ -300,6 +300,7 @@ import ColorPicker from '../Color Picker/ColorPicker'
 import DynamicAvatarBorder from '../Dynamic Avatar Border/DynamicAvatarBorder'
 import TabSwitcher from '../Tab Switcher/TabSwticher'
 import TimelineScroll from '../Timeline Scroll/TimelineScroll'
+import LikeButton from '../Like Button/LikeButton'
 
 
 
@@ -1819,6 +1820,11 @@ const FeatureFlags = () => {
         {
             key: "showTimelineScroll",
             component: <TimelineScroll />
+        },
+
+        {
+            key: "showLikeButton",
+            component: <LikeButton />
         },
     ]
 
