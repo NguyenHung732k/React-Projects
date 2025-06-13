@@ -301,6 +301,7 @@ import DynamicAvatarBorder from '../Dynamic Avatar Border/DynamicAvatarBorder'
 import TabSwitcher from '../Tab Switcher/TabSwticher'
 import TimelineScroll from '../Timeline Scroll/TimelineScroll'
 import LikeButton from '../Like Button/LikeButton'
+import GridListToggle from '../Grid List Toggle/GridListToggle'
 
 
 
@@ -1825,6 +1826,11 @@ const FeatureFlags = () => {
         {
             key: "showLikeButton",
             component: <LikeButton />
+        },
+
+        {
+            key: "showGridListToggle",
+            component: <GridListToggle />
         },
     ]
 

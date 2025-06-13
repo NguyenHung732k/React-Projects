@@ -300,7 +300,8 @@ const componentAPI = {
     showDynamicAvatarBorder: false,
     showTabSwitcher: false,
     showTimelineScroll: false,
-    showLikeButton: true,
+    showLikeButton: false,
+    showGridListToggle: true,
 };
 
 const featureFlagsDataServiceCall = () => {
