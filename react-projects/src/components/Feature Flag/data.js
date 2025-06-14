@@ -301,7 +301,8 @@ const componentAPI = {
     showTabSwitcher: false,
     showTimelineScroll: false,
     showLikeButton: false,
-    showGridListToggle: true,
+    showGridListToggle: false,
+    showVolumeControl: true,
 };
 
 const featureFlagsDataServiceCall = () => {

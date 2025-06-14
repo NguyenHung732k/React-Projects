@@ -302,6 +302,7 @@ import TabSwitcher from '../Tab Switcher/TabSwticher'
 import TimelineScroll from '../Timeline Scroll/TimelineScroll'
 import LikeButton from '../Like Button/LikeButton'
 import GridListToggle from '../Grid List Toggle/GridListToggle'
+import VolumeControl from '../Volume Control/VolumeControl'
 
 
 
@@ -1831,6 +1832,11 @@ const FeatureFlags = () => {
         {
             key: "showGridListToggle",
             component: <GridListToggle />
+        },
+
+        {
+            key: "showVolumeControl",
+            component: <VolumeControl />
         },
     ]
 
