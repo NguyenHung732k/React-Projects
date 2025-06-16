@@ -303,7 +303,8 @@ const componentAPI = {
     showLikeButton: false,
     showGridListToggle: false,
     showVolumeControl: false,
-    showScrubThumbnail: true,
+    showScrubThumbnail: false,
+    showTextReveal: true,
 };
 
 const featureFlagsDataServiceCall = () => {
