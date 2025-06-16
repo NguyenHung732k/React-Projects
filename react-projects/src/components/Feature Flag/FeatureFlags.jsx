@@ -303,6 +303,9 @@ import TimelineScroll from '../Timeline Scroll/TimelineScroll'
 import LikeButton from '../Like Button/LikeButton'
 import GridListToggle from '../Grid List Toggle/GridListToggle'
 import VolumeControl from '../Volume Control/VolumeControl'
+import ScrubThumbnail from '../Hover Scrub Thumbnail/ScrubThumbnail'
+
+
 
 
 
@@ -1837,6 +1840,11 @@ const FeatureFlags = () => {
         {
             key: "showVolumeControl",
             component: <VolumeControl />
+        },
+
+        {
+            key: "showScrubThumbnail",
+            component: <ScrubThumbnail />
         },
     ]
 
