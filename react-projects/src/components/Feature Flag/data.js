@@ -304,7 +304,8 @@ const componentAPI = {
     showGridListToggle: false,
     showVolumeControl: false,
     showScrubThumbnail: false,
-    showTextReveal: true,
+    showTextReveal: false,
+    showInlineHoverLink: true,
 };
 
 const featureFlagsDataServiceCall = () => {

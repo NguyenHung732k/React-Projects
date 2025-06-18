@@ -305,6 +305,7 @@ import GridListToggle from '../Grid List Toggle/GridListToggle'
 import VolumeControl from '../Volume Control/VolumeControl'
 import ScrubThumbnail from '../Hover Scrub Thumbnail/ScrubThumbnail'
 import TextReveal from '../Scroll Text Reveal/TextReveal'
+import InlineHoverLink from '../Inline Hover Link/InlineHoverLink'
 
 
 
@@ -1851,6 +1852,11 @@ const FeatureFlags = () => {
         {
             key: "showTextReveal",
             component: <TextReveal />
+        },
+
+        {
+            key: "showInlineHoverLink",
+            component: <InlineHoverLink />
         },
     ]
 
