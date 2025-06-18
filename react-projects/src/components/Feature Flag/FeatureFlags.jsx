@@ -306,6 +306,7 @@ import VolumeControl from '../Volume Control/VolumeControl'
 import ScrubThumbnail from '../Hover Scrub Thumbnail/ScrubThumbnail'
 import TextReveal from '../Scroll Text Reveal/TextReveal'
 import InlineHoverLink from '../Inline Hover Link/InlineHoverLink'
+import InstantReviewAvatar from '../Instant Review Avatar/InstantReviewAvatar'
 
 
 
@@ -1857,6 +1858,11 @@ const FeatureFlags = () => {
         {
             key: "showInlineHoverLink",
             component: <InlineHoverLink />
+        },
+
+        {
+            key: "showInstantReviewAvatar",
+            component: <InstantReviewAvatar />
         },
     ]
 
