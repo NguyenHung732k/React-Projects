@@ -307,6 +307,7 @@ import ScrubThumbnail from '../Hover Scrub Thumbnail/ScrubThumbnail'
 import TextReveal from '../Scroll Text Reveal/TextReveal'
 import InlineHoverLink from '../Inline Hover Link/InlineHoverLink'
 import InstantReviewAvatar from '../Instant Review Avatar/InstantReviewAvatar'
+import ImagePreview from '../Hover Image Preview/ImagePreview'
 
 
 
@@ -1863,6 +1864,11 @@ const FeatureFlags = () => {
         {
             key: "showInstantReviewAvatar",
             component: <InstantReviewAvatar />
+        },
+
+        {
+            key: "showImagePreview",
+            component: <ImagePreview />
         },
     ]
 

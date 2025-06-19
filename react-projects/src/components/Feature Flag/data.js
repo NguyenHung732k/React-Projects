@@ -306,7 +306,8 @@ const componentAPI = {
     showScrubThumbnail: false,
     showTextReveal: false,
     showInlineHoverLink: false,
-    showInstantReviewAvatar: true,
+    showInstantReviewAvatar: false,
+    showImagePreview: true,
 };
 
 const featureFlagsDataServiceCall = () => {
