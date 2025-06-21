@@ -308,6 +308,7 @@ import TextReveal from '../Scroll Text Reveal/TextReveal'
 import InlineHoverLink from '../Inline Hover Link/InlineHoverLink'
 import InstantReviewAvatar from '../Instant Review Avatar/InstantReviewAvatar'
 import ImagePreview from '../Hover Image Preview/ImagePreview'
+import SwipeableTab from '../Swipeable Tab/SwipeableTab'
 
 
 
@@ -1869,6 +1870,11 @@ const FeatureFlags = () => {
         {
             key: "showImagePreview",
             component: <ImagePreview />
+        },
+
+        {
+            key: "showSwipeableTab",
+            component: <SwipeableTab />
         },
     ]
 
