@@ -310,6 +310,7 @@ import InstantReviewAvatar from '../Instant Review Avatar/InstantReviewAvatar'
 import ImagePreview from '../Hover Image Preview/ImagePreview'
 import SwipeableTab from '../Swipeable Tab/SwipeableTab'
 import MorphModal from '../Morph Modal/MorphModal'
+import ScrollNavbar from '../Scroll Navbar/ScrollNavbar'
 
 
 
@@ -1881,6 +1882,11 @@ const FeatureFlags = () => {
         {
             key: "showMorphModal",
             component: <MorphModal />
+        },
+
+        {
+            key: "showScrollNavbar",
+            component: <ScrollNavbar />
         },
     ]
 
