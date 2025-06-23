@@ -308,7 +308,8 @@ const componentAPI = {
     showInlineHoverLink: false,
     showInstantReviewAvatar: false,
     showImagePreview: false,
-    showSwipeableTab: true,
+    showSwipeableTab: false,
+    showMorphModal: true,
 };
 
 const featureFlagsDataServiceCall = () => {

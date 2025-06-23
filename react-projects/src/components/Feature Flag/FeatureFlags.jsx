@@ -309,6 +309,7 @@ import InlineHoverLink from '../Inline Hover Link/InlineHoverLink'
 import InstantReviewAvatar from '../Instant Review Avatar/InstantReviewAvatar'
 import ImagePreview from '../Hover Image Preview/ImagePreview'
 import SwipeableTab from '../Swipeable Tab/SwipeableTab'
+import MorphModal from '../Morph Modal/MorphModal'
 
 
 
@@ -1875,6 +1876,11 @@ const FeatureFlags = () => {
         {
             key: "showSwipeableTab",
             component: <SwipeableTab />
+        },
+
+        {
+            key: "showMorphModal",
+            component: <MorphModal />
         },
     ]
 
