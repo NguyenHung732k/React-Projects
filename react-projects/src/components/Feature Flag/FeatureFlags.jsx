@@ -311,6 +311,7 @@ import ImagePreview from '../Hover Image Preview/ImagePreview'
 import SwipeableTab from '../Swipeable Tab/SwipeableTab'
 import MorphModal from '../Morph Modal/MorphModal'
 import ScrollNavbar from '../Scroll Navbar/ScrollNavbar'
+import AutoCollapse from '../Auto Collapse/AutoCollapse'
 
 
 
@@ -1887,6 +1888,11 @@ const FeatureFlags = () => {
         {
             key: "showScrollNavbar",
             component: <ScrollNavbar />
+        },
+
+        {
+            key: "showAutoCollapse",
+            component: <AutoCollapse />
         },
     ]
 
