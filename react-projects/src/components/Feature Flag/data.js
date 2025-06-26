@@ -311,7 +311,8 @@ const componentAPI = {
     showSwipeableTab: false,
     showMorphModal: false,
     showScrollNavbar: false,
-    showAutoCollapse: true,
+    showAutoCollapse: false,
+    showPeakImagePreview: true,
 };
 
 const featureFlagsDataServiceCall = () => {

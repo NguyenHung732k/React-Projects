@@ -312,6 +312,7 @@ import SwipeableTab from '../Swipeable Tab/SwipeableTab'
 import MorphModal from '../Morph Modal/MorphModal'
 import ScrollNavbar from '../Scroll Navbar/ScrollNavbar'
 import AutoCollapse from '../Auto Collapse/AutoCollapse'
+import PeakImagePreview from '../Peak Image Preview/PeakImagePreview'
 
 
 
@@ -1893,6 +1894,11 @@ const FeatureFlags = () => {
         {
             key: "showAutoCollapse",
             component: <AutoCollapse />
+        },
+
+        {
+            key: "showPeakImagePreview",
+            component: <PeakImagePreview />
         },
     ]
 
