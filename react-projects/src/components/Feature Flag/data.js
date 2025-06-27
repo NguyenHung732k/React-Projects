@@ -313,7 +313,8 @@ const componentAPI = {
     showScrollNavbar: false,
     showAutoCollapse: false,
     showPeakImagePreview: false,
-    showParallaxCard: true,
+    showParallaxCard: false,
+    showDraggableReveal: true,
 };
 
 const featureFlagsDataServiceCall = () => {

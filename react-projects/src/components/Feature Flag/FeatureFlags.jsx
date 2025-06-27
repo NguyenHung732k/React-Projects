@@ -314,6 +314,7 @@ import ScrollNavbar from '../Scroll Navbar/ScrollNavbar'
 import AutoCollapse from '../Auto Collapse/AutoCollapse'
 import PeakImagePreview from '../Peak Image Preview/PeakImagePreview'
 import ParallaxCard from '../Parallax Card/ParallaxCard'
+import DraggableReveal from '../Draggable Reveal/DraggableReveal'
 
 
 
@@ -1905,6 +1906,11 @@ const FeatureFlags = () => {
         {
             key: "showParallaxCard",
             component: <ParallaxCard />
+        },
+
+        {
+            key: "showDraggableReveal",
+            component: <DraggableReveal />
         },
     ]
 
