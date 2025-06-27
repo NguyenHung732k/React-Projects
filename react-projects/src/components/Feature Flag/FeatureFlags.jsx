@@ -313,6 +313,7 @@ import MorphModal from '../Morph Modal/MorphModal'
 import ScrollNavbar from '../Scroll Navbar/ScrollNavbar'
 import AutoCollapse from '../Auto Collapse/AutoCollapse'
 import PeakImagePreview from '../Peak Image Preview/PeakImagePreview'
+import ParallaxCard from '../Parallax Card/ParallaxCard'
 
 
 
@@ -1899,6 +1900,11 @@ const FeatureFlags = () => {
         {
             key: "showPeakImagePreview",
             component: <PeakImagePreview />
+        },
+
+        {
+            key: "showParallaxCard",
+            component: <ParallaxCard />
         },
     ]
 
