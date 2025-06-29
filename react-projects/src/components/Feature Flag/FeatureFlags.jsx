@@ -315,6 +315,7 @@ import AutoCollapse from '../Auto Collapse/AutoCollapse'
 import PeakImagePreview from '../Peak Image Preview/PeakImagePreview'
 import ParallaxCard from '../Parallax Card/ParallaxCard'
 import DraggableReveal from '../Draggable Reveal/DraggableReveal'
+import HoverPulseCard from '../Hover Pulse Card/HoverPulseCard'
 
 
 
@@ -1911,6 +1912,11 @@ const FeatureFlags = () => {
         {
             key: "showDraggableReveal",
             component: <DraggableReveal />
+        },
+
+        {
+            key: "showHoverPulseCard",
+            component: <HoverPulseCard />
         },
     ]
 

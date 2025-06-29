@@ -315,6 +315,7 @@ const componentAPI = {
     showPeakImagePreview: false,
     showParallaxCard: false,
     showDraggableReveal: true,
+    showHoverPulseCard: false,
 };
 
 const featureFlagsDataServiceCall = () => {
