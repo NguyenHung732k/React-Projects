@@ -316,7 +316,8 @@ const componentAPI = {
     showParallaxCard: false,
     showDraggableReveal: false,
     showHoverPulseCard: false,
-    showSmartPlaceholder: true,
+    showSmartPlaceholder: false,
+    showAnimatedSorting: true,
 };
 
 const featureFlagsDataServiceCall = () => {

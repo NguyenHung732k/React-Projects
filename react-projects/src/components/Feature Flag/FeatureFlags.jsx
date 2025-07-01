@@ -317,7 +317,7 @@ import ParallaxCard from '../Parallax Card/ParallaxCard'
 import DraggableReveal from '../Draggable Reveal/DraggableReveal'
 import HoverPulseCard from '../Hover Pulse Card/HoverPulseCard'
 import SmartPlaceholder from '../Smart Placeholder/SmartPlaceholder'
-
+import AnimatedSorting from '../Animated Sorting/AnimatedSorting'
 
 
 
@@ -1923,6 +1923,11 @@ const FeatureFlags = () => {
         {
             key: "showSmartPlaceholder",
             component: <SmartPlaceholder />
+        },
+
+        {
+            key: "showAnimatedSorting",
+            component: <AnimatedSorting />
         },
     ]
 
