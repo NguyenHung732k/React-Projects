@@ -314,8 +314,9 @@ const componentAPI = {
     showAutoCollapse: false,
     showPeakImagePreview: false,
     showParallaxCard: false,
-    showDraggableReveal: true,
+    showDraggableReveal: false,
     showHoverPulseCard: false,
+    showSmartPlaceholder: true,
 };
 
 const featureFlagsDataServiceCall = () => {

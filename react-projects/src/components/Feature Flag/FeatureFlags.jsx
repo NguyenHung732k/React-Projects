@@ -316,6 +316,7 @@ import PeakImagePreview from '../Peak Image Preview/PeakImagePreview'
 import ParallaxCard from '../Parallax Card/ParallaxCard'
 import DraggableReveal from '../Draggable Reveal/DraggableReveal'
 import HoverPulseCard from '../Hover Pulse Card/HoverPulseCard'
+import SmartPlaceholder from '../Smart Placeholder/SmartPlaceholder'
 
 
 
@@ -1917,6 +1918,11 @@ const FeatureFlags = () => {
         {
             key: "showHoverPulseCard",
             component: <HoverPulseCard />
+        },
+
+        {
+            key: "showSmartPlaceholder",
+            component: <SmartPlaceholder />
         },
     ]
 
