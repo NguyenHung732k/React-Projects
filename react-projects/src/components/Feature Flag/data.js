@@ -317,7 +317,8 @@ const componentAPI = {
     showDraggableReveal: false,
     showHoverPulseCard: false,
     showSmartPlaceholder: false,
-    showAnimatedSorting: true,
+    showAnimatedSorting: false,
+    showLimitCharacterCounter: true,
 };
 
 const featureFlagsDataServiceCall = () => {

@@ -318,6 +318,7 @@ import DraggableReveal from '../Draggable Reveal/DraggableReveal'
 import HoverPulseCard from '../Hover Pulse Card/HoverPulseCard'
 import SmartPlaceholder from '../Smart Placeholder/SmartPlaceholder'
 import AnimatedSorting from '../Animated Sorting/AnimatedSorting'
+import LimitCharacterCounter from '../Limit Character Counter/LimitCharacterCounter'
 
 
 
@@ -1928,6 +1929,11 @@ const FeatureFlags = () => {
         {
             key: "showAnimatedSorting",
             component: <AnimatedSorting />
+        },
+
+        {
+            key: "showLimitCharacterCounter",
+            component: <LimitCharacterCounter />
         },
     ]
 
