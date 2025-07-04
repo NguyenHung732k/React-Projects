@@ -319,6 +319,7 @@ import HoverPulseCard from '../Hover Pulse Card/HoverPulseCard'
 import SmartPlaceholder from '../Smart Placeholder/SmartPlaceholder'
 import AnimatedSorting from '../Animated Sorting/AnimatedSorting'
 import LimitCharacterCounter from '../Limit Character Counter/LimitCharacterCounter'
+import BubblePopTagInput from '../Bubble Pop Tag Input/BubblePopTagInput'
 
 
 
@@ -1934,6 +1935,11 @@ const FeatureFlags = () => {
         {
             key: "showLimitCharacterCounter",
             component: <LimitCharacterCounter />
+        },
+
+        {
+            key: "showBubblePopTagInput",
+            component: <BubblePopTagInput />
         },
     ]
 

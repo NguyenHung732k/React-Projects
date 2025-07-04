@@ -318,7 +318,8 @@ const componentAPI = {
     showHoverPulseCard: false,
     showSmartPlaceholder: false,
     showAnimatedSorting: false,
-    showLimitCharacterCounter: true,
+    showLimitCharacterCounter: false,
+    showBubblePopTagInput: true,
 };
 
 const featureFlagsDataServiceCall = () => {

@@ -1,0 +1,128 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f7fafc;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.tag-input-container {
+  position: relative;
+}
+
+/* Tag Styles */
+.tag {
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+  background-color: #3b82f6; /* Blue */
+  color: white;
+  border-radius: 9999px;
+  font-size: 14px;
+  margin-right: 8px;
+  transition: transform 0.3s ease-out, background-color 0.2s ease;
+  transform: scale(0);
+  opacity: 0;
+  animation: bubbleIn 0.3s ease-out forwards;
+}
+
+.tag:hover {
+  transform: scale(1.05);
+}
+
+.tag .delete-btn {
+  margin-left: 8px;
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.tag .delete-btn:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.tag .delete-btn:focus {
+  outline: none;
+}
+
+/* Input Field */
+input[type="text"] {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  background-color: transparent;
+  color: #333;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+  border-color: #3b82f6; /* Blue */
+  box-shadow: 0 0 5px rgba(59, 130, 246, 0.5);
+}
+
+/* Error Message */
+.error-message {
+  color: #ef4444; /* Red */
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+/* Autocomplete Suggestions */
+.suggestions {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  max-height: 200px;
+  overflow-y: auto;
+  margin-top: 5px;
+}
+
+.suggestions .suggestion-item {
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.suggestions .suggestion-item:hover {
+  background-color: #f3f4f6;
+}
+
+/* Animations */
+@keyframes bubbleIn {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes shrinkOut {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0);
+    opacity: 0;
+  }
+}
