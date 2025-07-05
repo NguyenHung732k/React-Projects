@@ -319,7 +319,8 @@ const componentAPI = {
     showSmartPlaceholder: false,
     showAnimatedSorting: false,
     showLimitCharacterCounter: false,
-    showBubblePopTagInput: true,
+    showBubblePopTagInput: false,
+    showAvatarGroup: true,
 };
 
 const featureFlagsDataServiceCall = () => {

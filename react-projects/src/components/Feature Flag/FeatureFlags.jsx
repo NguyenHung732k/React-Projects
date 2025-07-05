@@ -320,6 +320,7 @@ import SmartPlaceholder from '../Smart Placeholder/SmartPlaceholder'
 import AnimatedSorting from '../Animated Sorting/AnimatedSorting'
 import LimitCharacterCounter from '../Limit Character Counter/LimitCharacterCounter'
 import BubblePopTagInput from '../Bubble Pop Tag Input/BubblePopTagInput'
+import AvatarGroup from '../Avatar Group/AvatarGroup'
 
 
 
@@ -1940,6 +1941,11 @@ const FeatureFlags = () => {
         {
             key: "showBubblePopTagInput",
             component: <BubblePopTagInput />
+        },
+
+        {
+            key: "showAvatarGroup",
+            component: <AvatarGroup />
         },
     ]
 
