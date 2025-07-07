@@ -320,7 +320,8 @@ const componentAPI = {
     showAnimatedSorting: false,
     showLimitCharacterCounter: false,
     showBubblePopTagInput: false,
-    showAvatarGroup: true,
+    showAvatarGroup: false,
+    showCountdownCircleButton: true,
 };
 
 const featureFlagsDataServiceCall = () => {

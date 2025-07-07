@@ -321,6 +321,7 @@ import AnimatedSorting from '../Animated Sorting/AnimatedSorting'
 import LimitCharacterCounter from '../Limit Character Counter/LimitCharacterCounter'
 import BubblePopTagInput from '../Bubble Pop Tag Input/BubblePopTagInput'
 import AvatarGroup from '../Avatar Group/AvatarGroup'
+import CountdownCircleButton from '../Countdown Circle Button/CountdownCircleButton'
 
 
 
@@ -1946,6 +1947,11 @@ const FeatureFlags = () => {
         {
             key: "showAvatarGroup",
             component: <AvatarGroup />
+        },
+
+        {
+            key: "showCountdownCircleButton",
+            component: <CountdownCircleButton />
         },
     ]
 
