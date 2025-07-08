@@ -322,6 +322,7 @@ import LimitCharacterCounter from '../Limit Character Counter/LimitCharacterCoun
 import BubblePopTagInput from '../Bubble Pop Tag Input/BubblePopTagInput'
 import AvatarGroup from '../Avatar Group/AvatarGroup'
 import CountdownCircleButton from '../Countdown Circle Button/CountdownCircleButton'
+import ScrollGradientBackground from '../Scroll Gradient Background/ScrollGradientBackground'
 
 
 
@@ -1952,6 +1953,11 @@ const FeatureFlags = () => {
         {
             key: "showCountdownCircleButton",
             component: <CountdownCircleButton />
+        },
+
+        {
+            key: "showScrollGradientBackground",
+            component: <ScrollGradientBackground />
         },
     ]
 

@@ -321,7 +321,8 @@ const componentAPI = {
     showLimitCharacterCounter: false,
     showBubblePopTagInput: false,
     showAvatarGroup: false,
-    showCountdownCircleButton: true,
+    showCountdownCircleButton: false,
+    showScrollGradientBackground: true,
 };
 
 const featureFlagsDataServiceCall = () => {

@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom animations and background utility */
+@layer utilities {
+  .animate-fade-in {
+        animation: fade -in 1s ease forwards;
+    }
+
+    @keyframes fade-in {
+        from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+  /* Optional: custom text shadow for readability */
+  .text-glow {
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+}
