@@ -322,7 +322,8 @@ const componentAPI = {
     showBubblePopTagInput: false,
     showAvatarGroup: false,
     showCountdownCircleButton: false,
-    showScrollGradientBackground: true,
+    showScrollGradientBackground: false,
+    showKeyboardTriggerAnimation: true,
 };
 
 const featureFlagsDataServiceCall = () => {
