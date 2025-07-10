@@ -324,6 +324,7 @@ import AvatarGroup from '../Avatar Group/AvatarGroup'
 import CountdownCircleButton from '../Countdown Circle Button/CountdownCircleButton'
 import ScrollGradientBackground from '../Scroll Gradient Background/ScrollGradientBackground'
 import KeyboardTriggerAnimation from '../Keyboard Trigger Animation/KeyboardTriggerAnimation'
+import AnimatedBreadcrumbTrail from '../Animated Breadcrumb Trail/AnimatedBreadcrumbTrail'
 
 
 
@@ -1964,6 +1965,11 @@ const FeatureFlags = () => {
         {
             key: "showKeyboardTriggerAnimation",
             component: <KeyboardTriggerAnimation />
+        },
+
+        {
+            key: "showAnimatedBreadcrumbTrail",
+            component: <AnimatedBreadcrumbTrail />
         },
     ]
 
