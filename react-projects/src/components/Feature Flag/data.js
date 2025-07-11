@@ -324,7 +324,8 @@ const componentAPI = {
     showCountdownCircleButton: false,
     showScrollGradientBackground: false,
     showKeyboardTriggerAnimation: false,
-    showAnimatedBreadcrumbTrail: true,
+    showAnimatedBreadcrumbTrail: false,
+    showRippleBurstList: true,
 };
 
 const featureFlagsDataServiceCall = () => {

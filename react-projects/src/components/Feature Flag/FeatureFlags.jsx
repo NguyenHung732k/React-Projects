@@ -325,6 +325,7 @@ import CountdownCircleButton from '../Countdown Circle Button/CountdownCircleBut
 import ScrollGradientBackground from '../Scroll Gradient Background/ScrollGradientBackground'
 import KeyboardTriggerAnimation from '../Keyboard Trigger Animation/KeyboardTriggerAnimation'
 import AnimatedBreadcrumbTrail from '../Animated Breadcrumb Trail/AnimatedBreadcrumbTrail'
+import RippleBurstList from '../Ripple Burst List/RippleBurstList'
 
 
 
@@ -1970,6 +1971,11 @@ const FeatureFlags = () => {
         {
             key: "showAnimatedBreadcrumbTrail",
             component: <AnimatedBreadcrumbTrail />
+        },
+
+        {
+            key: "showRippleBurstList",
+            component: <RippleBurstList />
         },
     ]
 

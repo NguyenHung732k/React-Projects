@@ -1,0 +1,143 @@
+button {
+  outline: none;
+  cursor: pointer;
+}
+
+/* Ripple Effect */
+@keyframes ripple {
+  0% {
+    transform: scale(0);
+    opacity: 0.4;
+  }
+  100% {
+    transform: scale(4);
+    opacity: 0;
+  }
+}
+
+.animate-ripple {
+  animation: ripple 0.6s linear;
+}
+
+/* Heart Pulse Effect */
+@keyframes heart-pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* This class will be added dynamically for the heart icon */
+.pulse {
+  animation: heart-pulse 1s infinite;
+}
+
+/* Focus Ring on Button */
+button:focus {
+  box-shadow: 0 0 10px rgba(255, 82, 82, 0.6);
+}
+
+/* Ripple Button Styling */
+button.relative {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 9999px; /* Fully rounded */
+  background-color: #f472b6; /* Tailwind pink-600 */
+  padding: 1rem; /* Default padding */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: white;
+}
+
+button.relative:hover {
+  transform: scale(1.05);
+}
+
+button.relative:focus {
+  outline: none;
+  box-shadow: 0 0 15px rgba(255, 82, 82, 0.7);
+}
+
+/* Undo Button Styling */
+button.bg-red-600 {
+  background-color: #ef4444; /* Tailwind red-600 */
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  color: white;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+button.bg-red-600:hover {
+  transform: scale(1.05);
+}
+
+button.bg-red-600:focus {
+  outline: none;
+  box-shadow: 0 0 15px rgba(239, 68, 68, 0.7);
+}
+
+/* Undo Button Animation (Toast-style) */
+.undo-toast {
+  animation: slide-in 0.5s ease-in-out;
+}
+
+@keyframes slide-in {
+  0% {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Basic Layout and Responsiveness */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f3f4f6; /* Tailwind bg-gray-100 */
+  margin: 0;
+  padding: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.min-h-screen {
+  min-height: 100vh;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  button.relative {
+    padding: 0.75rem;
+  }
+
+  button.bg-red-600 {
+    padding: 0.75rem 1.5rem;
+  }
+}
