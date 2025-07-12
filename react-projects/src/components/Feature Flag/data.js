@@ -325,7 +325,8 @@ const componentAPI = {
     showScrollGradientBackground: false,
     showKeyboardTriggerAnimation: false,
     showAnimatedBreadcrumbTrail: false,
-    showRippleBurstList: true,
+    showRippleBurstList: false,
+    showDynamicButton: true,
 };
 
 const featureFlagsDataServiceCall = () => {

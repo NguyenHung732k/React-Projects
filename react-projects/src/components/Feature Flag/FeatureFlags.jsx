@@ -326,6 +326,7 @@ import ScrollGradientBackground from '../Scroll Gradient Background/ScrollGradie
 import KeyboardTriggerAnimation from '../Keyboard Trigger Animation/KeyboardTriggerAnimation'
 import AnimatedBreadcrumbTrail from '../Animated Breadcrumb Trail/AnimatedBreadcrumbTrail'
 import RippleBurstList from '../Ripple Burst List/RippleBurstList'
+import DynamicButton from '../Dynamic Button/DynamicButton'
 
 
 
@@ -1976,6 +1977,11 @@ const FeatureFlags = () => {
         {
             key: "showRippleBurstList",
             component: <RippleBurstList />
+        },
+
+        {
+            key: "showDynamicButton",
+            component: <DynamicButton />
         },
     ]
 
