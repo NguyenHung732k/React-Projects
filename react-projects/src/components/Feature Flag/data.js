@@ -326,7 +326,8 @@ const componentAPI = {
     showKeyboardTriggerAnimation: false,
     showAnimatedBreadcrumbTrail: false,
     showRippleBurstList: false,
-    showDynamicButton: true,
+    showDynamicButton: false,
+    showAutocompleteDropdown: true,
 };
 
 const featureFlagsDataServiceCall = () => {
