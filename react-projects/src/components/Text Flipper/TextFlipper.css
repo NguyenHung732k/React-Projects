@@ -1,0 +1,44 @@
+.perspective {
+  perspective: 1200px;
+}
+
+.flip-card {
+  transform-style: preserve-3d;
+  transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  min-height: 100px;
+}
+
+.flip-card-front,
+.flip-card-back {
+  backface-visibility: hidden;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.flip-card-front {
+  z-index: 2;
+  transform: rotateX(0deg);
+}
+
+.flip-card-back {
+  transform: rotateX(180deg);
+}
+
+.flip-card.flipped {
+  transform: rotateX(180deg);
+}
+
+/* Ellipsis animation */
+.ellipsis {
+  opacity: 1;
+  transform-origin: left;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.ellipsis.fade-out {
+  opacity: 0;
+  transform: scaleX(0);
+}

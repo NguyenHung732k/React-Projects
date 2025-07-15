@@ -328,6 +328,7 @@ import AnimatedBreadcrumbTrail from '../Animated Breadcrumb Trail/AnimatedBreadc
 import RippleBurstList from '../Ripple Burst List/RippleBurstList'
 import DynamicButton from '../Dynamic Button/DynamicButton'
 import AutocompleteDropdown from '../Autocomplete Dropdown/AutocompleteDropdown'
+import TextFlipper from '../Text Flipper/TextFlipper'
 
 
 
@@ -1988,6 +1989,11 @@ const FeatureFlags = () => {
         {
             key: "showAutocompleteDropdown",
             component: <AutocompleteDropdown />
+        },
+
+        {
+            key: "showTextFlipper",
+            component: <TextFlipper />
         },
     ]
 
