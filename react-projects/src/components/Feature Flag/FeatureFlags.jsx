@@ -329,6 +329,7 @@ import RippleBurstList from '../Ripple Burst List/RippleBurstList'
 import DynamicButton from '../Dynamic Button/DynamicButton'
 import AutocompleteDropdown from '../Autocomplete Dropdown/AutocompleteDropdown'
 import TextFlipper from '../Text Flipper/TextFlipper'
+import UndoSnackbar from '../Undo Snackbar/UndoSnackbar'
 
 
 
@@ -1994,6 +1995,11 @@ const FeatureFlags = () => {
         {
             key: "showTextFlipper",
             component: <TextFlipper />
+        },
+
+        {
+            key: "showUndoSnackbar",
+            component: <UndoSnackbar />
         },
     ]
 

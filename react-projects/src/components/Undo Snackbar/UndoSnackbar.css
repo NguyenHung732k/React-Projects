@@ -1,0 +1,54 @@
+@keyframes slide-up {
+  0% {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Basic styling for the snackbar */
+.undo-snackbar {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  padding: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(220, 220, 220, 0.5);
+  animation: slide-up 0.3s ease-out;
+  z-index: 9999;
+}
+
+/* Undo button style */
+.undo-snackbar button {
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.undo-snackbar button:hover {
+  background-color: rgba(59, 130, 246, 0.1);
+}
+
+/* Countdown bar (blue progress bar) */
+.undo-snackbar .progress-bar {
+  height: 4px;
+  background-color: rgba(240, 240, 240, 0.8);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.undo-snackbar .progress-bar .progress {
+  height: 100%;
+  background-color: #3b82f6;
+  transition: width 0.1s linear;
+}
+
+/* Responsiveness */
+@media (max-width: 640px) {
+  .undo-snackbar {
+    width: 90%;
+    padding: 12px;
+  }
+}

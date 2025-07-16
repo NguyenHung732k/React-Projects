@@ -328,7 +328,8 @@ const componentAPI = {
     showRippleBurstList: false,
     showDynamicButton: false,
     showAutocompleteDropdown: false,
-    showTextFlipper: true,
+    showTextFlipper: false,
+    showUndoSnackbar: true,
 };
 
 const featureFlagsDataServiceCall = () => {
