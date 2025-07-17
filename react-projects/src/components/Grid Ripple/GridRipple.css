@@ -1,0 +1,41 @@
+.ripple {
+  position: absolute;
+  border-radius: 50%;
+  animation: ripple-animation 0.6s linear;
+  opacity: 0.6;
+}
+
+/* Keyframes for ripple animation */
+@keyframes ripple-animation {
+  to {
+    transform: scale(4);
+    opacity: 0;
+  }
+}
+
+/* Hover and focus effects for grid items */
+.grid-item {
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover state: background color change */
+.grid-item:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Focus state: ring outline for better accessibility */
+.grid-item:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(100, 100, 255, 0.5);
+}
+
+/* Active state: slight scaling when clicked */
+.grid-item:active {
+  transform: scale(0.98);
+}
+
+/* Ensuring ripple effect fits within grid item */
+.grid-item.ripple {
+  position: relative;
+  overflow: hidden;
+}

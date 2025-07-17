@@ -330,6 +330,7 @@ import DynamicButton from '../Dynamic Button/DynamicButton'
 import AutocompleteDropdown from '../Autocomplete Dropdown/AutocompleteDropdown'
 import TextFlipper from '../Text Flipper/TextFlipper'
 import UndoSnackbar from '../Undo Snackbar/UndoSnackbar'
+import GridRipple from '../Grid Ripple/GridRipple'
 
 
 
@@ -2000,6 +2001,11 @@ const FeatureFlags = () => {
         {
             key: "showUndoSnackbar",
             component: <UndoSnackbar />
+        },
+
+        {
+            key: "showGridRipple",
+            component: <GridRipple />
         },
     ]
 
