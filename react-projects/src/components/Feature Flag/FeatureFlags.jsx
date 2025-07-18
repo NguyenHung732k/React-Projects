@@ -331,6 +331,7 @@ import AutocompleteDropdown from '../Autocomplete Dropdown/AutocompleteDropdown'
 import TextFlipper from '../Text Flipper/TextFlipper'
 import UndoSnackbar from '../Undo Snackbar/UndoSnackbar'
 import GridRipple from '../Grid Ripple/GridRipple'
+import CheckboxLinedraw from '../Checkbox Linedraw/CheckboxLinedraw'
 
 
 
@@ -2006,6 +2007,11 @@ const FeatureFlags = () => {
         {
             key: "showGridRipple",
             component: <GridRipple />
+        },
+
+        {
+            key: "showCheckboxLinedraw",
+            component: <CheckboxLinedraw />
         },
     ]
 
