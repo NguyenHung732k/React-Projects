@@ -332,6 +332,7 @@ import TextFlipper from '../Text Flipper/TextFlipper'
 import UndoSnackbar from '../Undo Snackbar/UndoSnackbar'
 import GridRipple from '../Grid Ripple/GridRipple'
 import CheckboxLinedraw from '../Checkbox Linedraw/CheckboxLinedraw'
+import InteractiveAvatar from '../Interactive Avatar/InteractiveAvatar'
 
 
 
@@ -2012,6 +2013,11 @@ const FeatureFlags = () => {
         {
             key: "showCheckboxLinedraw",
             component: <CheckboxLinedraw />
+        },
+
+        {
+            key: "showInteractiveAvatar",
+            component: <InteractiveAvatar />
         },
     ]
 
