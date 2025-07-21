@@ -333,6 +333,7 @@ import UndoSnackbar from '../Undo Snackbar/UndoSnackbar'
 import GridRipple from '../Grid Ripple/GridRipple'
 import CheckboxLinedraw from '../Checkbox Linedraw/CheckboxLinedraw'
 import InteractiveAvatar from '../Interactive Avatar/InteractiveAvatar'
+import CountdownDigitFlip from '../Countdown Digit Flip/CountdownDigitFlip'
 
 
 
@@ -2018,6 +2019,11 @@ const FeatureFlags = () => {
         {
             key: "showInteractiveAvatar",
             component: <InteractiveAvatar />
+        },
+
+        {
+            key: "showCountdownDigitFlip",
+            component: <CountdownDigitFlip />
         },
     ]
 

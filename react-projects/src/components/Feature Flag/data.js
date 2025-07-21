@@ -332,7 +332,8 @@ const componentAPI = {
     showUndoSnackbar: false,
     showGridRipple: false,
     showCheckboxLinedraw: false,
-    showInteractiveAvatar: true,
+    showInteractiveAvatar: false,
+    showCountdownDigitFlip: true,
 };
 
 const featureFlagsDataServiceCall = () => {
