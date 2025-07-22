@@ -334,6 +334,7 @@ import GridRipple from '../Grid Ripple/GridRipple'
 import CheckboxLinedraw from '../Checkbox Linedraw/CheckboxLinedraw'
 import InteractiveAvatar from '../Interactive Avatar/InteractiveAvatar'
 import CountdownDigitFlip from '../Countdown Digit Flip/CountdownDigitFlip'
+import FlashMessageBanner from '../Flash Message Banner/FlashMessageBanner'
 
 
 
@@ -2024,6 +2025,11 @@ const FeatureFlags = () => {
         {
             key: "showCountdownDigitFlip",
             component: <CountdownDigitFlip />
+        },
+
+        {
+            key: "showFlashMessageBanner",
+            component: <FlashMessageBanner />
         },
     ]
 

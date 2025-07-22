@@ -333,7 +333,8 @@ const componentAPI = {
     showGridRipple: false,
     showCheckboxLinedraw: false,
     showInteractiveAvatar: false,
-    showCountdownDigitFlip: true,
+    showCountdownDigitFlip: false,
+    showFlashMessageBanner: true,
 };
 
 const featureFlagsDataServiceCall = () => {
