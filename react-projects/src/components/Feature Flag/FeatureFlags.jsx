@@ -335,6 +335,7 @@ import CheckboxLinedraw from '../Checkbox Linedraw/CheckboxLinedraw'
 import InteractiveAvatar from '../Interactive Avatar/InteractiveAvatar'
 import CountdownDigitFlip from '../Countdown Digit Flip/CountdownDigitFlip'
 import FlashMessageBanner from '../Flash Message Banner/FlashMessageBanner'
+import BlurSidePanel from '../Blur Side Panel/BlurSidePanel'
 
 
 
@@ -2030,6 +2031,11 @@ const FeatureFlags = () => {
         {
             key: "showFlashMessageBanner",
             component: <FlashMessageBanner />
+        },
+
+        {
+            key: "showBlurSidePanel",
+            component: <BlurSidePanel />
         },
     ]
 
