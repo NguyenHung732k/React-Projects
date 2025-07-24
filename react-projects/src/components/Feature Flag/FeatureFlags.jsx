@@ -336,6 +336,7 @@ import InteractiveAvatar from '../Interactive Avatar/InteractiveAvatar'
 import CountdownDigitFlip from '../Countdown Digit Flip/CountdownDigitFlip'
 import FlashMessageBanner from '../Flash Message Banner/FlashMessageBanner'
 import BlurSidePanel from '../Blur Side Panel/BlurSidePanel'
+import SpotlightMouseTrail from '../Spotlight Mouse Trail/SpotlightMouseTrail'
 
 
 
@@ -2036,6 +2037,11 @@ const FeatureFlags = () => {
         {
             key: "showBlurSidePanel",
             component: <BlurSidePanel />
+        },
+
+        {
+            key: "showSpotlightMouseTrail",
+            component: <SpotlightMouseTrail />
         },
     ]
 

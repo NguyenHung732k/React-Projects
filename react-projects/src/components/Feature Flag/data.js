@@ -335,7 +335,8 @@ const componentAPI = {
     showInteractiveAvatar: false,
     showCountdownDigitFlip: false,
     showFlashMessageBanner: false,
-    showBlurSidePanel: true,
+    showBlurSidePanel: false,
+    showSpotlightMouseTrail: true,
 };
 
 const featureFlagsDataServiceCall = () => {
