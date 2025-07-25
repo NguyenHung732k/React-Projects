@@ -337,7 +337,8 @@ const componentAPI = {
     showFlashMessageBanner: false,
     showBlurSidePanel: false,
     showSpotlightMouseTrail: false,
-    showAutoExpandSearchbar: true,
+    showAutoExpandSearchbar: false,
+    showAnimatedBackButton: true,
 };
 
 const featureFlagsDataServiceCall = () => {

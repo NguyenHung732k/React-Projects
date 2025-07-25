@@ -338,6 +338,7 @@ import FlashMessageBanner from '../Flash Message Banner/FlashMessageBanner'
 import BlurSidePanel from '../Blur Side Panel/BlurSidePanel'
 import SpotlightMouseTrail from '../Spotlight Mouse Trail/SpotlightMouseTrail'
 import AutoExpandSearchbar from '../Auto Expand Searchbar/AutoExpandSearchbar'
+import AnimatedBackButton from '../Animated Back Button/AnimatedBackButton'
 
 
 
@@ -2048,6 +2049,11 @@ const FeatureFlags = () => {
         {
             key: "showAutoExpandSearchbar",
             component: <AutoExpandSearchbar />
+        },
+
+        {
+            key: "showAnimatedBackButton",
+            component: <AnimatedBackButton />
         },
     ]
 
