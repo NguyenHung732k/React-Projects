@@ -337,6 +337,7 @@ import CountdownDigitFlip from '../Countdown Digit Flip/CountdownDigitFlip'
 import FlashMessageBanner from '../Flash Message Banner/FlashMessageBanner'
 import BlurSidePanel from '../Blur Side Panel/BlurSidePanel'
 import SpotlightMouseTrail from '../Spotlight Mouse Trail/SpotlightMouseTrail'
+import AutoExpandSearchbar from '../Auto Expand Searchbar/AutoExpandSearchbar'
 
 
 
@@ -2042,6 +2043,11 @@ const FeatureFlags = () => {
         {
             key: "showSpotlightMouseTrail",
             component: <SpotlightMouseTrail />
+        },
+
+        {
+            key: "showAutoExpandSearchbar",
+            component: <AutoExpandSearchbar />
         },
     ]
 
