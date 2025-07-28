@@ -339,6 +339,7 @@ import BlurSidePanel from '../Blur Side Panel/BlurSidePanel'
 import SpotlightMouseTrail from '../Spotlight Mouse Trail/SpotlightMouseTrail'
 import AutoExpandSearchbar from '../Auto Expand Searchbar/AutoExpandSearchbar'
 import AnimatedBackButton from '../Animated Back Button/AnimatedBackButton'
+import PasswordToggle from '../Password Toggle/PasswordToggle'
 
 
 
@@ -2054,6 +2055,11 @@ const FeatureFlags = () => {
         {
             key: "showAnimatedBackButton",
             component: <AnimatedBackButton />
+        },
+
+        {
+            key: "showPasswordToggle",
+            component: <PasswordToggle />
         },
     ]
 
