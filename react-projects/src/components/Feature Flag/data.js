@@ -339,7 +339,8 @@ const componentAPI = {
     showSpotlightMouseTrail: false,
     showAutoExpandSearchbar: false,
     showAnimatedBackButton: false,
-    showPasswordToggle: true,
+    showPasswordToggle: false,
+    showCheckboxCluster: true,
 };
 
 const featureFlagsDataServiceCall = () => {

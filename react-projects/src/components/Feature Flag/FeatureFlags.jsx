@@ -340,6 +340,7 @@ import SpotlightMouseTrail from '../Spotlight Mouse Trail/SpotlightMouseTrail'
 import AutoExpandSearchbar from '../Auto Expand Searchbar/AutoExpandSearchbar'
 import AnimatedBackButton from '../Animated Back Button/AnimatedBackButton'
 import PasswordToggle from '../Password Toggle/PasswordToggle'
+import CheckboxCluster from '../Checkbox Cluster/CheckboxCluster'
 
 
 
@@ -2060,6 +2061,11 @@ const FeatureFlags = () => {
         {
             key: "showPasswordToggle",
             component: <PasswordToggle />
+        },
+
+        {
+            key: "showCheckboxCluster",
+            component: <CheckboxCluster />
         },
     ]
 
