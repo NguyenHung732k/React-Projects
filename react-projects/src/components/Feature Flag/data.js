@@ -341,7 +341,8 @@ const componentAPI = {
     showAnimatedBackButton: false,
     showPasswordToggle: false,
     showCheckboxCluster: false,
-    showNumberCounter: true,
+    showNumberCounter: false,
+    showLazyImage: true,
 };
 
 const featureFlagsDataServiceCall = () => {

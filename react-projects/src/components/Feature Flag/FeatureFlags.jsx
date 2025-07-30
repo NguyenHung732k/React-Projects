@@ -342,6 +342,7 @@ import AnimatedBackButton from '../Animated Back Button/AnimatedBackButton'
 import PasswordToggle from '../Password Toggle/PasswordToggle'
 import CheckboxCluster from '../Checkbox Cluster/CheckboxCluster'
 import NumberCounter from '../Number Counter/NumberCounter'
+import LazyImage from '../Lazy Image/LazyImage'
 
 
 
@@ -2071,6 +2072,11 @@ const FeatureFlags = () => {
         {
             key: "showNumberCounter",
             component: <NumberCounter />
+        },
+
+        {
+            key: "showLazyImage",
+            component: <LazyImage />
         },
     ]
 
