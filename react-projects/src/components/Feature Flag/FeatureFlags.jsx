@@ -341,7 +341,7 @@ import AutoExpandSearchbar from '../Auto Expand Searchbar/AutoExpandSearchbar'
 import AnimatedBackButton from '../Animated Back Button/AnimatedBackButton'
 import PasswordToggle from '../Password Toggle/PasswordToggle'
 import CheckboxCluster from '../Checkbox Cluster/CheckboxCluster'
-
+import NumberCounter from '../Number Counter/NumberCounter'
 
 
 
@@ -2066,6 +2066,11 @@ const FeatureFlags = () => {
         {
             key: "showCheckboxCluster",
             component: <CheckboxCluster />
+        },
+
+        {
+            key: "showNumberCounter",
+            component: <NumberCounter />
         },
     ]
 
