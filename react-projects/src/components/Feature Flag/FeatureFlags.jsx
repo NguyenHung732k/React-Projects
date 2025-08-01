@@ -343,6 +343,7 @@ import PasswordToggle from '../Password Toggle/PasswordToggle'
 import CheckboxCluster from '../Checkbox Cluster/CheckboxCluster'
 import NumberCounter from '../Number Counter/NumberCounter'
 import LazyImage from '../Lazy Image/LazyImage'
+import EditableText from '../Editable Text/EditableText'
 
 
 
@@ -2077,6 +2078,11 @@ const FeatureFlags = () => {
         {
             key: "showLazyImage",
             component: <LazyImage />
+        },
+
+        {
+            key: "showEditableText",
+            component: <EditableText />
         },
     ]
 

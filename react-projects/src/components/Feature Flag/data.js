@@ -342,7 +342,8 @@ const componentAPI = {
     showPasswordToggle: false,
     showCheckboxCluster: false,
     showNumberCounter: false,
-    showLazyImage: true,
+    showLazyImage: false,
+    showEditableText: true,
 };
 
 const featureFlagsDataServiceCall = () => {
