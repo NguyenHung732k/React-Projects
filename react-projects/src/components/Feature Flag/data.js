@@ -343,7 +343,8 @@ const componentAPI = {
     showCheckboxCluster: false,
     showNumberCounter: false,
     showLazyImage: false,
-    showEditableText: true,
+    showEditableText: false,
+    showFloatingHelpBubble: true,
 };
 
 const featureFlagsDataServiceCall = () => {
