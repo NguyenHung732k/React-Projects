@@ -345,6 +345,7 @@ import NumberCounter from '../Number Counter/NumberCounter'
 import LazyImage from '../Lazy Image/LazyImage'
 import EditableText from '../Editable Text/EditableText'
 import FloatingHelpBubble from '../Floating Help Bubble/FloatingHelpBubble'
+import FluidToggleGroup from '../Fluid Toggle Group/FluidToggleGroup'
 
 
 
@@ -2089,6 +2090,11 @@ const FeatureFlags = () => {
         {
             key: "showFloatingHelpBubble",
             component: <FloatingHelpBubble />
+        },
+
+        {
+            key: "showFluidToggleGroup",
+            component: <FluidToggleGroup />
         },
     ]
 

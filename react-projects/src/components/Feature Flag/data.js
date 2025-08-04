@@ -344,7 +344,8 @@ const componentAPI = {
     showNumberCounter: false,
     showLazyImage: false,
     showEditableText: false,
-    showFloatingHelpBubble: true,
+    showFloatingHelpBubble: false,
+    showFluidToggleGroup: true,
 };
 
 const featureFlagsDataServiceCall = () => {
