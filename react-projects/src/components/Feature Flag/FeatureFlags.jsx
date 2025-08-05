@@ -346,6 +346,9 @@ import LazyImage from '../Lazy Image/LazyImage'
 import EditableText from '../Editable Text/EditableText'
 import FloatingHelpBubble from '../Floating Help Bubble/FloatingHelpBubble'
 import FluidToggleGroup from '../Fluid Toggle Group/FluidToggleGroup'
+import ReactionSelector from '../Reaction Selector/ReactionSelector'
+
+
 
 
 
@@ -2095,6 +2098,11 @@ const FeatureFlags = () => {
         {
             key: "showFluidToggleGroup",
             component: <FluidToggleGroup />
+        },
+
+        {
+            key: "showReactionSelector",
+            component: <ReactionSelector />
         },
     ]
 
