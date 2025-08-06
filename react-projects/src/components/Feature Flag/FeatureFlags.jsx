@@ -347,6 +347,7 @@ import EditableText from '../Editable Text/EditableText'
 import FloatingHelpBubble from '../Floating Help Bubble/FloatingHelpBubble'
 import FluidToggleGroup from '../Fluid Toggle Group/FluidToggleGroup'
 import ReactionSelector from '../Reaction Selector/ReactionSelector'
+import GradientHoverText from '../Gradient Hover Text/GradientHoverText'
 
 
 
@@ -2103,6 +2104,11 @@ const FeatureFlags = () => {
         {
             key: "showReactionSelector",
             component: <ReactionSelector />
+        },
+
+        {
+            key: "showGradientHoverText",
+            component: <GradientHoverText />
         },
     ]
 

@@ -346,7 +346,8 @@ const componentAPI = {
     showEditableText: false,
     showFloatingHelpBubble: false,
     showFluidToggleGroup: false,
-    showReactionSelector: true,
+    showReactionSelector: false,
+    showGradientHoverText: true,
 };
 
 const featureFlagsDataServiceCall = () => {
