@@ -347,7 +347,8 @@ const componentAPI = {
     showFloatingHelpBubble: false,
     showFluidToggleGroup: false,
     showReactionSelector: false,
-    showGradientHoverText: true,
+    showGradientHoverText: false,
+    showLiveFilterList: true,
 };
 
 const featureFlagsDataServiceCall = () => {

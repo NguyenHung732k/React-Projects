@@ -348,6 +348,7 @@ import FloatingHelpBubble from '../Floating Help Bubble/FloatingHelpBubble'
 import FluidToggleGroup from '../Fluid Toggle Group/FluidToggleGroup'
 import ReactionSelector from '../Reaction Selector/ReactionSelector'
 import GradientHoverText from '../Gradient Hover Text/GradientHoverText'
+import LiveFilterList from '../Live Filter List/LiveFilterList'
 
 
 
@@ -2109,6 +2110,11 @@ const FeatureFlags = () => {
         {
             key: "showGradientHoverText",
             component: <GradientHoverText />
+        },
+
+        {
+            key: "showLiveFilterList",
+            component: <LiveFilterList />
         },
     ]
 
