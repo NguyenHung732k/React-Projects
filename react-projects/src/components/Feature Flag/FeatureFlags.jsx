@@ -349,6 +349,7 @@ import FluidToggleGroup from '../Fluid Toggle Group/FluidToggleGroup'
 import ReactionSelector from '../Reaction Selector/ReactionSelector'
 import GradientHoverText from '../Gradient Hover Text/GradientHoverText'
 import LiveFilterList from '../Live Filter List/LiveFilterList'
+import PageFoldBookmark from '../Page Fold Bookmark/PageFoldBookmark'
 
 
 
@@ -2115,6 +2116,11 @@ const FeatureFlags = () => {
         {
             key: "showLiveFilterList",
             component: <LiveFilterList />
+        },
+
+        {
+            key: "showPageFoldBookmark",
+            component: <PageFoldBookmark />
         },
     ]
 
