@@ -350,6 +350,7 @@ import ReactionSelector from '../Reaction Selector/ReactionSelector'
 import GradientHoverText from '../Gradient Hover Text/GradientHoverText'
 import LiveFilterList from '../Live Filter List/LiveFilterList'
 import PageFoldBookmark from '../Page Fold Bookmark/PageFoldBookmark'
+import MorphSubmitButton from '../Morph Submit Button/MorphSubmitButton'
 
 
 
@@ -2121,6 +2122,11 @@ const FeatureFlags = () => {
         {
             key: "showPageFoldBookmark",
             component: <PageFoldBookmark />
+        },
+
+        {
+            key: "showMorphSubmitButton",
+            component: <MorphSubmitButton />
         },
     ]
 

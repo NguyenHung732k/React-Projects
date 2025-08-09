@@ -349,7 +349,8 @@ const componentAPI = {
     showReactionSelector: false,
     showGradientHoverText: false,
     showLiveFilterList: false,
-    showPageFoldBookmark: true,
+    showPageFoldBookmark: false,
+    showMorphSubmitButton: true,
 };
 
 const featureFlagsDataServiceCall = () => {
