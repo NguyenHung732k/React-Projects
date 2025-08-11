@@ -351,6 +351,7 @@ import GradientHoverText from '../Gradient Hover Text/GradientHoverText'
 import LiveFilterList from '../Live Filter List/LiveFilterList'
 import PageFoldBookmark from '../Page Fold Bookmark/PageFoldBookmark'
 import MorphSubmitButton from '../Morph Submit Button/MorphSubmitButton'
+import DismissTagChip from '../Dismiss Tag Chip/DismissTagChip'
 
 
 
@@ -2127,6 +2128,11 @@ const FeatureFlags = () => {
         {
             key: "showMorphSubmitButton",
             component: <MorphSubmitButton />
+        },
+
+        {
+            key: "showDismissTagChip",
+            component: <DismissTagChip />
         },
     ]
 

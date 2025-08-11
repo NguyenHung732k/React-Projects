@@ -1,0 +1,70 @@
+.tag-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  border-radius: 9999px;
+  background-color: #3b82f6; /* Blue background */
+  color: white;
+  font-weight: 600;
+  font-size: 0.875rem; /* Small text */
+  transition: all 0.3s ease; /* Smooth transition */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Default shadow */
+  cursor: pointer;
+}
+
+/* Hover Effect */
+.tag-chip:hover {
+  transform: scale(1.05); /* Slightly grow on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+/* Dismiss Button (×) */
+.dismiss-btn {
+  background: none;
+  border: none;
+  color: inherit;
+  font-size: 1.25rem; /* Larger size */
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 0.5rem;
+  transition: color 0.3s ease;
+}
+
+/* Hover Effect on Dismiss Button */
+.dismiss-btn:hover {
+  color: #ef4444; /* Red color when hovered */
+}
+
+/* Tag Text */
+.tag-text {
+  margin-right: 0.5rem;
+}
+
+/* Poof Animation */
+@keyframes poof {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(0.5);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(0);
+    opacity: 0;
+  }
+}
+
+/* Add this class to trigger the "poof" animation */
+.poof {
+  animation: poof 0.3s ease-out forwards;
+}
+
+/* Tag List Container */
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
