@@ -352,6 +352,7 @@ import LiveFilterList from '../Live Filter List/LiveFilterList'
 import PageFoldBookmark from '../Page Fold Bookmark/PageFoldBookmark'
 import MorphSubmitButton from '../Morph Submit Button/MorphSubmitButton'
 import DismissTagChip from '../Dismiss Tag Chip/DismissTagChip'
+import GradientBorder from '../Gradient Border/GradientBorder'
 
 
 
@@ -2133,6 +2134,11 @@ const FeatureFlags = () => {
         {
             key: "showDismissTagChip",
             component: <DismissTagChip />
+        },
+
+        {
+            key: "showGradientBorder",
+            component: <GradientBorder />
         },
     ]
 

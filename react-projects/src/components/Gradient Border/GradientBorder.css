@@ -1,0 +1,87 @@
+@keyframes gradientPulse {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Gradient border animation for cards */
+.gradient-border {
+  position: absolute;
+  inset: 0;
+  z-index: -10;
+  background: linear-gradient(45deg, #3b82f6, #9333ea, #10b981, #f59e0b);
+  background-size: 400% 400%;
+  animation: gradientPulse 4s ease infinite;
+  border-radius: 12px;
+}
+
+/* Card hover effect */
+.card:hover .gradient-border {
+  animation: gradientPulse 2s ease infinite; /* Faster pulse on hover */
+}
+
+.card {
+  position: relative;
+  padding: 24px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #333;
+  transition: color 0.2s ease;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #555;
+  margin-top: 8px;
+  transition: color 0.2s ease;
+}
+
+.card:hover h3,
+.card:hover p {
+  color: #111; /* Darken text on hover */
+}
+
+/* Button hover effect */
+.button {
+  position: relative;
+  padding: 12px 24px;
+  background: linear-gradient(45deg, #3b82f6, #9333ea);
+  color: white;
+  border-radius: 9999px;
+  font-size: 1.125rem;
+  font-weight: 500;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.button .gradient-background {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(45deg, #34d399, #22c55e);
+  background-size: 400% 400%;
+  animation: gradientPulse 4s ease infinite;
+  border-radius: 9999px;
+  z-index: -1;
+}
