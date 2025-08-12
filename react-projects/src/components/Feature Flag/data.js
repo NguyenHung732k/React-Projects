@@ -352,7 +352,8 @@ const componentAPI = {
     showPageFoldBookmark: false,
     showMorphSubmitButton: false,
     showDismissTagChip: false,
-    showGradientBorder: true,
+    showGradientBorder: false,
+    showContextualToolbar: true,
 };
 
 const featureFlagsDataServiceCall = () => {

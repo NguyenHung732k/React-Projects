@@ -353,6 +353,7 @@ import PageFoldBookmark from '../Page Fold Bookmark/PageFoldBookmark'
 import MorphSubmitButton from '../Morph Submit Button/MorphSubmitButton'
 import DismissTagChip from '../Dismiss Tag Chip/DismissTagChip'
 import GradientBorder from '../Gradient Border/GradientBorder'
+import ContextualToolbar from '../Contextual Toolbar/ContextualToolbar'
 
 
 
@@ -2139,6 +2140,11 @@ const FeatureFlags = () => {
         {
             key: "showGradientBorder",
             component: <GradientBorder />
+        },
+
+        {
+            key: "showContextualToolbar",
+            component: <ContextualToolbar />
         },
     ]
 
