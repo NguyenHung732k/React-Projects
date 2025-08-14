@@ -354,6 +354,7 @@ import MorphSubmitButton from '../Morph Submit Button/MorphSubmitButton'
 import DismissTagChip from '../Dismiss Tag Chip/DismissTagChip'
 import GradientBorder from '../Gradient Border/GradientBorder'
 import ContextualToolbar from '../Contextual Toolbar/ContextualToolbar'
+import JumpCounter from '../Jump Counter/JumpCounter'
 
 
 
@@ -2145,6 +2146,11 @@ const FeatureFlags = () => {
         {
             key: "showContextualToolbar",
             component: <ContextualToolbar />
+        },
+
+        {
+            key: "showJumpCounter",
+            component: <JumpCounter />
         },
     ]
 

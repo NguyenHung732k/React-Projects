@@ -353,7 +353,8 @@ const componentAPI = {
     showMorphSubmitButton: false,
     showDismissTagChip: false,
     showGradientBorder: false,
-    showContextualToolbar: true,
+    showContextualToolbar: false,
+    showJumpCounter: true,
 };
 
 const featureFlagsDataServiceCall = () => {
