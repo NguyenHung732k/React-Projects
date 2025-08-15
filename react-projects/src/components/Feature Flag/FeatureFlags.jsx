@@ -355,6 +355,7 @@ import DismissTagChip from '../Dismiss Tag Chip/DismissTagChip'
 import GradientBorder from '../Gradient Border/GradientBorder'
 import ContextualToolbar from '../Contextual Toolbar/ContextualToolbar'
 import JumpCounter from '../Jump Counter/JumpCounter'
+import HoverShadowCard from '../Hover Shadow Card/HoverShadowCard'
 
 
 
@@ -2151,6 +2152,11 @@ const FeatureFlags = () => {
         {
             key: "showJumpCounter",
             component: <JumpCounter />
+        },
+
+        {
+            key: "showHoverShadowCard",
+            component: <HoverShadowCard />
         },
     ]
 
