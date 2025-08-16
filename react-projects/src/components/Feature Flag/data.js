@@ -355,7 +355,8 @@ const componentAPI = {
     showGradientBorder: false,
     showContextualToolbar: false,
     showJumpCounter: false,
-    showHoverShadowCard: true,
+    showHoverShadowCard: false,
+    showFadeInOnload: true,
 };
 
 const featureFlagsDataServiceCall = () => {

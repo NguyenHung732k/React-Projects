@@ -356,6 +356,7 @@ import GradientBorder from '../Gradient Border/GradientBorder'
 import ContextualToolbar from '../Contextual Toolbar/ContextualToolbar'
 import JumpCounter from '../Jump Counter/JumpCounter'
 import HoverShadowCard from '../Hover Shadow Card/HoverShadowCard'
+import FadeInOnload from '../Fade In Onload/FadeInOnLoad'
 
 
 
@@ -2157,6 +2158,11 @@ const FeatureFlags = () => {
         {
             key: "showHoverShadowCard",
             component: <HoverShadowCard />
+        },
+
+        {
+            key: "showFadeInOnload",
+            component: <FadeInOnload />
         },
     ]
 
