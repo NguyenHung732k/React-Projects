@@ -357,6 +357,7 @@ import ContextualToolbar from '../Contextual Toolbar/ContextualToolbar'
 import JumpCounter from '../Jump Counter/JumpCounter'
 import HoverShadowCard from '../Hover Shadow Card/HoverShadowCard'
 import FadeInOnload from '../Fade In Onload/FadeInOnLoad'
+import SwipeList from '../Swipe List/SwipeList'
 
 
 
@@ -2163,6 +2164,11 @@ const FeatureFlags = () => {
         {
             key: "showFadeInOnload",
             component: <FadeInOnload />
+        },
+
+        {
+            key: "showSwipeList",
+            component: <SwipeList />
         },
     ]
 
