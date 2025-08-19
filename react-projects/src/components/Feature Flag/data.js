@@ -357,7 +357,8 @@ const componentAPI = {
     showJumpCounter: false,
     showHoverShadowCard: false,
     showFadeInOnload: false,
-    showSwipeList: true,
+    showSwipeList: false,
+    showImageZoom: true,
 };
 
 const featureFlagsDataServiceCall = () => {
