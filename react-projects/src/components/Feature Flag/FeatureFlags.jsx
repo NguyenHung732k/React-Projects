@@ -359,6 +359,7 @@ import HoverShadowCard from '../Hover Shadow Card/HoverShadowCard'
 import FadeInOnload from '../Fade In Onload/FadeInOnLoad'
 import SwipeList from '../Swipe List/SwipeList'
 import ImageZoom from '../Image Zoom/ImageZoom'
+import ShakingErrorInput from '../Shaking Error Input/ShakingErrorInput'
 
 
 
@@ -2175,6 +2176,11 @@ const FeatureFlags = () => {
         {
             key: "showImageZoom",
             component: <ImageZoom />
+        },
+
+        {
+            key: "showShakingErrorInput",
+            component: <ShakingErrorInput />
         },
     ]
 
