@@ -361,6 +361,7 @@ import SwipeList from '../Swipe List/SwipeList'
 import ImageZoom from '../Image Zoom/ImageZoom'
 import ShakingErrorInput from '../Shaking Error Input/ShakingErrorInput'
 import ScrollFade from '../Scroll Fade/ScrollFade'
+import RippleClick from '../Ripple Click/RippleClick'
 
 
 
@@ -2187,6 +2188,11 @@ const FeatureFlags = () => {
         {
             key: "showScrollFade",
             component: <ScrollFade />
+        },
+
+        {
+            key: "showRippleClick",
+            component: <RippleClick />
         },
     ]
 

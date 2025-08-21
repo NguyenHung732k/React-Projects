@@ -360,7 +360,8 @@ const componentAPI = {
     showSwipeList: false,
     showImageZoom: false,
     showShakingErrorInput: false,
-    showScrollFade: true,
+    showScrollFade: false,
+    showRippleClick: true,
 };
 
 const featureFlagsDataServiceCall = () => {
