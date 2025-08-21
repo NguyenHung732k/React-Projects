@@ -359,7 +359,8 @@ const componentAPI = {
     showFadeInOnload: false,
     showSwipeList: false,
     showImageZoom: false,
-    showShakingErrorInput: true,
+    showShakingErrorInput: false,
+    showScrollFade: true,
 };
 
 const featureFlagsDataServiceCall = () => {

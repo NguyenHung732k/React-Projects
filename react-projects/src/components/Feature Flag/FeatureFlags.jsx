@@ -360,6 +360,7 @@ import FadeInOnload from '../Fade In Onload/FadeInOnLoad'
 import SwipeList from '../Swipe List/SwipeList'
 import ImageZoom from '../Image Zoom/ImageZoom'
 import ShakingErrorInput from '../Shaking Error Input/ShakingErrorInput'
+import ScrollFade from '../Scroll Fade/ScrollFade'
 
 
 
@@ -2181,6 +2182,11 @@ const FeatureFlags = () => {
         {
             key: "showShakingErrorInput",
             component: <ShakingErrorInput />
+        },
+
+        {
+            key: "showScrollFade",
+            component: <ScrollFade />
         },
     ]
 
