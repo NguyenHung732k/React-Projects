@@ -361,7 +361,8 @@ const componentAPI = {
     showImageZoom: false,
     showShakingErrorInput: false,
     showScrollFade: false,
-    showRippleClick: true,
+    showRippleClick: false,
+    showIconMorphToggle: true,
 };
 
 const featureFlagsDataServiceCall = () => {

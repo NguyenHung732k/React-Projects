@@ -362,6 +362,7 @@ import ImageZoom from '../Image Zoom/ImageZoom'
 import ShakingErrorInput from '../Shaking Error Input/ShakingErrorInput'
 import ScrollFade from '../Scroll Fade/ScrollFade'
 import RippleClick from '../Ripple Click/RippleClick'
+import IconMorphToggle from '../Icon Morph Toggle/IconMorphToggle'
 
 
 
@@ -2193,6 +2194,11 @@ const FeatureFlags = () => {
         {
             key: "showRippleClick",
             component: <RippleClick />
+        },
+
+        {
+            key: "showIconMorphToggle",
+            component: <IconMorphToggle />
         },
     ]
 
