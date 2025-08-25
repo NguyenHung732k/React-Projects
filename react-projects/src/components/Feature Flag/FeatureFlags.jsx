@@ -363,6 +363,7 @@ import ShakingErrorInput from '../Shaking Error Input/ShakingErrorInput'
 import ScrollFade from '../Scroll Fade/ScrollFade'
 import RippleClick from '../Ripple Click/RippleClick'
 import IconMorphToggle from '../Icon Morph Toggle/IconMorphToggle'
+import HoverStrokeReview from '../Hover Stroke Review/HoverStrokeReview'
 
 
 
@@ -2199,6 +2200,11 @@ const FeatureFlags = () => {
         {
             key: "showIconMorphToggle",
             component: <IconMorphToggle />
+        },
+
+        {
+            key: "showHoverStrokeReview",
+            component: <HoverStrokeReview />
         },
     ]
 
