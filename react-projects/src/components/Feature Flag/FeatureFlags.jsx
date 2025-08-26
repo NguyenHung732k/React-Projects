@@ -364,6 +364,7 @@ import ScrollFade from '../Scroll Fade/ScrollFade'
 import RippleClick from '../Ripple Click/RippleClick'
 import IconMorphToggle from '../Icon Morph Toggle/IconMorphToggle'
 import HoverStrokeReview from '../Hover Stroke Review/HoverStrokeReview'
+import CollapsibleTagChip from '../Collapsible Tag Chip/CollapsibleTagChip'
 
 
 
@@ -2205,6 +2206,11 @@ const FeatureFlags = () => {
         {
             key: "showHoverStrokeReview",
             component: <HoverStrokeReview />
+        },
+
+        {
+            key: "showCollapsibleTagChip",
+            component: <CollapsibleTagChip />
         },
     ]
 
