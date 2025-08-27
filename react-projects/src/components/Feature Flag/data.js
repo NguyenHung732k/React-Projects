@@ -364,7 +364,8 @@ const componentAPI = {
     showRippleClick: false,
     showIconMorphToggle: false,
     showHoverStrokeReview: false,
-    showCollapsibleTagChip: true,
+    showCollapsibleTagChip: false,
+    showHoverCard: true,
 };
 
 const featureFlagsDataServiceCall = () => {
