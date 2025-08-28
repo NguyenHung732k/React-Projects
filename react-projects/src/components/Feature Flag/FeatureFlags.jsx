@@ -366,6 +366,7 @@ import IconMorphToggle from '../Icon Morph Toggle/IconMorphToggle'
 import HoverStrokeReview from '../Hover Stroke Review/HoverStrokeReview'
 import CollapsibleTagChip from '../Collapsible Tag Chip/CollapsibleTagChip'
 import HoverCard from '../Hover Card/HoverCard'
+import AutoClearInput from '../Auto Clear Input/AutoClearInput'
 
 
 
@@ -2217,6 +2218,11 @@ const FeatureFlags = () => {
         {
             key: "showHoverCard",
             component: <HoverCard />
+        },
+
+        {
+            key: "showAutoClearInput",
+            component: <AutoClearInput />
         },
     ]
 
