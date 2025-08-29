@@ -367,7 +367,7 @@ import HoverStrokeReview from '../Hover Stroke Review/HoverStrokeReview'
 import CollapsibleTagChip from '../Collapsible Tag Chip/CollapsibleTagChip'
 import HoverCard from '../Hover Card/HoverCard'
 import AutoClearInput from '../Auto Clear Input/AutoClearInput'
-
+import DotIndicator from '../Dot Indicator/DotIndicator'
 
 
 
@@ -2223,6 +2223,11 @@ const FeatureFlags = () => {
         {
             key: "showAutoClearInput",
             component: <AutoClearInput />
+        },
+
+        {
+            key: "showDotIndicator",
+            component: <DotIndicator />
         },
     ]
 
