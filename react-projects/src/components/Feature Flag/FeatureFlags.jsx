@@ -368,6 +368,7 @@ import CollapsibleTagChip from '../Collapsible Tag Chip/CollapsibleTagChip'
 import HoverCard from '../Hover Card/HoverCard'
 import AutoClearInput from '../Auto Clear Input/AutoClearInput'
 import DotIndicator from '../Dot Indicator/DotIndicator'
+import HoverSwapButton from '../Hover Swap Button/HoverSwapButton'
 
 
 
@@ -2228,6 +2229,11 @@ const FeatureFlags = () => {
         {
             key: "showDotIndicator",
             component: <DotIndicator />
+        },
+
+        {
+            key: "showHoverSwapButton",
+            component: <HoverSwapButton />
         },
     ]
 
