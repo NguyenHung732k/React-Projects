@@ -368,7 +368,8 @@ const componentAPI = {
     showHoverCard: false,
     showAutoClearInput: false,
     showDotIndicator: false,
-    showHoverSwapButton: true,
+    showHoverSwapButton: false,
+    showTapAndHoldButton: true,
 };
 
 const featureFlagsDataServiceCall = () => {

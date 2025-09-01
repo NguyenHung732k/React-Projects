@@ -369,6 +369,7 @@ import HoverCard from '../Hover Card/HoverCard'
 import AutoClearInput from '../Auto Clear Input/AutoClearInput'
 import DotIndicator from '../Dot Indicator/DotIndicator'
 import HoverSwapButton from '../Hover Swap Button/HoverSwapButton'
+import TapAndHoldButton from '../Tap And Hold Button/TapAndHoldButton'
 
 
 
@@ -2234,6 +2235,11 @@ const FeatureFlags = () => {
         {
             key: "showHoverSwapButton",
             component: <HoverSwapButton />
+        },
+
+        {
+            key: "showTapAndHoldButton",
+            component: <TapAndHoldButton />
         },
     ]
 
