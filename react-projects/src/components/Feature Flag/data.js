@@ -369,7 +369,8 @@ const componentAPI = {
     showAutoClearInput: false,
     showDotIndicator: false,
     showHoverSwapButton: false,
-    showTapAndHoldButton: true,
+    showTapAndHoldButton: false,
+    showParticleButton: true,
 };
 
 const featureFlagsDataServiceCall = () => {

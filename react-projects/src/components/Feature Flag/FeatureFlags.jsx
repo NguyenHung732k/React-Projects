@@ -370,6 +370,7 @@ import AutoClearInput from '../Auto Clear Input/AutoClearInput'
 import DotIndicator from '../Dot Indicator/DotIndicator'
 import HoverSwapButton from '../Hover Swap Button/HoverSwapButton'
 import TapAndHoldButton from '../Tap And Hold Button/TapAndHoldButton'
+import ParticleButton from '../Particle Button/ParticleButton'
 
 
 
@@ -2240,6 +2241,11 @@ const FeatureFlags = () => {
         {
             key: "showTapAndHoldButton",
             component: <TapAndHoldButton />
+        },
+
+        {
+            key: "showParticleButton",
+            component: <ParticleButton />
         },
     ]
 
