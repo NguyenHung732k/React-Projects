@@ -371,6 +371,7 @@ import DotIndicator from '../Dot Indicator/DotIndicator'
 import HoverSwapButton from '../Hover Swap Button/HoverSwapButton'
 import TapAndHoldButton from '../Tap And Hold Button/TapAndHoldButton'
 import ParticleButton from '../Particle Button/ParticleButton'
+import SmartHome from '../Smart Home Simulator/SmartHome'
 
 
 
@@ -2246,6 +2247,11 @@ const FeatureFlags = () => {
         {
             key: "showParticleButton",
             component: <ParticleButton />
+        },
+
+        {
+            key: "showSmartHome",
+            component: <SmartHome />
         },
     ]
 

@@ -370,7 +370,8 @@ const componentAPI = {
     showDotIndicator: false,
     showHoverSwapButton: false,
     showTapAndHoldButton: false,
-    showParticleButton: true,
+    showParticleButton: false,
+    showSmartHome: true,
 };
 
 const featureFlagsDataServiceCall = () => {
