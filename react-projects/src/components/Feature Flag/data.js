@@ -371,7 +371,8 @@ const componentAPI = {
     showHoverSwapButton: false,
     showTapAndHoldButton: false,
     showParticleButton: false,
-    showSmartHome: true,
+    showSmartHome: false,
+    showCopyButton: true,
 };
 
 const featureFlagsDataServiceCall = () => {

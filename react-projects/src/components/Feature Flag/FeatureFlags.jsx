@@ -372,6 +372,7 @@ import HoverSwapButton from '../Hover Swap Button/HoverSwapButton'
 import TapAndHoldButton from '../Tap And Hold Button/TapAndHoldButton'
 import ParticleButton from '../Particle Button/ParticleButton'
 import SmartHome from '../Smart Home Simulator/SmartHome'
+import CopyButton from '../Copy Button/CopyButton'
 
 
 
@@ -2252,6 +2253,11 @@ const FeatureFlags = () => {
         {
             key: "showSmartHome",
             component: <SmartHome />
+        },
+
+        {
+            key: "showCopyButton",
+            component: <CopyButton />
         },
     ]
 

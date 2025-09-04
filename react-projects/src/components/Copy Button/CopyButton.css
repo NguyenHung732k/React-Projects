@@ -1,0 +1,23 @@
+.copy-tooltip {
+  @apply bg-green-600 text-white text-xs px-3 py-1 rounded-md shadow-lg z-20 pointer-events-none select-none;
+  animation: fadeInOut 1.5s ease-in-out forwards;
+}
+
+/* Custom animation */
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+  10% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+}
