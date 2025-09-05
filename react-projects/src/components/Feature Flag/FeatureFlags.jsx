@@ -373,6 +373,7 @@ import TapAndHoldButton from '../Tap And Hold Button/TapAndHoldButton'
 import ParticleButton from '../Particle Button/ParticleButton'
 import SmartHome from '../Smart Home Simulator/SmartHome'
 import CopyButton from '../Copy Button/CopyButton'
+import ExpandModalButton from '../Expand Modal Button/ExpandModalButton'
 
 
 
@@ -2258,6 +2259,11 @@ const FeatureFlags = () => {
         {
             key: "showCopyButton",
             component: <CopyButton />
+        },
+
+        {
+            key: "showExpandModalButton",
+            component: <ExpandModalButton />
         },
     ]
 

@@ -372,7 +372,8 @@ const componentAPI = {
     showTapAndHoldButton: false,
     showParticleButton: false,
     showSmartHome: false,
-    showCopyButton: true,
+    showCopyButton: false,
+    showExpandModalButton: true,
 };
 
 const featureFlagsDataServiceCall = () => {
