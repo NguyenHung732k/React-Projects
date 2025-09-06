@@ -374,6 +374,7 @@ import ParticleButton from '../Particle Button/ParticleButton'
 import SmartHome from '../Smart Home Simulator/SmartHome'
 import CopyButton from '../Copy Button/CopyButton'
 import ExpandModalButton from '../Expand Modal Button/ExpandModalButton'
+import AnimatedList from '../Animated List/AnimatedList'
 
 
 
@@ -2264,6 +2265,11 @@ const FeatureFlags = () => {
         {
             key: "showExpandModalButton",
             component: <ExpandModalButton />
+        },
+
+        {
+            key: "showAnimatedList",
+            component: <AnimatedList />
         },
     ]
 
