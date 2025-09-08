@@ -375,6 +375,7 @@ import SmartHome from '../Smart Home Simulator/SmartHome'
 import CopyButton from '../Copy Button/CopyButton'
 import ExpandModalButton from '../Expand Modal Button/ExpandModalButton'
 import AnimatedList from '../Animated List/AnimatedList'
+import SectionDivider from '../Section Divider/SectionDivider'
 
 
 
@@ -2270,6 +2271,11 @@ const FeatureFlags = () => {
         {
             key: "showAnimatedList",
             component: <AnimatedList />
+        },
+
+        {
+            key: "showSectionDivider",
+            component: <SectionDivider />
         },
     ]
 

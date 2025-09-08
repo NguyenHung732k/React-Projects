@@ -374,7 +374,8 @@ const componentAPI = {
     showSmartHome: false,
     showCopyButton: false,
     showExpandModalButton: false,
-    showAnimatedList: true,
+    showAnimatedList: false,
+    showSectionDivider: true,
 };
 
 const featureFlagsDataServiceCall = () => {
