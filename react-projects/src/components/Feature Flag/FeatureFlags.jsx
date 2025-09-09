@@ -376,6 +376,7 @@ import CopyButton from '../Copy Button/CopyButton'
 import ExpandModalButton from '../Expand Modal Button/ExpandModalButton'
 import AnimatedList from '../Animated List/AnimatedList'
 import SectionDivider from '../Section Divider/SectionDivider'
+import StickyImage from '../Sticky Image/StickyImage'
 
 
 
@@ -2276,6 +2277,11 @@ const FeatureFlags = () => {
         {
             key: "showSectionDivider",
             component: <SectionDivider />
+        },
+
+        {
+            key: "showStickyImage",
+            component: <StickyImage />
         },
     ]
 

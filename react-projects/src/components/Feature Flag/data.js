@@ -375,7 +375,8 @@ const componentAPI = {
     showCopyButton: false,
     showExpandModalButton: false,
     showAnimatedList: false,
-    showSectionDivider: true,
+    showSectionDivider: false,
+    showStickyImage: true,
 };
 
 const featureFlagsDataServiceCall = () => {
