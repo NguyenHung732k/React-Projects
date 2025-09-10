@@ -377,6 +377,7 @@ import ExpandModalButton from '../Expand Modal Button/ExpandModalButton'
 import AnimatedList from '../Animated List/AnimatedList'
 import SectionDivider from '../Section Divider/SectionDivider'
 import StickyImage from '../Sticky Image/StickyImage'
+import FloatingInput from '../Floating Input/FloatingInput'
 
 
 
@@ -2282,6 +2283,11 @@ const FeatureFlags = () => {
         {
             key: "showStickyImage",
             component: <StickyImage />
+        },
+
+        {
+            key: "showFloatingInput",
+            component: <FloatingInput />
         },
     ]
 
