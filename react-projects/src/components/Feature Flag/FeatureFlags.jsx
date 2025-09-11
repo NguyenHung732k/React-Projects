@@ -378,6 +378,7 @@ import AnimatedList from '../Animated List/AnimatedList'
 import SectionDivider from '../Section Divider/SectionDivider'
 import StickyImage from '../Sticky Image/StickyImage'
 import FloatingInput from '../Floating Input/FloatingInput'
+import SplitButton from '../Split Button/SplitButton'
 
 
 
@@ -2288,6 +2289,11 @@ const FeatureFlags = () => {
         {
             key: "showFloatingInput",
             component: <FloatingInput />
+        },
+
+        {
+            key: "showSplitButton",
+            component: <SplitButton />
         },
     ]
 

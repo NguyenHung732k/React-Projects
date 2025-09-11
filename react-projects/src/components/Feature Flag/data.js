@@ -377,7 +377,8 @@ const componentAPI = {
     showAnimatedList: false,
     showSectionDivider: false,
     showStickyImage: false,
-    showFloatingInput: true,
+    showFloatingInput: false,
+    showSplitButton: true,
 };
 
 const featureFlagsDataServiceCall = () => {
