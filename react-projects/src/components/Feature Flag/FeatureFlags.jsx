@@ -379,6 +379,7 @@ import SectionDivider from '../Section Divider/SectionDivider'
 import StickyImage from '../Sticky Image/StickyImage'
 import FloatingInput from '../Floating Input/FloatingInput'
 import SplitButton from '../Split Button/SplitButton'
+import ScrollBlur from '../Scroll Blur/ScrollBlur'
 
 
 
@@ -2294,6 +2295,11 @@ const FeatureFlags = () => {
         {
             key: "showSplitButton",
             component: <SplitButton />
+        },
+
+        {
+            key: "showScrollBlur",
+            component: <ScrollBlur />
         },
     ]
 
