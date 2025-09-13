@@ -380,6 +380,7 @@ import StickyImage from '../Sticky Image/StickyImage'
 import FloatingInput from '../Floating Input/FloatingInput'
 import SplitButton from '../Split Button/SplitButton'
 import ScrollBlur from '../Scroll Blur/ScrollBlur'
+import AvatarStatus from '../Avatar Status/AvatarStatus'
 
 
 
@@ -2300,6 +2301,11 @@ const FeatureFlags = () => {
         {
             key: "showScrollBlur",
             component: <ScrollBlur />
+        },
+
+        {
+            key: "showAvatarStatus",
+            component: <AvatarStatus />
         },
     ]
 

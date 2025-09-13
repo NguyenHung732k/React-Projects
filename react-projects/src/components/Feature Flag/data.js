@@ -379,7 +379,8 @@ const componentAPI = {
     showStickyImage: false,
     showFloatingInput: false,
     showSplitButton: false,
-    showScrollBlur: true,
+    showScrollBlur: false,
+    showAvatarStatus: true,
 };
 
 const featureFlagsDataServiceCall = () => {
