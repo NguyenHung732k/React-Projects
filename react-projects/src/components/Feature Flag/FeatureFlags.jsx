@@ -381,6 +381,7 @@ import FloatingInput from '../Floating Input/FloatingInput'
 import SplitButton from '../Split Button/SplitButton'
 import ScrollBlur from '../Scroll Blur/ScrollBlur'
 import AvatarStatus from '../Avatar Status/AvatarStatus'
+import ScrollHighlightBar from '../Scroll Highlight Bar/ScrollHighlightBar'
 
 
 
@@ -2306,6 +2307,11 @@ const FeatureFlags = () => {
         {
             key: "showAvatarStatus",
             component: <AvatarStatus />
+        },
+
+        {
+            key: "showScrollHighlightBar",
+            component: <ScrollHighlightBar />
         },
     ]
 
