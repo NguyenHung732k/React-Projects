@@ -1,0 +1,45 @@
+.pixelated {
+  filter: blur(3px) pixelate(10px);
+  transition: filter 0.5s ease-in-out, transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+/* On hover, clear the pixelation and apply zoom and opacity */
+.pixelated:hover {
+  filter: none;
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+/* Optional overlay */
+.pixelated-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3); /* Dark overlay */
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.pixelated:hover .pixelated-overlay {
+  opacity: 1;
+}
+
+/* Text Caption */
+.pixelated-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.pixelated:hover .pixelated-caption {
+  opacity: 1;
+}

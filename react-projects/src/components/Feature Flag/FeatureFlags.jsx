@@ -382,6 +382,7 @@ import SplitButton from '../Split Button/SplitButton'
 import ScrollBlur from '../Scroll Blur/ScrollBlur'
 import AvatarStatus from '../Avatar Status/AvatarStatus'
 import ScrollHighlightBar from '../Scroll Highlight Bar/ScrollHighlightBar'
+import PixelatedImage from '../Pixelated Image/PixelatedImage'
 
 
 
@@ -2312,6 +2313,11 @@ const FeatureFlags = () => {
         {
             key: "showScrollHighlightBar",
             component: <ScrollHighlightBar />
+        },
+
+        {
+            key: "showPixelatedImage",
+            component: <PixelatedImage />
         },
     ]
 
