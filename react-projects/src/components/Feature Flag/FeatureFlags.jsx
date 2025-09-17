@@ -383,6 +383,7 @@ import ScrollBlur from '../Scroll Blur/ScrollBlur'
 import AvatarStatus from '../Avatar Status/AvatarStatus'
 import ScrollHighlightBar from '../Scroll Highlight Bar/ScrollHighlightBar'
 import PixelatedImage from '../Pixelated Image/PixelatedImage'
+import AnimatedInput from '../Animated Input/AnimatedInput'
 
 
 
@@ -2318,6 +2319,11 @@ const FeatureFlags = () => {
         {
             key: "showPixelatedImage",
             component: <PixelatedImage />
+        },
+
+        {
+            key: "showAnimatedInput",
+            component: <AnimatedInput />
         },
     ]
 

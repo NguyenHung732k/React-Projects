@@ -1,0 +1,37 @@
+@layer utilities {
+  .animate-gradient-border-mask::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    border-radius: inherit;
+    padding: 2px;
+
+    background: linear-gradient(
+      270deg,
+      #ff0080,
+      #ff8c00,
+      #40e0d0,
+      #8a2be2,
+      #ff0080
+    );
+    background-size: 400% 400%;
+    animation: gradientSweep 3s linear infinite;
+
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: destination-out;
+            mask-composite: exclude;
+  }
+
+  @keyframes gradientSweep {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+}
