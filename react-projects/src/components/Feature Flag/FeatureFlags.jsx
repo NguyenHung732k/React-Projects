@@ -384,6 +384,7 @@ import AvatarStatus from '../Avatar Status/AvatarStatus'
 import ScrollHighlightBar from '../Scroll Highlight Bar/ScrollHighlightBar'
 import PixelatedImage from '../Pixelated Image/PixelatedImage'
 import AnimatedInput from '../Animated Input/AnimatedInput'
+import FloatingActionButton from '../Floating Action Button/FloatingActionButton'
 
 
 
@@ -2324,6 +2325,11 @@ const FeatureFlags = () => {
         {
             key: "showAnimatedInput",
             component: <AnimatedInput />
+        },
+
+        {
+            key: "showFloatingActionButton",
+            component: <FloatingActionButton />
         },
     ]
 
