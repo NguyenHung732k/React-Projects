@@ -386,6 +386,7 @@ import PixelatedImage from '../Pixelated Image/PixelatedImage'
 import AnimatedInput from '../Animated Input/AnimatedInput'
 import FloatingActionButton from '../Floating Action Button/FloatingActionButton'
 import HoverAvatar from '../Hover Avatar/HoverAvatar'
+import AutofillInput from '../Autofill Input/AutofillInput'
 
 
 
@@ -2336,6 +2337,11 @@ const FeatureFlags = () => {
         {
             key: "showHoverAvatar",
             component: <HoverAvatar />
+        },
+
+        {
+            key: "showAutofillInput",
+            component: <AutofillInput />
         },
     ]
 
