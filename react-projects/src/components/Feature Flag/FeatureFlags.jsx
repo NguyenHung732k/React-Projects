@@ -387,6 +387,7 @@ import AnimatedInput from '../Animated Input/AnimatedInput'
 import FloatingActionButton from '../Floating Action Button/FloatingActionButton'
 import HoverAvatar from '../Hover Avatar/HoverAvatar'
 import AutofillInput from '../Autofill Input/AutofillInput'
+import SectionRotate from '../Section Rotate/SectionRotate'
 
 
 
@@ -2342,6 +2343,11 @@ const FeatureFlags = () => {
         {
             key: "showAutofillInput",
             component: <AutofillInput />
+        },
+
+        {
+            key: "showSectionRotate",
+            component: <SectionRotate />
         },
     ]
 
