@@ -388,6 +388,7 @@ import FloatingActionButton from '../Floating Action Button/FloatingActionButton
 import HoverAvatar from '../Hover Avatar/HoverAvatar'
 import AutofillInput from '../Autofill Input/AutofillInput'
 import SectionRotate from '../Section Rotate/SectionRotate'
+import ShineCard from '../Shine Card/ShineCard'
 
 
 
@@ -2348,6 +2349,11 @@ const FeatureFlags = () => {
         {
             key: "showSectionRotate",
             component: <SectionRotate />
+        },
+
+        {
+            key: "showShineCard",
+            component: <ShineCard />
         },
     ]
 

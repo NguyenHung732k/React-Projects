@@ -387,7 +387,8 @@ const componentAPI = {
     showFloatingActionButton: false,
     showHoverAvatar: false,
     showAutofillInput: false,
-    showSectionRotate: true,
+    showSectionRotate: false,
+    showShineCard: true,
 };
 
 const featureFlagsDataServiceCall = () => {
