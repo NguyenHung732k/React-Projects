@@ -389,6 +389,7 @@ import HoverAvatar from '../Hover Avatar/HoverAvatar'
 import AutofillInput from '../Autofill Input/AutofillInput'
 import SectionRotate from '../Section Rotate/SectionRotate'
 import ShineCard from '../Shine Card/ShineCard'
+import FlipBounceIcon from '../Flip Bounce Icon/FlipBounceIcon'
 
 
 
@@ -2354,6 +2355,11 @@ const FeatureFlags = () => {
         {
             key: "showShineCard",
             component: <ShineCard />
+        },
+
+        {
+            key: "showFlipBounceIcon",
+            component: <FlipBounceIcon />
         },
     ]
 
