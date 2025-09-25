@@ -390,6 +390,7 @@ import AutofillInput from '../Autofill Input/AutofillInput'
 import SectionRotate from '../Section Rotate/SectionRotate'
 import ShineCard from '../Shine Card/ShineCard'
 import FlipBounceIcon from '../Flip Bounce Icon/FlipBounceIcon'
+import SplitSection from '../Split Section/SplitSection'
 
 
 
@@ -2360,6 +2361,11 @@ const FeatureFlags = () => {
         {
             key: "showFlipBounceIcon",
             component: <FlipBounceIcon />
+        },
+
+        {
+            key: "showSplitSection",
+            component: <SplitSection />
         },
     ]
 

@@ -389,7 +389,8 @@ const componentAPI = {
     showAutofillInput: false,
     showSectionRotate: false,
     showShineCard: false,
-    showFlipBounceIcon: true,
+    showFlipBounceIcon: false,
+    showSplitSection: true,
 };
 
 const featureFlagsDataServiceCall = () => {
