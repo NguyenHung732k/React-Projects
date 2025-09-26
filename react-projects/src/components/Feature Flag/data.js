@@ -390,7 +390,8 @@ const componentAPI = {
     showSectionRotate: false,
     showShineCard: false,
     showFlipBounceIcon: false,
-    showSplitSection: true,
+    showSplitSection: false,
+    showImageOverlayCard: true,
 };
 
 const featureFlagsDataServiceCall = () => {

@@ -391,6 +391,7 @@ import SectionRotate from '../Section Rotate/SectionRotate'
 import ShineCard from '../Shine Card/ShineCard'
 import FlipBounceIcon from '../Flip Bounce Icon/FlipBounceIcon'
 import SplitSection from '../Split Section/SplitSection'
+import ImageOverlayCard from '../Image Overlay Card/ImageOverlayCard'
 
 
 
@@ -2366,6 +2367,11 @@ const FeatureFlags = () => {
         {
             key: "showSplitSection",
             component: <SplitSection />
+        },
+
+        {
+            key: "showImageOverlayCard",
+            component: <ImageOverlayCard />
         },
     ]
 
