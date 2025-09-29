@@ -392,7 +392,8 @@ const componentAPI = {
     showFlipBounceIcon: false,
     showSplitSection: false,
     showImageOverlayCard: false,
-    showAnimatedLineInput: true,
+    showAnimatedLineInput: false,
+    showScrollProgressTextFill: true,
 };
 
 const featureFlagsDataServiceCall = () => {
