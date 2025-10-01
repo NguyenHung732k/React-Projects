@@ -395,6 +395,7 @@ import ImageOverlayCard from '../Image Overlay Card/ImageOverlayCard'
 import AnimatedLineInput from '../Animated Line Input/AnimatedLineInput'
 import ScrollProgressTextFill from '../Scroll Progress Text Fill/ScrollProgressTextFill'
 import OrbitButton from '../Orbit Button/OrbitButton'
+import HighlightCharacter from '../Highlight Character/HighlightCharacter'
 
 
 
@@ -2390,6 +2391,11 @@ const FeatureFlags = () => {
         {
             key: "showOrbitButton",
             component: <OrbitButton />
+        },
+
+        {
+            key: "showHighlightCharacter",
+            component: <HighlightCharacter />
         },
     ]
 

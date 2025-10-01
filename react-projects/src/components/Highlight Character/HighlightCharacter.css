@@ -1,0 +1,14 @@
+@keyframes flash {
+  0% {
+    background-color: #f9a8d4; /* Tailwind pink-300 */
+    transform: scale(1.15);
+  }
+  100% {
+    background-color: #f3f4f6; /* Tailwind gray-100 */
+    transform: scale(1);
+  }
+}
+
+.animate-flash {
+  animation: flash 0.3s ease-out;
+}

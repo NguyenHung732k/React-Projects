@@ -394,7 +394,8 @@ const componentAPI = {
     showImageOverlayCard: false,
     showAnimatedLineInput: false,
     showScrollProgressTextFill: false,
-    showOrbitButton: true,
+    showOrbitButton: false,
+    showHighlightCharacter: true,
 };
 
 const featureFlagsDataServiceCall = () => {
