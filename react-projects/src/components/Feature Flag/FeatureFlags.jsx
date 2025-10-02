@@ -396,6 +396,9 @@ import AnimatedLineInput from '../Animated Line Input/AnimatedLineInput'
 import ScrollProgressTextFill from '../Scroll Progress Text Fill/ScrollProgressTextFill'
 import OrbitButton from '../Orbit Button/OrbitButton'
 import HighlightCharacter from '../Highlight Character/HighlightCharacter'
+import ScrollSections from '../Scroll Sections/ScrollSections'
+
+
 
 
 
@@ -2396,6 +2399,11 @@ const FeatureFlags = () => {
         {
             key: "showHighlightCharacter",
             component: <HighlightCharacter />
+        },
+
+        {
+            key: "showScrollSections",
+            component: <ScrollSections />
         },
     ]
 

@@ -395,7 +395,8 @@ const componentAPI = {
     showAnimatedLineInput: false,
     showScrollProgressTextFill: false,
     showOrbitButton: false,
-    showHighlightCharacter: true,
+    showHighlightCharacter: false,
+    showScrollSections: true,
 };
 
 const featureFlagsDataServiceCall = () => {
