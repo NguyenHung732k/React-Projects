@@ -397,6 +397,7 @@ import ScrollProgressTextFill from '../Scroll Progress Text Fill/ScrollProgressT
 import OrbitButton from '../Orbit Button/OrbitButton'
 import HighlightCharacter from '../Highlight Character/HighlightCharacter'
 import ScrollSections from '../Scroll Sections/ScrollSections'
+import GlowCard from '../Glow Card/GlowCard'
 
 
 
@@ -2404,6 +2405,11 @@ const FeatureFlags = () => {
         {
             key: "showScrollSections",
             component: <ScrollSections />
+        },
+
+        {
+            key: "showGlowCard",
+            component: <GlowCard />
         },
     ]
 
