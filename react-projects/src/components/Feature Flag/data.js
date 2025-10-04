@@ -397,7 +397,8 @@ const componentAPI = {
     showOrbitButton: false,
     showHighlightCharacter: false,
     showScrollSections: false,
-    showGlowCard: true,
+    showGlowCard: false,
+    showScrollTriggerCounter: true,
 };
 
 const featureFlagsDataServiceCall = () => {

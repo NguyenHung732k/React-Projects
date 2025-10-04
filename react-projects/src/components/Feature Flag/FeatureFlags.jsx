@@ -398,6 +398,7 @@ import OrbitButton from '../Orbit Button/OrbitButton'
 import HighlightCharacter from '../Highlight Character/HighlightCharacter'
 import ScrollSections from '../Scroll Sections/ScrollSections'
 import GlowCard from '../Glow Card/GlowCard'
+import ScrollTriggerCounter from '../Scroll Trigger Counter/ScrollTriggerCounter'
 
 
 
@@ -2410,6 +2411,11 @@ const FeatureFlags = () => {
         {
             key: "showGlowCard",
             component: <GlowCard />
+        },
+
+        {
+            key: "showScrollTriggerCounter",
+            component: <ScrollTriggerCounter />
         },
     ]
 
