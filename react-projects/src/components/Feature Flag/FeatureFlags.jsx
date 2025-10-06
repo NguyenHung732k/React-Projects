@@ -399,6 +399,7 @@ import HighlightCharacter from '../Highlight Character/HighlightCharacter'
 import ScrollSections from '../Scroll Sections/ScrollSections'
 import GlowCard from '../Glow Card/GlowCard'
 import ScrollTriggerCounter from '../Scroll Trigger Counter/ScrollTriggerCounter'
+import ScrollImageReveal from '../Scroll Image Reveal/ScrollImageReveal'
 
 
 
@@ -2416,6 +2417,11 @@ const FeatureFlags = () => {
         {
             key: "showScrollTriggerCounter",
             component: <ScrollTriggerCounter />
+        },
+
+        {
+            key: "showScrollImageReveal",
+            component: <ScrollImageReveal />
         },
     ]
 
