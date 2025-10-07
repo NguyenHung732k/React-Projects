@@ -400,6 +400,7 @@ import ScrollSections from '../Scroll Sections/ScrollSections'
 import GlowCard from '../Glow Card/GlowCard'
 import ScrollTriggerCounter from '../Scroll Trigger Counter/ScrollTriggerCounter'
 import ScrollImageReveal from '../Scroll Image Reveal/ScrollImageReveal'
+import HoverIcon from '../Hover Icon/HoverIcon'
 
 
 
@@ -2422,6 +2423,11 @@ const FeatureFlags = () => {
         {
             key: "showScrollImageReveal",
             component: <ScrollImageReveal />
+        },
+
+        {
+            key: "showHoverIcon",
+            component: <HoverIcon />
         },
     ]
 
