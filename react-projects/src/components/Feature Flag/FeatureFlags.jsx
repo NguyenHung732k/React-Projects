@@ -401,6 +401,7 @@ import GlowCard from '../Glow Card/GlowCard'
 import ScrollTriggerCounter from '../Scroll Trigger Counter/ScrollTriggerCounter'
 import ScrollImageReveal from '../Scroll Image Reveal/ScrollImageReveal'
 import HoverIcon from '../Hover Icon/HoverIcon'
+import ScatterButton from '../Scatter Button/ScatterButton'
 
 
 
@@ -2428,6 +2429,11 @@ const FeatureFlags = () => {
         {
             key: "showHoverIcon",
             component: <HoverIcon />
+        },
+
+        {
+            key: "showScatterButton",
+            component: <ScatterButton />
         },
     ]
 

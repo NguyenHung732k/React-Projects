@@ -400,7 +400,8 @@ const componentAPI = {
     showGlowCard: false,
     showScrollTriggerCounter: false,
     showScrollImageReveal: false,
-    showHoverIcon: true,
+    showHoverIcon: false,
+    showScatterButton: true,
 };
 
 const featureFlagsDataServiceCall = () => {
