@@ -21,14 +21,13 @@ const OrbitHover = () => {
                             key={i}
                             className={`dot ${hovered ? "dot-hover" : ""}`}
                             style={{
-                                animationDuration: `${(i + 1) * 1.5}s`, // Variable speed
-                                animationDelay: `${i * 0.5}s`, // Staggered delay
+                                animationDuration: `${(i + 1) * 1.5}s`,
+                                animationDelay: `${i * 0.5}s`,
                             }}
                         />
                     ))}
                 </div>
 
-                {/* Icon */}
                 <div
                     className={`icon ${hovered ? "icon-hover" : ""}`}
                 >
