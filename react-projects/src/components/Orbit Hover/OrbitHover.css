@@ -1,0 +1,96 @@
+/* Container for the entire hover effect */
+.hover-container {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Icon styles */
+.icon {
+  font-size: 3rem; /* Adjust icon size */
+  color: #4fa3f7; /* React blue color */
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Hover effect for the icon */
+.icon-hover {
+  transform: scale(1.1); /* Icon grows on hover */
+}
+
+/* Orbiting dots container */
+.orbit-dots {
+  position: absolute;
+  width: 120px; /* Orbit size */
+  height: 120px;
+  border-radius: 50%;
+  pointer-events: none; /* Prevent interfering with mouse events */
+  opacity: 0;
+  transform: scale(0.9); /* Dots scale down when not hovered */
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+/* Hover effect for orbiting dots */
+.orbit-dots-hover {
+  opacity: 1; /* Dots fade in on hover */
+  transform: scale(1); /* Dots return to normal size on hover */
+}
+
+/* Styles for individual orbiting dots */
+.dot {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background-color: #4fa3f7;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+/* Hover effect for individual dots */
+.dot-hover {
+  transform: scale(1.25); /* Dots scale up on hover */
+}
+
+/* Orbiting animation */
+@keyframes orbit {
+  0% {
+    transform: rotate(0deg) translateX(60px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translateX(60px) rotate(-360deg);
+  }
+}
+
+/* Apply animation to all dots */
+.dot {
+  animation: orbit 3s linear infinite;
+}
+
+/* Use a staggered animation delay to make the dots move at different speeds */
+.dot:nth-child(1) {
+  animation-duration: 2.5s;
+  animation-delay: 0s;
+}
+.dot:nth-child(2) {
+  animation-duration: 3s;
+  animation-delay: 0.5s;
+}
+.dot:nth-child(3) {
+  animation-duration: 3.5s;
+  animation-delay: 1s;
+}
+.dot:nth-child(4) {
+  animation-duration: 4s;
+  animation-delay: 1.5s;
+}
+.dot:nth-child(5) {
+  animation-duration: 4.5s;
+  animation-delay: 2s;
+}
+.dot:nth-child(6) {
+  animation-duration: 5s;
+  animation-delay: 2.5s;
+}
