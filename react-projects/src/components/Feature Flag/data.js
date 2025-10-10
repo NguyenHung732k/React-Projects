@@ -402,7 +402,8 @@ const componentAPI = {
     showScrollImageReveal: false,
     showHoverIcon: false,
     showScatterButton: false,
-    showOrbitHover: true,
+    showOrbitHover: false,
+    showTiltButton: true,
 };
 
 const featureFlagsDataServiceCall = () => {
