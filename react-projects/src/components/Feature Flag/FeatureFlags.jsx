@@ -404,7 +404,7 @@ import HoverIcon from '../Hover Icon/HoverIcon'
 import ScatterButton from '../Scatter Button/ScatterButton'
 import OrbitHover from '../Orbit Hover/OrbitHover'
 import TiltButton from '../Tilt Button/TiltButton'
-
+import ScrollDivider from '../Scroll Divider/ScrollDivider'
 
 
 
@@ -2446,6 +2446,11 @@ const FeatureFlags = () => {
         {
             key: "showTiltButton",
             component: <TiltButton />
+        },
+
+        {
+            key: "showScrollDivider",
+            component: <ScrollDivider />
         },
     ]
 
