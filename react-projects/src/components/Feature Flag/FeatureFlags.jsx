@@ -405,6 +405,7 @@ import ScatterButton from '../Scatter Button/ScatterButton'
 import OrbitHover from '../Orbit Hover/OrbitHover'
 import TiltButton from '../Tilt Button/TiltButton'
 import ScrollDivider from '../Scroll Divider/ScrollDivider'
+import PixelHoverImage from '../Pixel Hover Image/PixelHoverImage'
 
 
 
@@ -2451,6 +2452,11 @@ const FeatureFlags = () => {
         {
             key: "showScrollDivider",
             component: <ScrollDivider />
+        },
+
+        {
+            key: "showPixelHoverImage",
+            component: <PixelHoverImage />
         },
     ]
 
