@@ -406,6 +406,7 @@ import OrbitHover from '../Orbit Hover/OrbitHover'
 import TiltButton from '../Tilt Button/TiltButton'
 import ScrollDivider from '../Scroll Divider/ScrollDivider'
 import PixelHoverImage from '../Pixel Hover Image/PixelHoverImage'
+import RippleCard from '../Ripple Card/RippleCard'
 
 
 
@@ -2457,6 +2458,11 @@ const FeatureFlags = () => {
         {
             key: "showPixelHoverImage",
             component: <PixelHoverImage />
+        },
+
+        {
+            key: "showRippleCard",
+            component: <RippleCard />
         },
     ]
 

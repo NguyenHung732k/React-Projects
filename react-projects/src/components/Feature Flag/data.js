@@ -405,7 +405,8 @@ const componentAPI = {
     showOrbitHover: false,
     showTiltButton: false,
     showScrollDivider: false,
-    showPixelHoverImage: true,
+    showPixelHoverImage: false,
+    showRippleCard: true,
 };
 
 const featureFlagsDataServiceCall = () => {
