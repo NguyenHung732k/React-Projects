@@ -407,6 +407,7 @@ import TiltButton from '../Tilt Button/TiltButton'
 import ScrollDivider from '../Scroll Divider/ScrollDivider'
 import PixelHoverImage from '../Pixel Hover Image/PixelHoverImage'
 import RippleCard from '../Ripple Card/RippleCard'
+import InkButton from '../Ink Button/InkButton'
 
 
 
@@ -2463,6 +2464,11 @@ const FeatureFlags = () => {
         {
             key: "showRippleCard",
             component: <RippleCard />
+        },
+
+        {
+            key: "showInkButton",
+            component: <InkButton />
         },
     ]
 
