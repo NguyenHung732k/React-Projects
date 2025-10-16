@@ -408,6 +408,7 @@ import ScrollDivider from '../Scroll Divider/ScrollDivider'
 import PixelHoverImage from '../Pixel Hover Image/PixelHoverImage'
 import RippleCard from '../Ripple Card/RippleCard'
 import InkButton from '../Ink Button/InkButton'
+import SparkButton from '../Spark Button/SparkButton'
 
 
 
@@ -2469,6 +2470,11 @@ const FeatureFlags = () => {
         {
             key: "showInkButton",
             component: <InkButton />
+        },
+
+        {
+            key: "showSparkButton",
+            component: <SparkButton />
         },
     ]
 
