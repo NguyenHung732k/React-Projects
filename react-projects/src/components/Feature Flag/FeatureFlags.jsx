@@ -409,6 +409,7 @@ import PixelHoverImage from '../Pixel Hover Image/PixelHoverImage'
 import RippleCard from '../Ripple Card/RippleCard'
 import InkButton from '../Ink Button/InkButton'
 import SparkButton from '../Spark Button/SparkButton'
+import ScrollZoomImage from '../Scroll Zoom Image/ScrollZoomImage'
 
 
 
@@ -2475,6 +2476,11 @@ const FeatureFlags = () => {
         {
             key: "showSparkButton",
             component: <SparkButton />
+        },
+
+        {
+            key: "showScrollZoomImage",
+            component: <ScrollZoomImage />
         },
     ]
 
