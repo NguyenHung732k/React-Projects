@@ -1,0 +1,33 @@
+@keyframes mask-left-to-right {
+  0% {
+    mask-position: 100% 0;
+    -webkit-mask-position: 100% 0;
+    opacity: 0;
+  }
+  100% {
+    mask-position: 0 0;
+    -webkit-mask-position: 0 0;
+    opacity: 1;
+  }
+}
+
+@keyframes mask-right-to-left {
+  0% {
+    mask-position: 0 0;
+    -webkit-mask-position: 0 0;
+    opacity: 0;
+  }
+  100% {
+    mask-position: 100% 0;
+    -webkit-mask-position: 100% 0;
+    opacity: 1;
+  }
+}
+
+.mask-left-to-right {
+  animation: mask-left-to-right 1s ease-out forwards;
+}
+
+.mask-right-to-left {
+  animation: mask-right-to-left 1s ease-out forwards;
+}
