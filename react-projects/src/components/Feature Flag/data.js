@@ -412,7 +412,8 @@ const componentAPI = {
     showScrollZoomImage: false,
     showHoverSlideCard: false,
     showScrollMaskTitle: false,
-    showVerticalSlideButton: true,
+    showVerticalSlideButton: false,
+    showFloatingIconChain: true,
 };
 
 const featureFlagsDataServiceCall = () => {
