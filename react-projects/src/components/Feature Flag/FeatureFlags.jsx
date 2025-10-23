@@ -414,6 +414,7 @@ import HoverSlideCard from '../Hover Slide Card/HoverSlideCard'
 import ScrollMaskTitle from '../Scroll Mask Title/ScrollMaskTitle'
 import VerticalSlideButton from '../Vertical Slide Button/VerticalSlideButton'
 import FloatingIconChain from '../Floating Icon Chain/FloatingIconChain'
+import ScanButton from '../Scan Button/ScanButton'
 
 
 
@@ -2506,6 +2507,11 @@ const FeatureFlags = () => {
         {
             key: "showFloatingIconChain",
             component: <FloatingIconChain />
+        },
+
+        {
+            key: "showScanButton",
+            component: <ScanButton />
         },
     ]
 

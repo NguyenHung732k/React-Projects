@@ -1,0 +1,25 @@
+@keyframes scanLoop {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+}
+
+/* Attach the looping scan animation when hovered */
+.group:hover .scan-line {
+  animation: scanLoop 1.4s linear infinite;
+}
