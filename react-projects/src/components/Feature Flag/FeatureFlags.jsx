@@ -415,6 +415,7 @@ import ScrollMaskTitle from '../Scroll Mask Title/ScrollMaskTitle'
 import VerticalSlideButton from '../Vertical Slide Button/VerticalSlideButton'
 import FloatingIconChain from '../Floating Icon Chain/FloatingIconChain'
 import ScanButton from '../Scan Button/ScanButton'
+import PixelButton from '../Pixel Button/PixelButton'
 
 
 
@@ -2512,6 +2513,11 @@ const FeatureFlags = () => {
         {
             key: "showScanButton",
             component: <ScanButton />
+        },
+
+        {
+            key: "showPixelButton",
+            component: <PixelButton />
         },
     ]
 

@@ -414,7 +414,8 @@ const componentAPI = {
     showScrollMaskTitle: false,
     showVerticalSlideButton: false,
     showFloatingIconChain: false,
-    showScanButton: true,
+    showScanButton: false,
+    showPixelButton: true,
 };
 
 const featureFlagsDataServiceCall = () => {
