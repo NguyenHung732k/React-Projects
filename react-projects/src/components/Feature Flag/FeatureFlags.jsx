@@ -416,6 +416,7 @@ import VerticalSlideButton from '../Vertical Slide Button/VerticalSlideButton'
 import FloatingIconChain from '../Floating Icon Chain/FloatingIconChain'
 import ScanButton from '../Scan Button/ScanButton'
 import PixelButton from '../Pixel Button/PixelButton'
+import SideDotsNav from '../Side Dots Nav/SideDotsNav'
 
 
 
@@ -2518,6 +2519,11 @@ const FeatureFlags = () => {
         {
             key: "showPixelButton",
             component: <PixelButton />
+        },
+
+        {
+            key: "showSideDotsNav",
+            component: <SideDotsNav />
         },
     ]
 
