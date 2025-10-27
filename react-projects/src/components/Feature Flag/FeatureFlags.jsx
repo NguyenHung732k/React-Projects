@@ -417,6 +417,7 @@ import FloatingIconChain from '../Floating Icon Chain/FloatingIconChain'
 import ScanButton from '../Scan Button/ScanButton'
 import PixelButton from '../Pixel Button/PixelButton'
 import SideDotsNav from '../Side Dots Nav/SideDotsNav'
+import HoverBounceText from '../Hover Bounce Text/HoverBounceText'
 
 
 
@@ -2524,6 +2525,11 @@ const FeatureFlags = () => {
         {
             key: "showSideDotsNav",
             component: <SideDotsNav />
+        },
+
+        {
+            key: "showHoverBounceText",
+            component: <HoverBounceText />
         },
     ]
 

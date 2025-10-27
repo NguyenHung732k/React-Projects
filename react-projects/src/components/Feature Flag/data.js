@@ -416,7 +416,8 @@ const componentAPI = {
     showFloatingIconChain: false,
     showScanButton: false,
     showPixelButton: false,
-    showSideDotsNav: true,
+    showSideDotsNav: false,
+    showHoverBounceText: true,
 };
 
 const featureFlagsDataServiceCall = () => {
