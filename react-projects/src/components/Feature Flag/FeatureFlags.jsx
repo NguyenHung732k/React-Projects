@@ -418,6 +418,7 @@ import ScanButton from '../Scan Button/ScanButton'
 import PixelButton from '../Pixel Button/PixelButton'
 import SideDotsNav from '../Side Dots Nav/SideDotsNav'
 import HoverBounceText from '../Hover Bounce Text/HoverBounceText'
+import RippleButton from '../Ripple Button/RippleButton'
 
 
 
@@ -2530,6 +2531,11 @@ const FeatureFlags = () => {
         {
             key: "showHoverBounceText",
             component: <HoverBounceText />
+        },
+
+        {
+            key: "showRippleButton",
+            component: <RippleButton />
         },
     ]
 
