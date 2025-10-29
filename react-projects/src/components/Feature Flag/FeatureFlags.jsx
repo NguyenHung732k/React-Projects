@@ -419,6 +419,8 @@ import PixelButton from '../Pixel Button/PixelButton'
 import SideDotsNav from '../Side Dots Nav/SideDotsNav'
 import HoverBounceText from '../Hover Bounce Text/HoverBounceText'
 import RippleButton from '../Ripple Button/RippleButton'
+import BounceInModal from '../Bounce In Modal/BounceInModal'
+
 
 
 
@@ -2536,6 +2538,11 @@ const FeatureFlags = () => {
         {
             key: "showRippleButton",
             component: <RippleButton />
+        },
+
+        {
+            key: "showBounceInModal",
+            component: <BounceInModal />
         },
     ]
 

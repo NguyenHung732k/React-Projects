@@ -418,7 +418,8 @@ const componentAPI = {
     showPixelButton: false,
     showSideDotsNav: false,
     showHoverBounceText: false,
-    showRippleButton: true,
+    showRippleButton: false,
+    showBounceInModal: true,
 };
 
 const featureFlagsDataServiceCall = () => {
