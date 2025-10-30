@@ -420,6 +420,7 @@ import SideDotsNav from '../Side Dots Nav/SideDotsNav'
 import HoverBounceText from '../Hover Bounce Text/HoverBounceText'
 import RippleButton from '../Ripple Button/RippleButton'
 import BounceInModal from '../Bounce In Modal/BounceInModal'
+import ShrinkHeader from '../Shrink Header/ShrinkHeader'
 
 
 
@@ -2543,6 +2544,11 @@ const FeatureFlags = () => {
         {
             key: "showBounceInModal",
             component: <BounceInModal />
+        },
+
+        {
+            key: "showShrinkHeader",
+            component: <ShrinkHeader />
         },
     ]
 
