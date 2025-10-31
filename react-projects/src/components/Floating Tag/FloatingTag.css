@@ -1,0 +1,54 @@
+/* Tag styles */
+.tag {
+  color: white;
+  background-color: #3b82f6; /* Default color (indigo) */
+  border-radius: 9999px; /* Full pill shape */
+  padding: 12px 24px; /* Vertical and horizontal padding */
+  font-weight: 500; /* Medium font weight */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+  text-align: center; /* Center the text inside the pill */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Tag hover effect */
+.tag:hover {
+  transform: scale(1.05); /* Scale up the tag slightly */
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+
+/* Flexbox layout for tags */
+.tag-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px; /* Space between tags */
+  padding: 32px;
+}
+
+/* Responsive design: stack the tags on smaller screens */
+@media (max-width: 768px) {
+  .tag-container {
+    gap: 12px; /* Reduce gap on smaller screens */
+  }
+
+  .tag {
+    padding: 10px 20px; /* Adjust padding on smaller screens */
+  }
+}
+
+/* Specific background colors for different tags */
+.tag.bg-indigo-500 {
+  background-color: #3b82f6;
+}
+
+.tag.bg-teal-500 {
+  background-color: #14b8a6;
+}
+
+.tag.bg-orange-500 {
+  background-color: #fb923c;
+}
+
+.tag.bg-pink-500 {
+  background-color: #ec4899;
+}

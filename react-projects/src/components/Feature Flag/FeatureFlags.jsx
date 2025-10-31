@@ -421,7 +421,7 @@ import HoverBounceText from '../Hover Bounce Text/HoverBounceText'
 import RippleButton from '../Ripple Button/RippleButton'
 import BounceInModal from '../Bounce In Modal/BounceInModal'
 import ShrinkHeader from '../Shrink Header/ShrinkHeader'
-
+import FloatingTag from '../Floating Tag/FloatingTag'
 
 
 
@@ -2549,6 +2549,11 @@ const FeatureFlags = () => {
         {
             key: "showShrinkHeader",
             component: <ShrinkHeader />
+        },
+
+        {
+            key: "showFloatingTag",
+            component: <FloatingTag />
         },
     ]
 
