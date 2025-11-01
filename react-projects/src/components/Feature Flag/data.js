@@ -421,7 +421,8 @@ const componentAPI = {
     showRippleButton: false,
     showBounceInModal: false,
     showShrinkHeader: false,
-    showFloatingTag: true,
+    showFloatingTag: false,
+    showSlideTab: true,
 };
 
 const featureFlagsDataServiceCall = () => {

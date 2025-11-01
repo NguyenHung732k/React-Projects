@@ -422,6 +422,8 @@ import RippleButton from '../Ripple Button/RippleButton'
 import BounceInModal from '../Bounce In Modal/BounceInModal'
 import ShrinkHeader from '../Shrink Header/ShrinkHeader'
 import FloatingTag from '../Floating Tag/FloatingTag'
+import SlideTab from '../Slide Tab/SlideTab'
+
 
 
 
@@ -2554,6 +2556,11 @@ const FeatureFlags = () => {
         {
             key: "showFloatingTag",
             component: <FloatingTag />
+        },
+
+        {
+            key: "showSlideTab",
+            component: <SlideTab />
         },
     ]
 
