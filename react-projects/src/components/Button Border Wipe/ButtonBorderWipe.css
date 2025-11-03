@@ -1,0 +1,46 @@
+@keyframes borderDraw {
+  0% {
+    clip-path: inset(50% 50% 50% 50%);
+    border-color: transparent;
+    opacity: 0;
+  }
+  30% {
+    clip-path: inset(0 50% 0 50%);
+    opacity: 1;
+  }
+  60% {
+    clip-path: inset(0 0 0 0);
+    border-color: rgba(236, 72, 153, 0.6);
+  }
+  100% {
+    clip-path: inset(0 0 0 0);
+    border-color: currentColor;
+    opacity: 1;
+  }
+}
+
+/* Base border setup */
+.button-border-animate {
+  pointer-events: none;
+  transition: all 0.3s ease-out;
+}
+
+/* Animate on hover */
+.group:hover .button-border-animate {
+  animation: borderDraw 0.6s ease-out forwards;
+}
+
+/* Hover + focus transitions */
+button {
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+button:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(236, 72, 153, 0.4);
+}

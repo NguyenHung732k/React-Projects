@@ -423,6 +423,7 @@ import BounceInModal from '../Bounce In Modal/BounceInModal'
 import ShrinkHeader from '../Shrink Header/ShrinkHeader'
 import FloatingTag from '../Floating Tag/FloatingTag'
 import SlideTab from '../Slide Tab/SlideTab'
+import ButtonBorderWipe from '../Button Border Wipe/ButtonBorderWipe'
 
 
 
@@ -2561,6 +2562,11 @@ const FeatureFlags = () => {
         {
             key: "showSlideTab",
             component: <SlideTab />
+        },
+
+        {
+            key: "showButtonBorderWipe",
+            component: <ButtonBorderWipe />
         },
     ]
 
