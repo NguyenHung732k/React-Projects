@@ -425,6 +425,7 @@ import FloatingTag from '../Floating Tag/FloatingTag'
 import SlideTab from '../Slide Tab/SlideTab'
 import ButtonBorderWipe from '../Button Border Wipe/ButtonBorderWipe'
 import TooltipFollowCursor from '../Tooltip Follow Cursor/TooltipFollowCursor'
+import HoverDepthCard from '../Hover Depth Card/HoverDepthCard'
 
 
 
@@ -2573,6 +2574,11 @@ const FeatureFlags = () => {
         {
             key: "showTooltipFollowCursor",
             component: <TooltipFollowCursor />
+        },
+
+        {
+            key: "showHoverDepthCard",
+            component: <HoverDepthCard />
         },
     ]
 
