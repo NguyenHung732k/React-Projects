@@ -426,6 +426,7 @@ import SlideTab from '../Slide Tab/SlideTab'
 import ButtonBorderWipe from '../Button Border Wipe/ButtonBorderWipe'
 import TooltipFollowCursor from '../Tooltip Follow Cursor/TooltipFollowCursor'
 import HoverDepthCard from '../Hover Depth Card/HoverDepthCard'
+import PressButton from '../Press Button/PressButton'
 
 
 
@@ -2579,6 +2580,11 @@ const FeatureFlags = () => {
         {
             key: "showHoverDepthCard",
             component: <HoverDepthCard />
+        },
+
+        {
+            key: "showPressButton",
+            component: <PressButton />
         },
     ]
 
