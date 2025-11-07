@@ -426,7 +426,8 @@ const componentAPI = {
     showButtonBorderWipe: false,
     showTooltipFollowCursor: false,
     showHoverDepthCard: false,
-    showPressButton: true,
+    showPressButton: false,
+    showScrollParagraph: true,
 };
 
 const featureFlagsDataServiceCall = () => {

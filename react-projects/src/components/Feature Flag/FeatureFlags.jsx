@@ -427,6 +427,7 @@ import ButtonBorderWipe from '../Button Border Wipe/ButtonBorderWipe'
 import TooltipFollowCursor from '../Tooltip Follow Cursor/TooltipFollowCursor'
 import HoverDepthCard from '../Hover Depth Card/HoverDepthCard'
 import PressButton from '../Press Button/PressButton'
+import ScrollParagraph from '../Scroll Paragraph/ScrollParagraph'
 
 
 
@@ -2585,6 +2586,11 @@ const FeatureFlags = () => {
         {
             key: "showPressButton",
             component: <PressButton />
+        },
+
+        {
+            key: "showScrollParagraph",
+            component: <ScrollParagraph />
         },
     ]
 
