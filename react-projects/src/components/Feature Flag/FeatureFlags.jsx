@@ -428,6 +428,7 @@ import TooltipFollowCursor from '../Tooltip Follow Cursor/TooltipFollowCursor'
 import HoverDepthCard from '../Hover Depth Card/HoverDepthCard'
 import PressButton from '../Press Button/PressButton'
 import ScrollParagraph from '../Scroll Paragraph/ScrollParagraph'
+import GlowButton from '../Glow Button/GlowButton'
 
 
 
@@ -2591,6 +2592,11 @@ const FeatureFlags = () => {
         {
             key: "showScrollParagraph",
             component: <ScrollParagraph />
+        },
+
+        {
+            key: "showGlowButton",
+            component: <GlowButton />
         },
     ]
 
