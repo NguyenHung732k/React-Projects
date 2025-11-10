@@ -429,6 +429,7 @@ import HoverDepthCard from '../Hover Depth Card/HoverDepthCard'
 import PressButton from '../Press Button/PressButton'
 import ScrollParagraph from '../Scroll Paragraph/ScrollParagraph'
 import GlowButton from '../Glow Button/GlowButton'
+import WaveButton from '../Wave Button/WaveButton'
 
 
 
@@ -2597,6 +2598,11 @@ const FeatureFlags = () => {
         {
             key: "showGlowButton",
             component: <GlowButton />
+        },
+
+        {
+            key: "showWaveButton",
+            component: <WaveButton />
         },
     ]
 

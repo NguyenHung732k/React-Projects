@@ -428,7 +428,8 @@ const componentAPI = {
     showHoverDepthCard: false,
     showPressButton: false,
     showScrollParagraph: false,
-    showGlowButton: true,
+    showGlowButton: false,
+    showWaveButton: true,
 };
 
 const featureFlagsDataServiceCall = () => {
