@@ -429,7 +429,8 @@ const componentAPI = {
     showPressButton: false,
     showScrollParagraph: false,
     showGlowButton: false,
-    showWaveButton: true,
+    showWaveButton: false,
+    showHoverRotate: true,
 };
 
 const featureFlagsDataServiceCall = () => {
