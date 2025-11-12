@@ -431,6 +431,7 @@ import ScrollParagraph from '../Scroll Paragraph/ScrollParagraph'
 import GlowButton from '../Glow Button/GlowButton'
 import WaveButton from '../Wave Button/WaveButton'
 import HoverRotate from '../Hover Rotate/HoverRotate'
+import SplitFillButton from '../Split Fill Button/SplitFillButton'
 
 
 
@@ -2609,6 +2610,11 @@ const FeatureFlags = () => {
         {
             key: "showHoverRotate",
             component: <HoverRotate />
+        },
+
+        {
+            key: "showSplitFillButton",
+            component: <SplitFillButton />
         },
     ]
 
