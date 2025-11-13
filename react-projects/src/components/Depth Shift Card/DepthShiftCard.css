@@ -1,0 +1,65 @@
+.card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 1rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-image {
+  transition: background-position 500ms ease-out, transform 500ms ease-out;
+  will-change: transform;
+}
+
+.card:hover .card-image {
+  transform: scale(1.05);
+}
+
+.card:hover .overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.card .overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.card .accent-border {
+  position: absolute;
+  inset: 0;
+  border: 2px solid transparent;
+  transition: border 500ms ease-out;
+}
+
+.card:hover .accent-border {
+  border: 2px solid rgba(0, 255, 255, 0.4);
+}
+
+/* Parallax Effect */
+.card:hover .card-image {
+  background-position: center center;
+}
+
+.card .card-image {
+  transition: background-position 300ms ease-out;
+}
+
+/* Parallax Mouse Move */
+.card {
+  position: relative;
+}
+
+.card .card-image {
+  background-position: center center;
+  transition: background-position 0.2s ease-out;
+}
+
+.card .card:hover .card-image {
+  transform: scale(1.1);
+}
+
+.card .card-image {
+  transition: transform 500ms ease-out, background-position 500ms ease-out;
+}

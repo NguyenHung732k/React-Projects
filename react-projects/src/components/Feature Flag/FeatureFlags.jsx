@@ -432,6 +432,7 @@ import GlowButton from '../Glow Button/GlowButton'
 import WaveButton from '../Wave Button/WaveButton'
 import HoverRotate from '../Hover Rotate/HoverRotate'
 import SplitFillButton from '../Split Fill Button/SplitFillButton'
+import DepthShiftCard from '../Depth Shift Card/DepthShiftCard'
 
 
 
@@ -2615,6 +2616,11 @@ const FeatureFlags = () => {
         {
             key: "showSplitFillButton",
             component: <SplitFillButton />
+        },
+
+        {
+            key: "showDepthShiftCard",
+            component: <DepthShiftCard />
         },
     ]
 
