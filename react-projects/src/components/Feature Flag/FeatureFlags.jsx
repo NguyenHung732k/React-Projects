@@ -433,6 +433,7 @@ import WaveButton from '../Wave Button/WaveButton'
 import HoverRotate from '../Hover Rotate/HoverRotate'
 import SplitFillButton from '../Split Fill Button/SplitFillButton'
 import DepthShiftCard from '../Depth Shift Card/DepthShiftCard'
+import TextPinZoom from '../Text Pin Zoom/TextPinZoom'
 
 
 
@@ -2621,6 +2622,11 @@ const FeatureFlags = () => {
         {
             key: "showDepthShiftCard",
             component: <DepthShiftCard />
+        },
+
+        {
+            key: "showTextPinZoom",
+            component: <TextPinZoom />
         },
     ]
 

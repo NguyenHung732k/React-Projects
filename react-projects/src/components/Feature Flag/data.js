@@ -432,7 +432,8 @@ const componentAPI = {
     showWaveButton: false,
     showHoverRotate: false,
     showSplitFillButton: false,
-    showDepthShiftCard: true,
+    showDepthShiftCard: false,
+    showTextPinZoom: true,
 };
 
 const featureFlagsDataServiceCall = () => {
