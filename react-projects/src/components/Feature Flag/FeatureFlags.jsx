@@ -434,6 +434,7 @@ import HoverRotate from '../Hover Rotate/HoverRotate'
 import SplitFillButton from '../Split Fill Button/SplitFillButton'
 import DepthShiftCard from '../Depth Shift Card/DepthShiftCard'
 import TextPinZoom from '../Text Pin Zoom/TextPinZoom'
+import LoadingStrokeButton from '../Loading Stroke Button/LoadingStrokeButton'
 
 
 
@@ -2627,6 +2628,11 @@ const FeatureFlags = () => {
         {
             key: "showTextPinZoom",
             component: <TextPinZoom />
+        },
+
+        {
+            key: "showLoadingStrokeButton",
+            component: <LoadingStrokeButton />
         },
     ]
 
