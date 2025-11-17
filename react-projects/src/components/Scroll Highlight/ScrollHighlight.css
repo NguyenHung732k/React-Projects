@@ -1,0 +1,49 @@
+@layer components {
+  .highlighted-word {
+    background-color: rgba(255, 240, 150, 0.6);
+    box-shadow: 0 0 10px rgba(255, 220, 120, 0.7);
+    transition: all 0.3s ease-out;
+  }
+}
+
+/* Fade-in paragraphs as they enter the viewport */
+@layer components {
+  .fade-in-paragraph {
+    opacity: 0;
+    transform: translateY(1rem);
+    transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+  }
+
+  .fade-in-paragraph.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Sticky header and progress bar styles */
+@layer components {
+  .progress-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    z-index: 50;
+    border-bottom: 1px solid rgba(220, 220, 220, 0.5);
+  }
+
+  .progress-bar {
+    height: 2px;
+    background-image: linear-gradient(to right, #fbbf24, #facc15);
+    transition: width 0.3s ease-out;
+  }
+
+  .progress-header-text {
+    padding: 0.75rem 0;
+    text-align: center;
+    font-weight: 500;
+    color: #4b5563;
+    letter-spacing: 0.05em;
+  }
+}

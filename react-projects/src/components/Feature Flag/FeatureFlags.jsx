@@ -435,6 +435,7 @@ import SplitFillButton from '../Split Fill Button/SplitFillButton'
 import DepthShiftCard from '../Depth Shift Card/DepthShiftCard'
 import TextPinZoom from '../Text Pin Zoom/TextPinZoom'
 import LoadingStrokeButton from '../Loading Stroke Button/LoadingStrokeButton'
+import ScrollHighlight from '../Scroll Highlight/ScrollHighlight'
 
 
 
@@ -2633,6 +2634,11 @@ const FeatureFlags = () => {
         {
             key: "showLoadingStrokeButton",
             component: <LoadingStrokeButton />
+        },
+
+        {
+            key: "showScrollHighlight",
+            component: <ScrollHighlight />
         },
     ]
 
