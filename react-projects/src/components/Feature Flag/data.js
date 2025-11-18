@@ -435,7 +435,8 @@ const componentAPI = {
     showDepthShiftCard: false,
     showTextPinZoom: false,
     showLoadingStrokeButton: false,
-    showScrollHighlight: true,
+    showScrollHighlight: false,
+    showHoverSlideIn: true,
 };
 
 const featureFlagsDataServiceCall = () => {

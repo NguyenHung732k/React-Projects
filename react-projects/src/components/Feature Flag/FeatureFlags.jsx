@@ -436,6 +436,7 @@ import DepthShiftCard from '../Depth Shift Card/DepthShiftCard'
 import TextPinZoom from '../Text Pin Zoom/TextPinZoom'
 import LoadingStrokeButton from '../Loading Stroke Button/LoadingStrokeButton'
 import ScrollHighlight from '../Scroll Highlight/ScrollHighlight'
+import HoverSlideIn from '../Hover Slide In/HoverSlideIn'
 
 
 
@@ -2639,6 +2640,11 @@ const FeatureFlags = () => {
         {
             key: "showScrollHighlight",
             component: <ScrollHighlight />
+        },
+
+        {
+            key: "showHoverSlideIn",
+            component: <HoverSlideIn />
         },
     ]
 
