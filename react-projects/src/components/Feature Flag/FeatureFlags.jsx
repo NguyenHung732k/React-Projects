@@ -437,6 +437,7 @@ import TextPinZoom from '../Text Pin Zoom/TextPinZoom'
 import LoadingStrokeButton from '../Loading Stroke Button/LoadingStrokeButton'
 import ScrollHighlight from '../Scroll Highlight/ScrollHighlight'
 import HoverSlideIn from '../Hover Slide In/HoverSlideIn'
+import ScrollHeader from '../Scroll Header/ScrollHeader'
 
 
 
@@ -2645,6 +2646,11 @@ const FeatureFlags = () => {
         {
             key: "showHoverSlideIn",
             component: <HoverSlideIn />
+        },
+
+        {
+            key: "showScrollHeader",
+            component: <ScrollHeader />
         },
     ]
 
