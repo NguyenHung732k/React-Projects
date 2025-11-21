@@ -2652,6 +2652,11 @@ const FeatureFlags = () => {
             key: "showScrollHeader",
             component: <ScrollHeader />
         },
+
+        {
+            key: "showHoverZoomBlur",
+            component: <HoverZoomBlur />
+        },
     ]
 
     const checkEnabledFlags = (getCurrentKey) => {
