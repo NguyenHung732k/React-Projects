@@ -438,6 +438,7 @@ import LoadingStrokeButton from '../Loading Stroke Button/LoadingStrokeButton'
 import ScrollHighlight from '../Scroll Highlight/ScrollHighlight'
 import HoverSlideIn from '../Hover Slide In/HoverSlideIn'
 import ScrollHeader from '../Scroll Header/ScrollHeader'
+import SoftDropTooltip from '../Soft Drop Tooltip/SoftDropTooltip'
 
 
 
@@ -2656,6 +2657,11 @@ const FeatureFlags = () => {
         {
             key: "showHoverZoomBlur",
             component: <HoverZoomBlur />
+        },
+
+        {
+            key: "showSoftDropTooltip",
+            component: <SoftDropTooltip />
         },
     ]
 

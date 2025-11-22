@@ -1,0 +1,57 @@
+@keyframes tooltip-in {
+  0% {
+    opacity: 0;
+    transform: translateY(4px) scale(0.96);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* EXIT ANIMATION */
+@keyframes tooltip-out {
+  0% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(4px) scale(0.96);
+  }
+}
+
+/* Utility classes */
+.tooltip-enter {
+  animation: tooltip-in 160ms cubic-bezier(0.22, 0.61, 0.36, 1) forwards;
+}
+
+.tooltip-exit {
+  animation: tooltip-out 140ms cubic-bezier(0.22, 0.61, 0.36, 1) forwards;
+}
+
+/* Tooltip base style */
+.tooltip-box {
+  background: rgba(17, 17, 17, 0.85);
+  backdrop-filter: blur(6px);
+  padding: 6px 12px;
+  border-radius: 6px;
+  color: white;
+  font-size: 0.875rem;
+  white-space: nowrap;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+  pointer-events: none;
+  position: absolute;
+  z-index: 50;
+}
+
+/* Caret (arrow) */
+.tooltip-caret {
+  width: 8px;
+  height: 8px;
+  background: rgba(17, 17, 17, 0.85);
+  backdrop-filter: blur(6px);
+  transform: rotate(45deg);
+  position: absolute;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
