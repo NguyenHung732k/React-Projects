@@ -439,7 +439,8 @@ const componentAPI = {
     showHoverSlideIn: false,
     showScrollHeader: false,
     showHoverZoomBlur: false,
-    showSoftDropTooltip: true,
+    showSoftDropTooltip: false,
+    showHoverList: true,
 };
 
 const featureFlagsDataServiceCall = () => {
