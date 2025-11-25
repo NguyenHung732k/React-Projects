@@ -440,6 +440,7 @@ import HoverSlideIn from '../Hover Slide In/HoverSlideIn'
 import ScrollHeader from '../Scroll Header/ScrollHeader'
 import SoftDropTooltip from '../Soft Drop Tooltip/SoftDropTooltip'
 import HoverList from '../Hover List/HoverList'
+import ScrollRevealCounter from '../Scroll Reveal Counter/ScrollRevealCounter'
 
 
 
@@ -2668,6 +2669,11 @@ const FeatureFlags = () => {
         {
             key: "showHoverList",
             component: <HoverList />
+        },
+
+        {
+            key: "showScrollRevealCounter",
+            component: <ScrollRevealCounter />
         },
     ]
 
