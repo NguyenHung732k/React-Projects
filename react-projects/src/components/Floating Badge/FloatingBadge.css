@@ -1,0 +1,68 @@
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.05);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Fade-out animation when the badge disappears */
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+}
+
+/* Custom class for bounce-in */
+.animate-bounceIn {
+  animation: bounceIn 0.7s ease-out forwards;
+}
+
+/* Custom class for fade-out */
+.animate-fadeOut {
+  animation: fadeOut 0.5s ease-out forwards;
+}
+
+/* Badge Styles */
+.floating-badge {
+  position: fixed;
+  right: 1.5rem;
+  bottom: 3rem;
+  background: linear-gradient(to right, #6366f1, #7e5bef, #ec4899);
+  color: white;
+  padding: 1rem 1.5rem;
+  border-radius: 9999px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  max-width: 250px;
+  width: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+  z-index: 10;
+}
+
+.floating-badge.visible {
+  opacity: 1;
+}
+
+.floating-badge span {
+  margin-right: 0.75rem;
+}
+
+.floating-badge .emoji {
+  font-size: 1.5rem;
+}

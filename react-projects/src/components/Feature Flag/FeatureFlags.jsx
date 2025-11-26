@@ -441,6 +441,7 @@ import ScrollHeader from '../Scroll Header/ScrollHeader'
 import SoftDropTooltip from '../Soft Drop Tooltip/SoftDropTooltip'
 import HoverList from '../Hover List/HoverList'
 import ScrollRevealCounter from '../Scroll Reveal Counter/ScrollRevealCounter'
+import FloatingBadge from '../Floating Bagde/FloatingBadge'
 
 
 
@@ -2674,6 +2675,11 @@ const FeatureFlags = () => {
         {
             key: "showScrollRevealCounter",
             component: <ScrollRevealCounter />
+        },
+
+        {
+            key: "showFloatingBagde",
+            component: <FloatingBagde />
         },
     ]
 
