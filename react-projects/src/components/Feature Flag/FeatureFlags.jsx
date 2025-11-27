@@ -2681,6 +2681,11 @@ const FeatureFlags = () => {
             key: "showFloatingBagde",
             component: <FloatingBagde />
         },
+
+        {
+            key: "showElasticSnapDrag",
+            component: <ElasticSnapDrag />
+        },
     ]
 
     const checkEnabledFlags = (getCurrentKey) => {

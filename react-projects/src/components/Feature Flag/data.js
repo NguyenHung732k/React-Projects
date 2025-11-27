@@ -442,7 +442,8 @@ const componentAPI = {
     showSoftDropTooltip: false,
     showHoverList: false,
     showScrollRevealCounter: false,
-    showFloatingBadge: true,
+    showFloatingBadge: false,
+    showElasticSnapDrag: true,
 };
 
 const featureFlagsDataServiceCall = () => {
