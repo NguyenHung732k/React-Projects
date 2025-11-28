@@ -442,6 +442,8 @@ import SoftDropTooltip from '../Soft Drop Tooltip/SoftDropTooltip'
 import HoverList from '../Hover List/HoverList'
 import ScrollRevealCounter from '../Scroll Reveal Counter/ScrollRevealCounter'
 import FloatingBadge from '../Floating Bagde/FloatingBadge'
+import SubtitleCard from '../Subtitle Card/SubtitleCard'
+
 
 
 
@@ -2685,6 +2687,11 @@ const FeatureFlags = () => {
         {
             key: "showElasticSnapDrag",
             component: <ElasticSnapDrag />
+        },
+
+        {
+            key: "showSubtitleCard",
+            component: <SubtitleCard />
         },
     ]
 

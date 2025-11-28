@@ -443,7 +443,8 @@ const componentAPI = {
     showHoverList: false,
     showScrollRevealCounter: false,
     showFloatingBadge: false,
-    showElasticSnapDrag: true,
+    showElasticSnapDrag: false,
+    showSubtitleCard: true,
 };
 
 const featureFlagsDataServiceCall = () => {
