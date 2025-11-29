@@ -444,7 +444,8 @@ const componentAPI = {
     showScrollRevealCounter: false,
     showFloatingBadge: false,
     showElasticSnapDrag: false,
-    showSubtitleCard: true,
+    showSubtitleCard: false,
+    showFocusInputSlide: true,
 };
 
 const featureFlagsDataServiceCall = () => {

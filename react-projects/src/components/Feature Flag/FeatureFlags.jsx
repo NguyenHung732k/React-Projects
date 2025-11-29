@@ -443,6 +443,8 @@ import HoverList from '../Hover List/HoverList'
 import ScrollRevealCounter from '../Scroll Reveal Counter/ScrollRevealCounter'
 import FloatingBadge from '../Floating Bagde/FloatingBadge'
 import SubtitleCard from '../Subtitle Card/SubtitleCard'
+import FocusInputSlide from '../Focus Input Slide/FocusInputSlide'
+
 
 
 
@@ -2692,6 +2694,11 @@ const FeatureFlags = () => {
         {
             key: "showSubtitleCard",
             component: <SubtitleCard />
+        },
+
+        {
+            key: "showFocusInputSlide",
+            component: <FocusInputSlide />
         },
     ]
 
