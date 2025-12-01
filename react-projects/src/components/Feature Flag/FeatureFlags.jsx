@@ -444,6 +444,7 @@ import ScrollRevealCounter from '../Scroll Reveal Counter/ScrollRevealCounter'
 import FloatingBadge from '../Floating Bagde/FloatingBadge'
 import SubtitleCard from '../Subtitle Card/SubtitleCard'
 import FocusInputSlide from '../Focus Input Slide/FocusInputSlide'
+import ButtonHalo from '../Button Halo/ButtonHalo'
 
 
 
@@ -2699,6 +2700,11 @@ const FeatureFlags = () => {
         {
             key: "showFocusInputSlide",
             component: <FocusInputSlide />
+        },
+
+        {
+            key: "showButtonHalo",
+            component: <ButtonHalo />
         },
     ]
 
