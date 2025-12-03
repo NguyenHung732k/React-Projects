@@ -446,6 +446,7 @@ import SubtitleCard from '../Subtitle Card/SubtitleCard'
 import FocusInputSlide from '../Focus Input Slide/FocusInputSlide'
 import ButtonHalo from '../Button Halo/ButtonHalo'
 import ScrollLineChart from '../Scroll Line Chart/ScrollLineChart'
+import ValidatedInput from '../Validated Input/ValidatedInput'
 
 
 
@@ -2711,6 +2712,11 @@ const FeatureFlags = () => {
         {
             key: "showScrollLineChart",
             component: <ScrollLineChart />
+        },
+
+        {
+            key: "showValidatedInput",
+            component: <ValidatedInput />
         },
     ]
 
