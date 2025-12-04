@@ -448,7 +448,8 @@ const componentAPI = {
     showFocusInputSlide: false,
     showButtonHalo: false,
     showScrollLineChart: false,
-    showValidatedInput: true,
+    showValidatedInput: false,
+    showSplitBlurImage: true,
 };
 
 const featureFlagsDataServiceCall = () => {

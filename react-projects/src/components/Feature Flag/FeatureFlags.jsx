@@ -447,6 +447,7 @@ import FocusInputSlide from '../Focus Input Slide/FocusInputSlide'
 import ButtonHalo from '../Button Halo/ButtonHalo'
 import ScrollLineChart from '../Scroll Line Chart/ScrollLineChart'
 import ValidatedInput from '../Validated Input/ValidatedInput'
+import SplitImageBlur from '../Split Image Blur/SplitImageBlur'
 
 
 
@@ -2717,6 +2718,11 @@ const FeatureFlags = () => {
         {
             key: "showValidatedInput",
             component: <ValidatedInput />
+        },
+
+        {
+            key: "showSplitBlurImage",
+            component: <SplitBlurImage />
         },
     ]
 
