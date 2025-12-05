@@ -449,7 +449,8 @@ const componentAPI = {
     showButtonHalo: false,
     showScrollLineChart: false,
     showValidatedInput: false,
-    showSplitBlurImage: true,
+    showSplitBlurImage: false,
+    showScrollRevealTable: true,
 };
 
 const featureFlagsDataServiceCall = () => {

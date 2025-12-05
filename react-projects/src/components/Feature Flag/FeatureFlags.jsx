@@ -448,6 +448,8 @@ import ButtonHalo from '../Button Halo/ButtonHalo'
 import ScrollLineChart from '../Scroll Line Chart/ScrollLineChart'
 import ValidatedInput from '../Validated Input/ValidatedInput'
 import SplitImageBlur from '../Split Image Blur/SplitImageBlur'
+import ScrollRevealTable from '../Scroll Reveal Table/ScrollRevealTable'
+
 
 
 
@@ -2723,6 +2725,11 @@ const FeatureFlags = () => {
         {
             key: "showSplitBlurImage",
             component: <SplitBlurImage />
+        },
+
+        {
+            key: "showScrollRevealTable",
+            component: <ScrollRevealTable />
         },
     ]
 
