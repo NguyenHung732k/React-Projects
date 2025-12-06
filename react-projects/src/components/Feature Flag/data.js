@@ -450,6 +450,7 @@ const componentAPI = {
     showScrollLineChart: false,
     showValidatedInput: false,
     showSplitBlurImage: false,
+    showScrollRevealTable: false,
     showScrollRevealTable: true,
 };
 

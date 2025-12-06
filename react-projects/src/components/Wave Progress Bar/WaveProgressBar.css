@@ -1,0 +1,17 @@
+@keyframes wave-move {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(calc(-1 * var(--wave-frequency)));
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/* Wave Path Animation */
+.wave-path {
+  animation: wave-move 3s ease-in-out infinite;
+  transition: transform 0.3s ease-in-out;
+}

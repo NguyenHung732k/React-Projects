@@ -449,7 +449,7 @@ import ScrollLineChart from '../Scroll Line Chart/ScrollLineChart'
 import ValidatedInput from '../Validated Input/ValidatedInput'
 import SplitImageBlur from '../Split Image Blur/SplitImageBlur'
 import ScrollRevealTable from '../Scroll Reveal Table/ScrollRevealTable'
-
+import WaveProgressBar from '../Wave Progress Bar/WaveProgressBar'
 
 
 
@@ -2730,6 +2730,11 @@ const FeatureFlags = () => {
         {
             key: "showScrollRevealTable",
             component: <ScrollRevealTable />
+        },
+
+        {
+            key: "showWaveProgressBar",
+            component: <WaveProgressBar />
         },
     ]
 
