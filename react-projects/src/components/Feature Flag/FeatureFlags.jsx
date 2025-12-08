@@ -450,6 +450,7 @@ import ValidatedInput from '../Validated Input/ValidatedInput'
 import SplitImageBlur from '../Split Image Blur/SplitImageBlur'
 import ScrollRevealTable from '../Scroll Reveal Table/ScrollRevealTable'
 import WaveProgressBar from '../Wave Progress Bar/WaveProgressBar'
+import ZigZagButton from '../ZigZag Button/ZigZag Button'
 
 
 
@@ -2735,6 +2736,11 @@ const FeatureFlags = () => {
         {
             key: "showWaveProgressBar",
             component: <WaveProgressBar />
+        },
+
+        {
+            key: "showZigZagButton",
+            component: <ZigZagButton />
         },
     ]
 

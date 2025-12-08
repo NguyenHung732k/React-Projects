@@ -451,7 +451,8 @@ const componentAPI = {
     showValidatedInput: false,
     showSplitBlurImage: false,
     showScrollRevealTable: false,
-    showScrollRevealTable: true,
+    showScrollRevealTable: false,
+    showZigZagButton: true,
 };
 
 const featureFlagsDataServiceCall = () => {

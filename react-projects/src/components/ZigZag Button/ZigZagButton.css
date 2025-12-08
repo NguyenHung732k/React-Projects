@@ -1,0 +1,4 @@
+.group:hover .zigzag-path {
+  stroke-dashoffset: 0;
+  transition: stroke-dashoffset 0.6s ease;
+}
