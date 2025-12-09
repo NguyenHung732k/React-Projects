@@ -37,7 +37,7 @@ const RevealTable = ({ data }) => {
         </tbody>
       </table>
     </div>
-  );
+  )
 }
 
 function RevealRow({ row, index }) {
@@ -60,7 +60,7 @@ function RevealRow({ row, index }) {
       <td className="px-6 py-4 text-gray-900 dark:text-gray-200 font-medium">{row.name}</td>
       <td className="px-6 py-4 text-gray-600 dark:text-gray-400">{row.email}</td>
     </tr>
-  );
+  )
 }
 
 export default RevealTable

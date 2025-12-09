@@ -5,7 +5,7 @@ const ScrollRevealTable = () => {
     id: i + 1,
     name: `Employee ${i + 1}`,
     email: `employee${i + 1}@company.com`,
-  }));
+  }))
 
   return (
     <div className="min-h-screen bg-gray-100 dark:bg-gray-950 p-10">
@@ -14,7 +14,7 @@ const ScrollRevealTable = () => {
       </h1>
       <RevealTable data={sampleData} />
     </div>
-  );
+  )
 }
 
 export default ScrollRevealTable
