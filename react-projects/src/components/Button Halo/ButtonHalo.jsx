@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const ButtonHalo = ({ children = 'Explore' }) => {
+const ButtonHalo = ({ children = 'Hover' }) => {
     const [pos, setPos] = useState({ x: 0.5, y: 0.5 })
 
     const handleMove = (event) => {
