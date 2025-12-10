@@ -16,9 +16,7 @@ const LineChart = () => {
         { x: 380, y: 40, value: 35 },
     ]
 
-    /* -------------------------------------------
-     *  Scroll-trigger to start line-draw animation
-     * ------------------------------------------- */
+    // Scroll-trigger to start line-draw animation
     useEffect(() => {
         const observer = new IntersectionObserver(
             ([entry]) => entry.isIntersecting && setDraw(true),
@@ -29,9 +27,7 @@ const LineChart = () => {
         return () => observer.disconnect()
     }, [])
 
-    /* -------------------------------------------
-     *  Animate line draw when visible
-     * ------------------------------------------- */
+    // Animate line draw when visible
     useEffect(() => {
         if (!draw || !pathRef.current) return
 
