@@ -23,10 +23,10 @@
   font-size: 1.125rem;
   font-weight: 600;
   text-align: center;
-  color: #4b5563; /* Gray color */
-  background-color: #f9fafb; /* Light gray */
-  border: 2px solid #e5e7eb; /* Border color */
-  border-radius: 9999px; /* Full rounded */
+  color: #4b5563; 
+  background-color: #f9fafb; 
+  border: 2px solid #e5e7eb;
+  border-radius: 9999px;
   transition: all 0.3s ease;
   position: relative;
   cursor: pointer;
@@ -35,27 +35,27 @@
 /* Active tab styling */
 .tab-button.active {
   color: white;
-  background-color: #3b82f6; /* Blue */
-  border-color: #3b82f6; /* Blue border */
-  transform: scale(1.05); /* Slight scale on active */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow for the active state */
+  background-color: #3b82f6; 
+  border-color: #3b82f6;
+  transform: scale(1.05); 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 }
 
 /* Hover effect for tabs */
 .tab-button:hover {
-  background-color: #e0f2fe; /* Light blue on hover */
-  color: #3b82f6; /* Blue color on hover */
+  background-color: #e0f2fe;
+  color: #3b82f6;
 }
 
 /* Tab bubble animation */
 .tab-bubble {
   position: absolute;
-  bottom: -12px; /* Position the bubble just below the text */
+  bottom: -12px;
   left: 50%;
   transform: translateX(-50%);
   width: 48px;
   height: 48px;
-  background-color: #f472b6; /* Pink color for the bubble */
+  background-color: #f472b6;
   border-radius: 50%;
   transition: transform 0.3s ease-in-out, width 0.3s ease-in-out,
     height 0.3s ease-in-out;
@@ -65,7 +65,7 @@
 .tab-content {
   text-align: center;
   padding: 2rem;
-  background-color: #eff6ff; /* Light blue background */
+  background-color: #eff6ff;
   border-radius: 1rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -73,24 +73,23 @@
 .tab-content h2 {
   font-size: 2rem;
   font-weight: 700;
-  color: #1f2937; /* Dark gray */
+  color: #1f2937;
 }
 
 .tab-content p {
   font-size: 1rem;
-  color: #6b7280; /* Medium gray */
+  color: #6b7280; 
 }
 
-/* Content box styling */
 .content-box {
   margin-top: 1.5rem;
   padding: 1.5rem;
-  background-color: #e0f2fe; /* Light blue background */
+  background-color: #e0f2fe;
   border-radius: 1rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .content-box p {
-  color: #374151; /* Darker gray for content */
+  color: #374151; 
   font-size: 1rem;
 }

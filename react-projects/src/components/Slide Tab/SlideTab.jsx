@@ -2,7 +2,7 @@ import { useState } from 'react';
 import './SlideTab.css'
 
 const SlideTab = () => {
-    const tabs = ['Math', 'Science', 'History', 'Geography']
+    const tabs = ['Math', 'Science', 'History', 'Geography', 'Chemistry']
     const [activeTab, setActiveTab] = useState(0)
 
     return (
