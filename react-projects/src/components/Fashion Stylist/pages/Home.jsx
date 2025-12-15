@@ -45,6 +45,6 @@ const Home = () => {
             <SeasonalOutfits />
         </div>
     )
-}
+} // more
 
 export default Home
