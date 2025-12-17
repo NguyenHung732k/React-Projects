@@ -71,7 +71,6 @@ const Stepper = ({ steps, orientation = "horizontal", customColors = {}, childre
 
             <ProgressBar progress={(currentStep + 1) / steps.length * 100} />
 
-            {/* Step Navigation Buttons */}
             <div className="flex gap-4 mt-6">
                 <button
                     onClick={handleBack}
