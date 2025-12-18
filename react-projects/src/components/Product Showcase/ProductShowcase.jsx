@@ -18,7 +18,6 @@ const ProductShowcase = () => {
         <div className="relative h-screen overflow-hidden bg-gradient-to-r from-blue-500 to-purple-500">
             {/* Scroll container */}
             <div className="snap-y snap-mandatory overflow-auto h-full">
-                {/* Product Sections */}
                 <div className="snap-start h-screen flex items-center justify-center bg-gradient-to-r from-blue-400 to-blue-600 p-8">
                     <div className="text-center text-white max-w-lg mx-auto">
                         <h2 className="text-4xl font-extrabold leading-tight">Product 1</h2>
