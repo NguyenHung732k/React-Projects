@@ -25,8 +25,8 @@ const FlashCard = () => {
       <div className="w-screen h-screen flex flex-col justify-center items-center gap-4 mx-auto p-4">
         <h1 className="text-3xl font-bold mb-4">Flashcard App</h1>
         <Routes>
-          <Route path="/" element={<FlashCardList flashcards={flashcards} deleteFlashcard={deleteFlashcard} />} />
           <Route path="/add" element={<FlashCardForm addFlashcard={addFlashcard} />} />
+          <Route path="/" element={<FlashCardList flashcards={flashcards} deleteFlashcard={deleteFlashcard} />} />
         </Routes>
       </div>
     </Router>
