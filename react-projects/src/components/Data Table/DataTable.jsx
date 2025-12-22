@@ -7,6 +7,7 @@ const data = [
     { name: 'Sally Johnson', age: 25, country: 'Canada' },
     { name: 'Mike Brown', age: 40, country: 'Australia' },
     { name: 'Anna Lee', age: 32, country: 'Germany' },
+    { name: 'Anne Lee', age: 22, country: 'Germany' },
 ]
 
 const columns = [
