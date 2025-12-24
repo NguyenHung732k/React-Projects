@@ -5,7 +5,6 @@
   opacity: 0.6;
 }
 
-/* Keyframes for ripple animation */
 @keyframes ripple-animation {
   to {
     transform: scale(4);
