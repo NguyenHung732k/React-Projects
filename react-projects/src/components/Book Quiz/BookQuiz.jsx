@@ -70,6 +70,11 @@ const BookQuiz = () => {
             options: ['Long', 'Short'],
             key: 'length',
         },
+        {
+            question: 'Do you like long or short books?',
+            options: ['Long', 'Short'],
+            key: 'length',
+        },
     ]
 
     const handleAnswer = (key, answer) => {
