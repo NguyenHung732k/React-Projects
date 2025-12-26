@@ -37,6 +37,14 @@ const cars = [
         image: '/images/bmw_z4.jpg',
         type: 'Convertible',
     },
+    {
+        id: '5',
+        name: 'BMW Z4',
+        description: 'A luxury convertible with a sleek design.',
+        price: 300,
+        image: '/images/bmw_z4.jpg',
+        type: 'Convertible',
+    },
 ]
 
 const CarRental = () => {
