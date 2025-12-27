@@ -20,7 +20,6 @@ const SearchFilter = ({ search, setSearch, filter, setFilter }) => {
                 <option value="Pop">Pop</option>
                 <option value="Jazz">Jazz</option>
                 <option value="Classical">Classical</option>
-                {/* Add more genres as needed */}
             </select>
         </div>
     )
