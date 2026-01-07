@@ -5,7 +5,8 @@ const jokes = [
     "Why don't skeletons fight each other? They don't have the guts!",
     "Why don't eggs tell jokes? Because they might crack up!",
     "I told my wife she was drawing her eyebrows too high. She looked surprised!",
-    "I used to play piano by ear, but now I use my hands."
+    "I used to play piano by ear, but now I use my hands.",
+    "I used to play piano by ear, but now I use my hands.",
 ]
 
 const reactions = [
