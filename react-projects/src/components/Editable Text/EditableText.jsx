@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from 'react';
 import './EditableText.css'
 
-const EditableText = ({ initialText = "Click to edit..." }) => {
+const EditableText = ({ initialText = "Click text to edit..." }) => {
     const [text, setText] = useState(initialText)
     const [editing, setEditing] = useState(false)
     const [saved, setSaved] = useState(false)
