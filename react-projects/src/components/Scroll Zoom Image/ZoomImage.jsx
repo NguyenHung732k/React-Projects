@@ -17,7 +17,6 @@ const ZoomImage = ({ src, alt, className = "" }) => {
 
     return (
         <div className={`relative overflow-hidden ${className}`}>
-            {/* Gradient overlay for contrast */}
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent z-10 pointer-events-none" />
 
             <img
