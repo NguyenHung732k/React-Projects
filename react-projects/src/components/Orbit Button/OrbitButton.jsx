@@ -6,7 +6,7 @@ const OrbitButton = ({
     children,
     icon = "✨",
     orbitRadius = 36,
-    iconSize = "text-xl",
+    iconSize = "text-2xl",
     className = ""
 }) => {
     return (
