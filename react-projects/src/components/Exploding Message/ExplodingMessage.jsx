@@ -11,7 +11,8 @@ const getRandomExplosion = () => {
 
 const getRandomPosition = () => {
     return {
-        x: Math.random() * 400 + 400,
+        // x: Math.random() * 400 + 400,
+        x: Math.random() * 500 + 500,
         y: Math.random() * 200 + 200,
     }
 }
