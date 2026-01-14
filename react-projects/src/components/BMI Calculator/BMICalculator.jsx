@@ -32,7 +32,7 @@ const BMICalculator = () => {
                     <input
                         type="number"
                         value={weight}
-                        onChange={(e) => setWeight(e.target.value)}
+                        onChange={(event) => setWeight(event.target.value)}
                         className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
                     />
                 </div>
@@ -41,7 +41,7 @@ const BMICalculator = () => {
                     <input
                         type="number"
                         value={height}
-                        onChange={(e) => setHeight(e.target.value)}
+                        onChange={(event) => setHeight(event.target.value)}
                         className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
                     />
                 </div>
