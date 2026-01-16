@@ -27,6 +27,12 @@ const HoverSlideIn = () => {
             title: 'Desert Sunrise',
             description: 'A breathtaking sunrise over the vast desert.',
         },
+        {
+            id: 5,
+            image: 'https://source.unsplash.com/random/4',
+            title: 'Desert Sunrise',
+            description: 'A breathtaking sunrise over the vast desert.',
+        },
     ]
 
     return (
