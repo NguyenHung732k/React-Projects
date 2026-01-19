@@ -18,7 +18,6 @@ const Sidebar = () => {
                 ></div>
             )}
 
-            {/* Hamburger Icon for Mobile */}
             <button
                 className="lg:hidden absolute top-4 left-4 text-white"
                 onClick={toggleSidebar}
