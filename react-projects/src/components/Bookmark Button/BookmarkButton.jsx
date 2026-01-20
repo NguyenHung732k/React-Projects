@@ -38,7 +38,6 @@ const BookmarkButton = () => {
                 </svg>
             </button>
 
-            {/* Toast Notification */}
             {showToast && (
                 <div className="absolute bottom-16 left-1/2 transform -translate-x-1/2 py-3 px-6 bg-black text-white text-sm rounded-lg shadow-xl opacity-0 animate-fadeIn">
                     {isBookmarked ? 'Item Saved' : 'Bookmark Removed'}
