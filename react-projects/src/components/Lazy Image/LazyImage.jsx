@@ -11,7 +11,6 @@ const LazyImage = ({
     return (
         <div className="min-h-screen bg-gray-100 p-6 flex items-center justify-center">
             <div className={`relative overflow-hidden ${className}`}>
-                {/* Placeholder Image */}
                 <img
                     src={placeholderSrc}
                     alt=""
