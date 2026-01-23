@@ -3,7 +3,6 @@ import { useState } from "react";
 const AutoClearInput = () => {
     const [value, setValue] = useState("")
 
-    // Handle input change
     const handleChange = (event) => {
         setValue(event.target.value)
     }
