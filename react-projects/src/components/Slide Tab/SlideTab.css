@@ -17,7 +17,6 @@
   margin-bottom: 2rem;
 }
 
-/* Tab button styles */
 .tab-button {
   padding: 0.75rem 1.5rem;
   font-size: 1.125rem;
@@ -32,7 +31,6 @@
   cursor: pointer;
 }
 
-/* Active tab styling */
 .tab-button.active {
   color: white;
   background-color: #3b82f6; 
@@ -41,7 +39,6 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 }
 
-/* Hover effect for tabs */
 .tab-button:hover {
   background-color: #e0f2fe;
   color: #3b82f6;
