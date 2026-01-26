@@ -4,7 +4,6 @@ const AutofillInput = () => {
     const [isAutofilled, setIsAutofilled] = useState(false)
     const [inputValue, setInputValue] = useState("")
 
-    // Simulate autofill action
     const handleAutofill = () => {
         setInputValue("autofilled@example.com")
         setIsAutofilled(true)
@@ -21,7 +20,6 @@ const AutofillInput = () => {
 
     return (
         <div className="flex flex-col items-center space-y-6 mt-10">
-            {/* Button to simulate autofill */}
             <button
                 onClick={handleAutofill}
                 className="w-80 bg-blue-600 text-white px-6 py-2 rounded-lg shadow-md transition-all duration-300 ease-in-out hover:bg-blue-500 focus:outline-none"
@@ -30,7 +28,6 @@ const AutofillInput = () => {
             </button>
 
             <div className="relative">
-                {/* Input field with autofill highlight */}
                 <input
                     type="text"
                     value={inputValue}
@@ -42,7 +39,6 @@ const AutofillInput = () => {
                     placeholder="Enter email"
                 />
 
-                {/* Autofill highlight overlay */}
                 {isAutofilled && (
                     <div
                         className="absolute top-0 left-0 w-full h-full bg-blue-200 opacity-50 animate-slide-in"
