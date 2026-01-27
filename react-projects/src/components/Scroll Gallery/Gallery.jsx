@@ -9,6 +9,7 @@ const images = [
     { src: "https://placehold.co/600x400", alt: "Image 6" },
     { src: "https://placehold.co/600x400", alt: "Image 7" },
     { src: "https://placehold.co/600x400", alt: "Image 8" },
+    { src: "https://placehold.co/600x400", alt: "Image 9" },
 ]
 
 const Gallery = () => {
