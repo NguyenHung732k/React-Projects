@@ -40,7 +40,6 @@ const ScrollHeader = () => {
       `}
         >
             <div className="max-w-7xl mx-auto px-4 py-3 sm:py-4 flex items-center justify-between">
-                {/* Logo */}
                 <a
                     href="/"
                     className="text-xl text-decoration-none font-semibold tracking-tight hover:opacity-80 transition"
