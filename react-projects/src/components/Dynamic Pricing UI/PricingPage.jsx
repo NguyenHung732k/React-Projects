@@ -4,7 +4,6 @@ import { motion } from 'framer-motion'
 const PricingPage = () => {
     const [isYearly, setIsYearly] = useState(false)
 
-    // Prices based on billing cycle
     const monthlyPrice = 19
     const yearlyPrice = 199
 
