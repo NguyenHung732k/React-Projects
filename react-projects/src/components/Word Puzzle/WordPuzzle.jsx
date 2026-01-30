@@ -4,6 +4,7 @@ const wordList = [
     { word: 'manzana', hint: 'A fruit' },
     { word: 'perro', hint: 'A domesticated animal' },
     { word: 'casa', hint: 'A building where people live' },
+    { word: 'casa', hint: 'A building where people live' },
 ]
 
 const WordPuzzle = () => {
