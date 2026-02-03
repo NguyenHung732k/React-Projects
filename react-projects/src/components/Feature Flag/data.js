@@ -452,7 +452,7 @@ const componentAPI = {
     showSplitBlurImage: false,
     showScrollRevealTable: false,
     showScrollRevealTable: false,
-    showZigZagButton: true,
+    showZigZagButton: false,
 };
 
 const featureFlagsDataServiceCall = () => {
