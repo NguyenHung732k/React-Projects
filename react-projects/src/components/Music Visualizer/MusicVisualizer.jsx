@@ -13,7 +13,7 @@ const MusicVisualizer = () => {
             container: waveformRef.current,
             waveColor,
             progressColor,
-            height: 150,
+            height: 200,
             barWidth: 2,
             barHeight: 1,
             barGap: 2,
