@@ -12,14 +12,12 @@ const HoverShadowCard = () => {
                     This is a refined card component with enhanced hover shadow, smoother animations, and richer interaction.
                 </p>
 
-                {/* Icon Section */}
                 <div className="flex justify-between mt-6">
                     <FaHeart className="text-gray-500 hover:text-red-500 transition-all duration-300 cursor-pointer" />
                     <FaShareAlt className="text-gray-500 hover:text-blue-500 transition-all duration-300 cursor-pointer" />
                     <FaBookmark className="text-gray-500 hover:text-yellow-500 transition-all duration-300 cursor-pointer" />
                 </div>
 
-                {/* Button Section */}
                 <button className="mt-6 px-4 py-2 bg-purple-500 text-white rounded-full shadow-md transition-transform duration-300 transform hover:scale-110 hover:bg-purple-600">
                     Learn More
                 </button>
