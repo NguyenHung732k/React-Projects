@@ -5,7 +5,6 @@ const BusSchedule = ({ routeId }) => {
 
     useEffect(() => {
         const fetchSchedule = async () => {
-            // Simulate an API call for bus schedule
             const response = await fetch(`https://api.transit.com/bus/${routeId}/schedule`)
             const data = await response.json()
             setSchedule(data)
