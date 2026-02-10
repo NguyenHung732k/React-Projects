@@ -5,7 +5,7 @@ const RandomName = () => {
     const [loading, setLoading] = useState(false)
     const [userInput, setUserInput] = useState('')
     const [nameList, setNameList] = useState([
-        'Luna', 'Max', 'Oliver', 'Bella', 'Charlie', 'Milo', 'Leo', 'Chloe', 'Rocky', 'Maggie',
+        'Luna', 'Max', 'Oliver', 'Bella', 'Charlie', 'Milo', 'Leo', 'Chloe', 'Rocky',
     ])
 
     const generateName = () => {
