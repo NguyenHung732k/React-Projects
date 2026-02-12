@@ -6,6 +6,7 @@ const activities = [
     { name: "Cycling", icon: "🚴‍♂️" },
     { name: "Yoga", icon: "🧘‍♀️" },
     { name: "Weightlifting", icon: "🏋️‍♂️" },
+    { name: "Weightlifting", icon: "🏋️‍♂️" },
 ]
 
 const ActivitySelection = () => {
