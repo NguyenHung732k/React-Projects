@@ -5,6 +5,7 @@ const Achievements = () => {
         { name: 'Beginner', pointsRequired: 500, unlocked: true },
         { name: 'Intermediate', pointsRequired: 1000, unlocked: false },
         { name: 'Pro', pointsRequired: 2000, unlocked: false },
+        { name: 'Pro', pointsRequired: 2000, unlocked: false },
     ]
 
     return (
