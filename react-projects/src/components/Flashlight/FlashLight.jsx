@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 const Flashlight = () => {
     const [color1, setColor1] = useState('#ffffff')
-    const [color2, setColor2] = useState('#0000ff')
+    const [color2, setColor2] = useState('#00ffff')
     const [isOn, setIsOn] = useState(false)
     const [glowEffect, setGlowEffect] = useState(20)
 
