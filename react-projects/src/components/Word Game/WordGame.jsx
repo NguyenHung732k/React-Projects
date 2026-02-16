@@ -20,7 +20,7 @@ const WordGame = () => {
 
     useEffect(() => {
         if (wrongGuesses >= 5) {
-            window.alert("Too many wrong guesses!")
+            window.alert("Too many wrong guesses! Please try again!")
 
         }
     }, [wrongGuesses])
