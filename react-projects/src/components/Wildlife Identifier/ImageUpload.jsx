@@ -12,7 +12,6 @@ const ImageUpload = () => {
     const handleSubmit = async (event) => {
         event.preventDefault()
         setLoading(true)
-        // Simulate an API call for image recognition
         setTimeout(() => {
             setResult({ name: "Red Fox", image_url: "https://via.placeholder.com/150" })
             setLoading(false)
