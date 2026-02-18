@@ -39,11 +39,11 @@
 }
 
 .rain {
-  animation: rain 3s ease-in-out infinite;
+  animation: rain 5s ease-in-out infinite;
 }
 
 .snow {
-  animation: snow 3s ease-in-out infinite;
+  animation: snow 5s ease-in-out infinite;
 }
 
 .clouds {
