@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 const WavyText = ({
     text,
-    waveSpeed = '0.8s',
+    waveSpeed = '0.9s',
     waveHeight = '0.5em',
     autoWave = false,
     className = '',
