@@ -11,6 +11,6 @@
 }
 
 .wave-path {
-  animation: wave-move 3s ease-in-out infinite;
+  animation: wave-move 5s ease-in-out infinite;
   transition: transform 0.3s ease-in-out;
 }
