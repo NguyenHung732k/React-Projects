@@ -24,7 +24,6 @@ const WaveButton = ({
         ${className}`}
             onMouseEnter={() => setHovered(true)}
             onMouseLeave={() => setHovered(false)}
-            aria-label="Wave button"
         >
             <span className="relative z-10">{children}</span>
 
