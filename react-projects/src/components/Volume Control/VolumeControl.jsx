@@ -3,7 +3,7 @@ import React, { useState } from "react"
 const MAX_WAVES = 5
 
 const VolumeControl = () => {
-    const [volume, setVolume] = useState(0.5) // Range: 0 to 1
+    const [volume, setVolume] = useState(0.5)
     const [isMuted, setIsMuted] = useState(false)
 
     // Calculate wave scale by volume and wave index for decay effect
@@ -57,7 +57,6 @@ const VolumeControl = () => {
                 </span>
             </div>
 
-            {/* Sound Waves */}
             <div
                 className="relative flex justify-center items-center space-x-3 w-full h-20"
                 aria-hidden="true"
@@ -83,7 +82,6 @@ const VolumeControl = () => {
                 })}
             </div>
 
-            {/* Mute Button */}
             <button
                 onClick={toggleMute}
                 aria-label={isMuted ? "Unmute volume" : "Mute volume"}
