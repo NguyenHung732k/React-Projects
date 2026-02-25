@@ -4,7 +4,7 @@ const GoalCard = ({ goal }) => {
     return (
         <div className="bg-white rounded-lg shadow-xl transform transition-all hover:scale-105 p-4">
             <img
-                src={goal.type === 'image' ? 'https://via.placeholder.com/150' : ''}
+                src={goal.type === 'image' ? 'https://via.placeholder.com/200' : ''}
                 alt="Goal"
                 className="w-full h-40 object-cover rounded-lg mb-4"
             />
