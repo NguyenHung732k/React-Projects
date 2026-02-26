@@ -69,6 +69,13 @@ const attractions = [
         location: { lat: 40.7140, lng: -74.0065 },
         image: '/images/historical-museum.jpg',
     },
+    {
+        id: 11,
+        name: 'Historical Museum',
+        description: 'A museum dedicated to preserving the history and culture of the area.',
+        location: { lat: 40.7140, lng: -74.0065 },
+        image: '/images/historical-museum.jpg',
+    },
 ]
 
 export default attractions
