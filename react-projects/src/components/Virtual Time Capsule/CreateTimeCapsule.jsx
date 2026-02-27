@@ -13,7 +13,7 @@ const CreateTimeCapsule = ({ onSubmit }) => {
     const handleSubmit = (event) => {
         event.preventDefault()
         if (!message || !unlockDate) {
-            setError('Please fill in all fields')
+            setError('Please fill in all fields to continue')
             return
         }
 
