@@ -55,4 +55,11 @@ export const sampleCards = [
         defense: 8,
         image: "https://via.placeholder.com/150?text=Nature+Spirit",
     },
+    {
+        id: 9,
+        name: "Nature Spirit",
+        attack: 4,
+        defense: 8,
+        image: "https://via.placeholder.com/150?text=Nature+Spirit",
+    },
 ];
