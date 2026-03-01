@@ -450,8 +450,8 @@ import ValidatedInput from '../Validated Input/ValidatedInput'
 import SplitImageBlur from '../Split Image Blur/SplitImageBlur'
 import ScrollRevealTable from '../Scroll Reveal Table/ScrollRevealTable'
 import WaveProgressBar from '../Wave Progress Bar/WaveProgressBar'
-import ZigZagButton from '../ZigZag Button/ZigZag Button'
-
+import ZigZagButton from '../ZigZag Button/ZigZagButton'
+import FocusProvider from '../Focus Provider/FocusProvider'
 
 
 
@@ -2741,6 +2741,11 @@ const FeatureFlags = () => {
         {
             key: "showZigZagButton",
             component: <ZigZagButton />
+        },
+
+        {
+            key: "showFocusProvider",
+            component: <FocusProvider />
         },
     ]
 
