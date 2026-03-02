@@ -452,6 +452,7 @@ import ScrollRevealTable from '../Scroll Reveal Table/ScrollRevealTable'
 import WaveProgressBar from '../Wave Progress Bar/WaveProgressBar'
 import ZigZagButton from '../ZigZag Button/ZigZagButton'
 import FocusProvider from '../Focus Provider/FocusProvider'
+import SmartStickyBoard from '../Smart Sticky Board/SmartStickyBoard'
 
 
 
@@ -2746,6 +2747,11 @@ const FeatureFlags = () => {
         {
             key: "showFocusProvider",
             component: <FocusProvider />
+        },
+
+        {
+            key: "showSmartStickyBoard",
+            component: <SmartStickyBoard />
         },
     ]
 

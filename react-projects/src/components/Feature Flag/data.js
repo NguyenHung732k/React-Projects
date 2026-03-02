@@ -453,7 +453,8 @@ const componentAPI = {
     showScrollRevealTable: false,
     showScrollRevealTable: false,
     showZigZagButton: false,
-    showFocusProvider: true,
+    showFocusProvider: false,
+    showSmartStickyBoard: true,
 };
 
 const featureFlagsDataServiceCall = () => {
