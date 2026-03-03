@@ -453,6 +453,7 @@ import WaveProgressBar from '../Wave Progress Bar/WaveProgressBar'
 import ZigZagButton from '../ZigZag Button/ZigZagButton'
 import FocusProvider from '../Focus Provider/FocusProvider'
 import SmartStickyBoard from '../Smart Sticky Board/SmartStickyBoard'
+import SearchShell from '../Progressive Search Interface/SearchShell'
 
 
 
@@ -2752,6 +2753,11 @@ const FeatureFlags = () => {
         {
             key: "showSmartStickyBoard",
             component: <SmartStickyBoard />
+        },
+
+        {
+            key: "showSearchShell",
+            component: <SearchShell />
         },
     ]
 
