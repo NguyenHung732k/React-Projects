@@ -454,7 +454,7 @@ import ZigZagButton from '../ZigZag Button/ZigZagButton'
 import FocusProvider from '../Focus Provider/FocusProvider'
 import SmartStickyBoard from '../Smart Sticky Board/SmartStickyBoard'
 import SearchShell from '../Progressive Search Interface/SearchShell'
-
+import SortableItem from '../Data Card Dashboard/SortableItem'
 
 
 
@@ -2758,6 +2758,11 @@ const FeatureFlags = () => {
         {
             key: "showSearchShell",
             component: <SearchShell />
+        },
+
+        {
+            key: "showSortableItem",
+            component: <SortableItem />
         },
     ]
 

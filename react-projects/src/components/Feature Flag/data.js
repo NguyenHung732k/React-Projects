@@ -455,7 +455,8 @@ const componentAPI = {
     showZigZagButton: false,
     showFocusProvider: false,
     showSmartStickyBoard: false,
-    showSearchShell: true,
+    showSearchShell: false,
+    showSortableItem: true,
 };
 
 const featureFlagsDataServiceCall = () => {
