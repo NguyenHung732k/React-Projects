@@ -455,7 +455,7 @@ import FocusProvider from '../Focus Provider/FocusProvider'
 import SmartStickyBoard from '../Smart Sticky Board/SmartStickyBoard'
 import SearchShell from '../Progressive Search Interface/SearchShell'
 import SortableItem from '../Data Card Dashboard/SortableItem'
-
+import CommandPalette from '../Command Palette/CommandPalette'
 
 
 
@@ -2763,6 +2763,11 @@ const FeatureFlags = () => {
         {
             key: "showSortableItem",
             component: <SortableItem />
+        },
+
+        {
+            key: "showCommandPalette",
+            component: <CommandPalette />
         },
     ]
 
