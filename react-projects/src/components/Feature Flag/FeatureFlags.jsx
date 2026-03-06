@@ -456,7 +456,7 @@ import SmartStickyBoard from '../Smart Sticky Board/SmartStickyBoard'
 import SearchShell from '../Progressive Search Interface/SearchShell'
 import SortableItem from '../Data Card Dashboard/SortableItem'
 import CommandPalette from '../Command Palette/CommandPalette'
-
+import EditablePreview from '../Editable Preview Mode/components/EditablePreview'
 
 
 
@@ -2768,6 +2768,11 @@ const FeatureFlags = () => {
         {
             key: "showCommandPalette",
             component: <CommandPalette />
+        },
+
+        {
+            key: "showEditablePreview",
+            component: <EditablePreview />
         },
     ]
 

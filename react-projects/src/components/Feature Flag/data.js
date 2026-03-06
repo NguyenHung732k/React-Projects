@@ -457,7 +457,8 @@ const componentAPI = {
     showSmartStickyBoard: false,
     showSearchShell: false,
     showSortableItem: false,
-    showCommandPalette: true,
+    showCommandPalette: false,
+    showEditablePreview: true,
 };
 
 const featureFlagsDataServiceCall = () => {
