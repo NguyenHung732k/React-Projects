@@ -457,6 +457,7 @@ import SearchShell from '../Progressive Search Interface/SearchShell'
 import SortableItem from '../Data Card Dashboard/SortableItem'
 import CommandPalette from '../Command Palette/CommandPalette'
 import EditablePreview from '../Editable Preview Mode/components/EditablePreview'
+import SmartUpload from '../Smart Upload/SmartUpload'
 
 
 
@@ -2773,6 +2774,11 @@ const FeatureFlags = () => {
         {
             key: "showEditablePreview",
             component: <EditablePreview />
+        },
+
+        {
+            key: "showSmartUpload",
+            component: <SmartUpload />
         },
     ]
 
