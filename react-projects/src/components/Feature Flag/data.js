@@ -459,7 +459,8 @@ const componentAPI = {
     showSortableItem: false,
     showCommandPalette: false,
     showEditablePreview: false,
-    showSmartUpload: true,
+    showSmartUpload: false,
+    showContextNavbar: true,
 };
 
 const featureFlagsDataServiceCall = () => {

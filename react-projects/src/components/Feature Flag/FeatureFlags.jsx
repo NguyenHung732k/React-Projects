@@ -458,6 +458,7 @@ import SortableItem from '../Data Card Dashboard/SortableItem'
 import CommandPalette from '../Command Palette/CommandPalette'
 import EditablePreview from '../Editable Preview Mode/components/EditablePreview'
 import SmartUpload from '../Smart Upload/SmartUpload'
+import ContextNavbar from '../Context Navigation Bar/components/ContextNavbar'
 
 
 
@@ -2779,6 +2780,11 @@ const FeatureFlags = () => {
         {
             key: "showSmartUpload",
             component: <SmartUpload />
+        },
+
+        {
+            key: "showContextNavbar",
+            component: <ContextNavbar />
         },
     ]
 
