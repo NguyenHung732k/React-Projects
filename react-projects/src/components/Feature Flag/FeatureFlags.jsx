@@ -459,7 +459,7 @@ import CommandPalette from '../Command Palette/CommandPalette'
 import EditablePreview from '../Editable Preview Mode/components/EditablePreview'
 import SmartUpload from '../Smart Upload/SmartUpload'
 import ContextNavbar from '../Context Navigation Bar/components/ContextNavbar'
-
+import CommentSystem from '../Comment System/CommentSystem'
 
 
 
@@ -2785,6 +2785,11 @@ const FeatureFlags = () => {
         {
             key: "showContextNavbar",
             component: <ContextNavbar />
+        },
+
+        {
+            key: "showCommentSystem",
+            component: <CommentSystem />
         },
     ]
 
