@@ -2791,6 +2791,11 @@ const FeatureFlags = () => {
             key: "showCommentSystem",
             component: <CommentSystem />
         },
+
+        {
+            key: "showMultiPanelWorkspace",
+            component: <MultiPanelWorkspace />
+        },
     ]
 
     const checkEnabledFlags = (getCurrentKey) => {
