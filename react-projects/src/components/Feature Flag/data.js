@@ -462,7 +462,8 @@ const componentAPI = {
     showSmartUpload: false,
     showContextNavbar: false,
     showCommentSystem: false,
-    showMultiPanelWorkspace: true,
+    showMultiPanelWorkspace: false,
+    showSmartTheme: true,
 };
 
 const featureFlagsDataServiceCall = () => {

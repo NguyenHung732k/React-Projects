@@ -460,6 +460,8 @@ import EditablePreview from '../Editable Preview Mode/components/EditablePreview
 import SmartUpload from '../Smart Upload/SmartUpload'
 import ContextNavbar from '../Context Navigation Bar/components/ContextNavbar'
 import CommentSystem from '../Comment System/CommentSystem'
+import SmartTheme from '../Smart Theme/SmartTheme'
+
 
 
 
@@ -2795,6 +2797,11 @@ const FeatureFlags = () => {
         {
             key: "showMultiPanelWorkspace",
             component: <MultiPanelWorkspace />
+        },
+
+        {
+            key: "showSmartTheme",
+            component: <SmartTheme />
         },
     ]
 
