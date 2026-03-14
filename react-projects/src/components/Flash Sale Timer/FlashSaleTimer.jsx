@@ -23,6 +23,12 @@ const FlashSaleTimer = () => {
             description: "Get your holiday shopping done early!",
             date: "2024-12-15T12:00:00",
             url: "/sale/christmas"
+        },
+        {
+            name: "Christmas Sale",
+            description: "Get your holiday shopping done early!",
+            date: "2024-12-15T12:00:00",
+            url: "/sale/christmas"
         }
     ]
 
