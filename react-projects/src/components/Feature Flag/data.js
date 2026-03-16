@@ -463,7 +463,8 @@ const componentAPI = {
     showContextNavbar: false,
     showCommentSystem: false,
     showMultiPanelWorkspace: false,
-    showSmartTheme: true,
+    showSmartTheme: false,
+    showIntentLoader: true,
 };
 
 const featureFlagsDataServiceCall = () => {

@@ -461,6 +461,7 @@ import SmartUpload from '../Smart Upload/SmartUpload'
 import ContextNavbar from '../Context Navigation Bar/components/ContextNavbar'
 import CommentSystem from '../Comment System/CommentSystem'
 import SmartTheme from '../Smart Theme/SmartTheme'
+import IntentLoader from '../Intent Loader/IntentLoader'
 
 
 
@@ -2802,6 +2803,11 @@ const FeatureFlags = () => {
         {
             key: "showSmartTheme",
             component: <SmartTheme />
+        },
+
+        {
+            key: "showIntentLoader",
+            component: <IntentLoader />
         },
     ]
 
