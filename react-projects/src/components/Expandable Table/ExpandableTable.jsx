@@ -22,6 +22,12 @@ const ExpandableTable = () => {
             email: 'alice@example.com',
             details: 'Alice is a project manager experienced in agile workflows and cross-functional teams.'
         },
+        {
+            id: 4,
+            name: 'Alice Brown',
+            email: 'alice@example.com',
+            details: 'Alice is a project manager experienced in agile workflows and cross-functional teams.'
+        },
     ]
 
     const toggleRow = (id) => {
