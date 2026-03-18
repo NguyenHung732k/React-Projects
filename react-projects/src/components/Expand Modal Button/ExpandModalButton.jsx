@@ -15,7 +15,6 @@ const ExpandModalButton = () => {
         setTimeout(() => setIsExpanded(false), 300)
     }
 
-    // Close modal on ESC key press
     useEffect(() => {
         const handleKeyDown = (e) => {
             if (e.key === 'Escape' && isExpanded) {
