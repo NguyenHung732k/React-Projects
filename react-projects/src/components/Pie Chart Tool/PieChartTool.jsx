@@ -11,6 +11,7 @@ const PieChartTool = () => {
         { label: "B", value: 30 },
         { label: "C", value: 50 },
         { label: "D", value: 70 },
+        { label: "E", value: 90 },
     ])
 
     const minValue = 0
