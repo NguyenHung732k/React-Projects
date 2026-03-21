@@ -12,6 +12,7 @@ const generateCards = () => {
         Images.image6,
         Images.image7,
         Images.image8,
+        Images.image9,
     ]
     
     const doubledImagePaths = [...imagePaths, ...imagePaths]
