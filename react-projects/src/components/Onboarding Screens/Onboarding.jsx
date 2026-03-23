@@ -7,6 +7,7 @@ const onboardingSteps = [
     { title: "Customization", content: "Personalize your experience." },
     { title: "Settings", content: "Configure the app to fit your needs." },
     { title: "Get Started", content: "You're all set. Let's dive in!" },
+    { title: "Get Started", content: "Let's get started" },
 ]
 
 const Onboarding = () => {
