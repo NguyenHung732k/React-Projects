@@ -6,6 +6,7 @@ import image2 from '../../assets/photo-1473177104440-ffee2f376098.avif'
 import image3 from '../../assets/photo-1488034976201-ffbaa99cbf5c.avif'
 import image4 from '../../assets/photo-1721058677807-34a4fcde1952.avif'
 import image5 from '../../assets/premium_photo-1671734046045-6ffc442d068b.avif'
+import image6 from '../../assets/premium_photo-1671734046045-6ffc442d068b.avif'
 
 const Parallax = () => {
     return (
