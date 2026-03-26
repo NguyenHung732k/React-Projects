@@ -8,7 +8,6 @@ const MorphModal = () => {
 
   return (
     <div className="relative h-screen w-screen flex items-center justify-center bg-gray-100 overflow-hidden">
-      {/* Backdrop */}
       <div
         onClick={() => setOpen(false)}
         className={clsx(
