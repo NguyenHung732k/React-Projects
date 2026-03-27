@@ -49,9 +49,7 @@ const ReadtimeEstimator = () => {
             <div className="bg-white p-8 rounded-lg shadow-lg max-w-lg w-full space-y-6">
                 <h1 className="text-3xl font-semibold text-center text-indigo-600">
                     ReadTime Estimator
-                </h1>
-
-                {/* Textarea for input */}
+                </h1>\
                 <textarea
                     className="w-full p-4 border-2 border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 resize-none"
                     rows="8"
@@ -59,8 +57,7 @@ const ReadtimeEstimator = () => {
                     value={text}
                     onChange={handleTextChange}
                 />
-
-                {/* Reading Speed */}
+\
                 <div className="flex justify-between items-center">
                     <label className="text-lg text-gray-600">Reading Speed (WPM):</label>
                     <div className="flex items-center space-x-3">
@@ -75,8 +72,7 @@ const ReadtimeEstimator = () => {
                         <span className="text-gray-600">{wpm} WPM</span>
                     </div>
                 </div>
-
-                {/* Display reading time */}
+\
                 <div className="text-center text-xl font-medium text-gray-700">
                     Estimated Reading Time:{" "}
                     <strong className="text-indigo-600">{readingTime} minute(s)</strong>
