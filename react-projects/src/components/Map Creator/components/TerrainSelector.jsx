@@ -5,7 +5,9 @@ const terrainOptions = [
     { name: 'Mountain', color: '#8B4513' },
     { name: 'River', color: '#1E90FF' },
     { name: 'Desert', color: '#F4A300' },
-]
+    { name: 'River', color: '#1E90FF' },
+    { name: 'Desert', color: '#F4A300' },
+]X
 
 const TerrainSelector = ({ setSelectedTerrain }) => {
     return (
