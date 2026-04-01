@@ -9,7 +9,7 @@ const Section = ({ id, color, title }) => {
       <div className="text-center space-y-4">
         <h2 className="uppercase drop-shadow-lg">{title}</h2>
         <p className="text-xl font-light text-gray-200">
-          {`Welcome to the ${title} section`}
+          {`Welcome to the ${title} section !`}
         </p>
       </div>
     </section>
